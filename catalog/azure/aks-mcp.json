@@ -1,0 +1,12 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:azure:aks-mcp",
+  "displayName": "Azure Kubernetes Service",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/azure%2Faks-mcp/versions/latest",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "azure/aks-mcp",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:io.github.bytebase:dbhub",
+  "displayName": "DBHub",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.bytebase%2Fdbhub/versions/latest",
+  "description": "Minimal, token-efficient Database MCP Server for PostgreSQL, MySQL, SQL Server, SQLite, MariaDB",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "io.github.bytebase/dbhub",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

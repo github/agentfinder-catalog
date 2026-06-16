@@ -1,0 +1,12 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:cognitionai:deepwiki",
+  "displayName": "Deepwiki",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/cognitionai%2Fdeepwiki/versions/latest",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "cognitionai/deepwiki",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

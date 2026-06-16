@@ -1,0 +1,13 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:io.github.netdata:mcp-server",
+  "displayName": "Netdata",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.netdata%2Fmcp-server/versions/latest",
+  "description": "Real-time infrastructure monitoring with metrics, logs, alerts, and ML-based anomaly detection.",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "io.github.netdata/mcp-server",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

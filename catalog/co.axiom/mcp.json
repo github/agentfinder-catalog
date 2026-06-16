@@ -1,0 +1,13 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:co.axiom:mcp",
+  "displayName": "Axiom",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/co.axiom%2Fmcp/versions/latest",
+  "description": "List datasets, schemas, run APL queries, and use prompts for exploration, anomalies, and monitoring.",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "co.axiom/mcp",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

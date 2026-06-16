@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:azure-skills:azure-hosted-copilot-sdk",
+  "displayName": "Azure Hosted Copilot Sdk",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/azure-skills/blob/main/.github/plugins/azure-skills/skills/azure-hosted-copilot-sdk/SKILL.md",
+  "description": "Azure skill definition for azure-hosted-copilot-sdk.",
+  "metadata": {
+    "sourceSet": "azure-skills",
+    "repoPath": ".github/plugins/azure-skills/skills/azure-hosted-copilot-sdk/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:azure-skills:azure-storage",
+  "displayName": "Azure Storage",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/azure-skills/blob/main/.github/plugins/azure-skills/skills/azure-storage/SKILL.md",
+  "description": "Azure skill definition for azure-storage.",
+  "metadata": {
+    "sourceSet": "azure-skills",
+    "repoPath": ".github/plugins/azure-skills/skills/azure-storage/SKILL.md"
+  }
+}

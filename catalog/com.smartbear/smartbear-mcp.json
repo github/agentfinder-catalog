@@ -1,0 +1,13 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:com.smartbear:smartbear-mcp",
+  "displayName": "SmartBear",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/com.smartbear%2Fsmartbear-mcp/versions/latest",
+  "description": "MCP server for AI access to SmartBear tools, including BugSnag, Reflect, Swagger, PactFlow, QTM4J.",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "com.smartbear/smartbear-mcp",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

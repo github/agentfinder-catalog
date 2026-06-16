@@ -1,0 +1,13 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:io.github.mongodb-js:mongodb-mcp-server",
+  "displayName": "MongoDB",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.mongodb-js%2Fmongodb-mcp-server/versions/latest",
+  "description": "MongoDB Model Context Protocol Server",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "io.github.mongodb-js/mongodb-mcp-server",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:makenotion:notion-mcp-server",
+  "displayName": "Notion",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/makenotion%2Fnotion-mcp-server/versions/latest",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "makenotion/notion-mcp-server",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

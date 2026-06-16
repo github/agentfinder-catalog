@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:google:skills:skills:cloud:agent-platform-prompt-management",
+  "displayName": "Agent Platform Prompt Management",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/google/skills/blob/main/skills/cloud/agent-platform-prompt-management/SKILL.md",
+  "description": "Google skill definition for agent-platform-prompt-management.",
+  "metadata": {
+    "sourceSet": "google-skills",
+    "repoPath": "skills/cloud/agent-platform-prompt-management/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:skills:cuopt-developer",
+  "displayName": "Cuopt Developer",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-developer/SKILL.md",
+  "description": "NVIDIA skill definition for cuopt-developer.",
+  "metadata": {
+    "sourceSet": "nvidia-skills",
+    "repoPath": "skills/cuopt-developer/SKILL.md"
+  }
+}

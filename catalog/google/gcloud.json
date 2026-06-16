@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:google:skills:skills:cloud:gcloud",
+  "displayName": "Gcloud",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/google/skills/blob/main/skills/cloud/gcloud/SKILL.md",
+  "description": "Google skill definition for gcloud.",
+  "metadata": {
+    "sourceSet": "google-skills",
+    "repoPath": "skills/cloud/gcloud/SKILL.md"
+  }
+}

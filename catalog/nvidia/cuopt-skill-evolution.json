@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:skills:cuopt-skill-evolution",
+  "displayName": "Cuopt Skill Evolution",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-skill-evolution/SKILL.md",
+  "description": "NVIDIA skill definition for cuopt-skill-evolution.",
+  "metadata": {
+    "sourceSet": "nvidia-skills",
+    "repoPath": "skills/cuopt-skill-evolution/SKILL.md"
+  }
+}

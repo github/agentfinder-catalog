@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:skills:omniverse-realtime-viewer",
+  "displayName": "Omniverse Realtime Viewer",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/NVIDIA/skills/blob/main/skills/omniverse-realtime-viewer/SKILL.md",
+  "description": "NVIDIA skill definition for omniverse-realtime-viewer.",
+  "metadata": {
+    "sourceSet": "nvidia-skills",
+    "repoPath": "skills/omniverse-realtime-viewer/SKILL.md"
+  }
+}

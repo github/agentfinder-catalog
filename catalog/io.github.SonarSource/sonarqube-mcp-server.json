@@ -1,0 +1,13 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:io.github.SonarSource:sonarqube-mcp-server",
+  "displayName": "SonarQube",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.SonarSource%2Fsonarqube-mcp-server/versions/latest",
+  "description": "An MCP server that enables integration with SonarQube Server or Cloud for code quality and security.",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "io.github.SonarSource/sonarqube-mcp-server",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

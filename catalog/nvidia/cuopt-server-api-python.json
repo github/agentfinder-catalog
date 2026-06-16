@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:skills:cuopt-server-api-python",
+  "displayName": "Cuopt Server Api Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-server-api-python/SKILL.md",
+  "description": "NVIDIA skill definition for cuopt-server-api-python.",
+  "metadata": {
+    "sourceSet": "nvidia-skills",
+    "repoPath": "skills/cuopt-server-api-python/SKILL.md"
+  }
+}

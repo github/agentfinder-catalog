@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:skills:cuopt-server-common",
+  "displayName": "Cuopt Server Common",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-server-common/SKILL.md",
+  "description": "NVIDIA skill definition for cuopt-server-common.",
+  "metadata": {
+    "sourceSet": "nvidia-skills",
+    "repoPath": "skills/cuopt-server-common/SKILL.md"
+  }
+}

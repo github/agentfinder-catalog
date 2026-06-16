@@ -1,0 +1,13 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:io.github.hashicorp:terraform-mcp-server",
+  "displayName": "Terraform",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.hashicorp%2Fterraform-mcp-server/versions/latest",
+  "description": "Generate more accurate Terraform and automate workflows for HCP Terraform and Terraform Enterprise",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "io.github.hashicorp/terraform-mcp-server",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

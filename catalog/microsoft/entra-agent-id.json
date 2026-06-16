@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:azure-skills:entra-agent-id",
+  "displayName": "Entra Agent Id",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/azure-skills/blob/main/.github/plugins/azure-skills/skills/entra-agent-id/SKILL.md",
+  "description": "Azure skill definition for entra-agent-id.",
+  "metadata": {
+    "sourceSet": "azure-skills",
+    "repoPath": ".github/plugins/azure-skills/skills/entra-agent-id/SKILL.md"
+  }
+}
