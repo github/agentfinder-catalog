@@ -1,0 +1,13 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:io.github.UI5:webcomponents-mcp-server",
+  "displayName": "UI5 Webcomponents",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.UI5%2Fwebcomponents-mcp-server/versions/latest",
+  "description": "MCP server for UI5 Web Components development assistance",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "io.github.UI5/webcomponents-mcp-server",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

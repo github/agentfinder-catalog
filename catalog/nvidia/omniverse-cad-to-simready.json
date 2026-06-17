@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:skills:omniverse-cad-to-simready",
+  "displayName": "Omniverse Cad To Simready",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/NVIDIA/skills/blob/main/skills/omniverse-cad-to-simready/SKILL.md",
+  "description": "NVIDIA skill definition for omniverse-cad-to-simready.",
+  "metadata": {
+    "sourceSet": "nvidia-skills",
+    "repoPath": "skills/omniverse-cad-to-simready/SKILL.md"
+  }
+}

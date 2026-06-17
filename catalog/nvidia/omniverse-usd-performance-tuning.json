@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:skills:omniverse-usd-performance-tuning",
+  "displayName": "Omniverse Usd Performance Tuning",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/NVIDIA/skills/blob/main/skills/omniverse-usd-performance-tuning/SKILL.md",
+  "description": "NVIDIA skill definition for omniverse-usd-performance-tuning.",
+  "metadata": {
+    "sourceSet": "nvidia-skills",
+    "repoPath": "skills/omniverse-usd-performance-tuning/SKILL.md"
+  }
+}

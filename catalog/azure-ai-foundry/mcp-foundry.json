@@ -1,0 +1,12 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:azure-ai-foundry:mcp-foundry",
+  "displayName": "Azure AI Foundry",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/azure-ai-foundry%2Fmcp-foundry/versions/latest",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "azure-ai-foundry/mcp-foundry",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

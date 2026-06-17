@@ -1,0 +1,13 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:io.shipbook:mcp",
+  "displayName": "Shipbook",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.shipbook%2Fmcp/versions/latest",
+  "description": "Debug production issues using Shipbook logs and Loglytics error insights.",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "io.shipbook/mcp",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

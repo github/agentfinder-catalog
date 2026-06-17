@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:skills:physical-ai-defect-image-generation",
+  "displayName": "Physical AI Defect Image Generation",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/NVIDIA/skills/blob/main/skills/physical-ai-defect-image-generation/SKILL.md",
+  "description": "NVIDIA skill definition for physical-ai-defect-image-generation.",
+  "metadata": {
+    "sourceSet": "nvidia-skills",
+    "repoPath": "skills/physical-ai-defect-image-generation/SKILL.md"
+  }
+}

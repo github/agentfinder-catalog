@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:skills:nemo-retriever",
+  "displayName": "Nemo Retriever",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemo-retriever/SKILL.md",
+  "description": "NVIDIA skill definition for nemo-retriever.",
+  "metadata": {
+    "sourceSet": "nvidia-skills",
+    "repoPath": "skills/nemo-retriever/SKILL.md"
+  }
+}

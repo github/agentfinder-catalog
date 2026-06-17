@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:skills:cuopt-routing-formulation",
+  "displayName": "Cuopt Routing Formulation",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-routing-formulation/SKILL.md",
+  "description": "NVIDIA skill definition for cuopt-routing-formulation.",
+  "metadata": {
+    "sourceSet": "nvidia-skills",
+    "repoPath": "skills/cuopt-routing-formulation/SKILL.md"
+  }
+}

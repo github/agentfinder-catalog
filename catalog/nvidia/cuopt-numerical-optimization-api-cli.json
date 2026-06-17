@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:skills:cuopt-numerical-optimization-api-cli",
+  "displayName": "Cuopt Numerical Optimization Api Cli",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-numerical-optimization-api-cli/SKILL.md",
+  "description": "NVIDIA skill definition for cuopt-numerical-optimization-api-cli.",
+  "metadata": {
+    "sourceSet": "nvidia-skills",
+    "repoPath": "skills/cuopt-numerical-optimization-api-cli/SKILL.md"
+  }
+}

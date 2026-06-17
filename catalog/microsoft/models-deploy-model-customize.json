@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:azure-skills:microsoft-foundry:models-deploy-model-customize",
+  "displayName": "Microsoft Foundry Deploy Model Customize",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/azure-skills/blob/main/.github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/customize/SKILL.md",
+  "description": "Azure skill definition for microsoft-foundry.",
+  "metadata": {
+    "sourceSet": "azure-skills",
+    "repoPath": ".github/plugins/azure-skills/skills/microsoft-foundry/models/deploy-model/customize/SKILL.md"
+  }
+}

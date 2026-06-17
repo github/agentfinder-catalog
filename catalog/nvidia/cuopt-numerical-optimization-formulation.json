@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:skills:cuopt-numerical-optimization-formulation",
+  "displayName": "Cuopt Numerical Optimization Formulation",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-numerical-optimization-formulation/SKILL.md",
+  "description": "NVIDIA skill definition for cuopt-numerical-optimization-formulation.",
+  "metadata": {
+    "sourceSet": "nvidia-skills",
+    "repoPath": "skills/cuopt-numerical-optimization-formulation/SKILL.md"
+  }
+}

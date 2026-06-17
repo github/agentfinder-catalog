@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:skills:nemotron-speech",
+  "displayName": "Nemotron Speech",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/NVIDIA/skills/blob/main/skills/nemotron-speech/SKILL.md",
+  "description": "NVIDIA skill definition for nemotron-speech.",
+  "metadata": {
+    "sourceSet": "nvidia-skills",
+    "repoPath": "skills/nemotron-speech/SKILL.md"
+  }
+}

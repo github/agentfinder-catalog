@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:google:skills:skills:cloud:agent-platform-rag-engine-management",
+  "displayName": "Agent Platform Rag Engine Management",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/google/skills/blob/main/skills/cloud/agent-platform-rag-engine-management/SKILL.md",
+  "description": "Google skill definition for agent-platform-rag-engine-management.",
+  "metadata": {
+    "sourceSet": "google-skills",
+    "repoPath": "skills/cloud/agent-platform-rag-engine-management/SKILL.md"
+  }
+}

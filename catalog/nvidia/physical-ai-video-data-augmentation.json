@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:skills:physical-ai-video-data-augmentation",
+  "displayName": "Physical AI Video Data Augmentation",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/NVIDIA/skills/blob/main/skills/physical-ai-video-data-augmentation/SKILL.md",
+  "description": "NVIDIA skill definition for physical-ai-video-data-augmentation.",
+  "metadata": {
+    "sourceSet": "nvidia-skills",
+    "repoPath": "skills/physical-ai-video-data-augmentation/SKILL.md"
+  }
+}

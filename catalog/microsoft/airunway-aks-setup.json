@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:azure-skills:airunway-aks-setup",
+  "displayName": "Airunway Aks Setup",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/azure-skills/blob/main/.github/plugins/azure-skills/skills/airunway-aks-setup/SKILL.md",
+  "description": "Azure skill definition for airunway-aks-setup.",
+  "metadata": {
+    "sourceSet": "azure-skills",
+    "repoPath": ".github/plugins/azure-skills/skills/airunway-aks-setup/SKILL.md"
+  }
+}

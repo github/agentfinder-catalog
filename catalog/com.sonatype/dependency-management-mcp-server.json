@@ -1,0 +1,13 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:com.sonatype:dependency-management-mcp-server",
+  "displayName": "Sonatype Dependency Management",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/com.sonatype%2Fdependency-management-mcp-server/versions/latest",
+  "description": "Sonatype component intelligence: versions, security analysis, and Trust Score recommendations",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "com.sonatype/dependency-management-mcp-server",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

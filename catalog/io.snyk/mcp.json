@@ -1,0 +1,13 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:io.snyk:mcp",
+  "displayName": "Snyk",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.snyk%2Fmcp/versions/latest",
+  "description": "Easily find and fix security issues in your applications leveraging Snyk platform capabilities.",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "io.snyk/mcp",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

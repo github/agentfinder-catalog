@@ -1,0 +1,13 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:com.postman:postman-mcp-server",
+  "displayName": "Postman",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/com.postman%2Fpostman-mcp-server/versions/latest",
+  "description": "A basic MCP server to operate on the Postman API.",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "com.postman/postman-mcp-server",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:io.github.mapbox:mcp-server",
+  "displayName": "Mapbox",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.mapbox%2Fmcp-server/versions/latest",
+  "description": "Geospatial intelligence with Mapbox APIs like geocoding, POI search, directions, isochrones, etc.",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "io.github.mapbox/mcp-server",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

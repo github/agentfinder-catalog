@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:azure-skills:azure-aigateway",
+  "displayName": "Azure Aigateway",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/azure-skills/blob/main/.github/plugins/azure-skills/skills/azure-aigateway/SKILL.md",
+  "description": "Azure skill definition for azure-aigateway.",
+  "metadata": {
+    "sourceSet": "azure-skills",
+    "repoPath": ".github/plugins/azure-skills/skills/azure-aigateway/SKILL.md"
+  }
+}

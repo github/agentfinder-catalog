@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:google:skills:skills:cloud:agent-platform-migrate-from-ai-studio",
+  "displayName": "Agent Platform Migrate From AI Studio",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/google/skills/blob/main/skills/cloud/agent-platform-migrate-from-ai-studio/SKILL.md",
+  "description": "Google skill definition for agent-platform-migrate-from-ai-studio.",
+  "metadata": {
+    "sourceSet": "google-skills",
+    "repoPath": "skills/cloud/agent-platform-migrate-from-ai-studio/SKILL.md"
+  }
+}

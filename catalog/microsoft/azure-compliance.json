@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:azure-skills:azure-compliance",
+  "displayName": "Azure Compliance",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/azure-skills/blob/main/.github/plugins/azure-skills/skills/azure-compliance/SKILL.md",
+  "description": "Azure skill definition for azure-compliance.",
+  "metadata": {
+    "sourceSet": "azure-skills",
+    "repoPath": ".github/plugins/azure-skills/skills/azure-compliance/SKILL.md"
+  }
+}

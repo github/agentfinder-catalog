@@ -1,0 +1,12 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:doist:todoist-ai",
+  "displayName": "Todoist AI",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/doist%2Ftodoist-ai/versions/latest",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "doist/todoist-ai",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

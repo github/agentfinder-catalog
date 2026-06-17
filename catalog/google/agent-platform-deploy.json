@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:google:skills:skills:cloud:agent-platform-deploy",
+  "displayName": "Agent Platform Deploy",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/google/skills/blob/main/skills/cloud/agent-platform-deploy/SKILL.md",
+  "description": "Google skill definition for agent-platform-deploy.",
+  "metadata": {
+    "sourceSet": "google-skills",
+    "repoPath": "skills/cloud/agent-platform-deploy/SKILL.md"
+  }
+}

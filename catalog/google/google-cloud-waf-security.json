@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:google:skills:skills:cloud:google-cloud-waf-security",
+  "displayName": "Google Cloud Waf Security",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/google/skills/blob/main/skills/cloud/google-cloud-waf-security/SKILL.md",
+  "description": "Google skill definition for google-cloud-waf-security.",
+  "metadata": {
+    "sourceSet": "google-skills",
+    "repoPath": "skills/cloud/google-cloud-waf-security/SKILL.md"
+  }
+}

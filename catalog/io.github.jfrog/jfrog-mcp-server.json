@@ -1,0 +1,13 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:io.github.jfrog:jfrog-mcp-server",
+  "displayName": "JFrog",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.jfrog%2Fjfrog-mcp-server/versions/latest",
+  "description": "MCP Server for JFrog, providing tools for development and artifact management.",
+  "metadata": {
+    "sourceSet": "mcp-registry-approved",
+    "serverName": "io.github.jfrog/jfrog-mcp-server",
+    "approvalSource": "github/mcp-registry:data/approved_server_names.json",
+    "version": "latest"
+  }
+}

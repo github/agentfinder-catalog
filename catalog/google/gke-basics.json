@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:google:skills:skills:cloud:gke-basics",
+  "displayName": "Gke Basics",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/google/skills/blob/main/skills/cloud/gke-basics/SKILL.md",
+  "description": "Google skill definition for gke-basics.",
+  "metadata": {
+    "sourceSet": "google-skills",
+    "repoPath": "skills/cloud/gke-basics/SKILL.md"
+  }
+}

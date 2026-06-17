@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:skills:cuopt-routing-api-python",
+  "displayName": "Cuopt Routing Api Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/NVIDIA/skills/blob/main/skills/cuopt-routing-api-python/SKILL.md",
+  "description": "NVIDIA skill definition for cuopt-routing-api-python.",
+  "metadata": {
+    "sourceSet": "nvidia-skills",
+    "repoPath": "skills/cuopt-routing-api-python/SKILL.md"
+  }
+}
