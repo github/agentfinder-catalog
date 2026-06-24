@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:build-perf-diagnostics",
+  "displayName": "Build Perf Diagnostics",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-msbuild/skills/build-perf-diagnostics/SKILL.md",
+  "description": "Diagnose MSBuild build performance bottlenecks using binary log analysis.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-msbuild/skills/build-perf-diagnostics/SKILL.md"
+  }
+}

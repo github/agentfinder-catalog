@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:aspire-skills:aspire",
+  "displayName": "Aspire",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/aspire-skills/blob/main/skills/aspire/SKILL.md",
+  "description": "Top-level router for Aspire 13.4 distributed apps.",
+  "metadata": {
+    "sourceSet": "aspire-skills",
+    "repoPath": "skills/aspire/SKILL.md"
+  }
+}

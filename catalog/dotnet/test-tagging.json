@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:test-tagging",
+  "displayName": "Test Tagging",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/test-tagging/SKILL.md",
+  "description": "Analyzes test suites in any language and tags each test with a standardized set of traits (positive, negative, critical-path, boundary, smoke...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/test-tagging/SKILL.md"
+  }
+}

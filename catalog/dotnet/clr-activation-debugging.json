@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:clr-activation-debugging",
+  "displayName": "Clr Activation Debugging",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-diag/skills/clr-activation-debugging/SKILL.md",
+  "description": "Diagnoses .NET Framework CLR activation issues using CLR activation logs (CLRLoad logs) produced by mscoree.dll.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-diag/skills/clr-activation-debugging/SKILL.md"
+  }
+}

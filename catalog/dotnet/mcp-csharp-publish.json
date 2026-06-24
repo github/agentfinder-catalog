@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:mcp-csharp-publish",
+  "displayName": "Mcp Csharp Publish",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-ai/skills/mcp-csharp-publish/SKILL.md",
+  "description": "Publish and deploy C# MCP servers.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-ai/skills/mcp-csharp-publish/SKILL.md"
+  }
+}

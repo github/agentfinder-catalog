@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:plan-ui-change",
+  "displayName": "Plan Ui Change",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-blazor/skills/plan-ui-change/SKILL.md",
+  "description": "Plan complex Blazor UI features by decomposing them into focused components.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-blazor/skills/plan-ui-change/SKILL.md"
+  }
+}

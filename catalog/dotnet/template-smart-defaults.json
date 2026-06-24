@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:template-smart-defaults",
+  "displayName": "Template Smart Defaults",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-template-engine/skills/template-smart-defaults/SKILL.md",
+  "description": "Applies cross-parameter default rules when creating .NET projects with dotnet new, filling gaps consistently without overriding values the user set...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-template-engine/skills/template-smart-defaults/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:template-comparison",
+  "displayName": "Template Comparison",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-template-engine/skills/template-comparison/SKILL.md",
+  "description": "Compares two or more dotnet new templates side by side to help users choose between them based on parameters, feature support, frameworks, and...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-template-engine/skills/template-comparison/SKILL.md"
+  }
+}

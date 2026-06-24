@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:nuget-trusted-publishing",
+  "displayName": "Nuget Trusted Publishing",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet/skills/nuget-trusted-publishing/SKILL.md",
+  "description": "Set up NuGet trusted publishing (OIDC) on a GitHub Actions repo - replaces long-lived API keys with short-lived tokens.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet/skills/nuget-trusted-publishing/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:dotnet-webapi",
+  "displayName": "Dotnet Webapi",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-aspnetcore/skills/dotnet-webapi/SKILL.md",
+  "description": "Guides creation and modification of ASP.NET Core Web API endpoints with correct HTTP semantics, OpenAPI metadata, and error handling.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-aspnetcore/skills/dotnet-webapi/SKILL.md"
+  }
+}

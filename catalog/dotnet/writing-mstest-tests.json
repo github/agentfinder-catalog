@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:writing-mstest-tests",
+  "displayName": "Writing Mstest Tests",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/writing-mstest-tests/SKILL.md",
+  "description": "Write new MSTest unit tests and fix existing MSTest code using MSTest 3.x/4.x modern APIs and best practices.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/writing-mstest-tests/SKILL.md"
+  }
+}

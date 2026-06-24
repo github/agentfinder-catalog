@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:fetch-and-send-data",
+  "displayName": "Fetch And Send Data",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-blazor/skills/fetch-and-send-data/SKILL.md",
+  "description": "Call APIs, load data into components, and handle the async lifecycle in Blazor.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-blazor/skills/fetch-and-send-data/SKILL.md"
+  }
+}

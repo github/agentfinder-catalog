@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:maui-app-lifecycle",
+  "displayName": "Maui App Lifecycle",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-maui/skills/maui-app-lifecycle/SKILL.md",
+  "description": ".NET MAUI app lifecycle guidance - the four app states, cross-platform Window lifecycle events (Created, Activated, Deactivated, Stopped, Resumed...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-maui/skills/maui-app-lifecycle/SKILL.md"
+  }
+}

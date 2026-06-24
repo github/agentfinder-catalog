@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:binlog-generation",
+  "displayName": "Binlog Generation",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-msbuild/skills/binlog-generation/SKILL.md",
+  "description": "Generate MSBuild binary logs (binlogs) for build diagnostics and analysis.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-msbuild/skills/binlog-generation/SKILL.md"
+  }
+}

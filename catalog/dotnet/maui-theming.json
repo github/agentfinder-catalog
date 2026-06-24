@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:maui-theming",
+  "displayName": "Maui Theming",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-maui/skills/maui-theming/SKILL.md",
+  "description": "Guide for theming .NET MAUI apps - light/dark mode via AppThemeBinding, ResourceDictionary theme switching, DynamicResource bindings, system theme...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-maui/skills/maui-theming/SKILL.md"
+  }
+}

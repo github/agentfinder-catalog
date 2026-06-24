@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:configure-auth",
+  "displayName": "Configure Auth",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-blazor/skills/configure-auth/SKILL.md",
+  "description": "Add authentication and authorization to a Blazor Web App, accounting for the app's render mode.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-blazor/skills/configure-auth/SKILL.md"
+  }
+}

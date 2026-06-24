@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:migrate-mstest-v3-to-v4",
+  "displayName": "Migrate Mstest V3 To V4",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/migrate-mstest-v3-to-v4/SKILL.md",
+  "description": "Fix build errors and breaking changes after upgrading MSTest from v3 to v4, or plan a complete MSTest v3-to-v4 migration.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/migrate-mstest-v3-to-v4/SKILL.md"
+  }
+}

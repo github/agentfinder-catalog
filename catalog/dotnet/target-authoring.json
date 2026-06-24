@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:target-authoring",
+  "displayName": "Target Authoring",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-msbuild/skills/target-authoring/SKILL.md",
+  "description": "Canonical patterns for writing custom MSBuild targets.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-msbuild/skills/target-authoring/SKILL.md"
+  }
+}

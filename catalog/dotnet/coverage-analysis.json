@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:coverage-analysis",
+  "displayName": "Coverage Analysis",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/coverage-analysis/SKILL.md",
+  "description": "Project-wide code coverage and CRAP (Change Risk Anti-Patterns) score analysis for .NET projects.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/coverage-analysis/SKILL.md"
+  }
+}

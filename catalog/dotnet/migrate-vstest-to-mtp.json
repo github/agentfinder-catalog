@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:migrate-vstest-to-mtp",
+  "displayName": "Migrate Vstest To Mtp",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/migrate-vstest-to-mtp/SKILL.md",
+  "description": "Migrates .NET test projects from VSTest to Microsoft.Testing.Platform (MTP).",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/migrate-vstest-to-mtp/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:test-smell-detection",
+  "displayName": "Test Smell Detection",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/test-smell-detection/SKILL.md",
+  "description": "Deep-dive audit using the full testsmells.org 19-smell academic catalog for tests in any language.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/test-smell-detection/SKILL.md"
+  }
+}

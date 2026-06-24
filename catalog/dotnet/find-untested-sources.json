@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:find-untested-sources",
+  "displayName": "Find Untested Sources",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/find-untested-sources/SKILL.md",
+  "description": "Parse-only C# analysis that pairs source files with referencing tests and emits JSON: `source_to_tests`, `untested` ordered by declaration count, and...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/find-untested-sources/SKILL.md"
+  }
+}

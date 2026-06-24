@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:use-js-interop",
+  "displayName": "Use Js Interop",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-blazor/skills/use-js-interop/SKILL.md",
+  "description": "Add, review, or fix JavaScript interop in Blazor components.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-blazor/skills/use-js-interop/SKILL.md"
+  }
+}

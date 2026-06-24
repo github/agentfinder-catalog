@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:migrate-dotnet10-to-dotnet11",
+  "displayName": "Migrate Dotnet10 To Dotnet11",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-upgrade/skills/migrate-dotnet10-to-dotnet11/SKILL.md",
+  "description": "Migrate a .NET 10 project or solution to .NET 11 and resolve all breaking changes.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-upgrade/skills/migrate-dotnet10-to-dotnet11/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:dump-collect",
+  "displayName": "Dump Collect",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-diag/skills/dump-collect/SKILL.md",
+  "description": "Configure and collect crash dumps for modern .NET applications.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-diag/skills/dump-collect/SKILL.md"
+  }
+}

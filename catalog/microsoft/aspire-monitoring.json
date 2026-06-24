@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:aspire-skills:aspire-monitoring",
+  "displayName": "Aspire Monitoring",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/aspire-skills/blob/main/skills/aspire-monitoring/SKILL.md",
+  "description": "Observe Aspire apps: logs, traces, metrics, resource state, telemetry export, browser telemetry, and the standalone dashboard.",
+  "metadata": {
+    "sourceSet": "aspire-skills",
+    "repoPath": "skills/aspire-monitoring/SKILL.md"
+  }
+}

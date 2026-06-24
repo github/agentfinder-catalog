@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:support-prerendering",
+  "displayName": "Support Prerendering",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-blazor/skills/support-prerendering/SKILL.md",
+  "description": "Make interactive Blazor components work correctly with prerendering.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-blazor/skills/support-prerendering/SKILL.md"
+  }
+}

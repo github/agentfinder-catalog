@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:code-testing-agent",
+  "displayName": "Code Testing Agent",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/code-testing-agent/SKILL.md",
+  "description": "Generates and writes new unit tests for any programming language - scaffolds .NET test projects, pytest suites, Vitest/Jest suites, Go test files...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/code-testing-agent/SKILL.md"
+  }
+}

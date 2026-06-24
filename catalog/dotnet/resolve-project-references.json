@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:resolve-project-references",
+  "displayName": "Resolve Project References",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-msbuild/skills/resolve-project-references/SKILL.md",
+  "description": "Guide for interpreting ResolveProjectReferences time in MSBuild performance summaries.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-msbuild/skills/resolve-project-references/SKILL.md"
+  }
+}

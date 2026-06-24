@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:mtp-hot-reload",
+  "displayName": "Mtp Hot Reload",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/mtp-hot-reload/SKILL.md",
+  "description": "Suggests using Microsoft Testing Platform (MTP) hot reload to iterate fixes on failing tests without rebuilding.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/mtp-hot-reload/SKILL.md"
+  }
+}

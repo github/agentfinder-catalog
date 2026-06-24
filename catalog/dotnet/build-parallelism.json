@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:build-parallelism",
+  "displayName": "Build Parallelism",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-msbuild/skills/build-parallelism/SKILL.md",
+  "description": "Guide for optimizing MSBuild build parallelism and multi-project scheduling.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-msbuild/skills/build-parallelism/SKILL.md"
+  }
+}

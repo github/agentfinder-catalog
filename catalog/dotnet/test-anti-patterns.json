@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:test-anti-patterns",
+  "displayName": "Test Anti Patterns",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/test-anti-patterns/SKILL.md",
+  "description": "Audits an existing test file or suite in any language for anti-patterns and quality issues - produces a severity-ranked report...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/test-anti-patterns/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:dotnet-trace-collect",
+  "displayName": "Dotnet Trace Collect",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-diag/skills/dotnet-trace-collect/SKILL.md",
+  "description": "Guide developers through capturing diagnostic artifacts to diagnose production .NET performance issues.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-diag/skills/dotnet-trace-collect/SKILL.md"
+  }
+}

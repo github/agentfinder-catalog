@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:convert-blazor-server-to-webapp",
+  "displayName": "Convert Blazor Server To Webapp",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-aspnetcore/skills/convert-blazor-server-to-webapp/SKILL.md",
+  "description": "Guides conversion of a pre-.NET 8 Blazor Server app into a .NET 8+ Blazor Web App.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-aspnetcore/skills/convert-blazor-server-to-webapp/SKILL.md"
+  }
+}

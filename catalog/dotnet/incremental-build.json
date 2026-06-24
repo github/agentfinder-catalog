@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:incremental-build",
+  "displayName": "Incremental Build",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-msbuild/skills/incremental-build/SKILL.md",
+  "description": "Guide for optimizing MSBuild incremental builds.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-msbuild/skills/incremental-build/SKILL.md"
+  }
+}

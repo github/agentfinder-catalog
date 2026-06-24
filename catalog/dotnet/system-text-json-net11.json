@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:system-text-json-net11",
+  "displayName": "System Text Json Net11",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet11/skills/system-text-json-net11/SKILL.md",
+  "description": "Provides guidance on new System.Text.Json APIs introduced in .NET 11.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet11/skills/system-text-json-net11/SKILL.md"
+  }
+}

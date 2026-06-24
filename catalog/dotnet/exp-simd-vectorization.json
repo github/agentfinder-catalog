@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:exp-simd-vectorization",
+  "displayName": "Exp Simd Vectorization",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-experimental/skills/exp-simd-vectorization/SKILL.md",
+  "description": "Optimizes hot-path scalar loops in .NET 8+ with cross-platform Vector128/Vector256/Vector512 SIMD intrinsics, or replaces manual math loops with...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-experimental/skills/exp-simd-vectorization/SKILL.md"
+  }
+}

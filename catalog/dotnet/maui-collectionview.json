@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:maui-collectionview",
+  "displayName": "Maui Collectionview",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-maui/skills/maui-collectionview/SKILL.md",
+  "description": "Guidance for implementing CollectionView in .NET MAUI apps - data display, layouts (list & grid), selection, grouping, scrolling, empty views...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-maui/skills/maui-collectionview/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:build-perf-baseline",
+  "displayName": "Build Perf Baseline",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-msbuild/skills/build-perf-baseline/SKILL.md",
+  "description": "Establish build performance baselines and apply systematic optimization techniques.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-msbuild/skills/build-perf-baseline/SKILL.md"
+  }
+}

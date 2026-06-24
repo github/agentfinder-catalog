@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:exp-mock-usage-analysis",
+  "displayName": "Exp Mock Usage Analysis",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-experimental/skills/exp-mock-usage-analysis/SKILL.md",
+  "description": "Audits .NET test mock usage by tracing each mock setup through the production code's execution path to find dead, unreachable, redundant, or...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-experimental/skills/exp-mock-usage-analysis/SKILL.md"
+  }
+}
