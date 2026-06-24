@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:eval-performance",
+  "displayName": "Eval Performance",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-msbuild/skills/eval-performance/SKILL.md",
+  "description": "Guide for diagnosing and improving MSBuild project evaluation performance.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-msbuild/skills/eval-performance/SKILL.md"
+  }
+}

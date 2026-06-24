@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:template-instantiation",
+  "displayName": "Template Instantiation",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-template-engine/skills/template-instantiation/SKILL.md",
+  "description": "Creates .NET projects from templates with validated parameters, smart defaults, Central Package Management adaptation, and latest NuGet version...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-template-engine/skills/template-instantiation/SKILL.md"
+  }
+}

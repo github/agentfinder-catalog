@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:csharp-scripts",
+  "displayName": "Csharp Scripts",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet/skills/csharp-scripts/SKILL.md",
+  "description": "Run file-based C# apps with the .NET CLI when the user explicitly wants C#/.NET code without creating a project.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet/skills/csharp-scripts/SKILL.md"
+  }
+}

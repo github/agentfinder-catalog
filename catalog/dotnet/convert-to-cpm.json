@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:convert-to-cpm",
+  "displayName": "Convert To Cpm",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-nuget/skills/convert-to-cpm/SKILL.md",
+  "description": "Convert .NET projects and solutions (.sln, .slnx) to NuGet Central Package Management (CPM) using Directory.Packages.props.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-nuget/skills/convert-to-cpm/SKILL.md"
+  }
+}

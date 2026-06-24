@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:aspire-skills:aspireify",
+  "displayName": "Aspireify",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/aspire-skills/blob/main/skills/aspireify/SKILL.md",
+  "description": "Wire an Aspire AppHost after `aspire init` drops a skeleton.",
+  "metadata": {
+    "sourceSet": "aspire-skills",
+    "repoPath": "skills/aspireify/SKILL.md"
+  }
+}

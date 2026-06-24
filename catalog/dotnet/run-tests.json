@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:run-tests",
+  "displayName": "Run Tests",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/run-tests/SKILL.md",
+  "description": "For `dotnet test`: figures out which test platform (VSTest vs Microsoft.Testing.Platform) a project uses from `Directory.Build.props`, `global.json`...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/run-tests/SKILL.md"
+  }
+}

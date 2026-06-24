@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:aspire-skills:aspire-orchestration",
+  "displayName": "Aspire Orchestration",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/aspire-skills/blob/main/skills/aspire-orchestration/SKILL.md",
+  "description": "Manage Aspire AppHost lifecycle and recover from file locks, port conflicts, and orphaned processes.",
+  "metadata": {
+    "sourceSet": "aspire-skills",
+    "repoPath": "skills/aspire-orchestration/SKILL.md"
+  }
+}

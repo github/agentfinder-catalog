@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:maui-dependency-injection",
+  "displayName": "Maui Dependency Injection",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-maui/skills/maui-dependency-injection/SKILL.md",
+  "description": "Guidance for configuring dependency injection in .NET MAUI apps - service registration in MauiProgram.cs, lifetime selection (Singleton / Transient /...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-maui/skills/maui-dependency-injection/SKILL.md"
+  }
+}

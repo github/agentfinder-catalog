@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:apple-crash-symbolication",
+  "displayName": "Apple Crash Symbolication",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-diag/skills/apple-crash-symbolication/SKILL.md",
+  "description": "Symbolicate .NET runtime frames in Apple platform .ips crash logs (iOS, tvOS, Mac Catalyst, macOS).",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-diag/skills/apple-crash-symbolication/SKILL.md"
+  }
+}

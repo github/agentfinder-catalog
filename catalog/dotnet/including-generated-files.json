@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:including-generated-files",
+  "displayName": "Including Generated Files",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-msbuild/skills/including-generated-files/SKILL.md",
+  "description": "Fix MSBuild targets that generate files during the build but those files are missing from compilation or output.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-msbuild/skills/including-generated-files/SKILL.md"
+  }
+}

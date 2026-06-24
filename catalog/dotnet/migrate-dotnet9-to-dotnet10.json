@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:migrate-dotnet9-to-dotnet10",
+  "displayName": "Migrate Dotnet9 To Dotnet10",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-upgrade/skills/migrate-dotnet9-to-dotnet10/SKILL.md",
+  "description": "Migrate a .NET 9 project or solution to .NET 10 and resolve all breaking changes.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-upgrade/skills/migrate-dotnet9-to-dotnet10/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:code-testing-extensions",
+  "displayName": "Code Testing Extensions",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/code-testing-extensions/SKILL.md",
+  "description": "Provides file paths to language-specific extension files for the code-testing pipeline.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/code-testing-extensions/SKILL.md"
+  }
+}

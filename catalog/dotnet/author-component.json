@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:author-component",
+  "displayName": "Author Component",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-blazor/skills/author-component/SKILL.md",
+  "description": "Create or review Blazor components (.razor files) with correct architecture.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-blazor/skills/author-component/SKILL.md"
+  }
+}

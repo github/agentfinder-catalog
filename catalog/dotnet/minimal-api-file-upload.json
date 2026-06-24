@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:minimal-api-file-upload",
+  "displayName": "Minimal Api File Upload",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-aspnetcore/skills/minimal-api-file-upload/SKILL.md",
+  "description": "File upload endpoints in ASP.NET minimal APIs (.NET 8+)",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-aspnetcore/skills/minimal-api-file-upload/SKILL.md"
+  }
+}

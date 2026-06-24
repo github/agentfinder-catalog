@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:assertion-quality",
+  "displayName": "Assertion Quality",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/assertion-quality/SKILL.md",
+  "description": "Analyzes the variety and depth of assertions across test suites in any language.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/assertion-quality/SKILL.md"
+  }
+}

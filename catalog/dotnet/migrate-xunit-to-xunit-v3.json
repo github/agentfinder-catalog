@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:migrate-xunit-to-xunit-v3",
+  "displayName": "Migrate Xunit To Xunit V3",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/migrate-xunit-to-xunit-v3/SKILL.md",
+  "description": "Migrates .NET test projects from xUnit.net v2 to xUnit.net v3.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/migrate-xunit-to-xunit-v3/SKILL.md"
+  }
+}

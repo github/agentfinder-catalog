@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:generate-testability-wrappers",
+  "displayName": "Generate Testability Wrappers",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/generate-testability-wrappers/SKILL.md",
+  "description": "Generate wrapper interfaces and DI registration for hard-to-test static dependencies in C#.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/generate-testability-wrappers/SKILL.md"
+  }
+}

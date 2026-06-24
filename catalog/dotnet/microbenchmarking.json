@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:microbenchmarking",
+  "displayName": "Microbenchmarking",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-diag/skills/microbenchmarking/SKILL.md",
+  "description": "Activate this skill when BenchmarkDotNet (BDN) is involved in the task - creating, running, configuring, or reviewing BDN benchmarks.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-diag/skills/microbenchmarking/SKILL.md"
+  }
+}

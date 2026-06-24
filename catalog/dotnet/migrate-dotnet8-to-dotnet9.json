@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:migrate-dotnet8-to-dotnet9",
+  "displayName": "Migrate Dotnet8 To Dotnet9",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-upgrade/skills/migrate-dotnet8-to-dotnet9/SKILL.md",
+  "description": "Migrate a .NET 8 project to .NET 9 and resolve all breaking changes.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-upgrade/skills/migrate-dotnet8-to-dotnet9/SKILL.md"
+  }
+}

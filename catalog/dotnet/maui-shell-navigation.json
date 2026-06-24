@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:maui-shell-navigation",
+  "displayName": "Maui Shell Navigation",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-maui/skills/maui-shell-navigation/SKILL.md",
+  "description": "Guide for implementing Shell-based navigation in .NET MAUI apps.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-maui/skills/maui-shell-navigation/SKILL.md"
+  }
+}

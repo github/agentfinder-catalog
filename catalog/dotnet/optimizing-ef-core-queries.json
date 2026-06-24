@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:optimizing-ef-core-queries",
+  "displayName": "Optimizing Ef Core Queries",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-data/skills/optimizing-ef-core-queries/SKILL.md",
+  "description": "Optimize Entity Framework Core queries by fixing N+1 problems, choosing correct tracking modes, using compiled queries, and avoiding common...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-data/skills/optimizing-ef-core-queries/SKILL.md"
+  }
+}

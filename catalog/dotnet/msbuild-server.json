@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:msbuild-server",
+  "displayName": "Msbuild Server",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-msbuild/skills/msbuild-server/SKILL.md",
+  "description": "Guide for using MSBuild Server to improve CLI build performance.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-msbuild/skills/msbuild-server/SKILL.md"
+  }
+}

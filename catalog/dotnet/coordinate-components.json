@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:coordinate-components",
+  "displayName": "Coordinate Components",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-blazor/skills/coordinate-components/SKILL.md",
+  "description": "Share state between components that don't have a direct parent-child parameter relationship, using cascading values, scoped services with change...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-blazor/skills/coordinate-components/SKILL.md"
+  }
+}

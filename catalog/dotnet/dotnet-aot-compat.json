@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:dotnet-aot-compat",
+  "displayName": "Dotnet Aot Compat",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-upgrade/skills/dotnet-aot-compat/SKILL.md",
+  "description": "Make .NET projects compatible with Native AOT and trimming by systematically resolving IL trim/AOT analyzer warnings.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-upgrade/skills/dotnet-aot-compat/SKILL.md"
+  }
+}

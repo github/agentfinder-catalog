@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:find-untested-sources-polyglot",
+  "displayName": "Find Untested Sources Polyglot",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/find-untested-sources-polyglot/SKILL.md",
+  "description": "Polyglot, parse-only static analysis that pairs source files with referencing tests across Python, TypeScript/JavaScript, Go, Java, Rust, C#, and...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/find-untested-sources-polyglot/SKILL.md"
+  }
+}

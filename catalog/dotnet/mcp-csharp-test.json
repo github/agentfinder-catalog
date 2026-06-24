@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:mcp-csharp-test",
+  "displayName": "Mcp Csharp Test",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-ai/skills/mcp-csharp-test/SKILL.md",
+  "description": "Test C# MCP servers at multiple levels: unit tests for individual tools and integration tests using the MCP client SDK.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-ai/skills/mcp-csharp-test/SKILL.md"
+  }
+}

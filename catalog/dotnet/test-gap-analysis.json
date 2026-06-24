@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:test-gap-analysis",
+  "displayName": "Test Gap Analysis",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/test-gap-analysis/SKILL.md",
+  "description": "Performs pseudo-mutation analysis on production code in any language to find gaps in existing test suites.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/test-gap-analysis/SKILL.md"
+  }
+}

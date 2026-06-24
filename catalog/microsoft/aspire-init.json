@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:aspire-skills:aspire-init",
+  "displayName": "Aspire Init",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/aspire-skills/blob/main/skills/aspire-init/SKILL.md",
+  "description": "First-run flow for adding Aspire to a repo.",
+  "metadata": {
+    "sourceSet": "aspire-skills",
+    "repoPath": "skills/aspire-init/SKILL.md"
+  }
+}

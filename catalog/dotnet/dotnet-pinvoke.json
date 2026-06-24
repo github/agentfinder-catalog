@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:dotnet-pinvoke",
+  "displayName": "Dotnet Pinvoke",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet/skills/dotnet-pinvoke/SKILL.md",
+  "description": "Correctly call native (C/C++) libraries from .NET using P/Invoke and LibraryImport.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet/skills/dotnet-pinvoke/SKILL.md"
+  }
+}

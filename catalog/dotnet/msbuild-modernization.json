@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:msbuild-modernization",
+  "displayName": "Msbuild Modernization",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-msbuild/skills/msbuild-modernization/SKILL.md",
+  "description": "Guide for modernizing and migrating MSBuild project files to SDK-style format.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-msbuild/skills/msbuild-modernization/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:maui-safe-area",
+  "displayName": "Maui Safe Area",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-maui/skills/maui-safe-area/SKILL.md",
+  "description": ".NET MAUI safe area and edge-to-edge layout guidance for .NET 10+.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-maui/skills/maui-safe-area/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:migrate-xunit-to-mstest",
+  "displayName": "Migrate Xunit To Mstest",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/migrate-xunit-to-mstest/SKILL.md",
+  "description": "Migrate .NET test projects from xUnit.net (v2 or v3) to MSTest v4.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/migrate-xunit-to-mstest/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:check-bin-obj-clash",
+  "displayName": "Check Bin Obj Clash",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-msbuild/skills/check-bin-obj-clash/SKILL.md",
+  "description": "Detects MSBuild projects with conflicting OutputPath or IntermediateOutputPath.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-msbuild/skills/check-bin-obj-clash/SKILL.md"
+  }
+}

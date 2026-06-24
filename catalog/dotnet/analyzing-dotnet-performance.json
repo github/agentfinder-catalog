@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:analyzing-dotnet-performance",
+  "displayName": "Analyzing Dotnet Performance",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-diag/skills/analyzing-dotnet-performance/SKILL.md",
+  "description": "Scans .NET code for ~50 performance anti-patterns across async, memory, strings, collections, LINQ, regex, serialization, and I/O with tiered...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-diag/skills/analyzing-dotnet-performance/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:thread-abort-migration",
+  "displayName": "Thread Abort Migration",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-upgrade/skills/thread-abort-migration/SKILL.md",
+  "description": "Guides migration of .NET Framework Thread.Abort usage to cooperative cancellation in modern .NET.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-upgrade/skills/thread-abort-migration/SKILL.md"
+  }
+}

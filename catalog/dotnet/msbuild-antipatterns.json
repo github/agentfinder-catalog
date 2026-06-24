@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:msbuild-antipatterns",
+  "displayName": "Msbuild Antipatterns",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-msbuild/skills/msbuild-antipatterns/SKILL.md",
+  "description": "Catalog of MSBuild anti-patterns with detection rules and fix recipes.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-msbuild/skills/msbuild-antipatterns/SKILL.md"
+  }
+}

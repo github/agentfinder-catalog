@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:detect-static-dependencies",
+  "displayName": "Detect Static Dependencies",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/detect-static-dependencies/SKILL.md",
+  "description": "Scan C# source files for hard-to-test static dependencies - DateTime.Now/UtcNow, File.*, Directory.*, Environment.*, HttpClient, Console.*...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/detect-static-dependencies/SKILL.md"
+  }
+}

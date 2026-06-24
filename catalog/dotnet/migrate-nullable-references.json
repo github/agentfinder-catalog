@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:migrate-nullable-references",
+  "displayName": "Migrate Nullable References",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-upgrade/skills/migrate-nullable-references/SKILL.md",
+  "description": "Enable nullable reference types in a C# project and systematically resolve all warnings.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-upgrade/skills/migrate-nullable-references/SKILL.md"
+  }
+}

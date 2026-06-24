@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:binlog-failure-analysis",
+  "displayName": "Binlog Failure Analysis",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-msbuild/skills/binlog-failure-analysis/SKILL.md",
+  "description": "Analyze MSBuild binary logs to diagnose build failures.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-msbuild/skills/binlog-failure-analysis/SKILL.md"
+  }
+}

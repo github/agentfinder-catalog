@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:create-blazor-project",
+  "displayName": "Create Blazor Project",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-blazor/skills/create-blazor-project/SKILL.md",
+  "description": "Create a new ASP.NET Core web application or web site using Blazor.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-blazor/skills/create-blazor-project/SKILL.md"
+  }
+}

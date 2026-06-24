@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:crap-score",
+  "displayName": "Crap Score",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-test/skills/crap-score/SKILL.md",
+  "description": "Calculates targeted CRAP (Change Risk Anti-Patterns) scores for a named .NET method, class, or single source file.",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-test/skills/crap-score/SKILL.md"
+  }
+}

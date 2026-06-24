@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:maui-data-binding",
+  "displayName": "Maui Data Binding",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-maui/skills/maui-data-binding/SKILL.md",
+  "description": "Guidance for .NET MAUI XAML and C# data bindings - compiled bindings, INotifyPropertyChanged / ObservableObject, value converters, binding modes...",
+  "metadata": {
+    "sourceSet": "dotnet-skills",
+    "repoPath": "plugins/dotnet-maui/skills/maui-data-binding/SKILL.md"
+  }
+}
