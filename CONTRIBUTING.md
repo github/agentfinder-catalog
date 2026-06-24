@@ -1,6 +1,6 @@
 # Contributing to the Agentfinder Catalog
 
-Want to list your augment (skill or MCP server) in the catalog? Open a pull request following the steps below.
+Want to list your augment (skill or MCP server) in the catalog? Open a pull request following the steps below. Contributions to this project are released to the public under the project's open source license.
 
 ## Catalog Structure
 
