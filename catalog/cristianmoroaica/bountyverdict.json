@@ -3,7 +3,7 @@
   "displayName": "BountyVerdict Agent Decision Tools",
   "mediaType": "application/mcp-server+json",
   "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.cristianmoroaica%2Fbountyverdict/versions/latest",
-  "description": "Choose GitHub bounties, diagnose Actions failures, audit agent instructions, and detect MCP drift.",
+  "description": "Read-only GitHub bounty, agent harness, Actions failure, flake, and MCP tool-drift decisions.",
   "metadata": {
     "sourceSet": "bountyverdict",
     "repoPath": "server.json",
