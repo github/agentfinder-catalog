@@ -1,9 +1,9 @@
 {
-  "identifier": "urn:ai:registry.modelcontextprotocol.io:io.github.Mimirs402:bountyverdict",
+  "identifier": "urn:ai:github.com:Mimirs402:bountyverdict:bountyverdict",
   "displayName": "BountyVerdict Agent Decision Tools",
   "mediaType": "application/mcp-server+json",
-  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.Mimirs402%2Fbountyverdict/versions/latest",
-  "description": "Read-only GitHub bounty, agent harness, Actions failure, flake, and MCP tool-drift decisions.",
+  "url": "https://github.com/Mimirs402/bountyverdict/blob/main/server.json",
+  "description": "Check whether a GitHub bounty is worth pursuing, diagnose why an Actions run failed, decide whether to retry a flake, audit AGENTS.md, or detect breaking MCP tool drift.",
   "metadata": {
     "sourceSet": "bountyverdict",
     "repoPath": "server.json",
