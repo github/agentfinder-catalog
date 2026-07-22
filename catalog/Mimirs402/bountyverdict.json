@@ -1,0 +1,13 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:io.github.Mimirs402:bountyverdict",
+  "displayName": "BountyVerdict Agent Decision Tools",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0.1/servers/io.github.Mimirs402%2Fbountyverdict/versions/latest",
+  "description": "Read-only GitHub bounty, agent harness, Actions failure, flake, and MCP tool-drift decisions.",
+  "metadata": {
+    "sourceSet": "bountyverdict",
+    "repoPath": "server.json",
+    "serverName": "io.github.Mimirs402/bountyverdict",
+    "version": "latest"
+  }
+}
