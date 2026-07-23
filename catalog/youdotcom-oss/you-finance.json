@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:youdotcom-oss:agent-skills:you-finance",
+  "displayName": "You Finance",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/skills/you-finance/SKILL.md",
+  "description": "Route finance questions to an existing local script, a new You.com Finance Research API call, or an MCP payment-aware fallback.",
+  "metadata": {
+    "sourceSet": "youdotcom-oss/agent-skills",
+    "repoPath": "skills/you-finance/SKILL.md"
+  }
+}

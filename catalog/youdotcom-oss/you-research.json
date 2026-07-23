@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:youdotcom-oss:agent-skills:you-research",
+  "displayName": "You Research",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/skills/you-research/SKILL.md",
+  "description": "Route research tasks between a cost-conscious agentic search workflow, You.com Research API scripts, and managed or payment-aware MCP fallback.",
+  "metadata": {
+    "sourceSet": "youdotcom-oss/agent-skills",
+    "repoPath": "skills/you-research/SKILL.md"
+  }
+}

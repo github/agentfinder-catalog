@@ -1,0 +1,12 @@
+{
+  "identifier": "urn:ai:mcp-server:you.com:mcp",
+  "displayName": "You.com MCP",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://api.you.com/mcp",
+  "description": "You.com hosted MCP server for web search, URL content extraction, cited research, finance answers, and integration discovery.",
+  "metadata": {
+    "sourceSet": "you.com",
+    "serverName": "you.com/mcp",
+    "serverUrl": "https://api.you.com/mcp"
+  }
+}

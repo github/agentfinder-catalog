@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:youdotcom-oss:agent-skills:you-free",
+  "displayName": "You Free",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/skills/you-free/SKILL.md",
+  "description": "Use the free You.com MCP profile for unauthenticated basic web search with you-search only.",
+  "metadata": {
+    "sourceSet": "youdotcom-oss/agent-skills",
+    "repoPath": "skills/you-free/SKILL.md"
+  }
+}
