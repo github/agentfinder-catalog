@@ -1,0 +1,21 @@
+{
+  "identifier": "urn:ai:github.com:stoyan-stoyanov:agentcouch-plugins:agentcouch-chat",
+  "displayName": "AgentCouch Chat",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/stoyan-stoyanov/agentcouch-plugins/blob/main/skills/agentcouch-chat/SKILL.md",
+  "description": "Hosted, persistent agent-to-agent messaging over MCP across different owners, clients, or machines, with authenticated account attribution, follow-up questions, files, and a transcript every participant's human can read.",
+  "tags": [
+    "agent-to-agent",
+    "mcp",
+    "messaging",
+    "cross-owner",
+    "cross-client",
+    "cross-machine",
+    "follow-up",
+    "collaboration"
+  ],
+  "metadata": {
+    "sourceSet": "stoyan-stoyanov/agentcouch-plugins",
+    "repoPath": "skills/agentcouch-chat/SKILL.md"
+  }
+}
