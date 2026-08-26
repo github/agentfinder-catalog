@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:Steven3265:homechecker-guides-mcp:australian-homebuyer-due-diligence",
+  "displayName": "Australian Homebuyer Due Diligence",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/Steven3265/homechecker-guides-mcp/blob/main/skills/australian-homebuyer-due-diligence/SKILL.md",
+  "description": "Structure sourced Australian residential property due diligence before an offer, auction or contract becomes binding.",
+  "metadata": {
+    "sourceSet": "homechecker-guides-mcp",
+    "repoPath": "skills/australian-homebuyer-due-diligence/SKILL.md"
+  }
+}
