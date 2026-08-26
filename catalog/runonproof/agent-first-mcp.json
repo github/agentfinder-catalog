@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:runonproof:cdo:agent-first-mcp",
+  "displayName": "RunOnProof Agent-First MCP",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://api.runonproof.com/.well-known/mcp/server-card.json",
+  "description": "Free verifiable Agent ID and proof wallet, plus US company, supplier, invoice, payment, and vendor checks.",
+  "metadata": {
+    "sourceSet": "runonproof/cdo",
+    "repoPath": "server.json"
+  }
+}
