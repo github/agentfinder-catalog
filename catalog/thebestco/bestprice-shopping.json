@@ -1,0 +1,27 @@
+{
+  "identifier": "urn:ai:github.com:TheBestCo:bestprice-mcp:bestprice-shopping",
+  "displayName": "BestPrice Shopping",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://github.com/TheBestCo/bestprice-mcp/blob/main/server.json",
+  "description": "Search products, compare current offers and delivered totals, and check price history on BestPrice.gr. The public MCP server is read-only and needs no account or API key.",
+  "version": "1.5.0",
+  "tags": [
+    "shopping",
+    "price-comparison",
+    "price-history",
+    "greece",
+    "mcp-server",
+    "read-only"
+  ],
+  "representativeQueries": [
+    "Search BestPrice.gr for an Apple iPhone 16 128GB in Greece",
+    "Find a laptop under 800 euros on BestPrice.gr",
+    "Compare delivered prices for a BestPrice.gr product",
+    "Show the 180-day price history of a product on BestPrice.gr",
+    "Βρες προϊόντα και σύγκρινε τιμές καταστημάτων στο BestPrice.gr"
+  ],
+  "metadata": {
+    "sourceSet": "TheBestCo/bestprice-mcp",
+    "repoPath": "server.json"
+  }
+}
