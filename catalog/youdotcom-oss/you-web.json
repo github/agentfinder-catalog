@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:youdotcom-oss:agent-skills:you-web",
+  "displayName": "You Web",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/skills/you-web/SKILL.md",
+  "description": "Use You.com MCP tools for current web search, URL content extraction, cited web synthesis, and x402-aware web access.",
+  "metadata": {
+    "sourceSet": "youdotcom-oss/agent-skills",
+    "repoPath": "skills/you-web/SKILL.md"
+  }
+}

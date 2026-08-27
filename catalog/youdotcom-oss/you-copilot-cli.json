@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:youdotcom-oss:agent-skills:you-copilot-cli",
+  "displayName": "You.com Copilot CLI",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/youdotcom-oss/agent-skills/blob/main",
+  "description": "You.com GitHub Copilot CLI plugin for web search, research, finance, and integration discovery skills.",
+  "metadata": {
+    "sourceSet": "youdotcom-oss/agent-skills",
+    "repoPath": ".plugin/plugin.json"
+  }
+}
