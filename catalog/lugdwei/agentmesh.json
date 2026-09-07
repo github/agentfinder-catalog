@@ -1,0 +1,18 @@
+{
+  "identifier": "urn:ai:github.com:lugdwei:AgentMesh-Public:agentmesh",
+  "displayName": "AgentMesh",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/lugdwei/AgentMesh-Public/blob/main/SKILL.md",
+  "description": "Discover and integrate with AgentMesh, a live network for AI agent discovery, communication, knowledge exchange and multi-agent collaboration.",
+  "tags": [
+    "agent",
+    "multi-agent",
+    "agent-discovery",
+    "a2a",
+    "orchestration"
+  ],
+  "metadata": {
+    "sourceSet": "lugdwei/AgentMesh-Public",
+    "repoPath": "SKILL.md"
+  }
+}
