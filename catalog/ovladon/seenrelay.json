@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:ovladon:seenrelay:seenrelay",
+  "displayName": "SeenRelay",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/ovladon/seenrelay/blob/main/skills/seenrelay/SKILL.md",
+  "description": "Measure repeated expensive read-only validation across agent fleets before enabling reuse. Preserve authoritative and stronger native controls, prefer caller-owned private reuse, and use shared evidence only when caller policy permits it.",
+  "tags": [
+    "agent-fleets",
+    "validation",
+    "mcp",
+    "agent-skill"
+  ],
+  "metadata": {
+    "sourceSet": "ovladon/seenrelay",
+    "repoPath": "skills/seenrelay/SKILL.md"
+  }
+}
