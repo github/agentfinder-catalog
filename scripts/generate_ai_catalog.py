@@ -27,6 +27,14 @@ def fail(message):
     raise SystemExit(message)
 
 
+def canonical_identifier(identifier, source):
+    if identifier.startswith("urn:air:"):
+        return identifier
+    if identifier.startswith("urn:ai:"):
+        return "urn:air:" + identifier[len("urn:ai:") :]
+    fail(f"{source}: identifier must start with urn:air: or legacy urn:ai:")
+
+
 def validate_canvas_only_tags(tags, source):
     missing_tags = CANVAS_ONLY_REQUIRED_TAGS.difference(tags)
     if missing_tags:
@@ -140,8 +148,7 @@ def validate(entry, source):
             fail(f"{source}: url must not contain credentials")
     if has_data and not isinstance(entry["data"], dict):
         fail(f"{source}: data must be an object")
-    if not entry["identifier"].startswith("urn:ai:"):
-        fail(f"{source}: identifier must start with urn:ai:")
+    canonical_identifier(entry["identifier"], source)
 
     version = entry.get("version")
     if version is not None and (
@@ -161,7 +168,8 @@ def validate(entry, source):
         validate_canvas_only_tags(tags, source)
         if not has_url:
             fail(f"{source}: canvas-only entries must use a GitHub descriptor url")
-        if entry.get("mediaType") != CANVAS_PLUGIN_MEDIA_TYPE:
+        legacy_type = entry.get("mediaType")
+        if legacy_type is not None and legacy_type != CANVAS_PLUGIN_MEDIA_TYPE:
             fail(
                 f"{source}: canvas-only entries must use mediaType "
                 f"{CANVAS_PLUGIN_MEDIA_TYPE}"
@@ -255,7 +263,7 @@ def generate():
 
     def add(entry, source):
         generated = dict(entry)
-        generated["identifier"] = "urn:air:" + entry["identifier"][len("urn:ai:") :]
+        generated["identifier"] = canonical_identifier(entry["identifier"], source)
         if not isinstance(generated.get("type"), str) or not generated["type"].strip():
             generated["type"] = entry.get("mediaType")
         version = entry.get("version")
@@ -275,7 +283,7 @@ def generate():
             fail(f"{path.relative_to(ROOT)}: invalid JSON: {error}")
         validate(entry, path.relative_to(ROOT))
         add(entry, path.relative_to(ROOT))
-        local_identifiers.add(entry["identifier"])
+        local_identifiers.add(canonical_identifier(entry["identifier"], path.relative_to(ROOT)))
 
     remote_entries = sorted(
         load_mcp_entries(),
@@ -292,7 +300,7 @@ def generate():
     for index, entry in enumerate(remote_entries):
         source = f"{MCP_CATALOG} entry {index}"
         validate(entry, source)
-        if entry["identifier"] not in local_identifiers:
+        if canonical_identifier(entry["identifier"], source) not in local_identifiers:
             generated = dict(entry)
             record = registry_records.get(registry_record_key(entry))
             name = display_name(entry, record)

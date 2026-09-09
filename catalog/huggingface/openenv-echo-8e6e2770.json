@@ -1,0 +1,62 @@
+{
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "identifier": "urn:air:github.com:huggingface.OpenEnv:b09a48991371fd47a5169a153573c03dd858488f53b3e02eaa218bddd0d38fd8:8e6e277030806ebe19e4537fe5e9d792de8e88dc",
+  "displayName": "Echo Environment",
+  "type": "application/vnd.openenv.environment-card+json",
+  "data": {
+    "schema_version": "0.1-draft",
+    "name": "echo_env",
+    "description": "Echo Environment for OpenEnv - simple test environment that echoes back messages",
+    "owner": {
+      "authority": "github.com",
+      "id": "huggingface"
+    },
+    "source": {
+      "provider": "github",
+      "id": "huggingface/OpenEnv",
+      "uri": "https://github.com/huggingface/OpenEnv.git",
+      "path": "envs/echo_env",
+      "revision": "8e6e277030806ebe19e4537fe5e9d792de8e88dc"
+    },
+    "artifact_availability": "resolvable",
+    "artifacts": [
+      {
+        "kind": "git",
+        "uri": "https://github.com/huggingface/OpenEnv.git",
+        "path": "envs/echo_env",
+        "revision": "8e6e277030806ebe19e4537fe5e9d792de8e88dc"
+      }
+    ],
+    "license": "BSD-3-Clause",
+    "license_url": "https://github.com/huggingface/OpenEnv/blob/8e6e277030806ebe19e4537fe5e9d792de8e88dc/LICENSE",
+    "manifest_spec_version": 1,
+    "framework_requirement": "openenv>=0.3.1",
+    "interfaces": [
+      {
+        "role": "orchestration",
+        "protocol": "openenv"
+      }
+    ]
+  },
+  "description": "Echo Environment for OpenEnv - simple test environment that echoes back messages",
+  "tags": ["openenv", "rl-environment", "smoke-test"],
+  "representativeQueries": [
+    "find an environment that echoes a message",
+    "find a minimal environment for checking OpenEnv tool calls",
+    "find an environment for a client smoke test"
+  ],
+  "metadata": {
+    "sourceSet": "huggingface/OpenEnv",
+    "repoPath": "envs/echo_env/openenv.yaml",
+    "provenance": {
+      "name": "envs/echo_env/openenv.yaml#name",
+      "description": "envs/echo_env/pyproject.toml#project.description",
+      "license": "LICENSE",
+      "framework_requirement": "envs/echo_env/pyproject.toml#project.dependencies",
+      "manifest_spec_version": "envs/echo_env/openenv.yaml#spec_version",
+      "representativeQueries": "https://github.com/huggingface/OpenEnv/blob/8e6e277030806ebe19e4537fe5e9d792de8e88dc/rfcs/011-ard-catalog-discovery.md"
+    },
+    "declarationProfile": "openenv-discovery/0.1-draft",
+    "snapshotDigest": "sha256:df7be90fb7d560dfa6468ba0b9ccb8fd75a0cb1e66b6e6614e8ed843c33e464d"
+  }
+}

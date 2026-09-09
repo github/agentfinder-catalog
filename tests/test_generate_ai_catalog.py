@@ -107,6 +107,19 @@ class ValidateEntryTest(unittest.TestCase):
         entry = self.canvas_entry()
         generate_ai_catalog.validate(entry, "test")
 
+    def test_canvas_only_entry_accepts_canonical_type_without_legacy_field(self):
+        entry = self.canvas_entry()
+        entry["identifier"] = entry["identifier"].replace("urn:ai:", "urn:air:", 1)
+        entry["type"] = entry.pop("mediaType")
+        generate_ai_catalog.validate(entry, "test")
+
+    def test_canvas_only_entry_rejects_a_conflicting_legacy_type(self):
+        entry = self.canvas_entry()
+        entry["type"] = generate_ai_catalog.CANVAS_PLUGIN_MEDIA_TYPE
+        entry["mediaType"] = "application/ai-skill"
+        with self.assertRaisesRegex(SystemExit, "must use mediaType"):
+            generate_ai_catalog.validate(entry, "test")
+
     def test_canvas_only_entry_requires_each_contract_tag(self):
         tags = generate_ai_catalog.CANVAS_ONLY_REQUIRED_TAGS
         for missing_tag in sorted(tags):
