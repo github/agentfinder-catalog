@@ -168,7 +168,8 @@ def validate(entry, source):
         validate_canvas_only_tags(tags, source)
         if not has_url:
             fail(f"{source}: canvas-only entries must use a GitHub descriptor url")
-        if entry.get("mediaType") != CANVAS_PLUGIN_MEDIA_TYPE:
+        legacy_type = entry.get("mediaType")
+        if legacy_type is not None and legacy_type != CANVAS_PLUGIN_MEDIA_TYPE:
             fail(
                 f"{source}: canvas-only entries must use mediaType "
                 f"{CANVAS_PLUGIN_MEDIA_TYPE}"

@@ -1,6 +1,6 @@
 # Contributing to the Agentfinder Catalog
 
-Want to list your augment (skill or MCP server) in the catalog? Open a pull request following the steps below. Contributions to this project are released to the public under the project's open source license.
+Want to list a resource in the catalog? Open a pull request following the steps below. Contributions to this project are released to the public under the project's open source license.
 
 ## Catalog Structure
 
@@ -45,16 +45,16 @@ Create a file at `catalog/<your-publisher>/<augment-name>.json` with the followi
 
 ```json
 {
-  "identifier": "urn:ai:github.com:<publisher>:<repo>:<augment-name>",
+  "identifier": "urn:air:github.com:<publisher>:<repo>:<augment-name>",
   "displayName": "Human-Readable Name",
-  "mediaType": "application/ai-skill",
+  "type": "application/ai-skill",
   "url": "https://github.com/<publisher>/<repo>/blob/main/path/to/SKILL.md",
   "description": "A short description of what this augment does.",
   "tags": [
     "optional-tag"
   ],
   "metadata": {
-    "sourceSet": "<repo>",
+    "sourceSet": "<publisher>/<repo>",
     "repoPath": "path/to/SKILL.md"
   }
 }
@@ -64,14 +64,15 @@ Create a file at `catalog/<your-publisher>/<augment-name>.json` with the followi
 
 | Field | Required | Description |
 |-------|----------|-------------|
-| `identifier` | ✅ | A URN uniquely identifying the augment. Format: `urn:ai:github.com:<publisher>:<repo>:<name>` |
-| `displayName` | ✅ | A human-readable display name |
-| `mediaType` | ✅ | The type of augment (e.g., `application/ai-skill`) |
-| `url` | ✅ | URL to the augment's definition file (e.g., SKILL.md) |
-| `description` | ✅ | A brief description of the augment's purpose |
-| `tags` | ❌ | Tags used to categorize and filter the augment |
-| `metadata.sourceSet` | ✅ | The source repository name |
-| `metadata.repoPath` | ✅ | Path to the definition file within the repository |
+| `identifier` | Yes | A unique canonical URN: `urn:air:github.com:<publisher>:<repo>:<name>`. Legacy `urn:ai:` is accepted for compatibility and normalized during generation. |
+| `displayName` | Yes | A human-readable display name |
+| `type` | Yes | The resource media type (e.g., `application/ai-skill`). Legacy `mediaType` is a compatibility-only alternative, not required alongside `type`. |
+| `url` | Conditional | URL to the resource's definition file. Supply exactly one of `url` or `data`. |
+| `data` | Conditional | Complete inline resource metadata as a JSON object, instead of `url`. |
+| `description` | Recommended | A brief description of the resource's purpose |
+| `tags` | No | Tags used to categorize and filter the resource |
+| `metadata.sourceSet` | Conditional | Source repository in `owner/repository` form. Required with `metadata.repoPath`, and for canvas-only entries. |
+| `metadata.repoPath` | Conditional | Safe repository-relative definition path. Required with `metadata.sourceSet`, and for canvas-only entries. |
 
 #### Canvas-only plugins
 
@@ -120,7 +121,7 @@ gh pr create --title "Add <augment-name>" --body "Adds <augment-name> to the age
 - **One file per augment** — don't bundle multiple augments into a single file.
 - **Use kebab-case** for file names (e.g., `my-cool-skill.json`).
 - **Keep descriptions concise** — one or two sentences.
-- **Ensure your URL is publicly accessible** so reviewers can verify the augment definition.
+- **Keep URL-carried definitions publicly accessible** so reviewers can inspect them. Inline records must preserve their source evidence without embedding credentials.
 
 ## Questions?
 

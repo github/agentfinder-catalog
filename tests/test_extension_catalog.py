@@ -1,4 +1,5 @@
 import json
+import re
 import tempfile
 import unittest
 from pathlib import Path
@@ -8,6 +9,23 @@ from scripts import generate_ai_catalog
 
 
 class ExtensionCatalogTest(unittest.TestCase):
+    def test_documented_contributor_template_is_canonical_and_valid(self):
+        document = (generate_ai_catalog.ROOT / "CONTRIBUTING.md").read_text()
+        match = re.search(r"```json\n(\{.*?\})\n```", document, re.DOTALL)
+        self.assertIsNotNone(match)
+        template = match.group(1)
+        for placeholder, value in (
+            ("<publisher>", "example"),
+            ("<repo>", "resource-repository"),
+            ("<augment-name>", "example-skill"),
+        ):
+            template = template.replace(placeholder, value)
+        entry = json.loads(template)
+        self.assertTrue(entry["identifier"].startswith("urn:air:"))
+        self.assertIn("type", entry)
+        self.assertNotIn("mediaType", entry)
+        generate_ai_catalog.validate(entry, "CONTRIBUTING.md")
+
     def entry(self, prefix="urn:air:"):
         return {
             "identifier": prefix + "example.org:openenv:echo:" + "a" * 40,
