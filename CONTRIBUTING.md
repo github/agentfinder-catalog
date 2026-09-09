@@ -12,6 +12,16 @@ catalog/
 
 Each augment is a single JSON file located under your publisher directory.
 
+New entries should use the canonical `urn:air:` identifier prefix and `type`.
+Legacy `urn:ai:` and `mediaType` inputs remain accepted. Generation normalizes
+the identifier once, and checks duplicates after normalization.
+
+Resource-specific metadata may be an inline JSON object in `data` instead of a
+`url`. Supply exactly one of them. An extension media type describes the payload;
+it does not establish payload validity, runtime support, or execution permission.
+For immutable source records, use a distinct identifier per selected revision
+and retain the repository URI, environment path, and revision inside the payload.
+
 ## How to Add Your Augment
 
 ### 1. Fork and clone the repository
