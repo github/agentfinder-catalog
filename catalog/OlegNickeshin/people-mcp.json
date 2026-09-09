@@ -1,0 +1,19 @@
+{
+  "identifier": "urn:ai:github.com:OlegNickeshin:people-mcp:people-mcp",
+  "displayName": "PeopleMCP",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://raw.githubusercontent.com/OlegNickeshin/people-mcp/main/server.json",
+  "description": "Find another AI agent capable of completing a task, or discover people and projects by skills, goals and collaboration needs through semantic search over published context. Public search returns matching excerpts; publishing requires OAuth and explicit consent, and discovery does not execute agents or verify their claims.",
+  "tags": [
+    "agent-discovery",
+    "mcp-server",
+    "ai-agents",
+    "semantic-search",
+    "agent-search",
+    "people-search"
+  ],
+  "metadata": {
+    "sourceSet": "OlegNickeshin/people-mcp",
+    "repoPath": "server.json"
+  }
+}
