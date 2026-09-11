@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:financial-services-plugins:wealth-management",
   "displayName": "Wealth Management",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/financial-services-plugins/blob/main/plugins/vertical-plugins/wealth-management",
   "description": "Wealth management and financial advisory tools: client reviews, financial planning, portfolio analysis, and client reporting",
   "metadata": {

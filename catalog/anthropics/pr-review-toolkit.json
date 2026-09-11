@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:pr-review-toolkit",
   "displayName": "Pr Review Toolkit",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/plugins/pr-review-toolkit",
   "description": "Comprehensive PR review agents specializing in comments, tests, error handling, type design, code quality, and code simplification",
   "metadata": {

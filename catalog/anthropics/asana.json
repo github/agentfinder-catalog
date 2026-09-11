@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:asana",
   "displayName": "Asana",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/external_plugins/asana",
   "description": "Asana project management integration. Create and manage tasks, search projects, update assignments, track progress, and integrate your development...",
   "metadata": {

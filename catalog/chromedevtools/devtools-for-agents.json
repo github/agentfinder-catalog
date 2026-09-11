@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:ChromeDevTools:chrome-devtools-mcp:devtools-for-agents",
   "displayName": "Devtools For Agents",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.cursor.cursor-plugin+json",
   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main",
   "description": "Help your agent build, debug, and verify your code correctly. With Chrome DevTools for agents, your AI agent can interact with the Chrome browser to...",
   "metadata": {

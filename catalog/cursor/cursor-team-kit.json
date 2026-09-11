@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:cursor:plugins:cursor-team-kit",
   "displayName": "Cursor Team Kit",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.cursor.cursor-plugin+json",
   "url": "https://github.com/cursor/plugins/blob/main/cursor-team-kit",
   "description": "Internal workflows used by Cursor developers for CI, code review, shipping, control-cli, control-ui, verify-this, test reliability, code cleanup, and...",
   "metadata": {

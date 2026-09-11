@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:imessage",
   "displayName": "Imessage",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/external_plugins/imessage",
   "description": "iMessage channel for Claude Code - reads chat.db directly, sends via AppleScript. Built-in access control; manage pairing, allowlists, and policy via...",
   "metadata": {

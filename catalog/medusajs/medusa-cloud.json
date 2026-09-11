@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:medusajs:medusa-agent-skills:medusa-cloud",
   "displayName": "Medusa Cloud",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/medusajs/medusa-agent-skills/blob/main/plugins/medusa-cloud",
   "description": "Skills for managing Medusa Cloud resources through the Cloud CLI (mcloud). Covers setup, deployments, debugging, environment variables, environment...",
   "metadata": {

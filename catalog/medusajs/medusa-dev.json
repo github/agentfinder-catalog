@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:medusajs:medusa-agent-skills:medusa-dev",
   "displayName": "Medusa Dev",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/medusajs/medusa-agent-skills/blob/main/plugins/medusa-dev",
   "description": "Comprehensive skills for building Medusa applications: backend (modules, workflows, API routes), admin UI (widgets, forms, tables), and storefronts...",
   "metadata": {

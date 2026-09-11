@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:railwayapp:railway-skills:railway",
   "displayName": "Railway",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.cursor.cursor-plugin+json",
   "url": "https://github.com/railwayapp/railway-skills/blob/main/plugins/railway",
   "description": "Railway agent skills and hosted MCP server for deploying, configuring, monitoring, and troubleshooting apps and infrastructure on Railway from...",
   "metadata": {

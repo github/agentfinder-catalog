@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:webflow:webflow-skills:webflow-skills",
   "displayName": "Webflow Skills",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/webflow/webflow-skills/blob/main/plugins/webflow-skills",
   "description": "Production-ready skills for managing Webflow CMS content, auditing site health, optimizing assets, building Designer pages and components, creating...",
   "metadata": {

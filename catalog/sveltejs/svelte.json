@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:sveltejs:ai-tools:svelte",
   "displayName": "Svelte",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.cursor.cursor-plugin+json",
   "url": "https://github.com/sveltejs/ai-tools/blob/main/plugins/cursor/svelte",
   "description": "A plugin for all things related to Svelte development, MCP, skills, and more.",
   "metadata": {

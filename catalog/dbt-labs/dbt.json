@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:dbt-labs:dbt-agent-skills:dbt",
   "displayName": "Dbt",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.cursor.cursor-plugin+json",
   "url": "https://github.com/dbt-labs/dbt-agent-skills/blob/main/skills/dbt",
   "description": "Agent skills for dbt: data modeling, analytics engineering, semantic layer metrics, unit testing, job troubleshooting, and dbt MCP server setup....",
   "metadata": {

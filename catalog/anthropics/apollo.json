@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:knowledge-work-plugins:apollo",
   "displayName": "Apollo",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/apollo",
   "description": "3 pre-built skills that chain multiple Apollo APIs into complete sales workflows - no manual steps, no tab switching. Enrich any contact from a name...",
   "metadata": {

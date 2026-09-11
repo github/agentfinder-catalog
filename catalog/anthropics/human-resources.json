@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:knowledge-work-plugins:human-resources",
   "displayName": "Human Resources",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources",
   "description": "Streamline people operations - recruiting, onboarding, performance reviews, compensation analysis, and policy guidance. Maintain compliance and keep...",
   "metadata": {

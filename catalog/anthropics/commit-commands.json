@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:commit-commands",
   "displayName": "Commit Commands",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/plugins/commit-commands",
   "description": "Streamline your git workflow with simple commands for committing, pushing, and creating pull requests",
   "metadata": {

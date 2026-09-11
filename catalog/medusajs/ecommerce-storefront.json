@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:medusajs:medusa-agent-skills:ecommerce-storefront",
   "displayName": "Ecommerce Storefront",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/medusajs/medusa-agent-skills/blob/main/plugins/ecommerce-storefront",
   "description": "Comprehensive skills for building ecommerce storefronts with best practices for UI/UX, SEO, and mobile responsiveness",
   "metadata": {

@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:project-artifact",
   "displayName": "Project Artifact",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/plugins/project-artifact",
   "description": "Generate and publish a project status artifact - an opinionated, tabbed status page (overview & success criteria, the workstream sequence, next...",
   "metadata": {
