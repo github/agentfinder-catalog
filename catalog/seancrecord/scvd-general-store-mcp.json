@@ -1,0 +1,25 @@
+{
+  "identifier": "urn:ai:registry.modelcontextprotocol.io:store.scvd:general-store",
+  "displayName": "SCVD General Store",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://registry.modelcontextprotocol.io/v0/servers/store.scvd%2Fgeneral-store/versions/0.2.3",
+  "description": "Evidence observatory for agentic commerce: x402 preflight, receipt checks, settlement attestations.",
+  "tags": [
+    "x402",
+    "agentic-commerce",
+    "conformance",
+    "verification",
+    "signed-artifacts",
+    "attestation",
+    "mcp",
+    "usdc",
+    "payments"
+  ],
+  "version": "0.2.3",
+  "metadata": {
+    "repository": "https://github.com/seancrecord/scvd-general-store-repo",
+    "repositorySource": "github",
+    "websiteUrl": "https://scvd.store",
+    "readmeUrl": "https://github.com/seancrecord/scvd-general-store-repo#readme"
+  }
+}
