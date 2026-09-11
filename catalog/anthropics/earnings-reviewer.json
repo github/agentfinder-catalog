@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:financial-services-plugins:earnings-reviewer",
   "displayName": "Earnings Reviewer",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/financial-services-plugins/blob/main/plugins/agent-plugins/earnings-reviewer",
   "description": "Earnings call and filings to model update to note draft",
   "metadata": {

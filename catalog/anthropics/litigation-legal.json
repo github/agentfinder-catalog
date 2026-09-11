@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-for-legal:litigation-legal",
   "displayName": "Litigation Legal",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-for-legal/blob/main/litigation-legal",
   "description": "Manages the litigation portfolio - matters, deadlines, holds, demands, outside counsel - and does the work: claim charts (patent and civil)...",
   "metadata": {

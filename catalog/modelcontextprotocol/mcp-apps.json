@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:modelcontextprotocol:ext-apps:mcp-apps",
   "displayName": "Mcp Apps",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/modelcontextprotocol/ext-apps/blob/main/plugins/mcp-apps",
   "description": "Claude Code skill for building MCP Apps with interactive UIs",
   "metadata": {

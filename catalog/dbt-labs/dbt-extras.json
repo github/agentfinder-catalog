@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:dbt-labs:dbt-agent-skills:dbt-extras",
   "displayName": "Dbt Extras",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/dbt-labs/dbt-agent-skills/blob/main/skills/dbt-extras",
   "description": "Miscellaneous skills for dbt.",
   "metadata": {

@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:JetBrains:go-modern-guidelines:modern-go-guidelines",
   "displayName": "Modern Go Guidelines",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/JetBrains/go-modern-guidelines/blob/main/claude/modern-go-guidelines",
   "description": "Enhances Claude Code with modern Go guidelines up to go 1.26 version.",
   "metadata": {

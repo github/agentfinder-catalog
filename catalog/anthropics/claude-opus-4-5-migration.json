@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-code:claude-opus-4-5-migration",
   "displayName": "Claude Opus 4 5 Migration",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-code/blob/main/plugins/claude-opus-4-5-migration",
   "description": "Migrate your code and prompts from Sonnet 4.x and Opus 4.1 to Opus 4.5.",
   "metadata": {

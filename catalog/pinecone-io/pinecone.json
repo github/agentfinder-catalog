@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:pinecone-io:pinecone-claude-code-plugin:pinecone",
   "displayName": "Pinecone",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/pinecone-io/pinecone-claude-code-plugin/blob/main",
   "description": "Pinecone vector database integration. Streamline your Pinecone development with powerful tools for managing vector indexes, querying data, and rapid...",
   "metadata": {

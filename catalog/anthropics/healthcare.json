@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:healthcare:healthcare",
   "displayName": "Healthcare",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/healthcare/blob/main/plugins/healthcare",
   "description": "Claude for Healthcare - skills for payer, provider, pharma, and general healthcare work (prior auth, ICD-10-CM coding, clinical-note extraction...",
   "metadata": {

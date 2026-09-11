@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:financial-services-plugins:sp-global",
   "displayName": "Sp Global",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/financial-services-plugins/blob/main/plugins/partner-built/spglobal",
   "description": "S&P Global - Financial data and analytics skills including company tearsheets, earnings previews, and transaction summaries",
   "metadata": {

@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:code-review",
   "displayName": "Code Review",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/plugins/code-review",
   "description": "Automated code review for pull requests using multiple specialized agents with confidence-based scoring",
   "metadata": {

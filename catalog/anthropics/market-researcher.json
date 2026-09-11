@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:financial-services-plugins:market-researcher",
   "displayName": "Market Researcher",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/financial-services-plugins/blob/main/plugins/agent-plugins/market-researcher",
   "description": "Sector or theme to industry overview, competitive landscape, peer comps, and ideas shortlist",
   "metadata": {

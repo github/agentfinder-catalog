@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:knowledge-work-plugins:brand-voice",
   "displayName": "Brand Voice",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice",
   "description": "Brand Voice transforms scattered brand materials into enforceable AI guardrails - automatically. It searches across Notion, Google Drive, Confluence...",
   "metadata": {

@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:laravel:agent-skills:laravel-cloud",
   "displayName": "Laravel Cloud",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.cursor.cursor-plugin+json",
   "url": "https://github.com/laravel/agent-skills/blob/main/laravel-cloud",
   "description": "Deploying and managing apps on Laravel Cloud",
   "metadata": {

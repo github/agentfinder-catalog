@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:knowledge-work-plugins:engineering",
   "displayName": "Engineering",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering",
   "description": "Streamline engineering workflows - standups, code review, architecture decisions, incident response, and technical documentation. Works with your...",
   "metadata": {

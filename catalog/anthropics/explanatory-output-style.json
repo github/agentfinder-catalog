@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:explanatory-output-style",
   "displayName": "Explanatory Output Style",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/plugins/explanatory-output-style",
   "description": "Adds educational insights about implementation choices and codebase patterns (mimics the deprecated Explanatory output style)",
   "metadata": {
