@@ -1,0 +1,18 @@
+{
+  "identifier": "urn:ai:github.com:GetEmboss-ai:emboss-claude-plugin:emboss",
+  "displayName": "Emboss",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/GetEmboss-ai/emboss-claude-plugin/blob/main/skills/emboss/SKILL.md",
+  "description": "Fill PDF forms with Emboss: make a flat or scanned PDF fillable, fill it from notes, a document, or pasted text, fill one copy for every row of a spreadsheet, or fax the finished PDF. Requires the Emboss MCP connector.",
+  "tags": [
+    "skill",
+    "pdf",
+    "forms",
+    "fax",
+    "mcp-server"
+  ],
+  "metadata": {
+    "sourceSet": "GetEmboss-ai/emboss-claude-plugin",
+    "repoPath": "skills/emboss/SKILL.md"
+  }
+}
