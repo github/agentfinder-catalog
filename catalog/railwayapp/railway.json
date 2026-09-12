@@ -6,6 +6,10 @@
   "description": "Railway agent skills and hosted MCP server for deploying, configuring, monitoring, and troubleshooting apps and infrastructure on Railway from...",
   "metadata": {
     "sourceSet": "railwayapp/railway-skills",
-    "repoPath": "plugins/railway/.cursor-plugin/plugin.json"
+    "repoPath": "plugins/railway/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "railwayapp/railway-skills",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

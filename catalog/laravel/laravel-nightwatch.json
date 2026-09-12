@@ -6,6 +6,10 @@
   "description": "Configuring Laravel Nightwatch data collection, sampling, filtering, and redaction",
   "metadata": {
     "sourceSet": "laravel/agent-skills",
-    "repoPath": "laravel-nightwatch/.cursor-plugin/plugin.json"
+    "repoPath": "laravel-nightwatch/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "laravel/agent-skills",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

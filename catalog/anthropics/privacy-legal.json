@@ -6,6 +6,10 @@
   "description": "Triages processing activities, generates PIAs, reviews DPAs as controller or processor, drafts DSAR responses within statutory timelines, and...",
   "metadata": {
     "sourceSet": "anthropics/claude-for-legal",
-    "repoPath": "privacy-legal/.claude-plugin/plugin.json"
+    "repoPath": "privacy-legal/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-for-legal",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

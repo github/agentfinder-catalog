@@ -6,6 +6,10 @@
   "description": "Data engineering plugin - warehouse exploration, pipeline authoring, Airflow integration",
   "metadata": {
     "sourceSet": "astronomer/agents",
-    "repoPath": ".cursor-plugin/plugin.json"
+    "repoPath": ".cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "astronomer/agents",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

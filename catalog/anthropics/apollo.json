@@ -6,6 +6,10 @@
   "description": "3 pre-built skills that chain multiple Apollo APIs into complete sales workflows - no manual steps, no tab switching. Enrich any contact from a name...",
   "metadata": {
     "sourceSet": "anthropics/knowledge-work-plugins",
-    "repoPath": "partner-built/apollo/.claude-plugin/plugin.json"
+    "repoPath": "partner-built/apollo/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/knowledge-work-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

@@ -6,6 +6,10 @@
   "description": "Build apps, scripts, CI pipelines, and automations on top of the Cursor TypeScript SDK (@cursor/sdk)  runtime selection, auth, streaming, MCP, error...",
   "metadata": {
     "sourceSet": "cursor/plugins",
-    "repoPath": "cursor-sdk/.cursor-plugin/plugin.json"
+    "repoPath": "cursor-sdk/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "cursor/plugins",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

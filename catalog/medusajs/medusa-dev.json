@@ -6,6 +6,10 @@
   "description": "Comprehensive skills for building Medusa applications: backend (modules, workflows, API routes), admin UI (widgets, forms, tables), and storefronts...",
   "metadata": {
     "sourceSet": "medusajs/medusa-agent-skills",
-    "repoPath": "plugins/medusa-dev/.claude-plugin/plugin.json"
+    "repoPath": "plugins/medusa-dev/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "medusajs/medusa-agent-skills",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

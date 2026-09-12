@@ -6,6 +6,10 @@
   "description": "Patterns for designing CLIs that coding agents can run reliably: non-interactive flags, layered help with examples, pipelines, actionable errors...",
   "metadata": {
     "sourceSet": "cursor/plugins",
-    "repoPath": "cli-for-agent/.cursor-plugin/plugin.json"
+    "repoPath": "cli-for-agent/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "cursor/plugins",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

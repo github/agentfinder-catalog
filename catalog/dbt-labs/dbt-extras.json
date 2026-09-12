@@ -6,6 +6,10 @@
   "description": "Miscellaneous skills for dbt.",
   "metadata": {
     "sourceSet": "dbt-labs/dbt-agent-skills",
-    "repoPath": "skills/dbt-extras/.claude-plugin/plugin.json"
+    "repoPath": "skills/dbt-extras/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "dbt-labs/dbt-agent-skills",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

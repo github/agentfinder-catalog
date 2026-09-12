@@ -6,6 +6,10 @@
   "description": "DCF, LBO, 3-statement, comps - live in Excel",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "plugins/agent-plugins/model-builder/.claude-plugin/plugin.json"
+    "repoPath": "plugins/agent-plugins/model-builder/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

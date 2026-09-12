@@ -6,6 +6,10 @@
   "description": "Better Auth development plugin for Claude",
   "metadata": {
     "sourceSet": "better-auth/skills",
-    "repoPath": "better-auth/.claude-plugin/plugin.json"
+    "repoPath": "better-auth/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "better-auth/skills",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

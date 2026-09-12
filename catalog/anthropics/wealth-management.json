@@ -6,6 +6,10 @@
   "description": "Wealth management and financial advisory tools: client reviews, financial planning, portfolio analysis, and client reporting",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "plugins/vertical-plugins/wealth-management/.claude-plugin/plugin.json"
+    "repoPath": "plugins/vertical-plugins/wealth-management/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

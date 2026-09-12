@@ -6,6 +6,10 @@
   "description": "Production-ready agent skills for Webflow - CMS management, site auditing, Designer tools, Code Components, CLI workflows, and safe publishing",
   "metadata": {
     "sourceSet": "webflow/webflow-skills",
-    "repoPath": ".cursor-plugin/plugin.json"
+    "repoPath": ".cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "webflow/webflow-skills",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

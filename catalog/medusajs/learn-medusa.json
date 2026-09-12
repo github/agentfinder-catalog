@@ -6,6 +6,10 @@
   "description": "Interactive guided tutorial for learning Medusa development. Teaches you to build custom features step-by-step with a brands example.",
   "metadata": {
     "sourceSet": "medusajs/medusa-agent-skills",
-    "repoPath": "plugins/learn-medusa/.claude-plugin/plugin.json"
+    "repoPath": "plugins/learn-medusa/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "medusajs/medusa-agent-skills",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

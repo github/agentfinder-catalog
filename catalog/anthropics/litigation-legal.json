@@ -6,6 +6,10 @@
   "description": "Manages the litigation portfolio - matters, deadlines, holds, demands, outside counsel - and does the work: claim charts (patent and civil)...",
   "metadata": {
     "sourceSet": "anthropics/claude-for-legal",
-    "repoPath": "litigation-legal/.claude-plugin/plugin.json"
+    "repoPath": "litigation-legal/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-for-legal",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

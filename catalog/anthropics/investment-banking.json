@@ -6,6 +6,10 @@
   "description": "Investment banking productivity tools: client and market insights, deck creation, financial analysis, and transaction management",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "plugins/vertical-plugins/investment-banking/.claude-plugin/plugin.json"
+    "repoPath": "plugins/vertical-plugins/investment-banking/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

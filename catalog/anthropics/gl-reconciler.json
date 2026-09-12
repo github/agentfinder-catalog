@@ -6,6 +6,10 @@
   "description": "Finds breaks, traces root cause, routes for sign-off",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "plugins/agent-plugins/gl-reconciler/.claude-plugin/plugin.json"
+    "repoPath": "plugins/agent-plugins/gl-reconciler/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

@@ -6,6 +6,10 @@
   "description": "Optimize business operations - vendor management, process documentation, change management, capacity planning, and compliance tracking. Keep your...",
   "metadata": {
     "sourceSet": "anthropics/knowledge-work-plugins",
-    "repoPath": "operations/.claude-plugin/plugin.json"
+    "repoPath": "operations/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/knowledge-work-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

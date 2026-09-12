@@ -6,6 +6,10 @@
   "description": "Thermo-nuclear branch review: deep correctness and security audits plus harsh code-quality rubrics, parallel subagents, thermos orchestration, and...",
   "metadata": {
     "sourceSet": "cursor/plugins",
-    "repoPath": "thermos/.cursor-plugin/plugin.json"
+    "repoPath": "thermos/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "cursor/plugins",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

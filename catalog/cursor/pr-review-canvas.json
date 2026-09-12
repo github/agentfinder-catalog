@@ -6,6 +6,10 @@
   "description": "Render PR diffs as interactive Cursor Canvases organized for reviewer comprehension  groups changes by importance, separates boilerplate from core...",
   "metadata": {
     "sourceSet": "cursor/plugins",
-    "repoPath": "pr-review-canvas/.cursor-plugin/plugin.json"
+    "repoPath": "pr-review-canvas/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "cursor/plugins",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

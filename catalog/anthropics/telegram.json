@@ -6,6 +6,10 @@
   "description": "Telegram channel for Claude Code - messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /telegram:access.",
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "external_plugins/telegram/.claude-plugin/plugin.json"
+    "repoPath": "external_plugins/telegram/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-plugins-public",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

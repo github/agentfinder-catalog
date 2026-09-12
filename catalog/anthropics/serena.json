@@ -6,6 +6,10 @@
   "description": "Semantic code analysis MCP server providing intelligent code understanding, refactoring suggestions, and codebase navigation through language server...",
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "external_plugins/serena/.claude-plugin/plugin.json"
+    "repoPath": "external_plugins/serena/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-plugins-public",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

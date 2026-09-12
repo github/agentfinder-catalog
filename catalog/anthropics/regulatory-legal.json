@@ -6,6 +6,10 @@
   "description": "Watches regulatory feeds, diffs new rules against your policy library, tracks comment deadlines and open gaps, and writes the digest your team reads...",
   "metadata": {
     "sourceSet": "anthropics/claude-for-legal",
-    "repoPath": "regulatory-legal/.claude-plugin/plugin.json"
+    "repoPath": "regulatory-legal/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-for-legal",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

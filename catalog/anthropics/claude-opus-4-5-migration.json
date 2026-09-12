@@ -6,6 +6,10 @@
   "description": "Migrate your code and prompts from Sonnet 4.x and Opus 4.1 to Opus 4.5.",
   "metadata": {
     "sourceSet": "anthropics/claude-code",
-    "repoPath": "plugins/claude-opus-4-5-migration/.claude-plugin/plugin.json"
+    "repoPath": "plugins/claude-opus-4-5-migration/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-code",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

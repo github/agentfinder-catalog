@@ -6,6 +6,10 @@
   "description": "Sector or theme to industry overview, competitive landscape, peer comps, and ideas shortlist",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "plugins/agent-plugins/market-researcher/.claude-plugin/plugin.json"
+    "repoPath": "plugins/agent-plugins/market-researcher/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

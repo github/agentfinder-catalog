@@ -6,6 +6,10 @@
   "description": "iMessage channel for Claude Code - reads chat.db directly, sends via AppleScript. Built-in access control; manage pairing, allowlists, and policy via...",
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "external_plugins/imessage/.claude-plugin/plugin.json"
+    "repoPath": "external_plugins/imessage/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-plugins-public",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

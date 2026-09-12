@@ -6,6 +6,10 @@
   "description": "Briefing pack before every client meeting",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "plugins/agent-plugins/meeting-prep-agent/.claude-plugin/plugin.json"
+    "repoPath": "plugins/agent-plugins/meeting-prep-agent/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

@@ -6,6 +6,10 @@
   "description": "A plugin for all things related to Svelte development, MCP, skills, and more.",
   "metadata": {
     "sourceSet": "sveltejs/ai-tools",
-    "repoPath": "plugins/cursor/svelte/.cursor-plugin/plugin.json"
+    "repoPath": "plugins/cursor/svelte/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "sveltejs/ai-tools",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

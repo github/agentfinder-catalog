@@ -6,6 +6,10 @@
   "description": "Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality",
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "plugins/code-simplifier/.claude-plugin/plugin.json"
+    "repoPath": "plugins/code-simplifier/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-plugins-public",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

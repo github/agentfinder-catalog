@@ -6,6 +6,10 @@
   "description": "Sets up the clinic, onboards students, runs structured intake, tracks deadlines with malpractice-aware caution, and hands off cases at semester end ...",
   "metadata": {
     "sourceSet": "anthropics/claude-for-legal",
-    "repoPath": "legal-clinic/.claude-plugin/plugin.json"
+    "repoPath": "legal-clinic/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-for-legal",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

@@ -6,6 +6,10 @@
   "description": "Skills for managing Medusa Cloud resources through the Cloud CLI (mcloud). Covers setup, deployments, debugging, environment variables, environment...",
   "metadata": {
     "sourceSet": "medusajs/medusa-agent-skills",
-    "repoPath": "plugins/medusa-cloud/.claude-plugin/plugin.json"
+    "repoPath": "plugins/medusa-cloud/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "medusajs/medusa-agent-skills",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

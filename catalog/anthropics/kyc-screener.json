@@ -6,6 +6,10 @@
   "description": "Parses onboarding docs, runs the rules engine, flags gaps",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "plugins/agent-plugins/kyc-screener/.claude-plugin/plugin.json"
+    "repoPath": "plugins/agent-plugins/kyc-screener/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

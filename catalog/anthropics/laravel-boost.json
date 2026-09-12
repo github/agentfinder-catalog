@@ -6,6 +6,10 @@
   "description": "Laravel development toolkit MCP server. Provides intelligent assistance for Laravel applications including Artisan commands, Eloquent queries...",
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "external_plugins/laravel-boost/.claude-plugin/plugin.json"
+    "repoPath": "external_plugins/laravel-boost/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-plugins-public",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

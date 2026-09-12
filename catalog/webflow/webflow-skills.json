@@ -6,6 +6,10 @@
   "description": "Production-ready skills for managing Webflow CMS content, auditing site health, optimizing assets, building Designer pages and components, creating...",
   "metadata": {
     "sourceSet": "webflow/webflow-skills",
-    "repoPath": "plugins/webflow-skills/.claude-plugin/plugin.json"
+    "repoPath": "plugins/webflow-skills/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "webflow/webflow-skills",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

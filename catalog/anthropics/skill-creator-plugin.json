@@ -6,6 +6,10 @@
   "description": "Create new skills, improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, update or optimize an...",
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "plugins/skill-creator/.claude-plugin/plugin.json"
+    "repoPath": "plugins/skill-creator/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-plugins-public",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

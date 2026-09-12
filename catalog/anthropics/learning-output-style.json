@@ -6,6 +6,10 @@
   "description": "Interactive learning mode that requests meaningful code contributions at decision points (mimics the unshipped Learning output style)",
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "plugins/learning-output-style/.claude-plugin/plugin.json"
+    "repoPath": "plugins/learning-output-style/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-plugins-public",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

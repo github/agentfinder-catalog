@@ -6,6 +6,10 @@
   "description": "Accruals, roll-forwards, variance commentary",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "plugins/agent-plugins/month-end-closer/.claude-plugin/plugin.json"
+    "repoPath": "plugins/agent-plugins/month-end-closer/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

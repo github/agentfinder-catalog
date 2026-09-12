@@ -6,6 +6,10 @@
   "description": "Pinecone vector database integration. Streamline your Pinecone development with powerful tools for managing vector indexes, querying data, and rapid...",
   "metadata": {
     "sourceSet": "pinecone-io/pinecone-claude-code-plugin",
-    "repoPath": ".claude-plugin/plugin.json"
+    "repoPath": ".claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "pinecone-io/pinecone-claude-code-plugin",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }
