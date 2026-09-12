@@ -3,12 +3,13 @@
   "displayName": "Emboss MCP server",
   "mediaType": "application/mcp-server+json",
   "url": "https://github.com/GetEmboss-ai/emboss-claude-plugin/blob/main/server.json",
-  "description": "Remote MCP server that turns a flat PDF into a fillable form and fills it from data, from supporting documents with every answer sourced, or once per row of a spreadsheet. Hosted at https://api.getemboss.ai/mcp (Streamable HTTP, OAuth 2.1).",
+  "description": "Remote MCP server: Emboss turns any PDF form into a fillable one, fills it from data or supporting documents, reads a filled form back, and faxes the result to any fax number. Hosted at https://api.getemboss.ai/mcp (Streamable HTTP, OAuth 2.1).",
   "tags": [
     "mcp-server",
     "pdf",
     "forms",
     "documents",
+    "fax",
     "remote"
   ],
   "metadata": {
