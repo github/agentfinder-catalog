@@ -1,0 +1,18 @@
+{
+  "identifier": "urn:ai:github.com:hermes-labs-ai:hermes-blind:hermes-blind",
+  "displayName": "Hermes Blind",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/hermes-labs-ai/hermes-blind/blob/cc409b9270521ec0be6efa709d0453e0b934769e/skills/hermes-blind/SKILL.md",
+  "description": "Extract turn-one goals from Claude Code or Codex session logs into a compact recovery anchor for resuming work without replaying the full transcript.",
+  "tags": [
+    "agent-skill",
+    "session-recovery",
+    "context",
+    "claude-code",
+    "codex"
+  ],
+  "metadata": {
+    "sourceSet": "hermes-labs-ai/hermes-blind",
+    "repoPath": "skills/hermes-blind/SKILL.md"
+  }
+}
