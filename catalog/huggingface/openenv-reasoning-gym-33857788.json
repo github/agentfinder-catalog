@@ -1,0 +1,72 @@
+{
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "capabilities": [],
+  "data": {
+    "artifact_availability": "resolvable",
+    "artifacts": [
+      {
+        "kind": "git",
+        "path": "envs/reasoning_gym_env",
+        "revision": "338577885c00d69a92e652991b367fa246918093",
+        "uri": "https://github.com/huggingface/OpenEnv.git"
+      }
+    ],
+    "description": "Single-step reasoning tasks present one question per episode and use dataset-defined answer scoring. Configure seeded question datasets for reproducible reasoning rollouts.",
+    "framework_requirement": "openenv>=0.2.2",
+    "interfaces": [
+      {
+        "protocol": "openenv",
+        "role": "orchestration"
+      }
+    ],
+    "license": "BSD-3-Clause",
+    "license_url": "https://github.com/huggingface/OpenEnv/blob/338577885c00d69a92e652991b367fa246918093/LICENSE",
+    "manifest_spec_version": 1,
+    "name": "reasoning_gym",
+    "owner": {
+      "authority": "github.com",
+      "id": "huggingface"
+    },
+    "schema_version": "0.1-draft",
+    "source": {
+      "id": "huggingface/OpenEnv",
+      "path": "envs/reasoning_gym_env",
+      "provider": "github",
+      "revision": "338577885c00d69a92e652991b367fa246918093",
+      "uri": "https://github.com/huggingface/OpenEnv.git"
+    }
+  },
+  "description": "Single-step reasoning tasks present one question per episode and use dataset-defined answer scoring. Configure seeded question datasets for reproducible reasoning rollouts.",
+  "displayName": "Reasoning Gym questions",
+  "identifier": "urn:air:github.com:huggingface.OpenEnv:cb78fd052cc9d1a5800a1a9a89ac646b83781d7cacb8b7f883d0122dce3a9577:338577885c00d69a92e652991b367fa246918093",
+  "metadata": {
+    "provenance": {
+      "description": "envs/reasoning_gym_env/discovery.json#description",
+      "framework_requirement": "envs/reasoning_gym_env/pyproject.toml#project.dependencies",
+      "license": "LICENSE",
+      "manifest_spec_version": "envs/reasoning_gym_env/openenv.yaml#spec_version",
+      "name": "envs/reasoning_gym_env/openenv.yaml#name",
+      "source": "https://github.com/huggingface/OpenEnv.git",
+      "representativeQueries": "envs/reasoning_gym_env/discovery.json#representative_queries",
+      "displayName": "catalog/huggingface/openenv-reasoning-gym-33857788.json#displayName"
+    },
+    "sourceSet": "huggingface/OpenEnv",
+    "repoPath": "envs/reasoning_gym_env/openenv.yaml",
+    "declarationProfile": "openenv-discovery/0.1-draft",
+    "snapshotDigest": "sha256:105b0d254b72b599f1544b371d50fb7e0f0c3f7badf224b91791db7868ee929a"
+  },
+  "representativeQueries": [
+    "find configurable reasoning questions with graded answers",
+    "evaluate answers on seeded procedural reasoning tasks",
+    "find a single-step question-answer environment"
+  ],
+  "tags": [
+    "openenv",
+    "procedural-tasks",
+    "question-answering",
+    "reasoning",
+    "rl-environment",
+    "single-step"
+  ],
+  "type": "application/vnd.openenv.environment-card+json"
+}
