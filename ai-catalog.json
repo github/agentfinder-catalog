@@ -13057,69 +13057,449 @@
     },
     {
       "@context": "https://agenticresourcediscovery.org/context/v1",
-      "identifier": "urn:air:github.com:huggingface.OpenEnv:b09a48991371fd47a5169a153573c03dd858488f53b3e02eaa218bddd0d38fd8:8e6e277030806ebe19e4537fe5e9d792de8e88dc",
-      "displayName": "Echo Environment",
-      "type": "application/vnd.openenv.environment-card+json",
+      "capabilities": [],
       "data": {
-        "schema_version": "0.1-draft",
-        "name": "echo_env",
-        "description": "Echo Environment for OpenEnv - simple test environment that echoes back messages",
-        "owner": {
-          "authority": "github.com",
-          "id": "huggingface"
-        },
-        "source": {
-          "provider": "github",
-          "id": "huggingface/OpenEnv",
-          "uri": "https://github.com/huggingface/OpenEnv.git",
-          "path": "envs/echo_env",
-          "revision": "8e6e277030806ebe19e4537fe5e9d792de8e88dc"
-        },
         "artifact_availability": "resolvable",
         "artifacts": [
           {
             "kind": "git",
-            "uri": "https://github.com/huggingface/OpenEnv.git",
-            "path": "envs/echo_env",
-            "revision": "8e6e277030806ebe19e4537fe5e9d792de8e88dc"
+            "path": "envs/browsergym_env",
+            "revision": "338577885c00d69a92e652991b367fa246918093",
+            "uri": "https://github.com/huggingface/OpenEnv.git"
+          }
+        ],
+        "description": "Use browser actions such as click, fill, keyboard input, and scroll to complete web tasks. BrowserGym returns task goals and page observations for browser-agent training and evaluation.",
+        "framework_requirement": "openenv>=0.2.3",
+        "interfaces": [
+          {
+            "protocol": "openenv",
+            "role": "orchestration"
           }
         ],
         "license": "BSD-3-Clause",
-        "license_url": "https://github.com/huggingface/OpenEnv/blob/8e6e277030806ebe19e4537fe5e9d792de8e88dc/LICENSE",
+        "license_url": "https://github.com/huggingface/OpenEnv/blob/338577885c00d69a92e652991b367fa246918093/LICENSE",
+        "name": "browsergym_env",
+        "owner": {
+          "authority": "github.com",
+          "id": "huggingface"
+        },
+        "schema_version": "0.1-draft",
+        "source": {
+          "id": "huggingface/OpenEnv",
+          "path": "envs/browsergym_env",
+          "provider": "github",
+          "revision": "338577885c00d69a92e652991b367fa246918093",
+          "uri": "https://github.com/huggingface/OpenEnv.git"
+        }
+      },
+      "description": "Use browser actions such as click, fill, keyboard input, and scroll to complete web tasks. BrowserGym returns task goals and page observations for browser-agent training and evaluation.",
+      "displayName": "BrowserGym web tasks",
+      "identifier": "urn:air:github.com:huggingface.OpenEnv:f780a687c0d809781e37582fb9082993df12110fcf7cb130d6da7193b0e7d68c:338577885c00d69a92e652991b367fa246918093",
+      "metadata": {
+        "provenance": {
+          "description": "envs/browsergym_env/discovery.json#description",
+          "framework_requirement": "envs/browsergym_env/pyproject.toml#project.dependencies",
+          "license": "LICENSE",
+          "name": "envs/browsergym_env/openenv.yaml#name",
+          "source": "https://github.com/huggingface/OpenEnv.git",
+          "representativeQueries": "envs/browsergym_env/discovery.json#representative_queries",
+          "displayName": "catalog/huggingface/openenv-browsergym-33857788.json#displayName"
+        },
+        "sourceSet": "huggingface/OpenEnv",
+        "repoPath": "envs/browsergym_env/openenv.yaml",
+        "declarationProfile": "openenv-discovery/0.1-draft",
+        "snapshotDigest": "sha256:105b0d254b72b599f1544b371d50fb7e0f0c3f7badf224b91791db7868ee929a"
+      },
+      "representativeQueries": [
+        "find a browser environment for web navigation tasks",
+        "train a web agent on form entry and button interaction",
+        "find an OpenEnv adapter for MiniWoB browser tasks"
+      ],
+      "tags": [
+        "browser-actions",
+        "browsergym",
+        "openenv",
+        "rl-environment",
+        "web-automation"
+      ],
+      "type": "application/vnd.openenv.environment-card+json"
+    },
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "capabilities": [
+        "list_events",
+        "get_event",
+        "create_event",
+        "update_event",
+        "delete_event"
+      ],
+      "data": {
+        "artifact_availability": "resolvable",
+        "artifacts": [
+          {
+            "kind": "git",
+            "path": "envs/calendar_env",
+            "revision": "338577885c00d69a92e652991b367fa246918093",
+            "uri": "https://github.com/huggingface/OpenEnv.git"
+          }
+        ],
+        "description": "Perform scheduling tasks against a simulated calendar using MCP event tools. Scenarios provide seeded data and SQL checks for task outcomes.",
+        "framework_requirement": "openenv>=0.2.0",
+        "interfaces": [
+          {
+            "protocol": "openenv",
+            "role": "orchestration"
+          },
+          {
+            "protocol": "mcp",
+            "role": "agent-tools",
+            "source_revision": "338577885c00d69a92e652991b367fa246918093",
+            "status": "declared"
+          }
+        ],
+        "license": "BSD-3-Clause",
+        "license_url": "https://github.com/huggingface/OpenEnv/blob/338577885c00d69a92e652991b367fa246918093/LICENSE",
         "manifest_spec_version": 1,
+        "name": "calendar_env",
+        "owner": {
+          "authority": "github.com",
+          "id": "huggingface"
+        },
+        "schema_version": "0.1-draft",
+        "source": {
+          "id": "huggingface/OpenEnv",
+          "path": "envs/calendar_env",
+          "provider": "github",
+          "revision": "338577885c00d69a92e652991b367fa246918093",
+          "uri": "https://github.com/huggingface/OpenEnv.git"
+        }
+      },
+      "description": "Perform scheduling tasks against a simulated calendar using MCP event tools. Scenarios provide seeded data and SQL checks for task outcomes.",
+      "displayName": "Calendar scheduling",
+      "identifier": "urn:air:github.com:huggingface.OpenEnv:c30ffa24e1ba51c93b85a00a25c6098cddc26c45c1c777d9cbedd575494e4f20:338577885c00d69a92e652991b367fa246918093",
+      "metadata": {
+        "provenance": {
+          "agent_tools": "envs/calendar_env/server/calendar_mcp/tools/events.py",
+          "description": "envs/calendar_env/discovery.json#description",
+          "framework_requirement": "envs/calendar_env/pyproject.toml#project.dependencies",
+          "license": "LICENSE",
+          "manifest_spec_version": "envs/calendar_env/openenv.yaml#spec_version",
+          "name": "envs/calendar_env/openenv.yaml#name",
+          "source": "https://github.com/huggingface/OpenEnv.git",
+          "representativeQueries": "envs/calendar_env/discovery.json#representative_queries",
+          "displayName": "catalog/huggingface/openenv-calendar-33857788.json#displayName"
+        },
+        "sourceSet": "huggingface/OpenEnv",
+        "repoPath": "envs/calendar_env/openenv.yaml",
+        "declarationProfile": "openenv-discovery/0.1-draft",
+        "snapshotDigest": "sha256:105b0d254b72b599f1544b371d50fb7e0f0c3f7badf224b91791db7868ee929a"
+      },
+      "representativeQueries": [
+        "find a calendar simulation for scheduling workflows",
+        "evaluate an agent that creates and updates calendar events",
+        "find MCP calendar tools with scenario-based outcome checks"
+      ],
+      "tags": [
+        "calendar",
+        "mcp",
+        "openenv",
+        "rl-environment",
+        "scheduling",
+        "tool-use"
+      ],
+      "type": "application/vnd.openenv.environment-card+json"
+    },
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "capabilities": [],
+      "data": {
+        "artifact_availability": "resolvable",
+        "artifacts": [
+          {
+            "kind": "git",
+            "path": "envs/chess_env",
+            "revision": "338577885c00d69a92e652991b367fa246918093",
+            "uri": "https://github.com/huggingface/OpenEnv.git"
+          }
+        ],
+        "description": "Play chess with legal UCI moves against a Moonfish engine, a random opponent, or in self-play. Observations include the FEN board position, legal moves, and game outcome.",
+        "framework_requirement": "openenv>=0.2.2",
+        "interfaces": [
+          {
+            "protocol": "openenv",
+            "role": "orchestration"
+          }
+        ],
+        "license": "BSD-3-Clause",
+        "license_url": "https://github.com/huggingface/OpenEnv/blob/338577885c00d69a92e652991b367fa246918093/LICENSE",
+        "manifest_spec_version": 1,
+        "name": "chess_env",
+        "owner": {
+          "authority": "github.com",
+          "id": "huggingface"
+        },
+        "schema_version": "0.1-draft",
+        "source": {
+          "id": "huggingface/OpenEnv",
+          "path": "envs/chess_env",
+          "provider": "github",
+          "revision": "338577885c00d69a92e652991b367fa246918093",
+          "uri": "https://github.com/huggingface/OpenEnv.git"
+        }
+      },
+      "description": "Play chess with legal UCI moves against a Moonfish engine, a random opponent, or in self-play. Observations include the FEN board position, legal moves, and game outcome.",
+      "displayName": "Chess environment",
+      "identifier": "urn:air:github.com:huggingface.OpenEnv:9314f31e3366f50694bdf01233bcd9c5529185b86ffc87cae6b1b76da0176cce:338577885c00d69a92e652991b367fa246918093",
+      "metadata": {
+        "provenance": {
+          "description": "envs/chess_env/discovery.json#description",
+          "framework_requirement": "envs/chess_env/pyproject.toml#project.dependencies",
+          "license": "LICENSE",
+          "manifest_spec_version": "envs/chess_env/openenv.yaml#spec_version",
+          "name": "envs/chess_env/openenv.yaml#name",
+          "source": "https://github.com/huggingface/OpenEnv.git",
+          "representativeQueries": "envs/chess_env/discovery.json#representative_queries",
+          "displayName": "catalog/huggingface/openenv-chess-33857788.json#displayName"
+        },
+        "sourceSet": "huggingface/OpenEnv",
+        "repoPath": "envs/chess_env/openenv.yaml",
+        "declarationProfile": "openenv-discovery/0.1-draft",
+        "snapshotDigest": "sha256:105b0d254b72b599f1544b371d50fb7e0f0c3f7badf224b91791db7868ee929a"
+      },
+      "representativeQueries": [
+        "find a chess environment with a configurable opponent",
+        "evaluate move selection from a FEN board position",
+        "run chess self-play through an OpenEnv client"
+      ],
+      "tags": [
+        "board-game",
+        "chess",
+        "openenv",
+        "rl-environment",
+        "self-play",
+        "strategy"
+      ],
+      "type": "application/vnd.openenv.environment-card+json"
+    },
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "capabilities": [],
+      "data": {
+        "artifact_availability": "resolvable",
+        "artifacts": [
+          {
+            "kind": "git",
+            "path": "envs/coding_env",
+            "revision": "338577885c00d69a92e652991b367fa246918093",
+            "uri": "https://github.com/huggingface/OpenEnv.git"
+          }
+        ],
+        "description": "Run Python snippets and inspect standard output, standard error, and exit status. Reset starts a fresh code-execution session.",
+        "framework_requirement": "openenv>=0.2.2",
+        "interfaces": [
+          {
+            "protocol": "openenv",
+            "role": "orchestration"
+          }
+        ],
+        "license": "BSD-3-Clause",
+        "license_url": "https://github.com/huggingface/OpenEnv/blob/338577885c00d69a92e652991b367fa246918093/LICENSE",
+        "name": "coding_env",
+        "owner": {
+          "authority": "github.com",
+          "id": "huggingface"
+        },
+        "schema_version": "0.1-draft",
+        "source": {
+          "id": "huggingface/OpenEnv",
+          "path": "envs/coding_env",
+          "provider": "github",
+          "revision": "338577885c00d69a92e652991b367fa246918093",
+          "uri": "https://github.com/huggingface/OpenEnv.git"
+        }
+      },
+      "description": "Run Python snippets and inspect standard output, standard error, and exit status. Reset starts a fresh code-execution session.",
+      "displayName": "Python code execution",
+      "identifier": "urn:air:github.com:huggingface.OpenEnv:6ec0c5544b59997c143879ef8c3c572542841b4711bac7b5791c7c23717a50dd:338577885c00d69a92e652991b367fa246918093",
+      "metadata": {
+        "provenance": {
+          "description": "envs/coding_env/discovery.json#description",
+          "framework_requirement": "envs/coding_env/pyproject.toml#project.dependencies",
+          "license": "LICENSE",
+          "name": "envs/coding_env/openenv.yaml#name",
+          "source": "https://github.com/huggingface/OpenEnv.git",
+          "representativeQueries": "envs/coding_env/discovery.json#representative_queries",
+          "displayName": "catalog/huggingface/openenv-coding-33857788.json#displayName"
+        },
+        "sourceSet": "huggingface/OpenEnv",
+        "repoPath": "envs/coding_env/openenv.yaml",
+        "declarationProfile": "openenv-discovery/0.1-draft",
+        "snapshotDigest": "sha256:105b0d254b72b599f1544b371d50fb7e0f0c3f7badf224b91791db7868ee929a"
+      },
+      "representativeQueries": [
+        "find an environment for executing Python code actions",
+        "test a coding agent with stdout stderr and exit-code feedback",
+        "find a Python execution environment for agent rollouts"
+      ],
+      "tags": [
+        "code-execution",
+        "openenv",
+        "programming",
+        "python",
+        "rl-environment"
+      ],
+      "type": "application/vnd.openenv.environment-card+json"
+    },
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "capabilities": [
+        "echo_message",
+        "echo_with_length"
+      ],
+      "data": {
+        "artifact_availability": "resolvable",
+        "artifacts": [
+          {
+            "kind": "git",
+            "path": "envs/echo_env",
+            "revision": "338577885c00d69a92e652991b367fa246918093",
+            "uri": "https://github.com/huggingface/OpenEnv.git"
+          }
+        ],
+        "description": "Echo Environment for OpenEnv - simple test environment that echoes back messages",
         "framework_requirement": "openenv>=0.3.1",
         "interfaces": [
           {
-            "role": "orchestration",
-            "protocol": "openenv"
+            "protocol": "openenv",
+            "role": "orchestration"
+          },
+          {
+            "protocol": "mcp",
+            "role": "agent-tools",
+            "source_revision": "338577885c00d69a92e652991b367fa246918093",
+            "status": "declared"
           }
-        ]
+        ],
+        "license": "BSD-3-Clause",
+        "license_url": "https://github.com/huggingface/OpenEnv/blob/338577885c00d69a92e652991b367fa246918093/LICENSE",
+        "manifest_spec_version": 1,
+        "name": "echo_env",
+        "owner": {
+          "authority": "github.com",
+          "id": "huggingface"
+        },
+        "schema_version": "0.1-draft",
+        "source": {
+          "id": "huggingface/OpenEnv",
+          "path": "envs/echo_env",
+          "provider": "github",
+          "revision": "338577885c00d69a92e652991b367fa246918093",
+          "uri": "https://github.com/huggingface/OpenEnv.git"
+        }
       },
       "description": "Echo Environment for OpenEnv - simple test environment that echoes back messages",
-      "tags": [
-        "openenv",
-        "rl-environment",
-        "smoke-test"
-      ],
+      "displayName": "Echo smoke test",
+      "identifier": "urn:air:github.com:huggingface.OpenEnv:b09a48991371fd47a5169a153573c03dd858488f53b3e02eaa218bddd0d38fd8:338577885c00d69a92e652991b367fa246918093",
+      "metadata": {
+        "provenance": {
+          "agent_tools": "envs/echo_env/server/echo_environment.py",
+          "description": "envs/echo_env/pyproject.toml#project.description",
+          "framework_requirement": "envs/echo_env/pyproject.toml#project.dependencies",
+          "license": "LICENSE",
+          "manifest_spec_version": "envs/echo_env/openenv.yaml#spec_version",
+          "name": "envs/echo_env/openenv.yaml#name",
+          "source": "https://github.com/huggingface/OpenEnv.git",
+          "representativeQueries": "envs/echo_env/discovery.json#representative_queries",
+          "displayName": "catalog/huggingface/openenv-echo-33857788.json#displayName"
+        },
+        "sourceSet": "huggingface/OpenEnv",
+        "repoPath": "envs/echo_env/openenv.yaml",
+        "declarationProfile": "openenv-discovery/0.1-draft",
+        "snapshotDigest": "sha256:105b0d254b72b599f1544b371d50fb7e0f0c3f7badf224b91791db7868ee929a"
+      },
       "representativeQueries": [
         "find an environment that echoes a message",
         "find a minimal environment for checking OpenEnv tool calls",
         "find an environment for a client smoke test"
       ],
-      "metadata": {
-        "sourceSet": "huggingface/OpenEnv",
-        "repoPath": "envs/echo_env/openenv.yaml",
-        "provenance": {
-          "name": "envs/echo_env/openenv.yaml#name",
-          "description": "envs/echo_env/pyproject.toml#project.description",
-          "license": "LICENSE",
-          "framework_requirement": "envs/echo_env/pyproject.toml#project.dependencies",
-          "manifest_spec_version": "envs/echo_env/openenv.yaml#spec_version",
-          "representativeQueries": "https://github.com/huggingface/OpenEnv/blob/8e6e277030806ebe19e4537fe5e9d792de8e88dc/rfcs/011-ard-catalog-discovery.md"
+      "tags": [
+        "openenv",
+        "rl-environment",
+        "smoke-test"
+      ],
+      "type": "application/vnd.openenv.environment-card+json"
+    },
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "capabilities": [],
+      "data": {
+        "artifact_availability": "resolvable",
+        "artifacts": [
+          {
+            "kind": "git",
+            "path": "envs/reasoning_gym_env",
+            "revision": "338577885c00d69a92e652991b367fa246918093",
+            "uri": "https://github.com/huggingface/OpenEnv.git"
+          }
+        ],
+        "description": "Single-step reasoning tasks present one question per episode and use dataset-defined answer scoring. Configure seeded question datasets for reproducible reasoning rollouts.",
+        "framework_requirement": "openenv>=0.2.2",
+        "interfaces": [
+          {
+            "protocol": "openenv",
+            "role": "orchestration"
+          }
+        ],
+        "license": "BSD-3-Clause",
+        "license_url": "https://github.com/huggingface/OpenEnv/blob/338577885c00d69a92e652991b367fa246918093/LICENSE",
+        "manifest_spec_version": 1,
+        "name": "reasoning_gym",
+        "owner": {
+          "authority": "github.com",
+          "id": "huggingface"
         },
+        "schema_version": "0.1-draft",
+        "source": {
+          "id": "huggingface/OpenEnv",
+          "path": "envs/reasoning_gym_env",
+          "provider": "github",
+          "revision": "338577885c00d69a92e652991b367fa246918093",
+          "uri": "https://github.com/huggingface/OpenEnv.git"
+        }
+      },
+      "description": "Single-step reasoning tasks present one question per episode and use dataset-defined answer scoring. Configure seeded question datasets for reproducible reasoning rollouts.",
+      "displayName": "Reasoning Gym questions",
+      "identifier": "urn:air:github.com:huggingface.OpenEnv:cb78fd052cc9d1a5800a1a9a89ac646b83781d7cacb8b7f883d0122dce3a9577:338577885c00d69a92e652991b367fa246918093",
+      "metadata": {
+        "provenance": {
+          "description": "envs/reasoning_gym_env/discovery.json#description",
+          "framework_requirement": "envs/reasoning_gym_env/pyproject.toml#project.dependencies",
+          "license": "LICENSE",
+          "manifest_spec_version": "envs/reasoning_gym_env/openenv.yaml#spec_version",
+          "name": "envs/reasoning_gym_env/openenv.yaml#name",
+          "source": "https://github.com/huggingface/OpenEnv.git",
+          "representativeQueries": "envs/reasoning_gym_env/discovery.json#representative_queries",
+          "displayName": "catalog/huggingface/openenv-reasoning-gym-33857788.json#displayName"
+        },
+        "sourceSet": "huggingface/OpenEnv",
+        "repoPath": "envs/reasoning_gym_env/openenv.yaml",
         "declarationProfile": "openenv-discovery/0.1-draft",
-        "snapshotDigest": "sha256:df7be90fb7d560dfa6468ba0b9ccb8fd75a0cb1e66b6e6614e8ed843c33e464d"
-      }
+        "snapshotDigest": "sha256:105b0d254b72b599f1544b371d50fb7e0f0c3f7badf224b91791db7868ee929a"
+      },
+      "representativeQueries": [
+        "find configurable reasoning questions with graded answers",
+        "evaluate answers on seeded procedural reasoning tasks",
+        "find a single-step question-answer environment"
+      ],
+      "tags": [
+        "openenv",
+        "procedural-tasks",
+        "question-answering",
+        "reasoning",
+        "rl-environment",
+        "single-step"
+      ],
+      "type": "application/vnd.openenv.environment-card+json"
     },
     {
       "identifier": "urn:air:github.com:huggingface:skills:train-sentence-transformers",

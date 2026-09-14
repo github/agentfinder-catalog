@@ -9,6 +9,38 @@ from scripts import generate_ai_catalog
 
 
 class ExtensionCatalogTest(unittest.TestCase):
+    def test_openenv_examples_cover_distinct_tasks_from_one_pinned_snapshot(self):
+        records = [
+            json.loads(path.read_text())
+            for path in sorted((generate_ai_catalog.ROOT / "catalog" / "huggingface").glob("openenv-*.json"))
+        ]
+        expected_paths = {
+            "envs/echo_env",
+            "envs/coding_env",
+            "envs/browsergym_env",
+            "envs/calendar_env",
+            "envs/chess_env",
+            "envs/reasoning_gym_env",
+        }
+        self.assertEqual({entry["data"]["source"]["path"] for entry in records}, expected_paths)
+        self.assertEqual(len(records), len(expected_paths))
+        self.assertEqual(len({entry["identifier"] for entry in records}), len(records))
+        self.assertEqual(len({entry["data"]["source"]["revision"] for entry in records}), 1)
+        self.assertEqual(len({entry["metadata"]["snapshotDigest"] for entry in records}), 1)
+        for entry in records:
+            with self.subTest(path=entry["data"]["source"]["path"]):
+                generate_ai_catalog.validate(entry, "OpenEnv curated example")
+                source = entry["data"]["source"]
+                self.assertEqual(source["uri"], "https://github.com/huggingface/OpenEnv.git")
+                self.assertRegex(source["revision"], r"^(?:[a-f0-9]{40}|[a-f0-9]{64})$")
+                self.assertTrue(entry["identifier"].endswith(":" + source["revision"]))
+                self.assertEqual(entry["description"], entry["data"]["description"])
+                self.assertGreaterEqual(len(entry["representativeQueries"]), 2)
+                self.assertLessEqual(len(entry["representativeQueries"]), 5)
+                for artifact in entry["data"]["artifacts"]:
+                    for field in ("uri", "path", "revision"):
+                        self.assertEqual(artifact[field], source[field])
+
     def test_documented_contributor_template_is_canonical_and_valid(self):
         document = (generate_ai_catalog.ROOT / "CONTRIBUTING.md").read_text()
         match = re.search(r"```json\n(\{.*?\})\n```", document, re.DOTALL)

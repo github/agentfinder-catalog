@@ -1,0 +1,69 @@
+{
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "capabilities": [],
+  "data": {
+    "artifact_availability": "resolvable",
+    "artifacts": [
+      {
+        "kind": "git",
+        "path": "envs/browsergym_env",
+        "revision": "338577885c00d69a92e652991b367fa246918093",
+        "uri": "https://github.com/huggingface/OpenEnv.git"
+      }
+    ],
+    "description": "Use browser actions such as click, fill, keyboard input, and scroll to complete web tasks. BrowserGym returns task goals and page observations for browser-agent training and evaluation.",
+    "framework_requirement": "openenv>=0.2.3",
+    "interfaces": [
+      {
+        "protocol": "openenv",
+        "role": "orchestration"
+      }
+    ],
+    "license": "BSD-3-Clause",
+    "license_url": "https://github.com/huggingface/OpenEnv/blob/338577885c00d69a92e652991b367fa246918093/LICENSE",
+    "name": "browsergym_env",
+    "owner": {
+      "authority": "github.com",
+      "id": "huggingface"
+    },
+    "schema_version": "0.1-draft",
+    "source": {
+      "id": "huggingface/OpenEnv",
+      "path": "envs/browsergym_env",
+      "provider": "github",
+      "revision": "338577885c00d69a92e652991b367fa246918093",
+      "uri": "https://github.com/huggingface/OpenEnv.git"
+    }
+  },
+  "description": "Use browser actions such as click, fill, keyboard input, and scroll to complete web tasks. BrowserGym returns task goals and page observations for browser-agent training and evaluation.",
+  "displayName": "BrowserGym web tasks",
+  "identifier": "urn:air:github.com:huggingface.OpenEnv:f780a687c0d809781e37582fb9082993df12110fcf7cb130d6da7193b0e7d68c:338577885c00d69a92e652991b367fa246918093",
+  "metadata": {
+    "provenance": {
+      "description": "envs/browsergym_env/discovery.json#description",
+      "framework_requirement": "envs/browsergym_env/pyproject.toml#project.dependencies",
+      "license": "LICENSE",
+      "name": "envs/browsergym_env/openenv.yaml#name",
+      "source": "https://github.com/huggingface/OpenEnv.git",
+      "representativeQueries": "envs/browsergym_env/discovery.json#representative_queries",
+      "displayName": "catalog/huggingface/openenv-browsergym-33857788.json#displayName"
+    },
+    "sourceSet": "huggingface/OpenEnv",
+    "repoPath": "envs/browsergym_env/openenv.yaml",
+    "declarationProfile": "openenv-discovery/0.1-draft",
+    "snapshotDigest": "sha256:105b0d254b72b599f1544b371d50fb7e0f0c3f7badf224b91791db7868ee929a"
+  },
+  "representativeQueries": [
+    "find a browser environment for web navigation tasks",
+    "train a web agent on form entry and button interaction",
+    "find an OpenEnv adapter for MiniWoB browser tasks"
+  ],
+  "tags": [
+    "browser-actions",
+    "browsergym",
+    "openenv",
+    "rl-environment",
+    "web-automation"
+  ],
+  "type": "application/vnd.openenv.environment-card+json"
+}

@@ -1,0 +1,85 @@
+{
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "capabilities": [
+    "list_events",
+    "get_event",
+    "create_event",
+    "update_event",
+    "delete_event"
+  ],
+  "data": {
+    "artifact_availability": "resolvable",
+    "artifacts": [
+      {
+        "kind": "git",
+        "path": "envs/calendar_env",
+        "revision": "338577885c00d69a92e652991b367fa246918093",
+        "uri": "https://github.com/huggingface/OpenEnv.git"
+      }
+    ],
+    "description": "Perform scheduling tasks against a simulated calendar using MCP event tools. Scenarios provide seeded data and SQL checks for task outcomes.",
+    "framework_requirement": "openenv>=0.2.0",
+    "interfaces": [
+      {
+        "protocol": "openenv",
+        "role": "orchestration"
+      },
+      {
+        "protocol": "mcp",
+        "role": "agent-tools",
+        "source_revision": "338577885c00d69a92e652991b367fa246918093",
+        "status": "declared"
+      }
+    ],
+    "license": "BSD-3-Clause",
+    "license_url": "https://github.com/huggingface/OpenEnv/blob/338577885c00d69a92e652991b367fa246918093/LICENSE",
+    "manifest_spec_version": 1,
+    "name": "calendar_env",
+    "owner": {
+      "authority": "github.com",
+      "id": "huggingface"
+    },
+    "schema_version": "0.1-draft",
+    "source": {
+      "id": "huggingface/OpenEnv",
+      "path": "envs/calendar_env",
+      "provider": "github",
+      "revision": "338577885c00d69a92e652991b367fa246918093",
+      "uri": "https://github.com/huggingface/OpenEnv.git"
+    }
+  },
+  "description": "Perform scheduling tasks against a simulated calendar using MCP event tools. Scenarios provide seeded data and SQL checks for task outcomes.",
+  "displayName": "Calendar scheduling",
+  "identifier": "urn:air:github.com:huggingface.OpenEnv:c30ffa24e1ba51c93b85a00a25c6098cddc26c45c1c777d9cbedd575494e4f20:338577885c00d69a92e652991b367fa246918093",
+  "metadata": {
+    "provenance": {
+      "agent_tools": "envs/calendar_env/server/calendar_mcp/tools/events.py",
+      "description": "envs/calendar_env/discovery.json#description",
+      "framework_requirement": "envs/calendar_env/pyproject.toml#project.dependencies",
+      "license": "LICENSE",
+      "manifest_spec_version": "envs/calendar_env/openenv.yaml#spec_version",
+      "name": "envs/calendar_env/openenv.yaml#name",
+      "source": "https://github.com/huggingface/OpenEnv.git",
+      "representativeQueries": "envs/calendar_env/discovery.json#representative_queries",
+      "displayName": "catalog/huggingface/openenv-calendar-33857788.json#displayName"
+    },
+    "sourceSet": "huggingface/OpenEnv",
+    "repoPath": "envs/calendar_env/openenv.yaml",
+    "declarationProfile": "openenv-discovery/0.1-draft",
+    "snapshotDigest": "sha256:105b0d254b72b599f1544b371d50fb7e0f0c3f7badf224b91791db7868ee929a"
+  },
+  "representativeQueries": [
+    "find a calendar simulation for scheduling workflows",
+    "evaluate an agent that creates and updates calendar events",
+    "find MCP calendar tools with scenario-based outcome checks"
+  ],
+  "tags": [
+    "calendar",
+    "mcp",
+    "openenv",
+    "rl-environment",
+    "scheduling",
+    "tool-use"
+  ],
+  "type": "application/vnd.openenv.environment-card+json"
+}
