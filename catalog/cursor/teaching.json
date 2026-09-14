@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:cursor:plugins:teaching",
   "displayName": "Teaching",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.cursor.cursor-plugin+json",
   "url": "https://github.com/cursor/plugins/blob/main/teaching",
   "description": "Skill mapping, practice plans, and learning retrospectives. Builds personalized roadmaps with milestones and practice checkpoints, and runs periodic...",
   "metadata": {

@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:financial-services-plugins:gl-reconciler",
   "displayName": "Gl Reconciler",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/financial-services-plugins/blob/main/plugins/agent-plugins/gl-reconciler",
   "description": "Finds breaks, traces root cause, routes for sign-off",
   "metadata": {

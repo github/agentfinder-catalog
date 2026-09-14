@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:payloadcms:payload:payload",
   "displayName": "Payload",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/payloadcms/payload/blob/main/tools/claude-plugin",
   "description": "Payload Development plugin - covers collections, fields, hooks, access control, plugins, and database adapters.",
   "metadata": {

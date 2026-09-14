@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:fakechat",
   "displayName": "Fakechat",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/external_plugins/fakechat",
   "description": "Localhost iMessage-style web chat for Claude Code - test surface with file upload and edits. No tokens, no access control.",
   "metadata": {

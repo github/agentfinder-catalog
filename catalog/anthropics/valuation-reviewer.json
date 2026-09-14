@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:financial-services-plugins:valuation-reviewer",
   "displayName": "Valuation Reviewer",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/financial-services-plugins/blob/main/plugins/agent-plugins/valuation-reviewer",
   "description": "Ingests GP packages, runs valuation template, stages LP reporting",
   "metadata": {

@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:apify:agent-skills:apify-agent-skills",
   "displayName": "Apify Agent Skills",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/apify/agent-skills/blob/main",
   "description": "Official Apify agent skills for web scraping, data extraction, and automation",
   "metadata": {

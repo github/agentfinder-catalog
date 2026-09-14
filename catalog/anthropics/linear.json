@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:linear",
   "displayName": "Linear",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/external_plugins/linear",
   "description": "Linear issue tracking integration. Create issues, manage projects, update statuses, search across workspaces, and streamline your software...",
   "metadata": {

@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:astronomer:agents:astronomer-data",
   "displayName": "Astronomer Data",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.cursor.cursor-plugin+json",
   "url": "https://github.com/astronomer/agents/blob/main",
   "description": "Data engineering plugin - warehouse exploration, pipeline authoring, Airflow integration",
   "metadata": {

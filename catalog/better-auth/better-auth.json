@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:better-auth:skills:better-auth",
   "displayName": "Better Auth",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/better-auth/skills/blob/main/better-auth",
   "description": "Better Auth development plugin for Claude",
   "metadata": {

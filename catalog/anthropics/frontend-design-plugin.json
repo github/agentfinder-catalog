@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-code:frontend-design",
   "displayName": "Frontend Design",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design",
   "description": "Frontend design skill for UI/UX implementation",
   "metadata": {

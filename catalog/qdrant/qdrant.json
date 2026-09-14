@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:qdrant:skills:qdrant",
   "displayName": "Qdrant",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/qdrant/skills/blob/main",
   "description": "Agent skills for Qdrant vector search: scaling, performance optimization, search quality, monitoring, deployment, edge, model migration, version...",
   "metadata": {

@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:dbt-labs:dbt-agent-skills:dbt-migration",
   "displayName": "Dbt Migration",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/dbt-labs/dbt-agent-skills/blob/main/skills/dbt-migration",
   "description": "Skills for migrating dbt projects - moving from dbt Core to the Fusion engine or across data platforms.",
   "metadata": {

@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:cursor:plugins:agent-compatibility",
   "displayName": "Agent Compatibility",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.cursor.cursor-plugin+json",
   "url": "https://github.com/cursor/plugins/blob/main/agent-compatibility",
   "description": "CLI-backed repo compatibility scans plus Cursor agents that audit startup, validation, and docs against reality.",
   "metadata": {

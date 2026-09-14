@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-for-legal:legal-builder-hub",
   "displayName": "Legal Builder Hub",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-for-legal/blob/main/legal-builder-hub",
   "description": "Finds, evaluates, and installs community legal skills - with a security review gate before anything lands in your environment.",
   "metadata": {

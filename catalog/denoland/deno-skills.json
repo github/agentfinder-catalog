@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:denoland:skills:deno-skills",
   "displayName": "Deno Skills",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/denoland/skills/blob/main",
   "description": "Modern Deno development knowledge including JSR packages, Fresh framework, Deno Deploy, and best practices",
   "metadata": {

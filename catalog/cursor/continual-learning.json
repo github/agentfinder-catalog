@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:cursor:plugins:continual-learning",
   "displayName": "Continual Learning",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.cursor.cursor-plugin+json",
   "url": "https://github.com/cursor/plugins/blob/main/continual-learning",
   "description": "Incrementally learns durable user preferences and workspace facts from transcript changes and keeps AGENTS.md up to date with plain bullet points.",
   "metadata": {

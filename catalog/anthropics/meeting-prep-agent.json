@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:financial-services-plugins:meeting-prep-agent",
   "displayName": "Meeting Prep Agent",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/financial-services-plugins/blob/main/plugins/agent-plugins/meeting-prep-agent",
   "description": "Briefing pack before every client meeting",
   "metadata": {

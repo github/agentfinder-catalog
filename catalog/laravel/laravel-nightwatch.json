@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:laravel:agent-skills:laravel-nightwatch",
   "displayName": "Laravel Nightwatch",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.cursor.cursor-plugin+json",
   "url": "https://github.com/laravel/agent-skills/blob/main/laravel-nightwatch",
   "description": "Configuring Laravel Nightwatch data collection, sampling, filtering, and redaction",
   "metadata": {

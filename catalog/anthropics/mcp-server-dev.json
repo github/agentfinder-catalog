@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:mcp-server-dev",
   "displayName": "Mcp Server Dev",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/plugins/mcp-server-dev",
   "description": "Skills for designing and building MCP servers that work seamlessly with Claude - guides you through deployment models (remote HTTP, MCPB, local)...",
   "metadata": {

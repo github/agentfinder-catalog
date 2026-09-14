@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-code:ralph-wiggum",
   "displayName": "Ralph Wiggum",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-code/blob/main/plugins/ralph-wiggum",
   "description": "Implementation of the Ralph Wiggum technique - continuous self-referential AI loops for interactive iterative development. Run Claude in a while-true...",
   "metadata": {

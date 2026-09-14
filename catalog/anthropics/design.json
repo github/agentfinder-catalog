@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:knowledge-work-plugins:design",
   "displayName": "Design",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/design",
   "description": "Accelerate design workflows - critique, design system management, UX writing, accessibility audits, research synthesis, and dev handoff. From...",
   "metadata": {

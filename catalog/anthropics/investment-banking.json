@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:financial-services-plugins:investment-banking",
   "displayName": "Investment Banking",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/financial-services-plugins/blob/main/plugins/vertical-plugins/investment-banking",
   "description": "Investment banking productivity tools: client and market insights, deck creation, financial analysis, and transaction management",
   "metadata": {
