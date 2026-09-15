@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:winappCli:winappcli",
+  "displayName": "WinApp CLI",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/winappCli/blob/main/plugins/winapp",
+  "description": "Official Microsoft Windows App Development CLI (winapp) agent plugin for GitHub Copilot, for developing native WinUI 3/XAML and Windows App SDK apps or adding Windows capabilities to existing Electron, .NET, C++, Rust, Flutter, and Tauri projects. Provides app scaffolding, WinUI sample and Windows API discovery, UI automation and testing, package identity, MSIX packaging, code signing, and Microsoft Store distribution.",
+  "metadata": {
+    "sourceSet": "microsoft/winappCli",
+    "repoPath": "plugins/winapp/plugin.json"
+  }
+}
