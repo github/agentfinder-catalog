@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:dotnet-nuget",
+  "displayName": ".NET NuGet",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-nuget",
+  "description": "NuGet and .NET package management skills: dependency management and modernization.",
+  "metadata": {
+    "sourceSet": "dotnet/skills",
+    "repoPath": "plugins/dotnet-nuget/.claude-plugin/plugin.json"
+  }
+}

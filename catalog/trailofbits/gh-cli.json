@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:gh-cli",
-  "displayName": "Gh Cli",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/gh-cli/skills/gh-cli/SKILL.md",
-  "description": "Enforces authenticated gh CLI workflows over unauthenticated curl/WebFetch patterns.",
+  "displayName": "GH CLI",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/gh-cli",
+  "description": "Intercepts GitHub URL fetches (WebFetch and MCP fetch tools) and curl/wget commands, redirecting to the authenticated gh CLI.",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/gh-cli/skills/gh-cli/SKILL.md"
+    "repoPath": "plugins/gh-cli/.claude-plugin/plugin.json"
   }
 }

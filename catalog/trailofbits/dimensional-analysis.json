@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:dimensional-analysis",
   "displayName": "Dimensional Analysis",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/dimensional-analysis/skills/dimensional-analysis/SKILL.md",
-  "description": "Annotates codebases with dimensional analysis comments documenting units, dimensions, and decimal scaling.",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/dimensional-analysis",
+  "description": "Annotates codebases with dimensional analysis comments documenting units, dimensions, and decimal scaling. Use when someone asks to annotate units in a codebase, perform a dimensional analysis, or find vulnerabilities in a DeFi protocol. Prevents dimensional mismatches and catches formula bugs early.",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/dimensional-analysis/skills/dimensional-analysis/SKILL.md"
+    "repoPath": "plugins/dimensional-analysis/.claude-plugin/plugin.json"
   }
 }

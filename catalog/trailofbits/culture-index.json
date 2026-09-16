@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:trailofbits:skills:culture-index",
+  "displayName": "Culture Index",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/culture-index",
+  "description": "Interprets Culture Index survey results for individuals and teams",
+  "metadata": {
+    "sourceSet": "trailofbits/skills",
+    "repoPath": "plugins/culture-index/.claude-plugin/plugin.json"
+  }
+}

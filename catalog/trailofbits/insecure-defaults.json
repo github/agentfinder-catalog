@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:insecure-defaults",
   "displayName": "Insecure Defaults",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/insecure-defaults/skills/insecure-defaults/SKILL.md",
-  "description": "Detects fail-open insecure defaults (hardcoded secrets, weak auth, permissive security) that allow apps to run insecurely in production.",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/insecure-defaults",
+  "description": "Detects insecure default configurations including hardcoded credentials, fallback secrets, weak authentication defaults, and dangerous values in production",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/insecure-defaults/skills/insecure-defaults/SKILL.md"
+    "repoPath": "plugins/insecure-defaults/.claude-plugin/plugin.json"
   }
 }

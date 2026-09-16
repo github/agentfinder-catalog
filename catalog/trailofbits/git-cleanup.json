@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:git-cleanup",
   "displayName": "Git Cleanup",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/git-cleanup/skills/git-cleanup/SKILL.md",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/git-cleanup",
   "description": "Safely analyzes and cleans up local git branches and worktrees by categorizing them as merged, squash-merged, superseded, or active work.",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/git-cleanup/skills/git-cleanup/SKILL.md"
+    "repoPath": "plugins/git-cleanup/.claude-plugin/plugin.json"
   }
 }

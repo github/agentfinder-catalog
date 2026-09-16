@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:dotnet-template-engine",
+  "displayName": ".NET Template Engine",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-template-engine",
+  "description": ".NET Template Engine skills for dotnet new: create projects (console app, class library, web API, Blazor, MAUI), discover and search templates, inspect template parameters and frameworks (net8.0, net9.0, net10.0), scaffold solutions, author and validate custom templates, install template packages from NuGet.",
+  "metadata": {
+    "sourceSet": "dotnet/skills",
+    "repoPath": "plugins/dotnet-template-engine/.claude-plugin/plugin.json"
+  }
+}

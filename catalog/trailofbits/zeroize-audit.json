@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:zeroize-audit",
   "displayName": "Zeroize Audit",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/zeroize-audit/skills/zeroize-audit/SKILL.md",
-  "description": "Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level...",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/zeroize-audit",
+  "description": "Detects missing or compiler-optimized zeroization of sensitive data with assembly and control-flow analysis",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/zeroize-audit/skills/zeroize-audit/SKILL.md"
+    "repoPath": "plugins/zeroize-audit/.claude-plugin/plugin.json"
   }
 }

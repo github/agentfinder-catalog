@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:c-review",
   "displayName": "C Review",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/c-review/skills/c-review/SKILL.md",
-  "description": "Performs comprehensive C/C++ security review for memory corruption, integer overflows, race conditions, and platform-specific vulnerabilities.",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/c-review",
+  "description": "Comprehensive C/C++ security code review, with coverage verified against a parse of the source",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/c-review/skills/c-review/SKILL.md"
+    "repoPath": "plugins/c-review/.claude-plugin/plugin.json"
   }
 }

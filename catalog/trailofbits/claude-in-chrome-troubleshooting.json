@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:trailofbits:skills:claude-in-chrome-troubleshooting",
+  "displayName": "Claude In Chrome Troubleshooting",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/claude-in-chrome-troubleshooting",
+  "description": "Diagnose and fix Claude in Chrome MCP extension connectivity issues",
+  "metadata": {
+    "sourceSet": "trailofbits/skills",
+    "repoPath": "plugins/claude-in-chrome-troubleshooting/.claude-plugin/plugin.json"
+  }
+}

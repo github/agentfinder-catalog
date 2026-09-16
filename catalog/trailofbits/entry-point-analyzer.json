@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:entry-point-analyzer",
   "displayName": "Entry Point Analyzer",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md",
-  "description": "Analyzes smart contract codebases to identify state-changing entry points for security auditing.",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/entry-point-analyzer",
+  "description": "Analyzes smart contract codebases to identify state-changing entry points for security auditing. Detects externally callable functions that modify state, categorizes them by access level, and generates structured audit reports.",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md"
+    "repoPath": "plugins/entry-point-analyzer/.claude-plugin/plugin.json"
   }
 }

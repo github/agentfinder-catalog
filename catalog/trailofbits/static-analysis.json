@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:trailofbits:skills:static-analysis",
+  "displayName": "Static Analysis",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/static-analysis",
+  "description": "Static analysis toolkit with CodeQL, Semgrep, and SARIF parsing for security vulnerability detection",
+  "metadata": {
+    "sourceSet": "trailofbits/skills",
+    "repoPath": "plugins/static-analysis/.claude-plugin/plugin.json"
+  }
+}

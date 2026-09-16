@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:dotnet-maui",
+  "displayName": ".NET MAUI",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-maui",
+  "description": "Skills for .NET MAUI development: environment setup, diagnostics, troubleshooting, navigation, data binding, dependency injection, layout, and theming.",
+  "metadata": {
+    "sourceSet": "dotnet/skills",
+    "repoPath": "plugins/dotnet-maui/.claude-plugin/plugin.json"
+  }
+}

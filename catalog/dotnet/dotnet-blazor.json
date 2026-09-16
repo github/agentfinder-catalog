@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:dotnet-blazor",
+  "displayName": ".NET Blazor",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-blazor",
+  "description": "Skills for Blazor development: component authoring, interactivity, and web application patterns.",
+  "metadata": {
+    "sourceSet": "dotnet/skills",
+    "repoPath": "plugins/dotnet-blazor/.claude-plugin/plugin.json"
+  }
+}

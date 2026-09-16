@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:microsoft-365-agents-toolkit",
+  "displayName": "Microsoft 365 Agents Toolkit",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/microsoft-365-agents-toolkit",
+  "description": "Toolkit for building and evaluating Microsoft 365 Copilot declarative agents — scaffolding, JSON manifest development, capability configuration, and eval workflows.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/microsoft-365-agents-toolkit/.claude-plugin/plugin.json"
+  }
+}

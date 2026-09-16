@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:dotnet-ai",
+  "displayName": ".NET AI",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-ai",
+  "description": "AI and ML skills for .NET: technology selection, LLM integration, agentic workflows, RAG pipelines, MCP, and classic ML with ML.NET.",
+  "metadata": {
+    "sourceSet": "dotnet/skills",
+    "repoPath": "plugins/dotnet-ai/.claude-plugin/plugin.json"
+  }
+}

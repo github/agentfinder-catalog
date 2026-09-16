@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:spec-to-code-compliance",
   "displayName": "Spec To Code Compliance",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/spec-to-code-compliance/skills/spec-to-code-compliance/SKILL.md",
-  "description": "Verifies code implements exactly what documentation specifies for blockchain audits.",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/spec-to-code-compliance",
+  "description": "Check code against the documentation that specifies it: one agent per requirement, divergences refuted before they are reported, evidence cited to the line",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/spec-to-code-compliance/skills/spec-to-code-compliance/SKILL.md"
+    "repoPath": "plugins/spec-to-code-compliance/.claude-plugin/plugin.json"
   }
 }

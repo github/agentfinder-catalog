@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:deep-wiki",
+  "displayName": "Deep Wiki",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/deep-wiki",
+  "description": "AI-powered wiki generator for code repositories. Generates comprehensive, Mermaid-rich documentation with dark-mode VitePress sites, onboarding guides, deep research, and source citations. Inspired by OpenDeepWiki and deepwiki-open.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/deep-wiki/.claude-plugin/plugin.json"
+  }
+}

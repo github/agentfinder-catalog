@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:semgrep-rule-variant-creator",
   "displayName": "Semgrep Rule Variant Creator",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/semgrep-rule-variant-creator/skills/semgrep-rule-variant-creator/SKILL.md",
-  "description": "Creates language variants of existing Semgrep rules.",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/semgrep-rule-variant-creator",
+  "description": "Creates language variants of existing Semgrep rules with proper applicability analysis and test-driven validation",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/semgrep-rule-variant-creator/skills/semgrep-rule-variant-creator/SKILL.md"
+    "repoPath": "plugins/semgrep-rule-variant-creator/.claude-plugin/plugin.json"
   }
 }

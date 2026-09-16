@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:sharp-edges",
   "displayName": "Sharp Edges",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/sharp-edges/skills/sharp-edges/SKILL.md",
-  "description": "Identifies error-prone APIs, dangerous configurations, and footgun designs that enable security mistakes.",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/sharp-edges",
+  "description": "Identify error-prone APIs, dangerous configurations, and footgun designs that enable security mistakes",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/sharp-edges/skills/sharp-edges/SKILL.md"
+    "repoPath": "plugins/sharp-edges/.claude-plugin/plugin.json"
   }
 }

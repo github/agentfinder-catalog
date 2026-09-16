@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-sdk-python",
+  "displayName": "Azure SDK Python",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python",
+  "description": "Azure SDK patterns and best practices for Python developers covering AI, storage, identity, monitoring, messaging, and management libraries.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/.claude-plugin/plugin.json"
+  }
+}

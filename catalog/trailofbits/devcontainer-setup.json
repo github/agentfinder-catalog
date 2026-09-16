@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:devcontainer-setup",
   "displayName": "Devcontainer Setup",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/devcontainer-setup/skills/devcontainer-setup/SKILL.md",
-  "description": "Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes.",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/devcontainer-setup",
+  "description": "Create pre-configured devcontainers with Claude Code and language-specific tooling",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/devcontainer-setup/skills/devcontainer-setup/SKILL.md"
+    "repoPath": "plugins/devcontainer-setup/.claude-plugin/plugin.json"
   }
 }

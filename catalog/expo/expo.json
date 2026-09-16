@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:expo:skills:expo",
+  "displayName": "Expo",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/expo/skills/blob/main/plugins/expo",
+  "description": "Official Expo skills for building, deploying, upgrading, and debugging Expo apps",
+  "metadata": {
+    "sourceSet": "expo/skills",
+    "repoPath": "plugins/expo/.claude-plugin/plugin.json"
+  }
+}

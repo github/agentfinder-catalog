@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:dotnet-diag",
+  "displayName": ".NET Diag",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-diag",
+  "description": "Skills for .NET performance investigations, debugging, and incident analysis.",
+  "metadata": {
+    "sourceSet": "dotnet/skills",
+    "repoPath": "plugins/dotnet-diag/.claude-plugin/plugin.json"
+  }
+}

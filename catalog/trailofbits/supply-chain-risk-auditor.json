@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:supply-chain-risk-auditor",
   "displayName": "Supply Chain Risk Auditor",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor/SKILL.md",
-  "description": "Identifies dependencies at heightened risk of exploitation or takeover.",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/supply-chain-risk-auditor",
+  "description": "Audit a project's npm, PyPI, and Go dependencies for supply-chain risk: version-matched advisories for direct dependencies and the full lockfile tree, abandoned upstreams, npm publisher concentration, and install scripts",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor/SKILL.md"
+    "repoPath": "plugins/supply-chain-risk-auditor/.claude-plugin/plugin.json"
   }
 }

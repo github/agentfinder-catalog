@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:second-opinion",
   "displayName": "Second Opinion",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/second-opinion/skills/second-opinion/SKILL.md",
-  "description": "Runs external LLM code reviews (OpenAI Codex or Google Gemini CLI) on uncommitted changes, branch diffs, or specific commits.",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/second-opinion",
+  "description": "Gets independent code reviews from Codex or Antigravity for uncommitted changes, branch diffs, and commits.",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/second-opinion/skills/second-opinion/SKILL.md"
+    "repoPath": "plugins/second-opinion/.claude-plugin/plugin.json"
   }
 }

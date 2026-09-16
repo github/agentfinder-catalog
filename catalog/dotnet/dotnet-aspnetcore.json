@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:dotnet-aspnetcore",
+  "displayName": ".NET ASP.NET Core",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-aspnetcore",
+  "description": "ASP.NET Core web development skills including middleware, endpoints, real-time communication, and API patterns.",
+  "metadata": {
+    "sourceSet": "dotnet/skills",
+    "repoPath": "plugins/dotnet-aspnetcore/.claude-plugin/plugin.json"
+  }
+}

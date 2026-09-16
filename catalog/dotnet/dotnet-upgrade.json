@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:dotnet-upgrade",
+  "displayName": ".NET Upgrade",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-upgrade",
+  "description": "Skills for migrating and upgrading .NET projects across framework versions, language features, and compatibility targets.",
+  "metadata": {
+    "sourceSet": "dotnet/skills",
+    "repoPath": "plugins/dotnet-upgrade/.claude-plugin/plugin.json"
+  }
+}

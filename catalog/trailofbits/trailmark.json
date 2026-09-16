@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:trailmark",
   "displayName": "Trailmark",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/trailmark/skills/trailmark/SKILL.md",
-  "description": "Builds and queries multi-language source code graphs for security analysis.",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/trailmark",
+  "description": "Builds source and binary code graphs for security analysis, context slicing, mutation testing, cryptographic protocol modeling, finding triage, and variant analysis.",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/trailmark/skills/trailmark/SKILL.md"
+    "repoPath": "plugins/trailmark/.claude-plugin/plugin.json"
   }
 }

@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:constant-time-analysis",
   "displayName": "Constant Time Analysis",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/constant-time-analysis/skills/constant-time-analysis/SKILL.md",
-  "description": "Detects timing side-channel vulnerabilities in cryptographic code.",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/constant-time-analysis",
+  "description": "Detect compiler-induced timing side-channels in cryptographic code",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/constant-time-analysis/skills/constant-time-analysis/SKILL.md"
+    "repoPath": "plugins/constant-time-analysis/.claude-plugin/plugin.json"
   }
 }

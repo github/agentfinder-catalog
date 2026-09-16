@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:trailofbits:skills:testing-handbook-skills",
+  "displayName": "Testing Handbook Skills",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/testing-handbook-skills",
+  "description": "Skills from the Trail of Bits Application Security Testing Handbook (appsec.guide)",
+  "metadata": {
+    "sourceSet": "trailofbits/skills",
+    "repoPath": "plugins/testing-handbook-skills/.claude-plugin/plugin.json"
+  }
+}

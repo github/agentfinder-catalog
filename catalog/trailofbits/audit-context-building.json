@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:audit-context-building",
   "displayName": "Audit Context Building",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/audit-context-building/skills/audit-context-building/SKILL.md",
-  "description": "Enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/audit-context-building",
+  "description": "Understand a codebase before looking for bugs in it. Reads it function by function, records what each one assumes and depends on, and saves the write-ups to files instead of filling up the conversation.",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/audit-context-building/skills/audit-context-building/SKILL.md"
+    "repoPath": "plugins/audit-context-building/.claude-plugin/plugin.json"
   }
 }

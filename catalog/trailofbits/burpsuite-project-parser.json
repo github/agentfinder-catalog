@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:burpsuite-project-parser",
-  "displayName": "Burpsuite Project Parser",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/burpsuite-project-parser/skills/burpsuite-project-parser/SKILL.md",
-  "description": "Searches and explores Burp Suite project files (.burp) from the command line.",
+  "displayName": "Burp Suite Project Parser",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/burpsuite-project-parser",
+  "description": "Search and extract data from Burp Suite project files (.burp) for security analysis",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/burpsuite-project-parser/skills/burpsuite-project-parser/SKILL.md"
+    "repoPath": "plugins/burpsuite-project-parser/.claude-plugin/plugin.json"
   }
 }

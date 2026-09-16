@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:property-based-testing",
   "displayName": "Property Based Testing",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/property-based-testing/skills/property-based-testing/SKILL.md",
-  "description": "Provides guidance for property-based testing across multiple languages and smart contracts.",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/property-based-testing",
+  "description": "Write, review, and triage property-based tests — Hypothesis, fast-check, proptest, and Echidna or Medusa for Solidity invariants",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/property-based-testing/skills/property-based-testing/SKILL.md"
+    "repoPath": "plugins/property-based-testing/.claude-plugin/plugin.json"
   }
 }

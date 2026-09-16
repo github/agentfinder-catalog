@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:fp-check",
-  "displayName": "Fp Check",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/fp-check/skills/fp-check/SKILL.md",
-  "description": "Systematically verifies suspected security bugs to eliminate false positives, producing a TRUE POSITIVE or FALSE POSITIVE verdict with documented...",
+  "displayName": "FP Check",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/fp-check",
+  "description": "Systematic false positive verification for security bug analysis with mandatory gate reviews",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/fp-check/skills/fp-check/SKILL.md"
+    "repoPath": "plugins/fp-check/.claude-plugin/plugin.json"
   }
 }

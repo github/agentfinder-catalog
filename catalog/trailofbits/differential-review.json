@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:differential-review",
   "displayName": "Differential Review",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/differential-review/skills/differential-review/SKILL.md",
-  "description": "Performs security-focused differential review of code changes (PRs, commits, diffs).",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/differential-review",
+  "description": "Security-focused differential review of code changes with git history analysis and blast radius estimation",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/differential-review/skills/differential-review/SKILL.md"
+    "repoPath": "plugins/differential-review/.claude-plugin/plugin.json"
   }
 }

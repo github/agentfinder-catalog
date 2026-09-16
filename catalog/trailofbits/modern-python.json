@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:modern-python",
   "displayName": "Modern Python",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/modern-python/skills/modern-python/SKILL.md",
-  "description": "Configures Python projects with modern tooling (uv, ruff, ty).",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/modern-python",
+  "description": "Modern Python best practices. Use when creating new Python projects, and writing Python scripts, or migrating existing projects from legacy tools.",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/modern-python/skills/modern-python/SKILL.md"
+    "repoPath": "plugins/modern-python/.claude-plugin/plugin.json"
   }
 }

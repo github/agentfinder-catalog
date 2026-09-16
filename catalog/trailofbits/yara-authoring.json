@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:trailofbits:skills:yara-authoring",
+  "displayName": "YARA Authoring",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/yara-authoring",
+  "description": "YARA-X detection rule authoring with linting and quality analysis",
+  "metadata": {
+    "sourceSet": "trailofbits/skills",
+    "repoPath": "plugins/yara-authoring/.claude-plugin/plugin.json"
+  }
+}

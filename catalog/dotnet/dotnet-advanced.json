@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:dotnet:skills:dotnet-advanced",
+  "displayName": ".NET Advanced",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/dotnet/skills/blob/main/plugins/dotnet-advanced",
+  "description": "Advanced .NET and C# skills for niche scenarios that are not part of the core dotnet plugin.",
+  "metadata": {
+    "sourceSet": "dotnet/skills",
+    "repoPath": "plugins/dotnet-advanced/.claude-plugin/plugin.json"
+  }
+}

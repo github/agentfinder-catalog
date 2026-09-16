@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shopify:liquid-skills:liquid-skills",
+  "displayName": "Liquid Skills",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/shopify/liquid-skills/blob/main/plugins/liquid-skills",
+  "description": "Liquid language fundamentals, CSS/JS/HTML coding standards, and WCAG accessibility patterns for Shopify themes",
+  "metadata": {
+    "sourceSet": "shopify/liquid-skills",
+    "repoPath": "plugins/liquid-skills/.claude-plugin/plugin.json"
+  }
+}

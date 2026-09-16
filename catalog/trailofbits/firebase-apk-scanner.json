@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:firebase-apk-scanner",
-  "displayName": "Firebase Apk Scanner",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/firebase-apk-scanner/skills/firebase-apk-scanner/SKILL.md",
-  "description": "Scans Android APKs for Firebase security misconfigurations including open databases, storage buckets, authentication issues, and exposed cloud...",
+  "displayName": "Firebase APK Scanner",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/firebase-apk-scanner",
+  "description": "Scan Android APKs for Firebase security misconfigurations including open databases, storage buckets, authentication issues, and exposed cloud functions. For authorized security research only.",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/firebase-apk-scanner/skills/firebase-apk-scanner/SKILL.md"
+    "repoPath": "plugins/firebase-apk-scanner/.claude-plugin/plugin.json"
   }
 }

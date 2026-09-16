@@ -1,11 +1,11 @@
 {
   "identifier": "urn:ai:github.com:trailofbits:skills:mutation-testing",
   "displayName": "Mutation Testing",
-  "mediaType": "application/ai-skill",
-  "url": "https://github.com/trailofbits/skills/blob/main/plugins/mutation-testing/skills/mutation-testing/SKILL.md",
-  "description": "Configures mewt or muton mutation testing campaigns - scopes targets, tunes timeouts, and optimizes long-running runs.",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/trailofbits/skills/blob/main/plugins/mutation-testing",
+  "description": "Configures mewt or muton campaigns, analyzes surviving mutants, and investigates bugs exposed by testing gaps. Use when setting up mutation testing, reviewing campaign results, identifying equivalent mutants, or finding bugs from surviving mutations.",
   "metadata": {
     "sourceSet": "trailofbits/skills",
-    "repoPath": "plugins/mutation-testing/skills/mutation-testing/SKILL.md"
+    "repoPath": "plugins/mutation-testing/.claude-plugin/plugin.json"
   }
 }
