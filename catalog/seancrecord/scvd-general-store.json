@@ -1,0 +1,21 @@
+{
+  "identifier": "urn:ai:github.com:seancrecord:scvd-general-store-repo:scvd-general-store",
+  "displayName": "SCVD General Store",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/seancrecord/scvd-general-store-repo/blob/main/skills/scvd-general-store/SKILL.md",
+  "description": "Evidence observatory for agentic commerce: free x402 preflight of any endpoint, free conformance checks of any issuer's signed offers and receipts, and a live practice counter from $0.001. Every artifact is ed25519-signed and verifies free.",
+  "tags": [
+    "x402",
+    "agentic-commerce",
+    "conformance",
+    "verification",
+    "signed-artifacts",
+    "usdc",
+    "payments",
+    "skill"
+  ],
+  "metadata": {
+    "sourceSet": "seancrecord/scvd-general-store-repo",
+    "repoPath": "skills/scvd-general-store/SKILL.md"
+  }
+}

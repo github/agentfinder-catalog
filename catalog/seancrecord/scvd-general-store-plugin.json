@@ -1,0 +1,18 @@
+{
+  "identifier": "urn:ai:github.com:seancrecord:scvd-general-store-repo:scvd-general-store-plugin",
+  "displayName": "SCVD General Store (plugin)",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/seancrecord/scvd-general-store-repo/blob/main/.claude-plugin/plugin.json",
+  "description": "Evidence observatory for agentic commerce: x402 preflight, receipt checks, settlement attestations. The store's MCP door and its skill, as one installable plugin.",
+  "tags": [
+    "x402",
+    "agentic-commerce",
+    "verification",
+    "mcp-server",
+    "skill"
+  ],
+  "metadata": {
+    "sourceSet": "seancrecord/scvd-general-store-repo",
+    "repoPath": ".claude-plugin/plugin.json"
+  }
+}

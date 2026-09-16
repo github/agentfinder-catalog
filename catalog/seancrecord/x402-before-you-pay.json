@@ -1,0 +1,19 @@
+{
+  "identifier": "urn:ai:github.com:seancrecord:scvd-general-store-repo:x402-before-you-pay",
+  "displayName": "x402: Before You Pay",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/seancrecord/scvd-general-store-repo/blob/main/examples/claude-code/SKILL.md",
+  "description": "Before an agent pays an x402 endpoint, read its 402 terms and run scvd.store's free preflight and dry run over the same bytes; decide pay, do_not_pay or cannot_tell with every reason named.",
+  "tags": [
+    "x402",
+    "payments",
+    "preflight",
+    "agentic-commerce",
+    "verification",
+    "skill"
+  ],
+  "metadata": {
+    "sourceSet": "seancrecord/scvd-general-store-repo",
+    "repoPath": "examples/claude-code/SKILL.md"
+  }
+}
