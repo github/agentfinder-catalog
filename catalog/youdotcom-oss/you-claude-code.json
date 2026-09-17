@@ -1,0 +1,21 @@
+{
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "identifier": "urn:ai:you.com:plugins:you-claude-code",
+  "displayName": "You.com Claude Code",
+  "type": "application/vnd.anthropic.claude-plugin+json",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/.claude-plugin/plugin.json",
+  "description": "You.com skills for search, contents, research, finance, and integration discovery with MCP, ARD, API-key, OAuth, and MPP/x402 payment guidance.",
+  "capabilities": [
+    "skills-bundle",
+    "mcp-configuration"
+  ],
+  "representativeQueries": [
+    "install You.com skills in Claude Code via a plugin",
+    "add You.com web search to Claude Code"
+  ],
+  "metadata": {
+    "sourceSet": "youdotcom-oss/agent-skills",
+    "repoPath": ".claude-plugin/plugin.json"
+  }
+}

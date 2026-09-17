@@ -1,0 +1,21 @@
+{
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "identifier": "urn:ai:you.com:plugins:you-copilot-cli",
+  "displayName": "You.com Copilot CLI",
+  "type": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/.plugin/plugin.json",
+  "description": "You.com skills for search, contents, research, finance, and integration discovery with MCP, ARD, API-key, OAuth, and MPP/x402 payment guidance.",
+  "capabilities": [
+    "skills-bundle",
+    "mcp-configuration"
+  ],
+  "representativeQueries": [
+    "install You.com skills in GitHub Copilot CLI",
+    "add You.com research tools to Copilot CLI"
+  ],
+  "metadata": {
+    "sourceSet": "youdotcom-oss/agent-skills",
+    "repoPath": ".plugin/plugin.json"
+  }
+}

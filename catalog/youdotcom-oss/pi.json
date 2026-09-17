@@ -1,0 +1,21 @@
+{
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "identifier": "urn:ai:you.com:packages:pi",
+  "displayName": "You.com Pi",
+  "type": "application/agent-plugins+json",
+  "mediaType": "application/agent-plugins+json",
+  "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/packages/pi/package.json",
+  "description": "Pi extension for You.com MCP tools and skills.",
+  "capabilities": [
+    "skills-bundle",
+    "mcp-configuration"
+  ],
+  "representativeQueries": [
+    "install You.com MCP tools in pi",
+    "add You.com skills to pi"
+  ],
+  "metadata": {
+    "sourceSet": "youdotcom-oss/agent-skills",
+    "repoPath": "packages/pi/package.json"
+  }
+}

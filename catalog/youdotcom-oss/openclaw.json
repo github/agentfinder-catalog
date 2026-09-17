@@ -1,0 +1,21 @@
+{
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "identifier": "urn:ai:you.com:packages:openclaw",
+  "displayName": "You.com OpenClaw",
+  "type": "application/vnd.openclaw.plugin+json",
+  "mediaType": "application/vnd.openclaw.plugin+json",
+  "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/packages/openclaw/openclaw.plugin.json",
+  "description": "You.com skill pack with MCP setup metadata.",
+  "capabilities": [
+    "skills-bundle",
+    "mcp-configuration"
+  ],
+  "representativeQueries": [
+    "install You.com skills in OpenClaw",
+    "add You.com MCP setup to OpenClaw"
+  ],
+  "metadata": {
+    "sourceSet": "youdotcom-oss/agent-skills",
+    "repoPath": "packages/openclaw/openclaw.plugin.json"
+  }
+}

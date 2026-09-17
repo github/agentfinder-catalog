@@ -1,0 +1,23 @@
+{
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "identifier": "urn:ai:you.com:skills:you-web",
+  "displayName": "You Web",
+  "type": "application/ai-skill",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/skills/you-web/SKILL.md",
+  "description": "Use You.com MCP tools for current web search, URL content extraction, cited web synthesis, and x402-aware web access.",
+  "capabilities": [
+    "web-search",
+    "content-extraction",
+    "cited-synthesis"
+  ],
+  "representativeQueries": [
+    "search the web for the latest news on AI regulation",
+    "extract the main content of this URL",
+    "what are the top results for rust async runtimes"
+  ],
+  "metadata": {
+    "sourceSet": "youdotcom-oss/agent-skills",
+    "repoPath": "skills/you-web/SKILL.md"
+  }
+}

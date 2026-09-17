@@ -1,0 +1,21 @@
+{
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "identifier": "urn:ai:you.com:plugins:you-codex",
+  "displayName": "You.com Codex",
+  "type": "application/vnd.openai.codex-plugin+json",
+  "mediaType": "application/vnd.openai.codex-plugin+json",
+  "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/.codex-plugin/plugin.json",
+  "description": "You.com skills for search, contents, research, finance, and integration discovery with MCP, ARD, API-key, OAuth, and MPP/x402 payment guidance.",
+  "capabilities": [
+    "skills-bundle",
+    "mcp-configuration"
+  ],
+  "representativeQueries": [
+    "install You.com skills in Codex via a plugin",
+    "add You.com web search to Codex"
+  ],
+  "metadata": {
+    "sourceSet": "youdotcom-oss/agent-skills",
+    "repoPath": ".codex-plugin/plugin.json"
+  }
+}
