@@ -1,11 +1,22 @@
 {
-  "identifier": "urn:ai:github.com:youdotcom-oss:mcp:you-mcp",
-  "displayName": "You.com MCP",
-  "mediaType": "application/mcp-server+json",
-  "url": "https://api.you.com/mcp",
-  "description": "You.com hosted MCP server for web search, URL content extraction, cited research, finance answers, and integration discovery. Registry name: io.github.youdotcom-oss/mcp.",
-  "metadata": {
-    "sourceSet": "youdotcom-oss/mcp",
-    "repoPath": "README.md"
-  }
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "identifier": "urn:ai:you.com:mcp:you-mcp",
+  "displayName": "You.com MCP Server",
+  "type": "application/mcp-server-card+json",
+  "mediaType": "application/mcp-server-card+json",
+  "url": "https://api.you.com/mcp/server-card",
+  "description": "Hosted You.com MCP server: web search, URL content extraction, cited research synthesis, finance research, and agentic resource discovery over Streamable HTTP.",
+  "capabilities": [
+    "you-search",
+    "you-contents",
+    "you-research",
+    "you-finance",
+    "you-discover",
+    "you-balance"
+  ],
+  "representativeQueries": [
+    "search the web from my coding agent",
+    "extract the contents of this article URL",
+    "research this company's financials with citations"
+  ]
 }

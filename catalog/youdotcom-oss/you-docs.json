@@ -1,0 +1,17 @@
+{
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "identifier": "urn:ai:you.com:mcp:you-docs",
+  "displayName": "You.com Docs MCP Server",
+  "type": "application/mcp-server+json",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://you.com/docs/_mcp/server",
+  "description": "You.com developer documentation MCP server: search API references, guides, and code examples with sourced answers. Keyless, streamable HTTP.",
+  "capabilities": [
+    "searchDocs"
+  ],
+  "representativeQueries": [
+    "how do I use livecrawl with the Web Search API",
+    "show me the Python SDK quickstart",
+    "what does the Research API output_schema parameter do"
+  ]
+}

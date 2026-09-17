@@ -1,6 +1,8 @@
 {
+  "@context": "https://agenticresourcediscovery.org/context/v1",
   "identifier": "urn:ai:you.com:skills:you-onboarding",
   "displayName": "You.com Onboarding",
+  "type": "application/ai-skill",
   "mediaType": "application/ai-skill",
   "url": "https://you.com/SKILL.md",
   "description": "Onboard coding agents to You.com: install the You.com skills or plugin for the current host, reload, then route to local use (OAuth) or building an integration via you-discover and an API key.",
@@ -8,5 +10,14 @@
     "onboarding",
     "mcp",
     "agent-skills"
+  ],
+  "capabilities": [
+    "setup",
+    "mcp-configuration"
+  ],
+  "representativeQueries": [
+    "set up You.com tools in Claude Code",
+    "how do I get a You.com API key",
+    "install the You.com plugin for pi"
   ]
 }

@@ -1,9 +1,18 @@
 {
-  "identifier": "urn:ai:github.com:youdotcom-oss:agent-skills:you-discover",
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "identifier": "urn:ai:you.com:skills:you-discover",
   "displayName": "You Discover",
+  "type": "application/ai-skill",
   "mediaType": "application/ai-skill",
   "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/skills/you-discover/SKILL.md",
   "description": "Route You.com integration planning through the you-discover MCP tool, AI Catalog entries, Docs MCP, and direct API options.",
+  "capabilities": [
+    "integration-discovery"
+  ],
+  "representativeQueries": [
+    "find MCP servers that provide weather data",
+    "how do I integrate You.com APIs into my coding agent"
+  ],
   "metadata": {
     "sourceSet": "youdotcom-oss/agent-skills",
     "repoPath": "skills/you-discover/SKILL.md"

@@ -1,0 +1,21 @@
+{
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "identifier": "urn:ai:you.com:plugins:you-grok",
+  "displayName": "You.com Grok",
+  "type": "application/vnd.xai.grok-plugin+json",
+  "mediaType": "application/vnd.xai.grok-plugin+json",
+  "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/.grok-plugin/plugin.json",
+  "description": "You.com skills for search, contents, research, finance, and integration discovery with MCP, ARD, API-key, OAuth, and MPP/x402 payment guidance.",
+  "capabilities": [
+    "skills-bundle",
+    "mcp-configuration"
+  ],
+  "representativeQueries": [
+    "install You.com skills in Grok via a plugin",
+    "add You.com research tools to Grok"
+  ],
+  "metadata": {
+    "sourceSet": "youdotcom-oss/agent-skills",
+    "repoPath": ".grok-plugin/plugin.json"
+  }
+}

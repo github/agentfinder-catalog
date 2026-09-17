@@ -1,9 +1,19 @@
 {
-  "identifier": "urn:ai:github.com:youdotcom-oss:agent-skills:you-finance",
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "identifier": "urn:ai:you.com:skills:you-finance",
   "displayName": "You Finance",
+  "type": "application/ai-skill",
   "mediaType": "application/ai-skill",
   "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/skills/you-finance/SKILL.md",
   "description": "Route finance questions to an existing local script, a new You.com Finance Research API call, or an MCP payment-aware fallback.",
+  "capabilities": [
+    "finance-research"
+  ],
+  "representativeQueries": [
+    "what was Apple's latest quarterly revenue",
+    "compare the P/E ratios of MSFT and GOOGL",
+    "research NVIDIA's earnings guidance"
+  ],
   "metadata": {
     "sourceSet": "youdotcom-oss/agent-skills",
     "repoPath": "skills/you-finance/SKILL.md"

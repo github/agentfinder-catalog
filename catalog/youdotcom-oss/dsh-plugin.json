@@ -1,0 +1,21 @@
+{
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "identifier": "urn:ai:you.com:packages:dsh-plugin",
+  "displayName": "You.com dsh-plugin",
+  "type": "application/agent-plugins+json",
+  "mediaType": "application/agent-plugins+json",
+  "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/packages/dsh-plugin/package.json",
+  "description": "You.com agent skill provider and MCP setup for DeepSeek Harness (dsh), registered via ctx.skills.",
+  "capabilities": [
+    "skills-bundle",
+    "mcp-configuration"
+  ],
+  "representativeQueries": [
+    "register You.com skills with DeepSeek Harness",
+    "set up You.com MCP for dsh"
+  ],
+  "metadata": {
+    "sourceSet": "youdotcom-oss/agent-skills",
+    "repoPath": "packages/dsh-plugin/package.json"
+  }
+}

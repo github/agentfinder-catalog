@@ -1,9 +1,18 @@
 {
-  "identifier": "urn:ai:github.com:youdotcom-oss:agent-skills:you-free",
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "identifier": "urn:ai:you.com:skills:you-free",
   "displayName": "You Free",
+  "type": "application/ai-skill",
   "mediaType": "application/ai-skill",
   "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/skills/you-free/SKILL.md",
   "description": "Use the free You.com MCP profile for unauthenticated basic web search with you-search only.",
+  "capabilities": [
+    "web-search"
+  ],
+  "representativeQueries": [
+    "do a quick web search without setting up an API key",
+    "search for the current stable version of bun"
+  ],
   "metadata": {
     "sourceSet": "youdotcom-oss/agent-skills",
     "repoPath": "skills/you-free/SKILL.md"
