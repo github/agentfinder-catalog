@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:youdotcom-oss:agent-skills:you-cursor",
+  "displayName": "You.com Cursor",
+  "mediaType": "application/vnd.cursor.cursor-plugin+json",
+  "url": "https://github.com/youdotcom-oss/agent-skills/blob/main",
+  "description": "You.com Cursor plugin for web search, research, finance, and integration discovery skills.",
+  "metadata": {
+    "sourceSet": "youdotcom-oss/agent-skills",
+    "repoPath": ".cursor-plugin/plugin.json"
+  }
+}
