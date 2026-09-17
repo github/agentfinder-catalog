@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:youdotcom-oss:agent-skills:you-agent-plugin",
+  "displayName": "You.com Agent Plugin",
+  "mediaType": "application/agent-plugins+json",
+  "url": "https://github.com/youdotcom-oss/agent-skills/blob/main/plugin.json",
+  "description": "Portable Agent Plugins v1.0.0 package bundling You.com skills and MCP servers (search, research, finance, and integration discovery) for any conformant client.",
+  "metadata": {
+    "sourceSet": "youdotcom-oss/agent-skills",
+    "repoPath": "plugin.json"
+  }
+}
