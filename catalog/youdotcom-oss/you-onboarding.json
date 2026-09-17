@@ -1,0 +1,12 @@
+{
+  "identifier": "urn:ai:you.com:skills:you-onboarding",
+  "displayName": "You.com Onboarding",
+  "mediaType": "application/ai-skill",
+  "url": "https://you.com/SKILL.md",
+  "description": "Onboard coding agents to You.com: install the You.com skills or plugin for the current host, reload, then route to local use (OAuth) or building an integration via you-discover and an API key.",
+  "tags": [
+    "onboarding",
+    "mcp",
+    "agent-skills"
+  ]
+}
