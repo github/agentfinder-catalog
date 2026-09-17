@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:markstream-install",
+  "displayName": "Markstream Install",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/markstream-install/SKILL.md",
+  "description": "Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, and Vue 2 applications.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/markstream-install/SKILL.md"
+  }
+}

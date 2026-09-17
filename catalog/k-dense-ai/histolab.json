@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:histolab",
+  "displayName": "Histolab",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/histolab/SKILL.md",
+  "description": "Lightweight WSI tile extraction and preprocessing. Use for basic slide processing, tissue detection, tile extraction, and stain normalization for H&E...",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/histolab/SKILL.md"
+  }
+}

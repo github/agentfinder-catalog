@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:tmux-agent-manager",
+  "displayName": "Tmux Agent Manager",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/tmux-agent-manager/SKILL.md",
+  "description": "Manage multiple Claude Code agent sessions running in tmux. Report a status summary of all sessions, deliver instructions to a specific agent via tmux..",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/tmux-agent-manager/SKILL.md"
+  }
+}

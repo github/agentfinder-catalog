@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:optimize-simplicite-logs",
+  "displayName": "Optimize Simplicite Logs",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/optimize-simplicite-logs/SKILL.md",
+  "description": "capability to parse Simplicité logs from a raw `.txt` file, filter fields to reduce noise, and output the result as structured JSON.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/optimize-simplicite-logs/SKILL.md"
+  }
+}

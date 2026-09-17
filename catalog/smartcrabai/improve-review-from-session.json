@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:smartcrabai:agent-skills:improve-review-from-session",
+  "displayName": "Improve Review From Session",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/smartcrabai/agent-skills/blob/main/skills/improve-review-from-session/SKILL.md",
+  "description": "Use this when the user asks to capture lessons from this session as review perspectives, save review viewpoints, turn this session's mistakes/feedback..",
+  "metadata": {
+    "sourceSet": "smartcrabai/agent-skills",
+    "repoPath": "skills/improve-review-from-session/SKILL.md"
+  }
+}

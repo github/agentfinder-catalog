@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:suggest-awesome-github-copilot-skills",
+  "displayName": "Suggest Awesome GitHub Copilot Skills",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/suggest-awesome-github-copilot-skills/SKILL.md",
+  "description": "Suggest relevant GitHub Copilot skills from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/suggest-awesome-github-copilot-skills/SKILL.md"
+  }
+}

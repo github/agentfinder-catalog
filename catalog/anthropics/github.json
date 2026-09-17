@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:github",
   "displayName": "Github",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/external_plugins/github",
   "description": "Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with...",
   "metadata": {

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:create-implementation-plan",
+  "displayName": "Create Implementation Plan",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/create-implementation-plan/SKILL.md",
+  "description": "Create a new implementation plan file for new features, refactoring existing code or upgrading packages, design, architecture or infrastructure.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/create-implementation-plan/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-pr-resolve-comments",
+  "displayName": "Slang PR Resolve Comments",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-pr-resolve-comments/SKILL.md",
+  "description": "Resolve GitHub PR review feedback and CI failures. Use when asked to monitor a PR, handle LLM and human review threads and general PR comments from...",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-pr-resolve-comments/SKILL.md"
+  }
+}

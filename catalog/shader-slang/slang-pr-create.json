@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-pr-create",
+  "displayName": "Slang PR Create",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-pr-create/SKILL.md",
+  "description": "Create and publish a GitHub pull request for Slang work, defaulting to the local origin remote and using draft PRs only for shader-slang/* targets...",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-pr-create/SKILL.md"
+  }
+}

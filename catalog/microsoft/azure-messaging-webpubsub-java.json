@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-messaging-webpubsub-java",
+  "displayName": "Azure Messaging Webpubsub Java",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-java/skills/azure-messaging-webpubsub-java/SKILL.md",
+  "description": "Build real-time web applications with Azure Web PubSub SDK for Java.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-java/skills/azure-messaging-webpubsub-java/SKILL.md"
+  }
+}

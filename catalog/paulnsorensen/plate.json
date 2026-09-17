@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:plate",
+  "displayName": "Plate",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/plate/SKILL.md",
+  "description": "Turn finished local work into a commit, an ordinary pull request, or a stacked pull-request chain.",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/plate/SKILL.md"
+  }
+}

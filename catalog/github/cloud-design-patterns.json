@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:cloud-design-patterns",
+  "displayName": "Cloud Design Patterns",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/cloud-design-patterns/SKILL.md",
+  "description": "Cloud design patterns for distributed systems architecture covering 42 industry-standard patterns across reliability, performance, messaging, security..",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/cloud-design-patterns/SKILL.md"
+  }
+}

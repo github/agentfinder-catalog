@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:imaging-data-commons",
+  "displayName": "Imaging Data Commons",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/imaging-data-commons/SKILL.md",
+  "description": "Query and download public cancer imaging data from NCI Imaging Data Commons using idc-index.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/imaging-data-commons/SKILL.md"
+  }
+}

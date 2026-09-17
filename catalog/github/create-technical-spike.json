@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:create-technical-spike",
+  "displayName": "Create Technical Spike",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/create-technical-spike/SKILL.md",
+  "description": "Create time-boxed technical spike documents for researching and resolving critical development decisions before implementation.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/create-technical-spike/SKILL.md"
+  }
+}

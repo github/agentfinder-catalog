@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:to-spec",
+  "displayName": "To Spec",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/engineering/to-spec/SKILL.md",
+  "description": "Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/engineering/to-spec/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:seaborn",
+  "displayName": "Seaborn",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/seaborn/SKILL.md",
+  "description": "Statistical visualization with pandas integration. Use for quick exploration of distributions, relationships, and categorical comparisons with...",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/seaborn/SKILL.md"
+  }
+}

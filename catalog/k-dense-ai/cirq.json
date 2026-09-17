@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:cirq",
+  "displayName": "Cirq",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/cirq/SKILL.md",
+  "description": "Google quantum computing framework. Use when targeting Google Quantum AI hardware, designing noise-aware circuits, or running quantum characterization..",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/cirq/SKILL.md"
+  }
+}

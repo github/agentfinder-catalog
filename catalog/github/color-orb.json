@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:color-orb",
+  "displayName": "Color Orb",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/color-orb/plugin.json",
+  "description": "Interact with an agent-controlled color orb and live activity log in a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/color-orb/plugin.json"
+  }
+}

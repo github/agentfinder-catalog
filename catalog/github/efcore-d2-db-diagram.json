@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:efcore-d2-db-diagram",
+  "displayName": "Efcore D2 DB Diagram",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/efcore-d2-db-diagram/SKILL.md",
+  "description": "Generate D2 database diagrams from Entity Framework Core models.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/efcore-d2-db-diagram/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:pytorch-lightning",
+  "displayName": "Pytorch Lightning",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/pytorch-lightning/SKILL.md",
+  "description": "Deep learning framework (PyTorch Lightning / lightning package).",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/pytorch-lightning/SKILL.md"
+  }
+}

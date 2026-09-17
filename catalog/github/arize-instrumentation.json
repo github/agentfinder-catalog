@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:arize-instrumentation",
+  "displayName": "Arize Instrumentation",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/arize-instrumentation/SKILL.md",
+  "description": "Adds Arize AX tracing to an LLM application for the first time.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/arize-instrumentation/SKILL.md"
+  }
+}

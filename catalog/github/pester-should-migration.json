@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:pester-should-migration",
+  "displayName": "Pester Should Migration",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/pester-should-migration/SKILL.md",
+  "description": "Experimental (preview) Pester skill for migrating classic Should -Be (v5) assertion syntax to the new Should-* (v6) assertions (note the hyphen, no...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/pester-should-migration/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-ai-language-conversations-py",
+  "displayName": "Azure AI Language Conversations Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-ai-language-conversations-py/SKILL.md",
+  "description": "Implement Conversational Language Understanding (CLU) using the azure-ai-language-conversations Python SDK.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-ai-language-conversations-py/SKILL.md"
+  }
+}

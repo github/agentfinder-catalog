@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:penpot-uiux-design",
+  "displayName": "Penpot Uiux Design",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/penpot-uiux-design/SKILL.md",
+  "description": "Comprehensive guide for creating professional UI/UX designs in Penpot using MCP tools.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/penpot-uiux-design/SKILL.md"
+  }
+}

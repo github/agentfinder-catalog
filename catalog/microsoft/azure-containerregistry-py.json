@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-containerregistry-py",
+  "displayName": "Azure Containerregistry Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-containerregistry-py/SKILL.md",
+  "description": "Azure Container Registry SDK for Python. Use for managing container images, artifacts, and repositories.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-containerregistry-py/SKILL.md"
+  }
+}

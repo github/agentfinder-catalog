@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:create-agentsmd",
+  "displayName": "Create Agentsmd",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/create-agentsmd/SKILL.md",
+  "description": "Prompt for generating an AGENTS.md file for a repository",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/create-agentsmd/SKILL.md"
+  }
+}

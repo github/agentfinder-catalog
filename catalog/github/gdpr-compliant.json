@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:gdpr-compliant",
+  "displayName": "Gdpr Compliant",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/gdpr-compliant/SKILL.md",
+  "description": "Apply GDPR-compliant engineering practices across your codebase.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/gdpr-compliant/SKILL.md"
+  }
+}

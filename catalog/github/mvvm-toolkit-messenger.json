@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:mvvm-toolkit-messenger",
+  "displayName": "Mvvm Toolkit Messenger",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/mvvm-toolkit-messenger/SKILL.md",
+  "description": "CommunityToolkit.Mvvm Messenger pub/sub for decoupled communication between ViewModels (or any objects).",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/mvvm-toolkit-messenger/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:power-bi-model-design-review",
+  "displayName": "Power Bi Model Design Review",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/power-bi-model-design-review/SKILL.md",
+  "description": "Comprehensive Power BI data model design review prompt for evaluating model architecture, relationships, and optimization opportunities.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/power-bi-model-design-review/SKILL.md"
+  }
+}

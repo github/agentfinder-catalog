@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:rhino3d-scripts",
+  "displayName": "Rhino3d Scripts",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/rhino3d-scripts/SKILL.md",
+  "description": "Authoring and debugging scripts for Rhinoceros 3D (Rhino 8 and later).",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/rhino3d-scripts/SKILL.md"
+  }
+}

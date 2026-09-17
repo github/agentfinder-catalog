@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-microsoft-playwright-testing-ts",
+  "displayName": "Azure Microsoft Playwright Testing TS",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-typescript/skills/azure-microsoft-playwright-testing-ts/SKILL.md",
+  "description": "Run Playwright tests at scale using Azure Playwright Workspaces (formerly Microsoft Playwright Testing).",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-typescript/skills/azure-microsoft-playwright-testing-ts/SKILL.md"
+  }
+}

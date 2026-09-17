@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-for-legal:product-legal",
   "displayName": "Product Legal",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-for-legal/blob/main/product-legal",
   "description": "Reviews product launches against your risk calibration, answers 'is this a problem?' questions in minutes, checks marketing copy for claims that need...",
   "metadata": {

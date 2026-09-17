@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:next-intl-add-language",
+  "displayName": "Next Intl Add Language",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/next-intl-add-language/SKILL.md",
+  "description": "Add new language to a Next.js + next-intl application",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/next-intl-add-language/SKILL.md"
+  }
+}

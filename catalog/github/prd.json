@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:prd",
+  "displayName": "PRD",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/prd/SKILL.md",
+  "description": "Generate high-quality Product Requirements Documents (PRDs) for software systems and AI-powered features.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/prd/SKILL.md"
+  }
+}

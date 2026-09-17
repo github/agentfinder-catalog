@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-fix-bug",
+  "displayName": "Slang Fix Bug",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-fix-bug/SKILL.md",
+  "description": "Analyze a Slang compiler bug from a test failure, CI log, or GitHub issue. Only invoke when explicitly called via /slang-fix-bug.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-fix-bug/SKILL.md"
+  }
+}

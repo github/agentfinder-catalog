@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:agent-framework-azure-ai-py",
+  "displayName": "Agent Framework Azure AI Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/agent-framework-azure-ai-py/SKILL.md",
+  "description": "Build Azure AI Foundry agents using the Microsoft Agent Framework Python SDK (agent-framework-azure-ai).",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/agent-framework-azure-ai-py/SKILL.md"
+  }
+}

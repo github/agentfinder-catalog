@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:swift-mcp-server-generator",
+  "displayName": "Swift MCP Server Generator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/swift-mcp-server-generator/SKILL.md",
+  "description": "Generate a complete Model Context Protocol server project in Swift using the official MCP Swift SDK package.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/swift-mcp-server-generator/SKILL.md"
+  }
+}

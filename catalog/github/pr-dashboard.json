@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:pr-dashboard",
+  "displayName": "PR Dashboard",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/pr-dashboard/SKILL.md",
+  "description": "Open a GitHub PR dashboard in the browser. Use when the user asks to see their pull requests, open the PR dashboard, show PRs for a date range, or check",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/pr-dashboard/SKILL.md"
+  }
+}

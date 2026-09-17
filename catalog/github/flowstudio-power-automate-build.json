@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:flowstudio-power-automate-build",
+  "displayName": "Flowstudio Power Automate Build",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/flowstudio-power-automate-build/SKILL.md",
+  "description": "Build, scaffold, and deploy Power Automate cloud flows using the FlowStudio MCP server.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/flowstudio-power-automate-build/SKILL.md"
+  }
+}

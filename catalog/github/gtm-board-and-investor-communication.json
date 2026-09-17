@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:gtm-board-and-investor-communication",
+  "displayName": "GTM Board and Investor Communication",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/gtm-board-and-investor-communication/SKILL.md",
+  "description": "Board meeting preparation, investor updates, and executive communication.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/gtm-board-and-investor-communication/SKILL.md"
+  }
+}

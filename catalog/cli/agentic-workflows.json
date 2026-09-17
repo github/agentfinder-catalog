@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:cli:cli:agentic-workflows",
+  "displayName": "Agentic Workflows",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/cli/cli/blob/trunk/.github/skills/agentic-workflows/SKILL.md",
+  "description": "Route gh-aw workflow design/create/debug/upgrade requests to the right prompts.",
+  "metadata": {
+    "sourceSet": "cli/cli",
+    "repoPath": ".github/skills/agentic-workflows/SKILL.md"
+  }
+}

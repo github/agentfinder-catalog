@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:backrooms-canvas",
+  "displayName": "Backrooms Canvas",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/backrooms-canvas/plugin.json",
+  "description": "Wander an endless first-person backrooms in a GitHub Copilot canvas while agent status is ghost-written on the walls.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/backrooms-canvas/plugin.json"
+  }
+}

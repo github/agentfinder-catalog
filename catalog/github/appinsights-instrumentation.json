@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:appinsights-instrumentation",
+  "displayName": "Appinsights Instrumentation",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/appinsights-instrumentation/SKILL.md",
+  "description": "Instrument a webapp to send useful telemetry data to Azure App Insights",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/appinsights-instrumentation/SKILL.md"
+  }
+}

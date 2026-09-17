@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:tiny-tool-town-submitter",
+  "displayName": "Tiny Tool Town Submitter",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/tiny-tool-town-submitter/plugin.json",
+  "description": "Inspect a repository, improve its readiness, and submit a Tiny Tool Town listing from a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/tiny-tool-town-submitter/plugin.json"
+  }
+}

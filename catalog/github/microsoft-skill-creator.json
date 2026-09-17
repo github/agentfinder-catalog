@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:microsoft-skill-creator",
+  "displayName": "Microsoft Skill Creator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/microsoft-skill-creator/SKILL.md",
+  "description": "Create agent skills for Microsoft technologies using Learn MCP tools.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/microsoft-skill-creator/SKILL.md"
+  }
+}

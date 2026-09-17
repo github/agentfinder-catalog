@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:aws-cost-optimize",
+  "displayName": "AWS Cost Optimize",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/aws-cost-optimize/SKILL.md",
+  "description": "Analyze AWS resources used in the app (IaC files and/or resources in a target account/region) and optimize costs - creating GitHub issues for identified",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/aws-cost-optimize/SKILL.md"
+  }
+}

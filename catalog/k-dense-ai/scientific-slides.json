@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:scientific-slides",
+  "displayName": "Scientific Slides",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/scientific-slides/SKILL.md",
+  "description": "Build slide decks and presentations for research talks. Use this for making PowerPoint slides, conference presentations, seminar talks, research...",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/scientific-slides/SKILL.md"
+  }
+}

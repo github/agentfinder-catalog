@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:refactor",
+  "displayName": "Refactor",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/refactor/SKILL.md",
+  "description": "Surgical code refactoring to improve maintainability without changing behavior.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/refactor/SKILL.md"
+  }
+}

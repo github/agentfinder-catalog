@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:signal-write",
+  "displayName": "Signal Write",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/signal-write/SKILL.md",
+  "description": "Emit structured agent signals — hands-up, blocked, done, checkpoint, partnership.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/signal-write/SKILL.md"
+  }
+}

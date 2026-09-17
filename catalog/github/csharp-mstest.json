@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:csharp-mstest",
+  "displayName": "C# Mstest",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/csharp-mstest/SKILL.md",
+  "description": "Get best practices for MSTest 3.x/4.x unit testing, including modern assertion APIs and data-driven tests",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/csharp-mstest/SKILL.md"
+  }
+}

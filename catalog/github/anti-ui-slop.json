@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:anti-ui-slop",
+  "displayName": "Anti UI Slop",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/anti-ui-slop/SKILL.md",
+  "description": "Stop Codex, GitHub Copilot, Claude Code, and Cursor from shipping generic UI.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/anti-ui-slop/SKILL.md"
+  }
+}

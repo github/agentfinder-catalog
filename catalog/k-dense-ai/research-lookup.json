@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:research-lookup",
+  "displayName": "Research Lookup",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/research-lookup/SKILL.md",
+  "description": "Compile current scholarly evidence for a scientific manuscript or research brief.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/research-lookup/SKILL.md"
+  }
+}

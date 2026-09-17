@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-monitor-ingestion-java",
+  "displayName": "Azure Monitor Ingestion Java",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-java/skills/azure-monitor-ingestion-java/SKILL.md",
+  "description": "Azure Monitor Ingestion SDK for Java. Send custom logs to Azure Monitor via Data Collection Rules (DCR) and Data Collection Endpoints (DCE).",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-java/skills/azure-monitor-ingestion-java/SKILL.md"
+  }
+}

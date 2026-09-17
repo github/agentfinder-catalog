@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:copilot-advanced-security-plugin:advanced-security",
+  "displayName": "Advanced Security",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/copilot-advanced-security-plugin/blob/main",
+  "description": "Advanced Security plugin for GitHub Copilot.",
+  "metadata": {
+    "sourceSet": "github/copilot-advanced-security-plugin",
+    "repoPath": ".github/plugin/plugin.json"
+  }
+}

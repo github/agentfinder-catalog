@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:az-cost-optimize",
+  "displayName": "Az Cost Optimize",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/az-cost-optimize/SKILL.md",
+  "description": "Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/az-cost-optimize/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:desk-open",
+  "displayName": "Desk Open",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/desk-open/SKILL.md",
+  "description": "Create and open a new desk in the workshop. Sets up the folder structure, initial journal, and desk identity so the next session that sits down finds...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/desk-open/SKILL.md"
+  }
+}

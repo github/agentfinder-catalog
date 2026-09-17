@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:pinecone-rag",
+  "displayName": "Pinecone RAG",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/pinecone-rag/SKILL.md",
+  "description": "Build production RAG pipelines and persistent agent memory using Pinecone as the vector database backend.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/pinecone-rag/SKILL.md"
+  }
+}

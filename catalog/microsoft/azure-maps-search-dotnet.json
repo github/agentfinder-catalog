@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-maps-search-dotnet",
+  "displayName": "Azure Maps Search .NET",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-dotnet/skills/azure-maps-search-dotnet/SKILL.md",
+  "description": "Azure Maps SDK for .NET. Location-based services including geocoding, routing, rendering, geolocation, and weather.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-dotnet/skills/azure-maps-search-dotnet/SKILL.md"
+  }
+}

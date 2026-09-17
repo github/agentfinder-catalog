@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:readme-blueprint-generator",
+  "displayName": "Readme Blueprint Generator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/readme-blueprint-generator/SKILL.md",
+  "description": "Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repository documentation.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/readme-blueprint-generator/SKILL.md"
+  }
+}

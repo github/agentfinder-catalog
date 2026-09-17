@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:from-the-other-side-anitta",
+  "displayName": "From the Other Side Anitta",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/from-the-other-side-anitta/SKILL.md",
+  "description": "Rigorous challenge profile for Anitta: assumption checks, evidence calibration, and defensible reasoning patterns for Ember collaboration.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/from-the-other-side-anitta/SKILL.md"
+  }
+}

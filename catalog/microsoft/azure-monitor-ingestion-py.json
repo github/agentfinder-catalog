@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-monitor-ingestion-py",
+  "displayName": "Azure Monitor Ingestion Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-monitor-ingestion-py/SKILL.md",
+  "description": "Azure Monitor Ingestion SDK for Python. Use for sending custom logs to Log Analytics workspace via Logs Ingestion API.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-monitor-ingestion-py/SKILL.md"
+  }
+}

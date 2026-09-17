@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-messaging-webpubsubservice-py",
+  "displayName": "Azure Messaging Webpubsubservice Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-messaging-webpubsubservice-py/SKILL.md",
+  "description": "Azure Web PubSub Service SDK for Python. Use for real-time messaging, WebSocket connections, and pub/sub patterns.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-messaging-webpubsubservice-py/SKILL.md"
+  }
+}

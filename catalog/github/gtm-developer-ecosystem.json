@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:gtm-developer-ecosystem",
+  "displayName": "GTM Developer Ecosystem",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/gtm-developer-ecosystem/SKILL.md",
+  "description": "Build and scale developer-led adoption through ecosystem programs. Use when deciding open vs curated ecosystems, building developer programs, scaling...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/gtm-developer-ecosystem/SKILL.md"
+  }
+}

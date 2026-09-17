@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:typespec-create-api-plugin",
+  "displayName": "Typespec Create API Plugin",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/typespec-create-api-plugin/SKILL.md",
+  "description": "Generate a TypeSpec API plugin with REST operations, authentication, and Adaptive Cards for Microsoft 365 Copilot",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/typespec-create-api-plugin/SKILL.md"
+  }
+}

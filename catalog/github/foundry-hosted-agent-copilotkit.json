@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:foundry-hosted-agent-copilotkit",
+  "displayName": "Foundry Hosted Agent Copilotkit",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/foundry-hosted-agent-copilotkit/SKILL.md",
+  "description": "Ongoing development guidance for agentic web apps that pair a CopilotKit frontend with Microsoft Agent Framework agents on Azure AI Foundry hosted...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/foundry-hosted-agent-copilotkit/SKILL.md"
+  }
+}

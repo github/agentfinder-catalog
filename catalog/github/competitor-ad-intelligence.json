@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:competitor-ad-intelligence",
+  "displayName": "Competitor Ad Intelligence",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/competitor-ad-intelligence/SKILL.md",
+  "description": "Use this skill when the user asks to analyze, tear down, or reverse-engineer a competitor's paid ads.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/competitor-ad-intelligence/SKILL.md"
+  }
+}

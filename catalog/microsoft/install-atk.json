@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:install-atk",
+  "displayName": "Install Atk",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/microsoft-365-agents-toolkit/skills/install-atk/SKILL.md",
+  "description": "Install or update the M365 Agents Toolkit (ATK) CLI and VS Code extension.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/microsoft-365-agents-toolkit/skills/install-atk/SKILL.md"
+  }
+}

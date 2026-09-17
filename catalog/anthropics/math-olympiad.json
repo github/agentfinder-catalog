@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:math-olympiad",
   "displayName": "Math Olympiad",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/plugins/math-olympiad",
   "description": "Solve competition math (IMO, Putnam, USAMO) with adversarial verification that catches what self-verification misses. Fresh-context verifiers attack...",
   "metadata": {

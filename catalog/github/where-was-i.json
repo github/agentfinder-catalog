@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:where-was-i",
+  "displayName": "Where Was I",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/where-was-i/plugin.json",
+  "description": "Reconstruct branch, commit, uncommitted-work, and pull-request context in a GitHub Copilot canvas to resume development quickly.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/where-was-i/plugin.json"
+  }
+}

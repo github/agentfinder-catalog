@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-resource-manager-mysql-dotnet",
+  "displayName": "Azure Resource Manager MySQL .NET",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-mysql-dotnet/SKILL.md",
+  "description": "Azure MySQL Flexible Server SDK for .NET. Database management for MySQL Flexible Server deployments.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-mysql-dotnet/SKILL.md"
+  }
+}

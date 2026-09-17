@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:chat-cards",
+  "displayName": "Chat Cards",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/chat-cards/plugin.json",
+  "description": "Present interactive cards, tables, charts, forms, documents, and videos in a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/chat-cards/plugin.json"
+  }
+}

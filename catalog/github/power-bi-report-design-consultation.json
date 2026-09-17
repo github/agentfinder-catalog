@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:power-bi-report-design-consultation",
+  "displayName": "Power Bi Report Design Consultation",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/power-bi-report-design-consultation/SKILL.md",
+  "description": "Power BI report visualization design prompt for creating effective, user-friendly, and accessible reports with optimal chart selection and layout...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/power-bi-report-design-consultation/SKILL.md"
+  }
+}

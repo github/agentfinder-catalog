@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:autoresearch",
+  "displayName": "Autoresearch",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/autoresearch/SKILL.md",
+  "description": "Autonomous iterative experimentation loop for any programming task.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/autoresearch/SKILL.md"
+  }
+}

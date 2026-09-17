@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:unit-test-vue-pinia",
+  "displayName": "Unit Test Vue Pinia",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/unit-test-vue-pinia/SKILL.md",
+  "description": "Write and review unit tests for Vue 3 + TypeScript + Vitest + Pinia codebases.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/unit-test-vue-pinia/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:exploratory-data-analysis",
+  "displayName": "Exploratory Data Analysis",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/exploratory-data-analysis/SKILL.md",
+  "description": "Perform bounded, local exploratory analysis of explicitly supported scientific files.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/exploratory-data-analysis/SKILL.md"
+  }
+}

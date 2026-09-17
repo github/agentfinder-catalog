@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:chrome-devtools",
+  "displayName": "Chrome Devtools",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/chrome-devtools/SKILL.md",
+  "description": "Expert-level browser automation, debugging, and performance analysis using Chrome DevTools MCP.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/chrome-devtools/SKILL.md"
+  }
+}

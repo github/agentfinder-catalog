@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:ubiquitous-language",
+  "displayName": "Ubiquitous Language",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/deprecated/ubiquitous-language/SKILL.md",
+  "description": "Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canonical terms. Saves to...",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/deprecated/ubiquitous-language/SKILL.md"
+  }
+}

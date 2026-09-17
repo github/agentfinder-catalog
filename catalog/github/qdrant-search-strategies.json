@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:qdrant-search-strategies",
+  "displayName": "Qdrant Search Strategies",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/qdrant-search-quality/search-strategies/SKILL.md",
+  "description": "Guides Qdrant search strategy selection. Use when someone asks 'should I use hybrid search?', 'BM25 or sparse vectors?', 'how to rerank?', 'results are.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/qdrant-search-quality/search-strategies/SKILL.md"
+  }
+}

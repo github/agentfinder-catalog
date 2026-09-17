@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:ultracook",
+  "displayName": "Ultracook",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/ultracook/SKILL.md",
+  "description": "Retired — /ultracook no longer exists as a standalone skill.",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/ultracook/SKILL.md"
+  }
+}

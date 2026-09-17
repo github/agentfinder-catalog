@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:shuffle-json-data",
+  "displayName": "Shuffle JSON Data",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/shuffle-json-data/SKILL.md",
+  "description": "Shuffle repetitive JSON objects safely by validating schema consistency before randomising entries.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/shuffle-json-data/SKILL.md"
+  }
+}

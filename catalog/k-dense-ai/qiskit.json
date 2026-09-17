@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:qiskit",
+  "displayName": "Qiskit",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/qiskit/SKILL.md",
+  "description": "Build, simulate, transpile, and execute quantum circuits with Qiskit and IBM Quantum Runtime.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/qiskit/SKILL.md"
+  }
+}

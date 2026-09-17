@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:power-platform-skills:canvas-apps",
+  "displayName": "Canvas Apps",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/power-platform-skills/blob/main/plugins/canvas-apps",
+  "description": "Build Power Apps Canvas Apps using the Canvas Authoring MCP server.",
+  "metadata": {
+    "sourceSet": "microsoft/power-platform-skills",
+    "repoPath": "plugins/canvas-apps/.plugin/plugin.json"
+  }
+}

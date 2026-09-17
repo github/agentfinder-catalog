@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-eventhub-java",
+  "displayName": "Azure Eventhub Java",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-java/skills/azure-eventhub-java/SKILL.md",
+  "description": "Build real-time streaming applications with Azure Event Hubs SDK for Java.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-java/skills/azure-eventhub-java/SKILL.md"
+  }
+}

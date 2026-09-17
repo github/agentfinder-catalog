@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:qdrant-monitoring-debugging",
+  "displayName": "Qdrant Monitoring Debugging",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/qdrant-monitoring/debugging/SKILL.md",
+  "description": "Diagnoses Qdrant production issues using metrics and observability tools.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/qdrant-monitoring/debugging/SKILL.md"
+  }
+}

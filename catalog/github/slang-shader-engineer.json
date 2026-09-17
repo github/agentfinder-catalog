@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:slang-shader-engineer",
+  "displayName": "Slang Shader Engineer",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/slang-shader-engineer/SKILL.md",
+  "description": "Use when working with Slang shaders, shader modules, HLSL-compatible GPU code, graphics pipelines, compute shaders, tessellation, ray tracing, parameter",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/slang-shader-engineer/SKILL.md"
+  }
+}

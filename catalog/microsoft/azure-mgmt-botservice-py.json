@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-mgmt-botservice-py",
+  "displayName": "Azure Mgmt Botservice Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-mgmt-botservice-py/SKILL.md",
+  "description": "Azure Bot Service Management SDK for Python. Use for creating, managing, and configuring Azure Bot Service resources.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-mgmt-botservice-py/SKILL.md"
+  }
+}

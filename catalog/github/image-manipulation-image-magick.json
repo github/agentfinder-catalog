@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:image-manipulation-image-magick",
+  "displayName": "Image Manipulation Image Magick",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/image-manipulation-image-magick/SKILL.md",
+  "description": "Process and manipulate images using ImageMagick. Supports resizing, format conversion, batch processing, and retrieving image metadata.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/image-manipulation-image-magick/SKILL.md"
+  }
+}

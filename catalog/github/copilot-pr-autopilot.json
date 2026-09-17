@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:copilot-pr-autopilot",
+  "displayName": "Copilot PR Autopilot",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/copilot-pr-autopilot/SKILL.md",
+  "description": "Copilot left 14 review comments on your PR — half are nits. Hours of fix → reply → resolve → re-request, and each round lands MORE comments.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/copilot-pr-autopilot/SKILL.md"
+  }
+}

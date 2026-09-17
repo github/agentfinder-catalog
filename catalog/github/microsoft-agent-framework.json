@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:microsoft-agent-framework",
+  "displayName": "Microsoft Agent Framework",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/microsoft-agent-framework/SKILL.md",
+  "description": "Create, update, refactor, explain, or review Microsoft Agent Framework solutions using shared guidance plus language-specific references for .NET and...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/microsoft-agent-framework/SKILL.md"
+  }
+}

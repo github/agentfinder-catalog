@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:image-annotations",
+  "displayName": "Image Annotations",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/image-annotations/SKILL.md",
+  "description": "Annotate screenshots, diagrams, and images with callout rectangles, arrows, labels, and color-coded highlights using PIL.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/image-annotations/SKILL.md"
+  }
+}

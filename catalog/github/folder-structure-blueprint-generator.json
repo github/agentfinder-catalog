@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:folder-structure-blueprint-generator",
+  "displayName": "Folder Structure Blueprint Generator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/folder-structure-blueprint-generator/SKILL.md",
+  "description": "Comprehensive technology-agnostic prompt for analyzing and documenting project folder structures.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/folder-structure-blueprint-generator/SKILL.md"
+  }
+}

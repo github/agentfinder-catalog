@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:dataverse-python-usecase-builder",
+  "displayName": "Dataverse Python Usecase Builder",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/dataverse-python-usecase-builder/SKILL.md",
+  "description": "Generate complete solutions for specific Dataverse SDK use cases with architecture recommendations",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/dataverse-python-usecase-builder/SKILL.md"
+  }
+}

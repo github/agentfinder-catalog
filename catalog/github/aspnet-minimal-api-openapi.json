@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:aspnet-minimal-api-openapi",
+  "displayName": "Aspnet Minimal API Openapi",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/aspnet-minimal-api-openapi/SKILL.md",
+  "description": "Create ASP.NET Minimal API endpoints with proper OpenAPI documentation",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/aspnet-minimal-api-openapi/SKILL.md"
+  }
+}

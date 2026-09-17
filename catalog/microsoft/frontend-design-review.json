@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:frontend-design-review",
+  "displayName": "Frontend Design Review",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/skills/frontend-design-review/SKILL.md",
+  "description": "Review and create distinctive, production-grade frontend interfaces with high design quality and design system compliance.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/skills/frontend-design-review/SKILL.md"
+  }
+}

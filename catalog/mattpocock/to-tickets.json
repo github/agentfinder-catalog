@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:to-tickets",
+  "displayName": "To Tickets",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/engineering/to-tickets/SKILL.md",
+  "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured...",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/engineering/to-tickets/SKILL.md"
+  }
+}

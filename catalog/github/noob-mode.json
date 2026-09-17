@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:noob-mode",
+  "displayName": "Noob Mode",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/noob-mode/SKILL.md",
+  "description": "Plain-English translation layer for non-technical Copilot CLI users.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/noob-mode/SKILL.md"
+  }
+}

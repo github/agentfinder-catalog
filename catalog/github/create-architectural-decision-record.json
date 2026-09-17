@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:create-architectural-decision-record",
+  "displayName": "Create Architectural Decision Record",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/create-architectural-decision-record/SKILL.md",
+  "description": "Create an Architectural Decision Record (ADR) document for AI-optimized decision documentation.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/create-architectural-decision-record/SKILL.md"
+  }
+}

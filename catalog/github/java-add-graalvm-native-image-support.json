@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:java-add-graalvm-native-image-support",
+  "displayName": "Java Add Graalvm Native Image Support",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/java-add-graalvm-native-image-support/SKILL.md",
+  "description": "GraalVM Native Image expert that adds native image support to Java applications, builds the project, analyzes build errors, applies fixes, and iterates.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/java-add-graalvm-native-image-support/SKILL.md"
+  }
+}

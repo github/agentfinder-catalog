@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-run-tests",
+  "displayName": "Slang Run Tests",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-run-tests/SKILL.md",
+  "description": "Platform-aware test runner for the Slang compiler. Only invoke when explicitly called via /slang-run-tests or referenced by other skills.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-run-tests/SKILL.md"
+  }
+}

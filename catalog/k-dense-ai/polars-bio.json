@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:polars-bio",
+  "displayName": "Polars Bio",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/polars-bio/SKILL.md",
+  "description": "High-performance genomic interval operations and bioinformatics file I/O on Polars DataFrames.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/polars-bio/SKILL.md"
+  }
+}

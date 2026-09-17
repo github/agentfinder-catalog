@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:email-drafter",
+  "displayName": "Email Drafter",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/email-drafter/SKILL.md",
+  "description": "Draft and review professional emails that match your personal writing style.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/email-drafter/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-mgmt-fabric-py",
+  "displayName": "Azure Mgmt Fabric Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-mgmt-fabric-py/SKILL.md",
+  "description": "Azure Fabric Management SDK for Python. Use for managing Microsoft Fabric capacities and resources.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-mgmt-fabric-py/SKILL.md"
+  }
+}

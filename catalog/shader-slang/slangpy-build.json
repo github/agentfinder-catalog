@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slangpy-build",
+  "displayName": "Slangpy Build",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slangpy-build/SKILL.md",
+  "description": "Clone, build, and test SlangPy. Use when the repo needs setup, a rebuild, or when tests fail.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slangpy-build/SKILL.md"
+  }
+}

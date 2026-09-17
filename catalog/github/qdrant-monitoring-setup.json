@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:qdrant-monitoring-setup",
+  "displayName": "Qdrant Monitoring Setup",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/qdrant-monitoring/setup/SKILL.md",
+  "description": "Guides Qdrant monitoring setup including Prometheus scraping, health probes, Hybrid Cloud metrics, alerting, and log centralization.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/qdrant-monitoring/setup/SKILL.md"
+  }
+}

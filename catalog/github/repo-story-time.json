@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:repo-story-time",
+  "displayName": "Repo Story Time",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/repo-story-time/SKILL.md",
+  "description": "Generate a comprehensive repository summary and narrative story from commit history",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/repo-story-time/SKILL.md"
+  }
+}

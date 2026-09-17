@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:acreadiness-assess",
+  "displayName": "Acreadiness Assess",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/acreadiness-assess/SKILL.md",
+  "description": "Run the AgentRC readiness assessment on the current repository and produce a static HTML dashboard at reports/index.html.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/acreadiness-assess/SKILL.md"
+  }
+}

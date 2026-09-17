@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:cure",
+  "displayName": "Cure",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/cure/SKILL.md",
+  "description": "Apply fixes from an /age report, finding list, or CI failure, then run the project's test/lint/build gates and hand a clean cure to /plate for...",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/cure/SKILL.md"
+  }
+}

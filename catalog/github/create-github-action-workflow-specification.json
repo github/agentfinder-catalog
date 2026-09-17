@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:create-github-action-workflow-specification",
+  "displayName": "Create GitHub Action Workflow Specification",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/create-github-action-workflow-specification/SKILL.md",
+  "description": "Create a formal specification for an existing GitHub Actions CI/CD workflow, optimized for AI consumption and workflow maintenance.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/create-github-action-workflow-specification/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:qdrant-scaling",
+  "displayName": "Qdrant Scaling",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/qdrant-scaling/SKILL.md",
+  "description": "Guides Qdrant scaling decisions. Use when someone asks 'how many nodes do I need', 'data doesn't fit on one node', 'need more throughput', 'cluster is..",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/qdrant-scaling/SKILL.md"
+  }
+}

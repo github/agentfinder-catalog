@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:pacsomatic",
+  "displayName": "Pacsomatic",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/pacsomatic/SKILL.md",
+  "description": "Operator toolkit for nf-core/pacsomatic matched tumor-normal workflows from BAM inputs.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/pacsomatic/SKILL.md"
+  }
+}

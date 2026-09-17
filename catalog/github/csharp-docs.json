@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:csharp-docs",
+  "displayName": "C# Docs",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/csharp-docs/SKILL.md",
+  "description": "Ensure that C# types are documented with XML comments and follow best practices for documentation.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/csharp-docs/SKILL.md"
+  }
+}

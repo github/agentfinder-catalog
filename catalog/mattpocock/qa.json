@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:qa",
+  "displayName": "QA",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/deprecated/qa/SKILL.md",
+  "description": "Interactive QA session where user reports bugs or issues conversationally, and the agent files GitHub issues.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/deprecated/qa/SKILL.md"
+  }
+}

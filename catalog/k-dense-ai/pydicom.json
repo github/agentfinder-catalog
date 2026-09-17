@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:pydicom",
+  "displayName": "Pydicom",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/pydicom/SKILL.md",
+  "description": "Use pydicom to read, inspect, write, transform, and safely preflight local DICOM datasets and pixel data.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/pydicom/SKILL.md"
+  }
+}

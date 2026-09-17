@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:conventional-commit",
+  "displayName": "Conventional Commit",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/conventional-commit/SKILL.md",
+  "description": "Prompt and workflow for generating conventional commit messages using a structured XML format.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/conventional-commit/SKILL.md"
+  }
+}

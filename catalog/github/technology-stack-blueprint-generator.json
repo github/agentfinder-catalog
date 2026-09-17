@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:technology-stack-blueprint-generator",
+  "displayName": "Technology Stack Blueprint Generator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/technology-stack-blueprint-generator/SKILL.md",
+  "description": "Comprehensive technology stack blueprint generator that analyzes codebases to create detailed architectural documentation.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/technology-stack-blueprint-generator/SKILL.md"
+  }
+}

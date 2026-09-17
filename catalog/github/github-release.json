@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:github-release",
+  "displayName": "GitHub Release",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/github-release/SKILL.md",
+  "description": "Guides IA through releasing a new version of a GitHub library end-to-end. Handles SemVer versioning and Keep a Changelog formatting automatically.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/github-release/SKILL.md"
+  }
+}

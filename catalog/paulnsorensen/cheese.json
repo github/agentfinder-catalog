@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:cheese",
+  "displayName": "Cheese",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/cheese/SKILL.md",
+  "description": "Route any dropped-in input — idea, spec path, file path, PR or issue, stack trace, bug report, or bare `/cheese` — to the right workflow skill.",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/cheese/SKILL.md"
+  }
+}

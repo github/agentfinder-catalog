@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:tiny-stepping",
+  "displayName": "Tiny Stepping",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/tiny-stepping/SKILL.md",
+  "description": "Incremental development workflow that makes the smallest meaningful change per step and pauses for feedback, so the direction gets validated early...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/tiny-stepping/SKILL.md"
+  }
+}

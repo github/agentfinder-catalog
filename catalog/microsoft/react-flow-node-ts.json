@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:react-flow-node-ts",
+  "displayName": "React Flow Node TS",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-typescript/skills/react-flow-node-ts/SKILL.md",
+  "description": "Create React Flow node components with TypeScript types, handles, and Zustand integration.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-typescript/skills/react-flow-node-ts/SKILL.md"
+  }
+}

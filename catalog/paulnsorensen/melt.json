@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:melt",
+  "displayName": "Melt",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/melt/SKILL.md",
+  "description": "Resolve git merge, rebase, or cherry-pick conflicts via a structural-merge cascade — mergiraf (AST-aware auto-resolve) → git rerere (replay remembered..",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/melt/SKILL.md"
+  }
+}

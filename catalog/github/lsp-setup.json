@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:lsp-setup",
+  "displayName": "LSP Setup",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/lsp-setup/SKILL.md",
+  "description": "Enable code intelligence (go-to-definition, find-references, hover, type info) for any programming language by installing and configuring an LSP server.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/lsp-setup/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:research-grants",
+  "displayName": "Research Grants",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/research-grants/SKILL.md",
+  "description": "Write competitive research proposals for NSF, NIH, DOE, DARPA, and Taiwan NSTC.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/research-grants/SKILL.md"
+  }
+}

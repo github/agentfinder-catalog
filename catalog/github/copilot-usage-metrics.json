@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:copilot-usage-metrics",
+  "displayName": "Copilot Usage Metrics",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/copilot-usage-metrics/SKILL.md",
+  "description": "Retrieve and display GitHub Copilot usage metrics for organizations and enterprises using the GitHub CLI and REST API.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/copilot-usage-metrics/SKILL.md"
+  }
+}

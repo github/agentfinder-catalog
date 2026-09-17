@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:rowan",
+  "displayName": "Rowan",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/rowan/SKILL.md",
+  "description": "Rowan is a cloud-native molecular modeling and medicinal-chemistry workflow platform with a Python API.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/rowan/SKILL.md"
+  }
+}

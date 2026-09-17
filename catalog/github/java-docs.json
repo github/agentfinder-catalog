@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:java-docs",
+  "displayName": "Java Docs",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/java-docs/SKILL.md",
+  "description": "Ensure that Java types are documented with Javadoc comments and follow best practices for documentation.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/java-docs/SKILL.md"
+  }
+}

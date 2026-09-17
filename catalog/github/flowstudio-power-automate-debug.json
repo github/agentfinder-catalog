@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:flowstudio-power-automate-debug",
+  "displayName": "Flowstudio Power Automate Debug",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/flowstudio-power-automate-debug/SKILL.md",
+  "description": "Debug failing Power Automate cloud flows using the FlowStudio MCP server. The Graph API only shows top-level status codes.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/flowstudio-power-automate-debug/SKILL.md"
+  }
+}

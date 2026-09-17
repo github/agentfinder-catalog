@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:quasi-coder",
+  "displayName": "Quasi Coder",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/quasi-coder/SKILL.md",
+  "description": "Expert 10x engineer skill for interpreting and implementing code from shorthand, quasi-code, and natural language descriptions.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/quasi-coder/SKILL.md"
+  }
+}

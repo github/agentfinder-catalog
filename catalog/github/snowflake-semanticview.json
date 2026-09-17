@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:snowflake-semanticview",
+  "displayName": "Snowflake Semanticview",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/snowflake-semanticview/SKILL.md",
+  "description": "Create, alter, and validate Snowflake semantic views using Snowflake CLI (snow).",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/snowflake-semanticview/SKILL.md"
+  }
+}

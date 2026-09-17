@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:wizard",
+  "displayName": "Wizard",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/in-progress/wizard/SKILL.md",
+  "description": "Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migration, an A→B state transition...",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/in-progress/wizard/SKILL.md"
+  }
+}

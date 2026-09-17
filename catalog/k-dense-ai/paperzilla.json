@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:paperzilla",
+  "displayName": "Paperzilla",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/paperzilla/SKILL.md",
+  "description": "Chat with your agent about projects, recommendations, and canonical papers in Paperzilla.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/paperzilla/SKILL.md"
+  }
+}

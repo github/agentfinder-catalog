@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:cli-mastery",
+  "displayName": "CLI Mastery",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/cli-mastery/SKILL.md",
+  "description": "Interactive training for the GitHub Copilot CLI. Guided lessons, quizzes, scenario challenges, and a full reference covering slash commands, shortcuts..",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/cli-mastery/SKILL.md"
+  }
+}

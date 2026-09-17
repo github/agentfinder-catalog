@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:automate-this",
+  "displayName": "Automate This",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/automate-this/SKILL.md",
+  "description": "Analyze a screen recording of a manual process and produce targeted, working automation scripts.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/automate-this/SKILL.md"
+  }
+}

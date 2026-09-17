@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:pymatgen",
+  "displayName": "Pymatgen",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/pymatgen/SKILL.md",
+  "description": "Analyze, validate, convert, and transform materials structures and computed materials data with current pymatgen APIs, including local phase diagrams...",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/pymatgen/SKILL.md"
+  }
+}

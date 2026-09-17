@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:python-mcp-server-generator",
+  "displayName": "Python MCP Server Generator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/python-mcp-server-generator/SKILL.md",
+  "description": "Generate a complete MCP server project in Python with tools, resources, and proper configuration",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/python-mcp-server-generator/SKILL.md"
+  }
+}

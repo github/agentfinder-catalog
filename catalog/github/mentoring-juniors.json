@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:mentoring-juniors",
+  "displayName": "Mentoring Juniors",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/mentoring-juniors/SKILL.md",
+  "description": "Socratic mentoring for junior developers and AI newcomers. Guides through questions, never answers.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/mentoring-juniors/SKILL.md"
+  }
+}

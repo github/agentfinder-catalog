@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:work-iq:workiq",
+  "displayName": "WorkIQ",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/work-iq/blob/main/plugins/workiq",
+  "description": "Query Microsoft 365 data with natural language - emails, meetings, documents, Teams messages, and more.",
+  "metadata": {
+    "sourceSet": "microsoft/work-iq",
+    "repoPath": "plugins/workiq/.github/plugin/plugin.json"
+  }
+}

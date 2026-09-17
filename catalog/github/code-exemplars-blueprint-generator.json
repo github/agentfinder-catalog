@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:code-exemplars-blueprint-generator",
+  "displayName": "Code Exemplars Blueprint Generator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/code-exemplars-blueprint-generator/SKILL.md",
+  "description": "Technology-agnostic prompt generator that creates customizable AI prompts for scanning codebases and identifying high-quality code exemplars.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/code-exemplars-blueprint-generator/SKILL.md"
+  }
+}

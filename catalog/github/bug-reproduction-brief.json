@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:bug-reproduction-brief",
+  "displayName": "Bug Reproduction Brief",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/bug-reproduction-brief/SKILL.md",
+  "description": "Turn a vague, intermittent, or environment-specific bug report into a minimal evidence-backed reproduction before proposing a fix.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/bug-reproduction-brief/SKILL.md"
+  }
+}

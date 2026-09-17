@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:work-iq:microsoft-365-agents-toolkit",
+  "displayName": "Microsoft 365 Agents Toolkit",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/work-iq/blob/main/plugins/microsoft-365-agents-toolkit",
+  "description": "Toolkit for building Microsoft 365 Copilot declarative agents - scaffolding, JSON manifest development, and capability configuration.",
+  "metadata": {
+    "sourceSet": "microsoft/work-iq",
+    "repoPath": "plugins/microsoft-365-agents-toolkit/.github/plugin/plugin.json"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills-for-fabric:fabric-skills",
+  "displayName": "Fabric Skills",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/skills-for-fabric/blob/main/plugins/fabric-skills",
+  "description": "Complete bundle of Microsoft Fabric skills for developers and consumers.",
+  "metadata": {
+    "sourceSet": "microsoft/skills-for-fabric",
+    "repoPath": "plugins/fabric-skills/.github/plugin/plugin.json"
+  }
+}

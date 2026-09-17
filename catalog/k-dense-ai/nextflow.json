@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:nextflow",
+  "displayName": "Nextflow",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/nextflow/SKILL.md",
+  "description": "Build, run, and debug Nextflow data pipelines and nf-core workflows end to end.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/nextflow/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:tiledbvcf",
+  "displayName": "Tiledbvcf",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/tiledbvcf/SKILL.md",
+  "description": "Efficient storage and retrieval of genomic variant data using TileDB.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/tiledbvcf/SKILL.md"
+  }
+}

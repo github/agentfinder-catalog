@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-analyze-coverage",
+  "displayName": "Slang Analyze Coverage",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-analyze-coverage/SKILL.md",
+  "description": "Test coverage analysis and gap-filling for Slang language features. Only invoke when explicitly called via /slang-analyze-coverage.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-analyze-coverage/SKILL.md"
+  }
+}

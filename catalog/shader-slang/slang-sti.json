@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-sti",
+  "displayName": "Slang Sti",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-sti/SKILL.md",
+  "description": "Install and use sti, a fast parallel test runner that replaces direct slang-test usage with crash recovery, retries, and better output.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-sti/SKILL.md"
+  }
+}

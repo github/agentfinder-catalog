@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:agent-supply-chain",
+  "displayName": "Agent Supply Chain",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/agent-supply-chain/SKILL.md",
+  "description": "Verify supply chain integrity for AI agent plugins, tools, and dependencies.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/agent-supply-chain/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:breakdown-epic-pm",
+  "displayName": "Breakdown Epic Pm",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/breakdown-epic-pm/SKILL.md",
+  "description": "Prompt for creating an Epic Product Requirements Document (PRD) for a new epic.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/breakdown-epic-pm/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:webapp-testing",
+  "displayName": "Webapp Testing",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/webapp-testing/SKILL.md",
+  "description": "Toolkit for interacting with and testing local web applications using Playwright.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/webapp-testing/SKILL.md"
+  }
+}

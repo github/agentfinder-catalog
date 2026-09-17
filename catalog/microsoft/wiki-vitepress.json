@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:wiki-vitepress",
+  "displayName": "Wiki Vitepress",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/deep-wiki/skills/wiki-vitepress/SKILL.md",
+  "description": "Packages generated wiki Markdown into a VitePress static site with dark theme, dark-mode Mermaid diagrams with click-to-zoom, and production build...",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/deep-wiki/skills/wiki-vitepress/SKILL.md"
+  }
+}

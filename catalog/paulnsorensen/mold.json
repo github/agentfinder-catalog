@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:mold",
+  "displayName": "Mold",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/mold/SKILL.md",
+  "description": "Converge a fuzzy idea or half-formed feature into an approved spec through an iterative, grounded design dialogue.",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/mold/SKILL.md"
+  }
+}

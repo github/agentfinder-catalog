@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:qdrant-performance-optimization",
+  "displayName": "Qdrant Performance Optimization",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/qdrant-performance-optimization/SKILL.md",
+  "description": "Different techniques to optimize the performance of Qdrant, including indexing strategies, query optimization, and hardware considerations.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/qdrant-performance-optimization/SKILL.md"
+  }
+}

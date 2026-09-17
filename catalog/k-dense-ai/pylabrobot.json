@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:pylabrobot",
+  "displayName": "Pylabrobot",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/pylabrobot/SKILL.md",
+  "description": "Develop and review PyLabRobot lab-automation resources, liquid-handling plans, offline simulations, and supported-device integrations.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/pylabrobot/SKILL.md"
+  }
+}

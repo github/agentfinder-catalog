@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-identity-dotnet",
+  "displayName": "Azure Identity .NET",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-dotnet/skills/azure-identity-dotnet/SKILL.md",
+  "description": "Azure Identity library for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-dotnet/skills/azure-identity-dotnet/SKILL.md"
+  }
+}

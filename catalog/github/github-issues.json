@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:github-issues",
+  "displayName": "GitHub Issues",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/github-issues/SKILL.md",
+  "description": "Create, update, and manage GitHub issues using MCP tools. Use this skill when users want to create bug reports, feature requests, or task issues, update",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/github-issues/SKILL.md"
+  }
+}

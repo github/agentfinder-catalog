@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:create-specification",
+  "displayName": "Create Specification",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/create-specification/SKILL.md",
+  "description": "Create a new specification file for the solution, optimized for Generative AI consumption.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/create-specification/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:github-issue-creator",
+  "displayName": "GitHub Issue Creator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/skills/github-issue-creator/SKILL.md",
+  "description": "Convert raw notes, error logs, voice dictation, or screenshots into crisp GitHub-flavored markdown issue reports.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/skills/github-issue-creator/SKILL.md"
+  }
+}

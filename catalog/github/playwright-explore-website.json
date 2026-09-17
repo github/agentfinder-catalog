@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:playwright-explore-website",
+  "displayName": "Playwright Explore Website",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/playwright-explore-website/SKILL.md",
+  "description": "Website exploration for testing using Playwright MCP",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/playwright-explore-website/SKILL.md"
+  }
+}

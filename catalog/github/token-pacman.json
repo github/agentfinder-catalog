@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:token-pacman",
+  "displayName": "Token Pac-Man",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/token-pacman/plugin.json",
+  "description": "Visualize live session AI-credit usage as a Pac-Man board with pellets, ghosts, milestones, and limits in a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/token-pacman/plugin.json"
+  }
+}

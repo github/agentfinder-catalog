@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:power-platform-skills:model-apps",
+  "displayName": "Model Apps",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/power-platform-skills/blob/main/plugins/model-apps",
+  "description": "Build and deploy Power Apps generative pages for model-driven apps with specialist agents for planning, entity creation, and parallel code generation.",
+  "metadata": {
+    "sourceSet": "microsoft/power-platform-skills",
+    "repoPath": "plugins/model-apps/.plugin/plugin.json"
+  }
+}

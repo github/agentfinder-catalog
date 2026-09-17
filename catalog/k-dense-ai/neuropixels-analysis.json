@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:neuropixels-analysis",
+  "displayName": "Neuropixels Analysis",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/neuropixels-analysis/SKILL.md",
+  "description": "Analyze Neuropixels extracellular recordings end-to-end with SpikeInterface.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/neuropixels-analysis/SKILL.md"
+  }
+}

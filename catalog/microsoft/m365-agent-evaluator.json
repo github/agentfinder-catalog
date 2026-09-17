@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:m365-agent-evaluator",
+  "displayName": "M365 Agent Evaluator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator/SKILL.md",
+  "description": "Use this skill when a user wants to create, run, or analyze evaluation suites for Microsoft 365 Copilot declarative agents with the public...",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/microsoft-365-agents-toolkit/skills/m365-agent-evaluator/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:github-codespaces-efficiency",
+  "displayName": "GitHub Codespaces Efficiency",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/github-codespaces-efficiency/SKILL.md",
+  "description": "Audit and improve GitHub Codespaces efficiency. Use this skill when a user wants faster Codespaces startup, lower Codespaces spend, slim devcontainers..",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/github-codespaces-efficiency/SKILL.md"
+  }
+}

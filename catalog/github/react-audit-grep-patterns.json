@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:react-audit-grep-patterns",
+  "displayName": "React Audit Grep Patterns",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/react-audit-grep-patterns/SKILL.md",
+  "description": "Provides the complete, verified grep scan command library for auditing React codebases before a React 18.3.1 or React 19 upgrade.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/react-audit-grep-patterns/SKILL.md"
+  }
+}

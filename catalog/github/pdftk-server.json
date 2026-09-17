@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:pdftk-server",
+  "displayName": "Pdftk Server",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/pdftk-server/SKILL.md",
+  "description": "Skill for using the command-line tool pdftk (PDFtk Server) for working with PDF files.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/pdftk-server/SKILL.md"
+  }
+}

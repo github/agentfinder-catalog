@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-code-reader",
+  "displayName": "Slang Code Reader",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-code-reader/SKILL.md",
+  "description": "Read-only investigation of the Slang compiler codebase. Navigate source, trace compiler pipelines, understand architecture.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-code-reader/SKILL.md"
+  }
+}

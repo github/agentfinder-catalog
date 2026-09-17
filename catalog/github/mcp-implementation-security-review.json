@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:mcp-implementation-security-review",
+  "displayName": "MCP Implementation Security Review",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/mcp-implementation-security-review/SKILL.md",
+  "description": "Review the implementation source code of MCP (Model Context Protocol) servers, clients, and tool handlers against a security baseline — authentication..",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/mcp-implementation-security-review/SKILL.md"
+  }
+}

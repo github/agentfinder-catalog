@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:applicationinsights-web-ts",
+  "displayName": "Applicationinsights Web TS",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/skills/applicationinsights-web-ts/SKILL.md",
+  "description": "Instrument browser/web apps with the Application Insights JavaScript SDK (@microsoft/applicationinsights-web).",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/skills/applicationinsights-web-ts/SKILL.md"
+  }
+}

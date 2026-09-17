@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:roundup-setup",
+  "displayName": "Roundup Setup",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/roundup-setup/SKILL.md",
+  "description": "Interactive onboarding that learns your communication style, audiences, and data sources to configure personalized status briefings.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/roundup-setup/SKILL.md"
+  }
+}

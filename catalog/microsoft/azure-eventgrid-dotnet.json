@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-eventgrid-dotnet",
+  "displayName": "Azure Eventgrid .NET",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-dotnet/skills/azure-eventgrid-dotnet/SKILL.md",
+  "description": "Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-dotnet/skills/azure-eventgrid-dotnet/SKILL.md"
+  }
+}

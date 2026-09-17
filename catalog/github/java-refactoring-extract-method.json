@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:java-refactoring-extract-method",
+  "displayName": "Java Refactoring Extract Method",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/java-refactoring-extract-method/SKILL.md",
+  "description": "Refactoring using Extract Methods in Java Language",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/java-refactoring-extract-method/SKILL.md"
+  }
+}

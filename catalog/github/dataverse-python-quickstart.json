@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:dataverse-python-quickstart",
+  "displayName": "Dataverse Python Quickstart",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/dataverse-python-quickstart/SKILL.md",
+  "description": "Generate Python SDK setup + CRUD + bulk + paging snippets using official patterns.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/dataverse-python-quickstart/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:power-platform-skills:mcp-apps",
+  "displayName": "MCP Apps",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/power-platform-skills/blob/main/plugins/mcp-apps",
+  "description": "Generate self-contained HTML widgets for MCP tools using the MCP Apps protocol.",
+  "metadata": {
+    "sourceSet": "microsoft/power-platform-skills",
+    "repoPath": "plugins/mcp-apps/.plugin/plugin.json"
+  }
+}

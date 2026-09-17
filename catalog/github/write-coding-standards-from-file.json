@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:write-coding-standards-from-file",
+  "displayName": "Write Coding Standards From File",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/write-coding-standards-from-file/SKILL.md",
+  "description": "Write a coding standards document for a project using the coding styles from the file(s) and/or folder(s) passed as arguments in the prompt.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/write-coding-standards-from-file/SKILL.md"
+  }
+}

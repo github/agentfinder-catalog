@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:update-llms",
+  "displayName": "Update Llms",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/update-llms/SKILL.md",
+  "description": "Update the llms.txt file in the root folder to reflect changes in documentation or specifications following the llms.txt specification at...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/update-llms/SKILL.md"
+  }
+}

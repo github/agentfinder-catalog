@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:etetoolkit",
+  "displayName": "Etetoolkit",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/etetoolkit/SKILL.md",
+  "description": "Analyze, manipulate, compare, annotate, and visualize phylogenetic or other hierarchical trees with ETE 4.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/etetoolkit/SKILL.md"
+  }
+}

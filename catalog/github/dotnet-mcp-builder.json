@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:dotnet-mcp-builder",
+  "displayName": ".NET MCP Builder",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/dotnet-mcp-builder/SKILL.md",
+  "description": "Build Model Context Protocol (MCP) servers in C#/.NET against the current ModelContextProtocol 2.x NuGet packages.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/dotnet-mcp-builder/SKILL.md"
+  }
+}

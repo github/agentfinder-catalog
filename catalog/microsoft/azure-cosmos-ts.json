@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-cosmos-ts",
+  "displayName": "Azure Cosmos TS",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-typescript/skills/azure-cosmos-ts/SKILL.md",
+  "description": "Azure Cosmos DB JavaScript/TypeScript SDK (@azure/cosmos) for data plane operations.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-typescript/skills/azure-cosmos-ts/SKILL.md"
+  }
+}

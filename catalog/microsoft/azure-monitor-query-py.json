@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-monitor-query-py",
+  "displayName": "Azure Monitor Query Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-monitor-query-py/SKILL.md",
+  "description": "Azure Monitor Query SDK for Python. Use for querying Log Analytics workspaces and Azure Monitor metrics.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-monitor-query-py/SKILL.md"
+  }
+}

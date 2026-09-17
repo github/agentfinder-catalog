@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:salesforce-component-standards",
+  "displayName": "Salesforce Component Standards",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/salesforce-component-standards/SKILL.md",
+  "description": "Quality standards for Salesforce Lightning Web Components (LWC), Aura components, and Visualforce pages.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/salesforce-component-standards/SKILL.md"
+  }
+}

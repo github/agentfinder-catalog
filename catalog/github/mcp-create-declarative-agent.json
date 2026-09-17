@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:mcp-create-declarative-agent",
+  "displayName": "MCP Create Declarative Agent",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/mcp-create-declarative-agent/SKILL.md",
+  "description": "Skill converted from mcp-create-declarative-agent.prompt.md",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/mcp-create-declarative-agent/SKILL.md"
+  }
+}

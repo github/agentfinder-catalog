@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:react18-lifecycle-patterns",
+  "displayName": "React18 Lifecycle Patterns",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/react18-lifecycle-patterns/SKILL.md",
+  "description": "Provides exact before/after migration patterns for the three unsafe class component lifecycle methods - componentWillMount, componentWillReceiveProps...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/react18-lifecycle-patterns/SKILL.md"
+  }
+}

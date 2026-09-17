@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:qdrant-version-upgrade",
+  "displayName": "Qdrant Version Upgrade",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/qdrant-version-upgrade/SKILL.md",
+  "description": "Guidance on how to upgrade your Qdrant version without interrupting the availability of your application and ensuring data integrity.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/qdrant-version-upgrade/SKILL.md"
+  }
+}

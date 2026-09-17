@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:qdrant-vertical-scaling",
+  "displayName": "Qdrant Vertical Scaling",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/qdrant-scaling/scaling-data-volume/vertical-scaling/SKILL.md",
+  "description": "Guides Qdrant vertical scaling decisions. Use when someone asks 'how to scale up a node', 'need more RAM', 'upgrade node size', 'vertical scaling'...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/qdrant-scaling/scaling-data-volume/vertical-scaling/SKILL.md"
+  }
+}

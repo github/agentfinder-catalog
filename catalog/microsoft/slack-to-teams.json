@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:slack-to-teams",
+  "displayName": "Slack to Teams",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/microsoft-365-agents-toolkit/skills/teams-app-developer/slack-to-teams/SKILL.md",
+  "description": "Sub-skill of microsoft-365-agents-toolkit. Routed expert system with 100+ micro-expert files for migrating Slack bots to Teams, cross-platform bridging.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/microsoft-365-agents-toolkit/skills/teams-app-developer/slack-to-teams/SKILL.md"
+  }
+}

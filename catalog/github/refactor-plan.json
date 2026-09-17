@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:refactor-plan",
+  "displayName": "Refactor Plan",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/refactor-plan/SKILL.md",
+  "description": "Create a concrete plan before starting a multi-file refactor.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/refactor-plan/SKILL.md"
+  }
+}

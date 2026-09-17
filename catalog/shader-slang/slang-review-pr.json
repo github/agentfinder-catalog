@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-review-pr",
+  "displayName": "Slang Review PR",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-review-pr/SKILL.md",
+  "description": "Review a Slang compiler PR for correctness, evaluate review feedback, implement fixes, and manage review threads.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-review-pr/SKILL.md"
+  }
+}

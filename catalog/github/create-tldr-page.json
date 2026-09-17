@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:create-tldr-page",
+  "displayName": "Create Tldr Page",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/create-tldr-page/SKILL.md",
+  "description": "Create a tldr page from documentation URLs and command examples, requiring both URL and command name.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/create-tldr-page/SKILL.md"
+  }
+}

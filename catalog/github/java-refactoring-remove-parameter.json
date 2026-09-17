@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:java-refactoring-remove-parameter",
+  "displayName": "Java Refactoring Remove Parameter",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/java-refactoring-remove-parameter/SKILL.md",
+  "description": "Refactoring using Remove Parameter in Java Language",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/java-refactoring-remove-parameter/SKILL.md"
+  }
+}

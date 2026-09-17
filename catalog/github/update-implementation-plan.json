@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:update-implementation-plan",
+  "displayName": "Update Implementation Plan",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/update-implementation-plan/SKILL.md",
+  "description": "Update an existing implementation plan file with new or update requirements to provide new features, refactoring existing code or upgrading packages...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/update-implementation-plan/SKILL.md"
+  }
+}

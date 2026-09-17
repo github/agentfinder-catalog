@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:cloud-solution-architect",
+  "displayName": "Cloud Solution Architect",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/skills/cloud-solution-architect/SKILL.md",
+  "description": "Transform the agent into a Cloud Solution Architect following Azure Architecture Center best practices.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/skills/cloud-solution-architect/SKILL.md"
+  }
+}

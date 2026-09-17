@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:steno-mode",
+  "displayName": "Steno Mode",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/steno-mode/SKILL.md",
+  "description": "Shorthand-first response compression that cuts ~40% of response tokens while preserving technical precision and exact literals.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/steno-mode/SKILL.md"
+  }
+}

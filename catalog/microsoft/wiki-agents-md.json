@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:wiki-agents-md",
+  "displayName": "Wiki Agents MD",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/deep-wiki/skills/wiki-agents-md/SKILL.md",
+  "description": "Generates AGENTS.md files for repository folders — coding agent context files with build commands, testing instructions, code style, project structure..",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/deep-wiki/skills/wiki-agents-md/SKILL.md"
+  }
+}

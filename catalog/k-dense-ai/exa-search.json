@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:exa-search",
+  "displayName": "Exa Search",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/exa-search/SKILL.md",
+  "description": "Web toolkit powered by Exa, tuned for scientific and technical content.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/exa-search/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:openapi-to-application-code",
+  "displayName": "Openapi to Application Code",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/openapi-to-application-code/SKILL.md",
+  "description": "Generate a complete, production-ready application from an OpenAPI specification",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/openapi-to-application-code/SKILL.md"
+  }
+}

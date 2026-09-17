@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:sql-server-table-reconciliation",
+  "displayName": "SQL Server Table Reconciliation",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/sql-server-table-reconciliation/SKILL.md",
+  "description": "Use when: comparing SQL Server tables across instances, data migration validation, ETL verification, row mismatch detection, schema drift...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/sql-server-table-reconciliation/SKILL.md"
+  }
+}

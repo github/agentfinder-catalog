@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:mini-context-graph",
+  "displayName": "Mini Context Graph",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/mini-context-graph/SKILL.md",
+  "description": "A persistent, compounding knowledge base combining Karpathy's LLM Wiki pattern with a structured knowledge graph.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/mini-context-graph/SKILL.md"
+  }
+}

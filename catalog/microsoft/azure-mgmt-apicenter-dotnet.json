@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-mgmt-apicenter-dotnet",
+  "displayName": "Azure Mgmt Apicenter .NET",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-dotnet/skills/azure-mgmt-apicenter-dotnet/SKILL.md",
+  "description": "Azure API Center SDK for .NET. Centralized API inventory management with governance, versioning, and discovery.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-apicenter-dotnet/SKILL.md"
+  }
+}

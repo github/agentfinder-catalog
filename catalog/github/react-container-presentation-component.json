@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:react-container-presentation-component",
+  "displayName": "React Container Presentation Component",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/react-container-presentation-component/SKILL.md",
+  "description": "Create a React component using the Container/Presentation pattern in src/components by asking for the component name and type (ui or features), then...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/react-container-presentation-component/SKILL.md"
+  }
+}

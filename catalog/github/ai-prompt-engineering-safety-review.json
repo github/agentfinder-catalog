@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:ai-prompt-engineering-safety-review",
+  "displayName": "AI Prompt Engineering Safety Review",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/ai-prompt-engineering-safety-review/SKILL.md",
+  "description": "Comprehensive AI prompt engineering safety review and improvement prompt.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/ai-prompt-engineering-safety-review/SKILL.md"
+  }
+}

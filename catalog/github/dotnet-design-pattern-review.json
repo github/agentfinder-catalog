@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:dotnet-design-pattern-review",
+  "displayName": ".NET Design Pattern Review",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/dotnet-design-pattern-review/SKILL.md",
+  "description": "Review the C#/.NET code for design pattern implementation and suggest improvements.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/dotnet-design-pattern-review/SKILL.md"
+  }
+}

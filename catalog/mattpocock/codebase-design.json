@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:codebase-design",
+  "displayName": "Codebase Design",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/engineering/codebase-design/SKILL.md",
+  "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide...",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/engineering/codebase-design/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:ui-widget-developer",
+  "displayName": "UI Widget Developer",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/microsoft-365-agents-toolkit/skills/ui-widget-developer/SKILL.md",
+  "description": "Build MCP servers for Copilot Chat using the OpenAI Apps SDK or MCP Apps SDK widget rendering support (any language).",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/microsoft-365-agents-toolkit/skills/ui-widget-developer/SKILL.md"
+  }
+}

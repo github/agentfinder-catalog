@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:dataverse-python-advanced-patterns",
+  "displayName": "Dataverse Python Advanced Patterns",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/dataverse-python-advanced-patterns/SKILL.md",
+  "description": "Generate production code for Dataverse SDK using advanced patterns, error handling, and optimization techniques.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/dataverse-python-advanced-patterns/SKILL.md"
+  }
+}

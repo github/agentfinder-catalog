@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:molecular-dynamics",
+  "displayName": "Molecular Dynamics",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/molecular-dynamics/SKILL.md",
+  "description": "Run and analyze molecular dynamics simulations with OpenMM and MDAnalysis.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/molecular-dynamics/SKILL.md"
+  }
+}

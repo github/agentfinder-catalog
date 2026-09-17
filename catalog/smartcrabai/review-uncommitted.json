@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:smartcrabai:agent-skills:review-uncommitted",
+  "displayName": "Review Uncommitted",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/smartcrabai/agent-skills/blob/main/skills/review-uncommitted/SKILL.md",
+  "description": "Use this whenever the user asks to review uncommitted/local/working-tree changes, check the current diff before committing, or evaluate pending changes.",
+  "metadata": {
+    "sourceSet": "smartcrabai/agent-skills",
+    "repoPath": "skills/review-uncommitted/SKILL.md"
+  }
+}

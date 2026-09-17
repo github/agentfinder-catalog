@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:power-platform-skills:power-automate",
+  "displayName": "Power Automate",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/power-platform-skills/blob/main/plugins/power-automate",
+  "description": "Build, edit, run, and debug Power Automate cloud flows through the FlowAgent MCP server.",
+  "metadata": {
+    "sourceSet": "microsoft/power-platform-skills",
+    "repoPath": "plugins/power-automate/.plugin/plugin.json"
+  }
+}

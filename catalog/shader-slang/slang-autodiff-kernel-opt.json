@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-autodiff-kernel-opt",
+  "displayName": "Slang Autodiff Kernel Opt",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-autodiff-kernel-opt/SKILL.md",
+  "description": "Optimize Slang autodiff backward kernel performance by analyzing register pressure, checkpoint storage, and spills.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-autodiff-kernel-opt/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:adobe-illustrator-scripting",
+  "displayName": "Adobe Illustrator Scripting",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/adobe-illustrator-scripting/SKILL.md",
+  "description": "Write, debug, and optimize Adobe Illustrator automation scripts using ExtendScript (JavaScript/JSX).",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/adobe-illustrator-scripting/SKILL.md"
+  }
+}

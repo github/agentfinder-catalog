@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:ai-team-orchestration",
+  "displayName": "AI Team Orchestration",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/ai-team-orchestration/SKILL.md",
+  "description": "Bootstrap and run a lightweight multi-agent development team.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/ai-team-orchestration/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:dotnet-upgrade",
+  "displayName": ".NET Upgrade",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/dotnet-upgrade/SKILL.md",
+  "description": "Ready-to-use prompts for comprehensive .NET framework upgrade analysis and execution",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/dotnet-upgrade/SKILL.md"
+  }
+}

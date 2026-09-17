@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-pr-report",
+  "displayName": "Slang PR Report",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-pr-report/SKILL.md",
+  "description": "Surface the open shader-slang PRs needing human attention with a bundled gh-only Python script (scripts/pr_report.py): an assignee-grouped escalation...",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-pr-report/SKILL.md"
+  }
+}

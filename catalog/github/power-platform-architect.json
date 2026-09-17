@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:power-platform-architect",
+  "displayName": "Power Platform Architect",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/power-platform-architect/SKILL.md",
+  "description": "Use this skill when the user needs to transform business requirements, use case descriptions, or meeting transcripts into a technical Power Platform...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/power-platform-architect/SKILL.md"
+  }
+}

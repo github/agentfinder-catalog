@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:wayfinder",
+  "displayName": "Wayfinder",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/engineering/wayfinder/SKILL.md",
+  "description": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tracker, and resolve them one at a.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/engineering/wayfinder/SKILL.md"
+  }
+}

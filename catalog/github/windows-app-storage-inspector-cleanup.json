@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:windows-app-storage-inspector-cleanup",
+  "displayName": "Windows App Storage Inspector Cleanup",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/windows-app-storage-inspector-cleanup/plugin.json",
+  "description": "Inspect Windows application storage, understand disk usage, and safely recycle approved cleanup items from a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/windows-app-storage-inspector-cleanup/plugin.json"
+  }
+}

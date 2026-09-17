@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:salesforce-flow-design",
+  "displayName": "Salesforce Flow Design",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/salesforce-flow-design/SKILL.md",
+  "description": "Salesforce Flow architecture decisions, flow type selection, bulk safety validation, and fault handling standards.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/salesforce-flow-design/SKILL.md"
+  }
+}

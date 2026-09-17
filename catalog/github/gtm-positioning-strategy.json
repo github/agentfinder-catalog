@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:gtm-positioning-strategy",
+  "displayName": "GTM Positioning Strategy",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/gtm-positioning-strategy/SKILL.md",
+  "description": "Find and own a defensible market position. Use when messaging sounds like competitors, conversion is weak despite awareness, repositioning a product, or",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/gtm-positioning-strategy/SKILL.md"
+  }
+}

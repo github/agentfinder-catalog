@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:freecad-scripts",
+  "displayName": "Freecad Scripts",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/freecad-scripts/SKILL.md",
+  "description": "Expert skill for writing FreeCAD Python scripts, macros, and automation.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/freecad-scripts/SKILL.md"
+  }
+}

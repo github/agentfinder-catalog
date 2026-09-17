@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:mkdocs-translations",
+  "displayName": "Mkdocs Translations",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/mkdocs-translations/SKILL.md",
+  "description": "Generate a language translation for a mkdocs documentation stack.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/mkdocs-translations/SKILL.md"
+  }
+}

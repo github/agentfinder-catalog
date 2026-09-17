@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:declarative-agent-developer",
+  "displayName": "Declarative Agent Developer",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/SKILL.md",
+  "description": "Create, build, deploy, and localize declarative agents for M365 Copilot and Teams. USE THIS SKILL for ANY task involving a declarative agent — including",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/microsoft-365-agents-toolkit/skills/declarative-agent-developer/SKILL.md"
+  }
+}

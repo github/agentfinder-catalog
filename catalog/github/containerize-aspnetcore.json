@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:containerize-aspnetcore",
+  "displayName": "Containerize Aspnetcore",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/containerize-aspnetcore/SKILL.md",
+  "description": "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/containerize-aspnetcore/SKILL.md"
+  }
+}

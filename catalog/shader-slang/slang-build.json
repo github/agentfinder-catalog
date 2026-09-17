@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-build",
+  "displayName": "Slang Build",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-build/SKILL.md",
+  "description": "Platform-aware build, test, and CI inspection for the Slang compiler.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-build/SKILL.md"
+  }
+}

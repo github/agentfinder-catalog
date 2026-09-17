@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:convert-word-to-md",
+  "displayName": "Convert Word to MD",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/convert-word-to-md/SKILL.md",
+  "description": "Converts Word (.docx) documents into Markdown so their contents can be accurately analyzed, summarized, searched, or extracted from.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/convert-word-to-md/SKILL.md"
+  }
+}

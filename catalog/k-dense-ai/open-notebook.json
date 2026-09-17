@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:open-notebook",
+  "displayName": "Open Notebook",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/open-notebook/SKILL.md",
+  "description": "Self-hosted, open-source alternative to Google NotebookLM for AI-powered research and document analysis.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/open-notebook/SKILL.md"
+  }
+}

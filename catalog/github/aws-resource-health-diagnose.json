@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:aws-resource-health-diagnose",
+  "displayName": "AWS Resource Health Diagnose",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/aws-resource-health-diagnose/SKILL.md",
+  "description": "Analyze AWS resource health, diagnose issues from CloudWatch logs and metrics, and create a remediation plan for identified problems.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/aws-resource-health-diagnose/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:nuget-manager",
+  "displayName": "NuGet Manager",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/nuget-manager/SKILL.md",
+  "description": "Manage NuGet packages in .NET projects/solutions. Use this skill when adding, removing, or updating NuGet package versions.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/nuget-manager/SKILL.md"
+  }
+}

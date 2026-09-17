@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:msgraph-sdk",
+  "displayName": "Msgraph SDK",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/msgraph-sdk/SKILL.md",
+  "description": "Integrate Microsoft Graph SDK into any project — .NET, TypeScript/JavaScript, or Python.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/msgraph-sdk/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:migrating-oracle-to-postgres-stored-procedures",
+  "displayName": "Migrating Oracle to Postgres Stored Procedures",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/migrating-oracle-to-postgres-stored-procedures/SKILL.md",
+  "description": "Migrates Oracle PL/SQL stored procedures to PostgreSQL PL/pgSQL.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/migrating-oracle-to-postgres-stored-procedures/SKILL.md"
+  }
+}

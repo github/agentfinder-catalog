@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:knowledge-work-plugins:marketing",
   "displayName": "Marketing",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing",
   "description": "Create content, plan campaigns, and analyze performance across marketing channels. Maintain brand voice consistency, track competitors, and report on...",
   "metadata": {

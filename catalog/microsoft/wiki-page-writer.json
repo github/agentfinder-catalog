@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:wiki-page-writer",
+  "displayName": "Wiki Page Writer",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/deep-wiki/skills/wiki-page-writer/SKILL.md",
+  "description": "Generates rich technical documentation pages with dark-mode Mermaid diagrams, source code citations, and first-principles depth.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/deep-wiki/skills/wiki-page-writer/SKILL.md"
+  }
+}

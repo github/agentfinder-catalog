@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:react18-batching-patterns",
+  "displayName": "React18 Batching Patterns",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/react18-batching-patterns/SKILL.md",
+  "description": "Provides exact patterns for diagnosing and fixing automatic batching regressions in React 18 class components.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/react18-batching-patterns/SKILL.md"
+  }
+}

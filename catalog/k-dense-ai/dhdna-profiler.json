@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:dhdna-profiler",
+  "displayName": "Dhdna Profiler",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/dhdna-profiler/SKILL.md",
+  "description": "Extract cognitive patterns and thinking fingerprints from any text.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/dhdna-profiler/SKILL.md"
+  }
+}

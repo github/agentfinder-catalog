@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:git-guardrails-claude-code",
+  "displayName": "Git Guardrails Claude Code",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/misc/git-guardrails-claude-code/SKILL.md",
+  "description": "Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/misc/git-guardrails-claude-code/SKILL.md"
+  }
+}

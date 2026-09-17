@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-storage-file-share-py",
+  "displayName": "Azure Storage File Share Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-storage-file-share-py/SKILL.md",
+  "description": "Azure Storage File Share SDK for Python. Use for SMB file shares, directories, and file operations in the cloud.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-storage-file-share-py/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:excalidraw-diagram-generator",
+  "displayName": "Excalidraw Diagram Generator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/excalidraw-diagram-generator/SKILL.md",
+  "description": "Generate Excalidraw diagrams from natural language descriptions.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/excalidraw-diagram-generator/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-communication-sms-java",
+  "displayName": "Azure Communication Sms Java",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-java/skills/azure-communication-sms-java/SKILL.md",
+  "description": "Send SMS messages with Azure Communication Services SMS Java SDK.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-java/skills/azure-communication-sms-java/SKILL.md"
+  }
+}

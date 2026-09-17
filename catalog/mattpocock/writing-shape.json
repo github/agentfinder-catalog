@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:writing-shape",
+  "displayName": "Writing Shape",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/in-progress/writing-shape/SKILL.md",
+  "description": "Writing, exploit — shape raw material into an article, paragraph by paragraph.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/in-progress/writing-shape/SKILL.md"
+  }
+}

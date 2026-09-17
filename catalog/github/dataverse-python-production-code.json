@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:dataverse-python-production-code",
+  "displayName": "Dataverse Python Production Code",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/dataverse-python-production-code/SKILL.md",
+  "description": "Generate production-ready Python code using Dataverse SDK with error handling, optimization, and best practices",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/dataverse-python-production-code/SKILL.md"
+  }
+}

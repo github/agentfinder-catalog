@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:cli:cli:gh",
+  "displayName": "GH",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/cli/cli/blob/trunk/skills/gh/SKILL.md",
+  "description": "Patterns for invoking the GitHub CLI (gh) from agents. Covers structured output, pagination, repo targeting, search vs list, gh api fallback.",
+  "metadata": {
+    "sourceSet": "cli/cli",
+    "repoPath": "skills/gh/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:ad-campaign-analyzer",
+  "displayName": "Ad Campaign Analyzer",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/ad-campaign-analyzer/SKILL.md",
+  "description": "Use this skill when the user shares ad campaign performance data and asks what to cut, scale, or test. Trigger for prompts like \"analyze my ad...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/ad-campaign-analyzer/SKILL.md"
+  }
+}

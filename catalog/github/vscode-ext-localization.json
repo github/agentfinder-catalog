@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:vscode-ext-localization",
+  "displayName": "VS Code Ext Localization",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/vscode-ext-localization/SKILL.md",
+  "description": "Guidelines for proper localization of VS Code extensions, following VS Code extension development guidelines, libraries and good practices",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/vscode-ext-localization/SKILL.md"
+  }
+}

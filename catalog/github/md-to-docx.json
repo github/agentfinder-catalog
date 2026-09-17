@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:md-to-docx",
+  "displayName": "MD to Docx",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/md-to-docx/SKILL.md",
+  "description": "Convert Markdown files to professionally formatted Word (.docx) documents with embedded PNG images — pure JavaScript, no external tools required",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/md-to-docx/SKILL.md"
+  }
+}

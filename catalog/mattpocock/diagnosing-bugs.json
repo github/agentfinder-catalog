@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:diagnosing-bugs",
+  "displayName": "Diagnosing Bugs",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/engineering/diagnosing-bugs/SKILL.md",
+  "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something...",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/engineering/diagnosing-bugs/SKILL.md"
+  }
+}

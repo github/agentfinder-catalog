@@ -1,0 +1,5 @@
+name: Local CodeQL configuration
+
+paths-ignore:
+  - ai-catalog.json
+  - catalog/**

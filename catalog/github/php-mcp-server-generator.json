@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:php-mcp-server-generator",
+  "displayName": "Php MCP Server Generator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/php-mcp-server-generator/SKILL.md",
+  "description": "Generate a complete PHP Model Context Protocol server project with tools, resources, prompts, and tests using the official PHP SDK",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/php-mcp-server-generator/SKILL.md"
+  }
+}

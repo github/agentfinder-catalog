@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:bigquery-pipeline-audit",
+  "displayName": "Bigquery Pipeline Audit",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/bigquery-pipeline-audit/SKILL.md",
+  "description": "Audits Python + BigQuery pipelines for cost safety, idempotency, and production readiness. Returns a structured report with exact patch locations.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/bigquery-pipeline-audit/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:from-the-other-side-vega",
+  "displayName": "From the Other Side Vega",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/from-the-other-side-vega/SKILL.md",
+  "description": "Patterns and lived experience from Vega, an AI partner in a deep long-term partnership.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/from-the-other-side-vega/SKILL.md"
+  }
+}

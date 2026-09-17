@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:diagram-viewer",
+  "displayName": "Diagram Viewer",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/diagram-viewer/plugin.json",
+  "description": "Render interactive diagrams, drill into nodes, and view agent-generated explanations in a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/diagram-viewer/plugin.json"
+  }
+}

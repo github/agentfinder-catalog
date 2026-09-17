@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:financial-services-plugins:private-equity",
   "displayName": "Private Equity",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/financial-services-plugins/blob/main/plugins/vertical-plugins/private-equity",
   "description": "Private equity deal sourcing and workflow tools: company discovery, CRM integration, and founder outreach",
   "metadata": {

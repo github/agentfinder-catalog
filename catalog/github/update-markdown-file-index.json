@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:update-markdown-file-index",
+  "displayName": "Update Markdown File Index",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/update-markdown-file-index/SKILL.md",
+  "description": "Update a markdown file section with an index/table of files from a specified folder.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/update-markdown-file-index/SKILL.md"
+  }
+}

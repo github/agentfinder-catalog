@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:playwright-automation-fill-in-form",
+  "displayName": "Playwright Automation Fill in Form",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/playwright-automation-fill-in-form/SKILL.md",
+  "description": "Automate filling in a form using Playwright MCP",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/playwright-automation-fill-in-form/SKILL.md"
+  }
+}

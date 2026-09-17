@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:pyzotero",
+  "displayName": "Pyzotero",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/pyzotero/SKILL.md",
+  "description": "Interact with Zotero reference management libraries using the pyzotero Python client.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/pyzotero/SKILL.md"
+  }
+}

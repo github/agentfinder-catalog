@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-appconfiguration-py",
+  "displayName": "Azure Appconfiguration Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-appconfiguration-py/SKILL.md",
+  "description": "Azure App Configuration SDK for Python. Use for centralized configuration management, feature flags, and dynamic settings.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-appconfiguration-py/SKILL.md"
+  }
+}

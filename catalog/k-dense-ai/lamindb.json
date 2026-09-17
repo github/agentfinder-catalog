@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:lamindb",
+  "displayName": "Lamindb",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/lamindb/SKILL.md",
+  "description": "Use when working with LaminDB, the open-source lineage-native lakehouse for biological datasets and models.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/lamindb/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-release",
+  "displayName": "Slang Release",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-release/SKILL.md",
+  "description": "Write-heavy Slang release engineering: update the SPIRV-Tools/SPIRV-Headers submodules and integrate GitHub master into the internal GitLab forks (the..",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-release/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:mcp-security-audit",
+  "displayName": "MCP Security Audit",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/mcp-security-audit/SKILL.md",
+  "description": "Audit MCP (Model Context Protocol) server configurations for security issues.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/mcp-security-audit/SKILL.md"
+  }
+}

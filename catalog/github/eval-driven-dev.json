@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:eval-driven-dev",
+  "displayName": "Eval Driven Dev",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/eval-driven-dev/SKILL.md",
+  "description": "Improve AI application with evaluation-driven development. Define eval criteria, instrument the application, build golden datasets, observe and evaluate",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/eval-driven-dev/SKILL.md"
+  }
+}

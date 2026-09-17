@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-cosmos-rust",
+  "displayName": "Azure Cosmos Rust",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-rust/skills/azure-cosmos-rust/SKILL.md",
+  "description": "Azure Cosmos DB library for Rust (NoSQL API). Document CRUD, containers, and globally distributed data.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-rust/skills/azure-cosmos-rust/SKILL.md"
+  }
+}

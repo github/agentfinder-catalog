@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:podcast-generation",
+  "displayName": "Podcast Generation",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/skills/podcast-generation/SKILL.md",
+  "description": "Generate AI-powered podcast-style audio narratives using Azure OpenAI's GPT Realtime Mini model via WebSocket.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/skills/podcast-generation/SKILL.md"
+  }
+}

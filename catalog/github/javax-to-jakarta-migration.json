@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:javax-to-jakarta-migration",
+  "displayName": "Javax to Jakarta Migration",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/javax-to-jakarta-migration/SKILL.md",
+  "description": "Migrate Java code from javax.* to jakarta.* namespace. Use when upgrading to Tomcat 11, Jakarta EE 10, or when javax imports are detected in the...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/javax-to-jakarta-migration/SKILL.md"
+  }
+}

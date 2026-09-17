@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:modal",
+  "displayName": "Modal",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/modal/SKILL.md",
+  "description": "Modal is a serverless cloud platform for running Python on demand, including on-demand GPUs.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/modal/SKILL.md"
+  }
+}

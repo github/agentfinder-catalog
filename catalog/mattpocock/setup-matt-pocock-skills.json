@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:setup-matt-pocock-skills",
+  "displayName": "Setup Matt Pocock Skills",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/engineering/setup-matt-pocock-skills/SKILL.md",
+  "description": "Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/engineering/setup-matt-pocock-skills/SKILL.md"
+  }
+}

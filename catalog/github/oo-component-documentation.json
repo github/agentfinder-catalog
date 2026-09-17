@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:oo-component-documentation",
+  "displayName": "Oo Component Documentation",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/oo-component-documentation/SKILL.md",
+  "description": "Create or update standardized object-oriented component documentation using a shared template plus mode-specific guidance for new and existing docs.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/oo-component-documentation/SKILL.md"
+  }
+}

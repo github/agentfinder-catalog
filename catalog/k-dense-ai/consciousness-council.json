@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:consciousness-council",
+  "displayName": "Consciousness Council",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/consciousness-council/SKILL.md",
+  "description": "Run a multi-perspective Mind Council deliberation on any question, decision, or creative challenge.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/consciousness-council/SKILL.md"
+  }
+}

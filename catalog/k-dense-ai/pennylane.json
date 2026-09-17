@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:pennylane",
+  "displayName": "Pennylane",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/pennylane/SKILL.md",
+  "description": "Hardware-agnostic quantum ML framework with automatic differentiation.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/pennylane/SKILL.md"
+  }
+}

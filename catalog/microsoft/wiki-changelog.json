@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:wiki-changelog",
+  "displayName": "Wiki Changelog",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/deep-wiki/skills/wiki-changelog/SKILL.md",
+  "description": "Analyzes git commit history and generates structured changelogs categorized by change type.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/deep-wiki/skills/wiki-changelog/SKILL.md"
+  }
+}

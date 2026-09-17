@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:scvi-tools",
+  "displayName": "Scvi Tools",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/scvi-tools/SKILL.md",
+  "description": "Deep generative models for single-cell omics. Use when you need probabilistic batch correction (scVI), transfer learning, differential expression with..",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/scvi-tools/SKILL.md"
+  }
+}

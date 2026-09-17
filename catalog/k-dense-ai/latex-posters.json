@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:latex-posters",
+  "displayName": "LaTeX Posters",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/latex-posters/SKILL.md",
+  "description": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/latex-posters/SKILL.md"
+  }
+}

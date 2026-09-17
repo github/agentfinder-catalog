@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:code-simplifier",
   "displayName": "Code Simplifier",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/plugins/code-simplifier",
   "description": "Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality",
   "metadata": {

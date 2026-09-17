@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:gsap-framer-scroll-animation",
+  "displayName": "Gsap Framer Scroll Animation",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/gsap-framer-scroll-animation/SKILL.md",
+  "description": "Use this skill whenever the user wants to build scroll animations, scroll effects, parallax, scroll-triggered reveals, pinned sections, horizontal...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/gsap-framer-scroll-animation/SKILL.md"
+  }
+}

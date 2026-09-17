@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:dask",
+  "displayName": "Dask",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/dask/SKILL.md",
+  "description": "Distributed computing for larger-than-RAM pandas/NumPy workflows.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/dask/SKILL.md"
+  }
+}

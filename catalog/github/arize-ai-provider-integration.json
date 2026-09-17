@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:arize-ai-provider-integration",
+  "displayName": "Arize AI Provider Integration",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/arize-ai-provider-integration/SKILL.md",
+  "description": "Creates, reads, updates, and deletes Arize AI integrations that store LLM provider credentials used by evaluators and other Arize features.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/arize-ai-provider-integration/SKILL.md"
+  }
+}

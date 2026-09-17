@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:skill-creator",
+  "displayName": "Skill Creator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/skills/skill-creator/SKILL.md",
+  "description": "Guide for creating effective skills for AI coding agents working with Azure SDKs and Microsoft Foundry services.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/skills/skill-creator/SKILL.md"
+  }
+}

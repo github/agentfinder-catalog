@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:react19-source-patterns",
+  "displayName": "React19 Source Patterns",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/react19-source-patterns/SKILL.md",
+  "description": "Reference for React 19 source-file migration patterns, including API changes, ref handling, and context updates.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/react19-source-patterns/SKILL.md"
+  }
+}

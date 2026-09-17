@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-test-feature",
+  "displayName": "Slang Test Feature",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-test-feature/SKILL.md",
+  "description": "Orchestrator that researches a language feature, produces a test plan for user review, and fans out parallel agents that each deliver test branches with",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-test-feature/SKILL.md"
+  }
+}

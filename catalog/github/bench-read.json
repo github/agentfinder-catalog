@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:bench-read",
+  "displayName": "Bench Read",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/bench-read/SKILL.md",
+  "description": "Read artifacts from the shared bench — the workspace where desks leave findings, verdicts, and work products for each other and the operator.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/bench-read/SKILL.md"
+  }
+}

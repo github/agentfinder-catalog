@@ -40,6 +40,9 @@ Create a file at `catalog/<your-publisher>/<augment-name>.json` with the followi
   "mediaType": "application/ai-skill",
   "url": "https://github.com/<publisher>/<repo>/blob/main/path/to/SKILL.md",
   "description": "A short description of what this augment does.",
+  "tags": [
+    "optional-tag"
+  ],
   "metadata": {
     "sourceSet": "<repo>",
     "repoPath": "path/to/SKILL.md"
@@ -56,22 +59,47 @@ Create a file at `catalog/<your-publisher>/<augment-name>.json` with the followi
 | `mediaType` | ✅ | The type of augment (e.g., `application/ai-skill`) |
 | `url` | ✅ | URL to the augment's definition file (e.g., SKILL.md) |
 | `description` | ✅ | A brief description of the augment's purpose |
+| `tags` | ❌ | Tags used to categorize and filter the augment |
 | `metadata.sourceSet` | ✅ | The source repository name |
 | `metadata.repoPath` | ✅ | Path to the definition file within the repository |
 
+#### Canvas-only plugins
+
+Catalog entries for plugins whose functionality consists entirely of a GitHub Copilot
+canvas keep the `application/vnd.github.copilot-plugin` media type and must include all
+of these tags:
+
+```json
+"tags": [
+  "canvas",
+  "canvas-only",
+  "github-copilot"
+]
+```
+
+Do not use `canvas-only` for a plugin that still provides useful agents, skills, hooks,
+or MCP servers when its canvas is unavailable. Canvas-only entries must not include
+the corresponding `agent`, `skill`, `hook`, or `mcp-server` capability tags.
+
 ### 4. Validate your JSON
 
-Make sure your file is valid JSON:
+Make sure your file is valid JSON, then regenerate and check the ARD ingestion catalog:
 
 ```bash
 python -m json.tool catalog/<your-publisher>/<augment-name>.json
+python3 scripts/generate_ai_catalog.py
+python3 scripts/generate_ai_catalog.py --check
 ```
+
+Files under `catalog/<publisher>/` remain the source of truth for contributor-managed entries. The root `ai-catalog.json` is generated for ARD ingestion, supplemented with missing entries from GitHub's public MCP catalog, and should not be edited by hand.
+
+The pull request workflow regenerates `ai-catalog.json` automatically for branches in this repository. Fork workflows validate the catalog but cannot push changes; the main-branch fallback opens a follow-up pull request if regeneration is needed after merge.
 
 ### 5. Open a pull request
 
 ```bash
 git checkout -b add-<augment-name>
-git add catalog/
+git add catalog/ ai-catalog.json
 git commit -m "Add <augment-name> to catalog"
 git push origin add-<augment-name>
 gh pr create --title "Add <augment-name>" --body "Adds <augment-name> to the agentfinder catalog."

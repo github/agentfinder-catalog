@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:financial-services-plugins:claude-for-msft-365-install",
   "displayName": "Claude For Msft 365 Install",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/financial-services-plugins/blob/main/claude-for-msft-365-install",
   "description": "Provision direct cloud access (Vertex AI, Bedrock, or LLM gateway) for the Claude Office add-in. Generates the customized add-in manifest, walks...",
   "metadata": {

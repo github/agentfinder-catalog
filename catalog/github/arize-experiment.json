@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:arize-experiment",
+  "displayName": "Arize Experiment",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/arize-experiment/SKILL.md",
+  "description": "Creates, runs, and analyzes Arize experiments for evaluating and comparing model performance.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/arize-experiment/SKILL.md"
+  }
+}

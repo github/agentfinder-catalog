@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-search-documents-ts",
+  "displayName": "Azure Search Documents TS",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-typescript/skills/azure-search-documents-ts/SKILL.md",
+  "description": "Build search applications using Azure AI Search SDK for JavaScript (@azure/search-documents).",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-typescript/skills/azure-search-documents-ts/SKILL.md"
+  }
+}

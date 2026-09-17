@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:migrate-to-shoehorn",
+  "displayName": "Migrate to Shoehorn",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/misc/migrate-to-shoehorn/SKILL.md",
+  "description": "Migrate test files from `as` type assertions to @total-typescript/shoehorn.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/misc/migrate-to-shoehorn/SKILL.md"
+  }
+}

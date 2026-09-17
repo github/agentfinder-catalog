@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:power-platform-skills:power-pages",
+  "displayName": "Power Pages",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/power-platform-skills/blob/main/plugins/power-pages",
+  "description": "Create and deploy Power Pages sites using modern development approaches, with support for code sites and ALM orchestration.",
+  "metadata": {
+    "sourceSet": "microsoft/power-platform-skills",
+    "repoPath": "plugins/power-pages/.plugin/plugin.json"
+  }
+}

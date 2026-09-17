@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-cosmos-db-py",
+  "displayName": "Azure Cosmos DB Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-cosmos-db-py/SKILL.md",
+  "description": "Build Azure Cosmos DB NoSQL services with Python/FastAPI following production-grade patterns.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-cosmos-db-py/SKILL.md"
+  }
+}

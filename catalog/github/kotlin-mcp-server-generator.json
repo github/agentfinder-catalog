@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:kotlin-mcp-server-generator",
+  "displayName": "Kotlin MCP Server Generator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/kotlin-mcp-server-generator/SKILL.md",
+  "description": "Generate a complete Kotlin MCP server project with proper structure, dependencies, and implementation using the official...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/kotlin-mcp-server-generator/SKILL.md"
+  }
+}

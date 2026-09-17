@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:aws-cdk-python-setup",
+  "displayName": "AWS Cdk Python Setup",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/aws-cdk-python-setup/SKILL.md",
+  "description": "Setup and initialization guide for developing AWS CDK (Cloud Development Kit) applications in Python.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/aws-cdk-python-setup/SKILL.md"
+  }
+}

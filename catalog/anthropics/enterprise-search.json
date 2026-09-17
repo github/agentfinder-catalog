@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:knowledge-work-plugins:enterprise-search",
   "displayName": "Enterprise Search",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/enterprise-search",
   "description": "Search across all of your company's tools in one place. Find anything across email, chat, documents, and wikis without switching between apps.",
   "metadata": {

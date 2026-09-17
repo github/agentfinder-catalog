@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:deepchem",
+  "displayName": "Deepchem",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/deepchem/SKILL.md",
+  "description": "Molecular ML with diverse featurizers and pre-built datasets.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/deepchem/SKILL.md"
+  }
+}

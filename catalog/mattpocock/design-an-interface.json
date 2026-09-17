@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:design-an-interface",
+  "displayName": "Design an Interface",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/deprecated/design-an-interface/SKILL.md",
+  "description": "Generate multiple radically different interface designs for a module using parallel sub-agents.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/deprecated/design-an-interface/SKILL.md"
+  }
+}

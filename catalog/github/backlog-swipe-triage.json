@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:backlog-swipe-triage",
+  "displayName": "Backlog Swipe Triage",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/backlog-swipe-triage/plugin.json",
+  "description": "Swipe through backlog issues in a GitHub Copilot canvas to assign, request information, defer, close, or ignore them.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/backlog-swipe-triage/plugin.json"
+  }
+}

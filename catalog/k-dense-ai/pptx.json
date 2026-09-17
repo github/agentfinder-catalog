@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:pptx",
+  "displayName": "Pptx",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/pptx/SKILL.md",
+  "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/pptx/SKILL.md"
+  }
+}

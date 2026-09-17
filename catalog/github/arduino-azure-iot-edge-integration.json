@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:arduino-azure-iot-edge-integration",
+  "displayName": "Arduino Azure Iot Edge Integration",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/arduino-azure-iot-edge-integration/SKILL.md",
+  "description": "Design and implement Arduino integration with Azure IoT Hub and IoT Edge, including secure provisioning, resilient telemetry, command handling, and...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/arduino-azure-iot-edge-integration/SKILL.md"
+  }
+}

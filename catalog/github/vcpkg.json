@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:vcpkg",
+  "displayName": "Vcpkg",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/vcpkg/SKILL.md",
+  "description": "Guide for setting up vcpkg in C++ projects, managing dependency versions, and cross-compiling.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/vcpkg/SKILL.md"
+  }
+}

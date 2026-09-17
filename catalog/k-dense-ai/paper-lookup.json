@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:paper-lookup",
+  "displayName": "Paper Lookup",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/paper-lookup/SKILL.md",
+  "description": "Search 11 academic literature APIs for papers, preprints, citations, and open-access full text, and return results with reproducible provenance.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/paper-lookup/SKILL.md"
+  }
+}

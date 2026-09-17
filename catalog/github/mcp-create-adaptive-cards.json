@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:mcp-create-adaptive-cards",
+  "displayName": "MCP Create Adaptive Cards",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/mcp-create-adaptive-cards/SKILL.md",
+  "description": "Skill converted from mcp-create-adaptive-cards.prompt.md",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/mcp-create-adaptive-cards/SKILL.md"
+  }
+}

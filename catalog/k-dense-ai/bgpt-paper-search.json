@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:bgpt-paper-search",
+  "displayName": "Bgpt Paper Search",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/bgpt-paper-search/SKILL.md",
+  "description": "Search scientific papers and retrieve structured experimental data extracted from full-text studies via the BGPT MCP server.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/bgpt-paper-search/SKILL.md"
+  }
+}

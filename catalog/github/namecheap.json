@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:namecheap",
+  "displayName": "Namecheap",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/namecheap/SKILL.md",
+  "description": "Manage DNS records for domains registered with Namecheap via their API.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/namecheap/SKILL.md"
+  }
+}

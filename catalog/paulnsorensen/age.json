@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:age",
+  "displayName": "Age",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/age/SKILL.md",
+  "description": "Review a diff, PR, branch, or path across ten orthogonal dimensions (correctness, security, encapsulation, spec, complexity, deslop, assertions, NIH...",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/age/SKILL.md"
+  }
+}

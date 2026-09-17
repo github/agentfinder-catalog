@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:game-engine",
+  "displayName": "Game Engine",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/game-engine/SKILL.md",
+  "description": "Expert skill for building web-based game engines and games using HTML5, Canvas, WebGL, and JavaScript.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/game-engine/SKILL.md"
+  }
+}

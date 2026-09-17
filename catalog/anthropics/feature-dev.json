@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:feature-dev",
   "displayName": "Feature Dev",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/plugins/feature-dev",
   "description": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review",
   "metadata": {

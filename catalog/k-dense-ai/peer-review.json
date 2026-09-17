@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:peer-review",
+  "displayName": "Peer Review",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/peer-review/SKILL.md",
+  "description": "Prepare evidence-bounded, constructive peer-review drafts and structured manuscript assessments.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/peer-review/SKILL.md"
+  }
+}

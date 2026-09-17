@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:remember-interactive-programming",
+  "displayName": "Remember Interactive Programming",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/remember-interactive-programming/SKILL.md",
+  "description": "A micro-prompt that reminds the agent that it is an interactive programmer.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/remember-interactive-programming/SKILL.md"
+  }
+}

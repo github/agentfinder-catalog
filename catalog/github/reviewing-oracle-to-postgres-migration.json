@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:reviewing-oracle-to-postgres-migration",
+  "displayName": "Reviewing Oracle to Postgres Migration",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/reviewing-oracle-to-postgres-migration/SKILL.md",
+  "description": "Identifies Oracle-to-PostgreSQL migration risks by cross-referencing code against known behavioral differences (empty strings, refcursors, type...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/reviewing-oracle-to-postgres-migration/SKILL.md"
+  }
+}

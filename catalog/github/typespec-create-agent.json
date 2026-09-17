@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:typespec-create-agent",
+  "displayName": "Typespec Create Agent",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/typespec-create-agent/SKILL.md",
+  "description": "Generate a complete TypeSpec declarative agent with instructions, capabilities, and conversation starters for Microsoft 365 Copilot",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/typespec-create-agent/SKILL.md"
+  }
+}

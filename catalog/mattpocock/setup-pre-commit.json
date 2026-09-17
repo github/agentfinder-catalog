@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:setup-pre-commit",
+  "displayName": "Setup Pre Commit",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/misc/setup-pre-commit/SKILL.md",
+  "description": "Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/misc/setup-pre-commit/SKILL.md"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:apng-studio",
+  "displayName": "APNG Studio",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/apng-studio/plugin.json",
+  "description": "Build Animated PNG files in an interactive GitHub Copilot canvas by drawing or uploading frames, tuning animation settings, previewing, and exporting.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/apng-studio/plugin.json"
+  }
+}

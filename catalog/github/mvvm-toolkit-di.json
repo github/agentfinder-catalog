@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:mvvm-toolkit-di",
+  "displayName": "Mvvm Toolkit Di",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/mvvm-toolkit-di/SKILL.md",
+  "description": "Wire CommunityToolkit.Mvvm ViewModels into Microsoft.Extensions.DependencyInjection.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/mvvm-toolkit-di/SKILL.md"
+  }
+}

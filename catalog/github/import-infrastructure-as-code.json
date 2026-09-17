@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:import-infrastructure-as-code",
+  "displayName": "Import Infrastructure as Code",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/import-infrastructure-as-code/SKILL.md",
+  "description": "Import existing Azure resources into Terraform using Azure CLI discovery and Azure Verified Modules (AVM).",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/import-infrastructure-as-code/SKILL.md"
+  }
+}

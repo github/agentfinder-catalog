@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-resource-manager-cosmosdb-dotnet",
+  "displayName": "Azure Resource Manager Cosmosdb .NET",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-cosmosdb-dotnet/SKILL.md",
+  "description": "Azure Resource Manager SDK for Cosmos DB in .NET. Use for MANAGEMENT PLANE operations: creating/managing Cosmos DB accounts, databases, containers...",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-cosmosdb-dotnet/SKILL.md"
+  }
+}

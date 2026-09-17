@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:make-repo-contribution",
+  "displayName": "Make Repo Contribution",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/make-repo-contribution/SKILL.md",
+  "description": "All changes to code must follow the guidance documented in the repository.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/make-repo-contribution/SKILL.md"
+  }
+}

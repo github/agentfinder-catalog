@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:writing-great-skills",
+  "displayName": "Writing Great Skills",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-great-skills/SKILL.md",
+  "description": "Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/productivity/writing-great-skills/SKILL.md"
+  }
+}

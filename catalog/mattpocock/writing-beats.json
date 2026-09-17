@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:writing-beats",
+  "displayName": "Writing Beats",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/in-progress/writing-beats/SKILL.md",
+  "description": "Writing, exploit — assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/in-progress/writing-beats/SKILL.md"
+  }
+}

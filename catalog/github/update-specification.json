@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:update-specification",
+  "displayName": "Update Specification",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/update-specification/SKILL.md",
+  "description": "Update an existing specification file for the solution, optimized for Generative AI consumption based on new requirements or updates to any existing...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/update-specification/SKILL.md"
+  }
+}

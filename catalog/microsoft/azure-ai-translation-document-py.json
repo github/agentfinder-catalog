@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-ai-translation-document-py",
+  "displayName": "Azure AI Translation Document Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-ai-translation-document-py/SKILL.md",
+  "description": "Azure AI Document Translation SDK for batch translation of documents with format preservation.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-ai-translation-document-py/SKILL.md"
+  }
+}

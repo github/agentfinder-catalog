@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:press",
+  "displayName": "Press",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/press/SKILL.md",
+  "description": "Harden the test surface after `/cook` — map changed behavior to tests, find weak assertions and missing boundaries, and add focused hardening tests.",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/press/SKILL.md"
+  }
+}

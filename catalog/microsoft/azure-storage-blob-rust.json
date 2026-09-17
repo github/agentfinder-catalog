@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-storage-blob-rust",
+  "displayName": "Azure Storage Blob Rust",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-rust/skills/azure-storage-blob-rust/SKILL.md",
+  "description": "Azure Blob Storage library for Rust. Upload, download, and manage blobs and containers.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-rust/skills/azure-storage-blob-rust/SKILL.md"
+  }
+}

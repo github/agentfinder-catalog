@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:go-mcp-server-generator",
+  "displayName": "Go MCP Server Generator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/go-mcp-server-generator/SKILL.md",
+  "description": "Generate a complete Go MCP server project with proper structure, dependencies, and implementation using the official...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/go-mcp-server-generator/SKILL.md"
+  }
+}

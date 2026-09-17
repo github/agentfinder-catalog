@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:debugview",
+  "displayName": "Debugview",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/skills/debugview/SKILL.md",
+  "description": "Sysinternals DebugView CLI (DbgViewCli) for capturing and analyzing usermode and kernel-mode Windows debug output from the command line.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/skills/debugview/SKILL.md"
+  }
+}

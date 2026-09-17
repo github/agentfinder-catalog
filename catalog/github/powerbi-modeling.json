@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:powerbi-modeling",
+  "displayName": "Powerbi Modeling",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/powerbi-modeling/SKILL.md",
+  "description": "Power BI semantic modeling assistant for building optimized data models.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/powerbi-modeling/SKILL.md"
+  }
+}

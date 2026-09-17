@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:integrate-context-matic",
+  "displayName": "Integrate Context Matic",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/integrate-context-matic/SKILL.md",
+  "description": "Discovers and integrates third-party APIs using the context-matic MCP server.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/integrate-context-matic/SKILL.md"
+  }
+}

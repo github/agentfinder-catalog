@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:wiki-researcher",
+  "displayName": "Wiki Researcher",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/deep-wiki/skills/wiki-researcher/SKILL.md",
+  "description": "Conducts multi-turn iterative deep research on specific topics within a codebase with zero tolerance for shallow analysis.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/deep-wiki/skills/wiki-researcher/SKILL.md"
+  }
+}

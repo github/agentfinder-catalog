@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:kotlin-springboot",
+  "displayName": "Kotlin Springboot",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/kotlin-springboot/SKILL.md",
+  "description": "Get best practices for developing applications with Spring Boot and Kotlin.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/kotlin-springboot/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:desk-journal",
+  "displayName": "Desk Journal",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/desk-journal/SKILL.md",
+  "description": "Write, append, or read desk journal entries. The journal is persistent memory — what survives session boundaries.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/desk-journal/SKILL.md"
+  }
+}

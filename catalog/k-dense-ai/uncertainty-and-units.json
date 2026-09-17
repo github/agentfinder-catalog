@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:uncertainty-and-units",
+  "displayName": "Uncertainty and Units",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/uncertainty-and-units/SKILL.md",
+  "description": "Track physical units and propagate measurement uncertainty in scientific calculations using pint and uncertainties.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/uncertainty-and-units/SKILL.md"
+  }
+}

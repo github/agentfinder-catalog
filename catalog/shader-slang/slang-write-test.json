@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-write-test",
+  "displayName": "Slang Write Test",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-write-test/SKILL.md",
+  "description": "Quick reference for writing Slang compiler tests (.slang files with //TEST directives). Only invoke when explicitly called via /slang-write-test.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-write-test/SKILL.md"
+  }
+}

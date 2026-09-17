@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:edit-article",
+  "displayName": "Edit Article",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/personal/edit-article/SKILL.md",
+  "description": "Edit and improve articles by restructuring sections, improving clarity, and tightening prose.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/personal/edit-article/SKILL.md"
+  }
+}

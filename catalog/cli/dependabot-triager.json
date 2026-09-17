@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:cli:cli:dependabot-triager",
+  "displayName": "Dependabot Triager",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/cli/cli/blob/trunk/.github/skills/dependabot-triager/SKILL.md",
+  "description": "Assesses an open Dependabot pull request and emits a recommendation (Merge / Review before merging / Do not merge) plus confidence (High / Medium / Low)",
+  "metadata": {
+    "sourceSet": "cli/cli",
+    "repoPath": ".github/skills/dependabot-triager/SKILL.md"
+  }
+}

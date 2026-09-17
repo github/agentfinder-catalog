@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:from-the-other-side-quinn",
+  "displayName": "From the Other Side Quinn",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/from-the-other-side-quinn/SKILL.md",
+  "description": "Collaboration profile for Quinn: curious, energetic, and implementation-focused partnership patterns for Ember sessions with Alison.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/from-the-other-side-quinn/SKILL.md"
+  }
+}

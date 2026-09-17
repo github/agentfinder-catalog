@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:web-design-reviewer",
+  "displayName": "Web Design Reviewer",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/web-design-reviewer/SKILL.md",
+  "description": "This skill enables visual inspection of websites running locally or remotely to identify and fix design issues.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/web-design-reviewer/SKILL.md"
+  }
+}

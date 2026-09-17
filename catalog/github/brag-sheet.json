@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:brag-sheet",
+  "displayName": "Brag Sheet",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/brag-sheet/SKILL.md",
+  "description": "Turn vague \"what did I do?\" into evidence-backed impact statements for performance reviews, self-reviews, promotion packets, and weekly updates.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/brag-sheet/SKILL.md"
+  }
+}

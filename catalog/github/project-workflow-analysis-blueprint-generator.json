@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:project-workflow-analysis-blueprint-generator",
+  "displayName": "Project Workflow Analysis Blueprint Generator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/project-workflow-analysis-blueprint-generator/SKILL.md",
+  "description": "Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/project-workflow-analysis-blueprint-generator/SKILL.md"
+  }
+}

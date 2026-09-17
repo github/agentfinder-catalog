@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:ui-screenshots",
+  "displayName": "UI Screenshots",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/ui-screenshots/SKILL.md",
+  "description": "Capture screenshots of web apps during development using Playwright and PIL.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/ui-screenshots/SKILL.md"
+  }
+}

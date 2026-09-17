@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:phoenix-tracing",
+  "displayName": "Phoenix Tracing",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/phoenix-tracing/SKILL.md",
+  "description": "OpenInference semantic conventions and instrumentation for Phoenix AI observability.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/phoenix-tracing/SKILL.md"
+  }
+}

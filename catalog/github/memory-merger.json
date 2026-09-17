@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:memory-merger",
+  "displayName": "Memory Merger",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/memory-merger/SKILL.md",
+  "description": "Merges mature lessons from a domain memory file into its instruction file.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/memory-merger/SKILL.md"
+  }
+}

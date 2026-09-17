@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:cosmosdb-datamodeling",
+  "displayName": "Cosmosdb Datamodeling",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/cosmosdb-datamodeling/SKILL.md",
+  "description": "Step-by-step guide for capturing key application requirements for NoSQL use-case and produce Azure Cosmos DB Data NoSQL Model design using best...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/cosmosdb-datamodeling/SKILL.md"
+  }
+}

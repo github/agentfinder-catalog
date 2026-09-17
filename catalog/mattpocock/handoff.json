@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:handoff",
+  "displayName": "Handoff",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/productivity/handoff/SKILL.md",
+  "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/productivity/handoff/SKILL.md"
+  }
+}

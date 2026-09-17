@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:flowstudio-power-automate-monitoring",
+  "displayName": "Flowstudio Power Automate Monitoring",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/flowstudio-power-automate-monitoring/SKILL.md",
+  "description": "Pro+ subscription required. Tenant-wide Power Automate monitoring using the FlowStudio MCP cached store: failure rates, run-health trends, maker/app...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/flowstudio-power-automate-monitoring/SKILL.md"
+  }
+}

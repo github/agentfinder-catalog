@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:github-actions-efficiency",
+  "displayName": "GitHub Actions Efficiency",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/github-actions-efficiency/SKILL.md",
+  "description": "Audit GitHub Actions workflow efficiency and recommend fixes to reduce CI minutes and costs.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/github-actions-efficiency/SKILL.md"
+  }
+}

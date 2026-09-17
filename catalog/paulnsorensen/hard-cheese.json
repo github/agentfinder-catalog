@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:hard-cheese",
+  "displayName": "Hard Cheese",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/hard-cheese/SKILL.md",
+  "description": "Metacognitive vibecheck gate before code is shared for review — make the author explain the diff's causal logic, graded by a fresh-context judge against",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/hard-cheese/SKILL.md"
+  }
+}

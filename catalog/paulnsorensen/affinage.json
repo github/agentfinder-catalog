@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:affinage",
+  "displayName": "Affinage",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/affinage/SKILL.md",
+  "description": "Triage a PR's review comments and failing CI (plus merge conflicts) through the /age lens, deciding which claims are worth acting on.",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/affinage/SKILL.md"
+  }
+}

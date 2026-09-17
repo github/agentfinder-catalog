@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:networkx",
+  "displayName": "Networkx",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/networkx/SKILL.md",
+  "description": "Create, analyze, and visualize complex networks and graphs in Python with NetworkX.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/networkx/SKILL.md"
+  }
+}

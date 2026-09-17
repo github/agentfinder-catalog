@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:batch-grill-me",
+  "displayName": "Batch Grill Me",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/in-progress/batch-grill-me/SKILL.md",
+  "description": "A relentless interview that asks every frontier question at once, round by round.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/in-progress/batch-grill-me/SKILL.md"
+  }
+}

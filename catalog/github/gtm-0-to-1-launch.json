@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:gtm-0-to-1-launch",
+  "displayName": "GTM 0 to 1 Launch",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/gtm-0-to-1-launch/SKILL.md",
+  "description": "Launch new products from idea to first customers. Use when launching products, finding early adopters, building launch week playbooks, diagnosing why...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/gtm-0-to-1-launch/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:cli:cli:cli-code-reviewer",
+  "displayName": "CLI Code Reviewer",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/cli/cli/blob/trunk/.github/skills/cli-code-reviewer/SKILL.md",
+  "description": "Reviews GitHub CLI (gh) pull requests against codebase conventions",
+  "metadata": {
+    "sourceSet": "cli/cli",
+    "repoPath": ".github/skills/cli-code-reviewer/SKILL.md"
+  }
+}

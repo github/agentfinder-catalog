@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:gen-specs-as-issues",
+  "displayName": "Gen Specs as Issues",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/gen-specs-as-issues/SKILL.md",
+  "description": "This workflow guides you through a systematic approach to identify missing features, prioritize them, and create detailed specifications for...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/gen-specs-as-issues/SKILL.md"
+  }
+}

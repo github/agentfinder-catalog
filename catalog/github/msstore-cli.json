@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:msstore-cli",
+  "displayName": "Msstore CLI",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/msstore-cli/SKILL.md",
+  "description": "Microsoft Store Developer CLI (msstore) for publishing Windows applications to the Microsoft Store.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/msstore-cli/SKILL.md"
+  }
+}

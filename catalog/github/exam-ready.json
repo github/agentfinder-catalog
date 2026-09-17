@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:exam-ready",
+  "displayName": "Exam Ready",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/exam-ready/SKILL.md",
+  "description": "Activate this skill when a student provides study material (PDF or pasted notes) and a syllabus, and wants to prepare for an exam.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/exam-ready/SKILL.md"
+  }
+}

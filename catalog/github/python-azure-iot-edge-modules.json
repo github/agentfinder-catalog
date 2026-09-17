@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:python-azure-iot-edge-modules",
+  "displayName": "Python Azure Iot Edge Modules",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/python-azure-iot-edge-modules/SKILL.md",
+  "description": "Build and operate Python Azure IoT Edge modules with robust messaging, deployment manifests, observability, and production readiness checks.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/python-azure-iot-edge-modules/SKILL.md"
+  }
+}

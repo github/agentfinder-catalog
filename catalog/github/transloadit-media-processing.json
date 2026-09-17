@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:transloadit-media-processing",
+  "displayName": "Transloadit Media Processing",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/transloadit-media-processing/SKILL.md",
+  "description": "Process media files (video, audio, images, documents) using Transloadit.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/transloadit-media-processing/SKILL.md"
+  }
+}

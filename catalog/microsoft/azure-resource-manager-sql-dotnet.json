@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-resource-manager-sql-dotnet",
+  "displayName": "Azure Resource Manager SQL .NET",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-sql-dotnet/SKILL.md",
+  "description": "Azure Resource Manager SDK for Azure SQL in .NET. Use for MANAGEMENT PLANE operations: creating/managing SQL servers, databases, elastic pools, firewall",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-sql-dotnet/SKILL.md"
+  }
+}

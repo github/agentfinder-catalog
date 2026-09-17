@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:cursor:plugins:thermos",
   "displayName": "Thermos",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.cursor.cursor-plugin+json",
   "url": "https://github.com/cursor/plugins/blob/main/thermos",
   "description": "Thermo-nuclear branch review: deep correctness and security audits plus harsh code-quality rubrics, parallel subagents, thermos orchestration, and...",
   "metadata": {

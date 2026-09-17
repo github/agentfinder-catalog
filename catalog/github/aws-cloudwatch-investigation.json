@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:aws-cloudwatch-investigation",
+  "displayName": "AWS Cloudwatch Investigation",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/aws-cloudwatch-investigation/SKILL.md",
+  "description": "Reusable investigation patterns for AWS CloudWatch: Logs Insights query templates, alarm-to-deployment correlation, blast-radius narrowing decision...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/aws-cloudwatch-investigation/SKILL.md"
+  }
+}

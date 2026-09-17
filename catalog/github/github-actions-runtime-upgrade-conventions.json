@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:github-actions-runtime-upgrade-conventions",
+  "displayName": "GitHub Actions Runtime Upgrade Conventions",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/github-actions-runtime-upgrade-conventions/SKILL.md",
+  "description": "Upgrade GitHub Actions to supported runtimes by selecting safe action versions, preserving workflow behavior, and validating post-upgrade execution.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/github-actions-runtime-upgrade-conventions/SKILL.md"
+  }
+}

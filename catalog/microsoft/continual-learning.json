@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:continual-learning",
+  "displayName": "Continual Learning",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/skills/continual-learning/SKILL.md",
+  "description": "Guide for implementing continual learning in AI coding agents — hooks, memory scoping, reflection patterns.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/skills/continual-learning/SKILL.md"
+  }
+}

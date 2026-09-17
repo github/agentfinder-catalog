@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills-for-fabric:fabric-consumption",
+  "displayName": "Fabric Consumption",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/skills-for-fabric/blob/main/plugins/fabric-consumption",
+  "description": "Consumer skills for interactive Microsoft Fabric operations, including queries, exploration, and monitoring.",
+  "metadata": {
+    "sourceSet": "microsoft/skills-for-fabric",
+    "repoPath": "plugins/fabric-consumption/.github/plugin/plugin.json"
+  }
+}

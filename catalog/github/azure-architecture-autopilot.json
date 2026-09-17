@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:azure-architecture-autopilot",
+  "displayName": "Azure Architecture Autopilot",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/azure-architecture-autopilot/SKILL.md",
+  "description": "Design Azure infrastructure using natural language, or analyze existing Azure resources to auto-generate architecture diagrams, refine them through...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/azure-architecture-autopilot/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-evaluate-session",
+  "displayName": "Slang Evaluate Session",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-evaluate-session/SKILL.md",
+  "description": "Evaluate the current session's skill effectiveness. Only invoke when explicitly called via /slang-evaluate-session.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-evaluate-session/SKILL.md"
+  }
+}

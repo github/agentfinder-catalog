@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:incident-postmortem",
+  "displayName": "Incident Postmortem",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/incident-postmortem/SKILL.md",
+  "description": "Use when an outage, production incident, or significant service degradation has occurred and the team needs to write a structured blameless post-mortem.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/incident-postmortem/SKILL.md"
+  }
+}

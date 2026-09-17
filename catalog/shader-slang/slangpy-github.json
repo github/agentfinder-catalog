@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slangpy-github",
+  "displayName": "Slangpy GitHub",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slangpy-github/SKILL.md",
+  "description": "GitHub operations for SlangPy. Clone, branch, PR, issues, CI.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slangpy-github/SKILL.md"
+  }
+}

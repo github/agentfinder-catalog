@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:teams-app-developer",
+  "displayName": "Teams App Developer",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/microsoft-365-agents-toolkit/skills/teams-app-developer/SKILL.md",
+  "description": "Builds, tests, and deploys Microsoft 365 apps and agents for Teams and Copilot.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/microsoft-365-agents-toolkit/skills/teams-app-developer/SKILL.md"
+  }
+}

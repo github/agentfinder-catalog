@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:sponsor-finder",
+  "displayName": "Sponsor Finder",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/sponsor-finder/SKILL.md",
+  "description": "Find which of a GitHub repository's dependencies are sponsorable via GitHub Sponsors.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/sponsor-finder/SKILL.md"
+  }
+}

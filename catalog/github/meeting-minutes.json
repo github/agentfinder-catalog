@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:meeting-minutes",
+  "displayName": "Meeting Minutes",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/meeting-minutes/SKILL.md",
+  "description": "Generate concise, actionable meeting minutes for internal meetings.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/meeting-minutes/SKILL.md"
+  }
+}

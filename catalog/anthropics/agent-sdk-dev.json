@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:agent-sdk-dev",
   "displayName": "Agent Sdk Dev",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/plugins/agent-sdk-dev",
   "description": "Claude Agent SDK Development Plugin",
   "metadata": {

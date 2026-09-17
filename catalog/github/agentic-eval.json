@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:agentic-eval",
+  "displayName": "Agentic Eval",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/agentic-eval/SKILL.md",
+  "description": "Patterns and techniques for evaluating and improving AI agent outputs.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/agentic-eval/SKILL.md"
+  }
+}

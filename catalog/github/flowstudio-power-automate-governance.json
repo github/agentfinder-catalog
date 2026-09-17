@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:flowstudio-power-automate-governance",
+  "displayName": "Flowstudio Power Automate Governance",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/flowstudio-power-automate-governance/SKILL.md",
+  "description": "Govern Power Automate flows and Power Apps at scale using the FlowStudio MCP cached store.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/flowstudio-power-automate-governance/SKILL.md"
+  }
+}

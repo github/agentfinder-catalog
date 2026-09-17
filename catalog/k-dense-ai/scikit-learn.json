@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:scikit-learn",
+  "displayName": "Scikit Learn",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/scikit-learn/SKILL.md",
+  "description": "Machine learning in Python with scikit-learn. Use when working with supervised learning (classification, regression), unsupervised learning (clustering.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/scikit-learn/SKILL.md"
+  }
+}

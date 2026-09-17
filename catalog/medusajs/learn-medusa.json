@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:medusajs:medusa-agent-skills:learn-medusa",
   "displayName": "Learn Medusa",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/medusajs/medusa-agent-skills/blob/main/plugins/learn-medusa",
   "description": "Interactive guided tutorial for learning Medusa development. Teaches you to build custom features step-by-step with a brands example.",
   "metadata": {

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:qdrant-clients-sdk",
+  "displayName": "Qdrant Clients SDK",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/qdrant-clients-sdk/SKILL.md",
+  "description": "Qdrant provides client SDKs for various programming languages, allowing easy integration with Qdrant deployments.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/qdrant-clients-sdk/SKILL.md"
+  }
+}

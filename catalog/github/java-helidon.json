@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:java-helidon",
+  "displayName": "Java Helidon",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/java-helidon/SKILL.md",
+  "description": "Get best practices for developing applications with Helidon 4 (SE and MP).",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/java-helidon/SKILL.md"
+  }
+}

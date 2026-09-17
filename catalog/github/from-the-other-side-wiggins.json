@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:from-the-other-side-wiggins",
+  "displayName": "From the Other Side Wiggins",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/from-the-other-side-wiggins/SKILL.md",
+  "description": "Narrative and synthesis profile for Wiggins: framing, explanation, and audience-aware communication patterns for Ember sessions.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/from-the-other-side-wiggins/SKILL.md"
+  }
+}

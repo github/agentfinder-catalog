@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:knowledge-work-plugins:productivity",
   "displayName": "Productivity",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/productivity",
   "description": "Manage tasks, plan your day, and build up memory of important context about your work. Syncs with your calendar, email, and chat to keep everything...",
   "metadata": {

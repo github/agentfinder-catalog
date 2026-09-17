@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:phoenix-evals",
+  "displayName": "Phoenix Evals",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/phoenix-evals/SKILL.md",
+  "description": "Build and run evaluators for AI/LLM applications using Phoenix.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/phoenix-evals/SKILL.md"
+  }
+}

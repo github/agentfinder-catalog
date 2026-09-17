@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:flowstudio-power-automate-mcp",
+  "displayName": "Flowstudio Power Automate MCP",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/flowstudio-power-automate-mcp/SKILL.md",
+  "description": "Foundation skill for Power Automate via FlowStudio MCP — auth setup, the reusable MCP helper (Python + Node.js), tool discovery via `list_skills` /...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/flowstudio-power-automate-mcp/SKILL.md"
+  }
+}

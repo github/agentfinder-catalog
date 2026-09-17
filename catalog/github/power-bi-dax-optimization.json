@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:power-bi-dax-optimization",
+  "displayName": "Power Bi Dax Optimization",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/power-bi-dax-optimization/SKILL.md",
+  "description": "Comprehensive Power BI DAX formula optimization prompt for improving performance, readability, and maintainability of DAX calculations.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/power-bi-dax-optimization/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:vaex",
+  "displayName": "Vaex",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/vaex/SKILL.md",
+  "description": "Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/vaex/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-mgmt-weightsandbiases-dotnet",
+  "displayName": "Azure Mgmt Weightsandbiases .NET",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-dotnet/skills/azure-mgmt-weightsandbiases-dotnet/SKILL.md",
+  "description": "Azure Weights & Biases SDK for .NET. ML experiment tracking and model management via Azure Marketplace.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-dotnet/skills/azure-mgmt-weightsandbiases-dotnet/SKILL.md"
+  }
+}

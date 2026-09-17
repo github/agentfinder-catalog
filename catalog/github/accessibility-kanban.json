@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:accessibility-kanban",
+  "displayName": "Accessibility Kanban",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/accessibility-kanban/plugin.json",
+  "description": "Kanban board to manage accessibility issues and plan, track, and complete remediation work.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/accessibility-kanban/plugin.json"
+  }
+}

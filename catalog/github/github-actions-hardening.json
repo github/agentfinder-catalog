@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:github-actions-hardening",
+  "displayName": "GitHub Actions Hardening",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/github-actions-hardening/SKILL.md",
+  "description": "Security hardening reviewer for GitHub Actions workflow files (.github/workflows/*.yml).",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/github-actions-hardening/SKILL.md"
+  }
+}

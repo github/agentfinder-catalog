@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:java-junit",
+  "displayName": "Java Junit",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/java-junit/SKILL.md",
+  "description": "Get best practices for JUnit 5 unit testing, including data-driven tests",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/java-junit/SKILL.md"
+  }
+}

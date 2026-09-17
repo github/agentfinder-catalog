@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:qdrant-horizontal-scaling",
+  "displayName": "Qdrant Horizontal Scaling",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/qdrant-scaling/scaling-data-volume/horizontal-scaling/SKILL.md",
+  "description": "Diagnoses and guides Qdrant horizontal scaling decisions. Use when someone asks 'vertical or horizontal?', 'how many nodes?', 'how many shards?', 'how..",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/qdrant-scaling/scaling-data-volume/horizontal-scaling/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills-for-fabric:powerbi-authoring",
+  "displayName": "Power BI Authoring",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/skills-for-fabric/blob/main/plugins/powerbi-authoring",
+  "description": "Developer skills for authoring Microsoft Power BI solutions.",
+  "metadata": {
+    "sourceSet": "microsoft/skills-for-fabric",
+    "repoPath": "plugins/powerbi-authoring/.github/plugin/plugin.json"
+  }
+}

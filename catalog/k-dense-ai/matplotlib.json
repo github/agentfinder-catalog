@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:matplotlib",
+  "displayName": "Matplotlib",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/matplotlib/SKILL.md",
+  "description": "Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or...",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/matplotlib/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:multi-stage-dockerfile",
+  "displayName": "Multi Stage Dockerfile",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/multi-stage-dockerfile/SKILL.md",
+  "description": "Create optimized multi-stage Dockerfiles for any language or framework",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/multi-stage-dockerfile/SKILL.md"
+  }
+}

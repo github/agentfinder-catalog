@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:pasteurize",
+  "displayName": "Pasteurize",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/pasteurize/SKILL.md",
+  "description": "Hard-bug DIAGNOSIS + FIX: reproduce the failure, name the cause, write a regression test, apply the minimal fix.",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/pasteurize/SKILL.md"
+  }
+}

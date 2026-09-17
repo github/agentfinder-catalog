@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:finnish-humanizer",
+  "displayName": "Finnish Humanizer",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/finnish-humanizer/SKILL.md",
+  "description": "Detect and remove AI-generated markers from Finnish text, making it sound like a native Finnish speaker wrote it.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/finnish-humanizer/SKILL.md"
+  }
+}

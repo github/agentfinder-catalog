@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:generate-custom-instructions-from-codebase",
+  "displayName": "Generate Custom Instructions From Codebase",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/generate-custom-instructions-from-codebase/SKILL.md",
+  "description": "Migration and code evolution instructions generator for GitHub Copilot.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/generate-custom-instructions-from-codebase/SKILL.md"
+  }
+}

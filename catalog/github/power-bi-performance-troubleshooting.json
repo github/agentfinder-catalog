@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:power-bi-performance-troubleshooting",
+  "displayName": "Power Bi Performance Troubleshooting",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/power-bi-performance-troubleshooting/SKILL.md",
+  "description": "Systematic Power BI performance troubleshooting prompt for identifying, diagnosing, and resolving performance issues in Power BI models, reports, and...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/power-bi-performance-troubleshooting/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-ai-projects-py",
+  "displayName": "Azure AI Projects Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-ai-projects-py/SKILL.md",
+  "description": "Build AI applications using the Azure AI Projects Python SDK (azure-ai-projects).",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-ai-projects-py/SKILL.md"
+  }
+}

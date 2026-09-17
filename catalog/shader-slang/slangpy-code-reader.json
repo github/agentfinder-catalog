@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slangpy-code-reader",
+  "displayName": "Slangpy Code Reader",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slangpy-code-reader/SKILL.md",
+  "description": "Read-only investigation of the SlangPy codebase. Navigate source, trace the functional API call path, understand architecture, apply review lenses.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slangpy-code-reader/SKILL.md"
+  }
+}

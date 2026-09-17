@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:acquire-codebase-knowledge",
+  "displayName": "Acquire Codebase Knowledge",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/acquire-codebase-knowledge/SKILL.md",
+  "description": "Use this skill when the user explicitly asks to map, document, or onboard into an existing codebase.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/acquire-codebase-knowledge/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:commit-message-storyteller",
+  "displayName": "Commit Message Storyteller",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/commit-message-storyteller/SKILL.md",
+  "description": "Analyzes git diffs or staged changes and generates narrative commit messages that explain WHY a change was made, not just what changed — following...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/commit-message-storyteller/SKILL.md"
+  }
+}

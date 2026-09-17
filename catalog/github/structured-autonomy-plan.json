@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:structured-autonomy-plan",
+  "displayName": "Structured Autonomy Plan",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/structured-autonomy-plan/SKILL.md",
+  "description": "Structured Autonomy Planning Prompt",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/structured-autonomy-plan/SKILL.md"
+  }
+}

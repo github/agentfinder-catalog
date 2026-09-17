@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:copilot-plugins:spark",
+  "displayName": "Spark",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/copilot-plugins/blob/main/plugins/spark",
+  "description": "Spark plugin for GitHub Copilot.",
+  "metadata": {
+    "sourceSet": "github/copilot-plugins",
+    "repoPath": ".github/plugin/marketplace.json"
+  }
+}

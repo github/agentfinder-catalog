@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:microsoft-docs",
+  "displayName": "Microsoft Docs",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/skills/microsoft-docs/SKILL.md",
+  "description": "Understand Microsoft technologies by querying official documentation.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/skills/microsoft-docs/SKILL.md"
+  }
+}

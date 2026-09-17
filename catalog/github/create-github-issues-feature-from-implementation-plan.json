@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:create-github-issues-feature-from-implementation-plan",
+  "displayName": "Create GitHub Issues Feature From Implementation Plan",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/create-github-issues-feature-from-implementation-plan/SKILL.md",
+  "description": "Create GitHub Issues from implementation plan phases using feature_request.yml or chore_request.yml templates.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/create-github-issues-feature-from-implementation-plan/SKILL.md"
+  }
+}

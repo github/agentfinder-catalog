@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:react18-enzyme-to-rtl",
+  "displayName": "React18 Enzyme to Rtl",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/react18-enzyme-to-rtl/SKILL.md",
+  "description": "Provides exact Enzyme → React Testing Library migration patterns for React 18 upgrades.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/react18-enzyme-to-rtl/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:request-refactor-plan",
+  "displayName": "Request Refactor Plan",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/deprecated/request-refactor-plan/SKILL.md",
+  "description": "Create a detailed refactor plan with tiny commits via user interview, then file it as a GitHub issue.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/deprecated/request-refactor-plan/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:qdrant-sliding-time-window",
+  "displayName": "Qdrant Sliding Time Window",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/qdrant-scaling/scaling-data-volume/sliding-time-window/SKILL.md",
+  "description": "Guides sliding time window scaling in Qdrant. Use when someone asks 'only recent data matters', 'how to expire old vectors', 'time-based data rotation'.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/qdrant-scaling/scaling-data-volume/sliding-time-window/SKILL.md"
+  }
+}

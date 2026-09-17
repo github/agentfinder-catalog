@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:easy-cheese-setup",
+  "displayName": "Easy Cheese Setup",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/easy-cheese-setup/SKILL.md",
+  "description": "Register and repair the durable cheese hallouminate corpus and the per-repo tenant.",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/easy-cheese-setup/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:usfiscaldata",
+  "displayName": "Usfiscaldata",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/usfiscaldata/SKILL.md",
+  "description": "Query the U.S. Treasury Fiscal Data REST API for federal financial data. No API key required.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/usfiscaldata/SKILL.md"
+  }
+}

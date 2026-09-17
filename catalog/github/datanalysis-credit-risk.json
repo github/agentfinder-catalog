@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:datanalysis-credit-risk",
+  "displayName": "Datanalysis Credit Risk",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/datanalysis-credit-risk/SKILL.md",
+  "description": "Credit risk data cleaning and variable screening pipeline for pre-loan modeling.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/datanalysis-credit-risk/SKILL.md"
+  }
+}

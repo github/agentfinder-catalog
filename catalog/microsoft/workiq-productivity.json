@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:work-iq:workiq-productivity",
+  "displayName": "WorkIQ Productivity",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/work-iq/blob/main/plugins/workiq-productivity",
+  "description": "WorkIQ productivity skills powered by the local WorkIQ CLI - read-only insights across email, meetings, calendar, Teams, SharePoint, projects, and people.",
+  "metadata": {
+    "sourceSet": "microsoft/work-iq",
+    "repoPath": "plugins/workiq-productivity/.github/plugin/plugin.json"
+  }
+}

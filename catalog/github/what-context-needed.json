@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:what-context-needed",
+  "displayName": "What Context Needed",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/what-context-needed/SKILL.md",
+  "description": "Ask Copilot what files it needs to see before answering a question",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/what-context-needed/SKILL.md"
+  }
+}

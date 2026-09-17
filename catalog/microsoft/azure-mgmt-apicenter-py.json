@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-mgmt-apicenter-py",
+  "displayName": "Azure Mgmt Apicenter Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-mgmt-apicenter-py/SKILL.md",
+  "description": "Azure API Center Management SDK for Python. Use for managing API inventory, metadata, and governance across your organization.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-mgmt-apicenter-py/SKILL.md"
+  }
+}

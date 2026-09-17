@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-storage-blob-ts",
+  "displayName": "Azure Storage Blob TS",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-typescript/skills/azure-storage-blob-ts/SKILL.md",
+  "description": "Azure Blob Storage JavaScript/TypeScript SDK (@azure/storage-blob) for blob operations.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-typescript/skills/azure-storage-blob-ts/SKILL.md"
+  }
+}

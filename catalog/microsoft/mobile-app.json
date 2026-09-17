@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:power-platform-skills:mobile-app",
+  "displayName": "Mobile App",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/power-platform-skills/blob/main/plugins/mobile-apps",
+  "description": "Build and deploy Power Apps code apps for mobile using Expo and React Native, with native device functionality and Power Platform connectors.",
+  "metadata": {
+    "sourceSet": "microsoft/power-platform-skills",
+    "repoPath": "plugins/mobile-apps/.plugin/plugin.json"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:gh-stack:gh-stack",
+  "displayName": "GH Stack",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/gh-stack/blob/main/skills/gh-stack/SKILL.md",
+  "description": "Manage stacked branches and pull requests with the gh-stack GitHub CLI extension.",
+  "metadata": {
+    "sourceSet": "github/gh-stack",
+    "repoPath": "skills/gh-stack/SKILL.md"
+  }
+}

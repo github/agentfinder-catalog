@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:java-springboot",
+  "displayName": "Java Springboot",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/java-springboot/SKILL.md",
+  "description": "Get best practices for developing applications with Spring Boot.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/java-springboot/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:pydantic-models-py",
+  "displayName": "Pydantic Models Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/pydantic-models-py/SKILL.md",
+  "description": "Create Pydantic models following the multi-model pattern with Base, Create, Update, Response, and InDB variants.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/pydantic-models-py/SKILL.md"
+  }
+}

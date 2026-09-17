@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:security-review",
+  "displayName": "Security Review",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/security-review/SKILL.md",
+  "description": "AI-powered codebase security scanner that reasons about code like a security researcher — tracing data flows, understanding component interactions, and.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/security-review/SKILL.md"
+  }
+}

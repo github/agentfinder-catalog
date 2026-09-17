@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:agent-owasp-compliance",
+  "displayName": "Agent Owasp Compliance",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/agent-owasp-compliance/SKILL.md",
+  "description": "Check any AI agent codebase against the OWASP Agentic Security Initiative (ASI) Top 10 risks.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/agent-owasp-compliance/SKILL.md"
+  }
+}

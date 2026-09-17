@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:terraform-azurerm-set-diff-analyzer",
+  "displayName": "Terraform Azurerm Set Diff Analyzer",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/terraform-azurerm-set-diff-analyzer/SKILL.md",
+  "description": "Analyze Terraform plan JSON output for AzureRM Provider to distinguish between false-positive diffs (order-only changes in Set-type attributes) and...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/terraform-azurerm-set-diff-analyzer/SKILL.md"
+  }
+}

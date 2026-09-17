@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:impediment-prioritization",
+  "displayName": "Impediment Prioritization",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/impediment-prioritization/SKILL.md",
+  "description": "Ranks any list of impediments and their countermeasures using a value-stream scoring model (ROI, Cost to Implement, Ease of Deployment, Risk Factor) and",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/impediment-prioritization/SKILL.md"
+  }
+}

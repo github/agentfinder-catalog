@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:add-educational-comments",
+  "displayName": "Add Educational Comments",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/add-educational-comments/SKILL.md",
+  "description": "Add educational comments to the file specified, or prompt asking for file to comment if one is not provided.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/add-educational-comments/SKILL.md"
+  }
+}

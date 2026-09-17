@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:power-platform-mcp-connector-suite",
+  "displayName": "Power Platform MCP Connector Suite",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/power-platform-mcp-connector-suite/SKILL.md",
+  "description": "Generate complete Power Platform custom connector with MCP integration for Copilot Studio - includes schema generation, troubleshooting, and validation",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/power-platform-mcp-connector-suite/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:wiki-ado-convert",
+  "displayName": "Wiki Ado Convert",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/deep-wiki/skills/wiki-ado-convert/SKILL.md",
+  "description": "Converts VitePress/GFM wiki markdown to Azure DevOps Wiki-compatible format.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/deep-wiki/skills/wiki-ado-convert/SKILL.md"
+  }
+}

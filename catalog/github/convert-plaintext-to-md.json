@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:convert-plaintext-to-md",
+  "displayName": "Convert Plaintext to MD",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/convert-plaintext-to-md/SKILL.md",
+  "description": "Convert a text-based document to markdown following instructions from prompt, or if a documented option is passed, follow the instructions for that...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/convert-plaintext-to-md/SKILL.md"
+  }
+}

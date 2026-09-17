@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:market-research-reports",
+  "displayName": "Market Research Reports",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/market-research-reports/SKILL.md",
+  "description": "Build evidence-traceable market research reports and assumption-driven market sizing or forecast scenarios.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/market-research-reports/SKILL.md"
+  }
+}

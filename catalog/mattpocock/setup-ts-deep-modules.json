@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:setup-ts-deep-modules",
+  "displayName": "Setup TS Deep Modules",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/in-progress/setup-ts-deep-modules/SKILL.md",
+  "description": "Wire dependency-cruiser into a TypeScript repo so each package is a deep module — implementation hidden in subfolders, reachable only through its...",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/in-progress/setup-ts-deep-modules/SKILL.md"
+  }
+}

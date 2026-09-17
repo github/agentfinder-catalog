@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-ai-anomalydetector-java",
+  "displayName": "Azure AI Anomalydetector Java",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-java/skills/azure-ai-anomalydetector-java/SKILL.md",
+  "description": "Build anomaly detection applications with Azure AI Anomaly Detector SDK for Java.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-java/skills/azure-ai-anomalydetector-java/SKILL.md"
+  }
+}

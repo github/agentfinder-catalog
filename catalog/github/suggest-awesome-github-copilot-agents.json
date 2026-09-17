@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:suggest-awesome-github-copilot-agents",
+  "displayName": "Suggest Awesome GitHub Copilot Agents",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/suggest-awesome-github-copilot-agents/SKILL.md",
+  "description": "Suggest relevant GitHub Copilot Custom Agents files from the awesome-copilot repository based on current repository context and chat history, avoiding..",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/suggest-awesome-github-copilot-agents/SKILL.md"
+  }
+}

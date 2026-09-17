@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-keyvault-keys-rust",
+  "displayName": "Azure Keyvault Keys Rust",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-rust/skills/azure-keyvault-keys-rust/SKILL.md",
+  "description": "Azure Key Vault Keys library for Rust. Create, manage, and use cryptographic keys including RSA, EC, and HSM-protected keys.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-rust/skills/azure-keyvault-keys-rust/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:harness-engineering",
+  "displayName": "Harness Engineering",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/harness-engineering/SKILL.md",
+  "description": "Adopt repository-level harness engineering for coding agents.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/harness-engineering/SKILL.md"
+  }
+}

@@ -1,0 +1,66 @@
+name: Catalog
+
+on:
+  pull_request:
+    paths:
+      - "catalog/*/*.json"
+      - "ai-catalog.json"
+      - "scripts/generate_ai_catalog.py"
+      - "tests/test_generate_ai_catalog.py"
+      - ".github/workflows/catalog.yml"
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ github.event.pull_request.head.ref || github.ref }}
+      - run: python3 -m unittest discover -s tests
+      - run: python3 scripts/generate_ai_catalog.py
+      - name: Update pull request
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+        run: |
+          git diff --quiet -- ai-catalog.json && exit 0
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add ai-catalog.json
+          git commit -m "Update generated ARD catalog"
+          git push origin "HEAD:$HEAD_REF"
+          if gh workflow view catalog.yml >/dev/null 2>&1; then
+            gh workflow run catalog.yml --ref "$HEAD_REF"
+          fi
+      - name: Open fallback pull request
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git diff --quiet -- ai-catalog.json && exit 0
+          branch=automation/update-ai-catalog
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git switch -c "$branch"
+          git add ai-catalog.json
+          git commit -m "Update generated ARD catalog"
+          git push --force origin "$branch"
+          if [ "$(gh pr list --head "$branch" --state open --json number --jq length)" = 0 ]; then
+            gh pr create \
+              --base main \
+              --head "$branch" \
+              --title "Update generated ARD catalog" \
+              --body "Regenerates \`ai-catalog.json\` from the canonical entries and live MCP catalog."
+          fi
+          gh workflow run catalog.yml --ref "$branch"

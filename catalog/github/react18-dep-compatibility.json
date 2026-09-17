@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:react18-dep-compatibility",
+  "displayName": "React18 Dep Compatibility",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/react18-dep-compatibility/SKILL.md",
+  "description": "React 18.3.1 and React 19 dependency compatibility matrix.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/react18-dep-compatibility/SKILL.md"
+  }
+}

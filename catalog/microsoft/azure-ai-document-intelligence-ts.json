@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-ai-document-intelligence-ts",
+  "displayName": "Azure AI Document Intelligence TS",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-typescript/skills/azure-ai-document-intelligence-ts/SKILL.md",
+  "description": "Extract text, tables, and structured data from documents using Azure Document Intelligence (@azure-rest/ai-document-intelligence).",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-typescript/skills/azure-ai-document-intelligence-ts/SKILL.md"
+  }
+}

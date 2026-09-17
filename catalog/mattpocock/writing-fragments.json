@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:writing-fragments",
+  "displayName": "Writing Fragments",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/in-progress/writing-fragments/SKILL.md",
+  "description": "Writing, explore — mine raw fragments, no structure yet.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/in-progress/writing-fragments/SKILL.md"
+  }
+}

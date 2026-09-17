@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:create-github-issues-for-unmet-specification-requirements",
+  "displayName": "Create GitHub Issues for Unmet Specification Requirements",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/create-github-issues-for-unmet-specification-requirements/SKILL.md",
+  "description": "Create GitHub Issues for unimplemented requirements from specification files using feature_request.yml template.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/create-github-issues-for-unmet-specification-requirements/SKILL.md"
+  }
+}

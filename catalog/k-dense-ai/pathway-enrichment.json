@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:pathway-enrichment",
+  "displayName": "Pathway Enrichment",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/pathway-enrichment/SKILL.md",
+  "description": "Run pathway and gene-set enrichment analysis on gene lists or ranked gene data, then interpret the results.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/pathway-enrichment/SKILL.md"
+  }
+}

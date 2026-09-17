@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:azure-resource-visualizer",
+  "displayName": "Azure Resource Visualizer",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/azure-resource-visualizer/SKILL.md",
+  "description": "Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/azure-resource-visualizer/SKILL.md"
+  }
+}

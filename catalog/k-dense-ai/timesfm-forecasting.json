@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:timesfm-forecasting",
+  "displayName": "Timesfm Forecasting",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/timesfm-forecasting/SKILL.md",
+  "description": "Zero-shot time series forecasting with Google's TimesFM foundation model.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/timesfm-forecasting/SKILL.md"
+  }
+}

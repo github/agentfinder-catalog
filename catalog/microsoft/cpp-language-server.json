@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:cpp-language-server:cpp-language-server",
+  "displayName": "C++ Language Server",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/cpp-language-server/blob/main/plugins/cpp-language-server",
+  "description": "Navigate and interact with C++ code using the Microsoft C++ Language Server.",
+  "metadata": {
+    "sourceSet": "microsoft/cpp-language-server",
+    "repoPath": "plugins/cpp-language-server/.github/plugin/plugin.json"
+  }
+}

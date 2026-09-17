@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:pptx-posters",
+  "displayName": "Pptx Posters",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/pptx-posters/SKILL.md",
+  "description": "Create and audit editable scientific posters in macro-free PowerPoint (.pptx) from author-approved local content and assets.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/pptx-posters/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:aeon",
+  "displayName": "Aeon",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/aeon/SKILL.md",
+  "description": "This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection...",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/aeon/SKILL.md"
+  }
+}

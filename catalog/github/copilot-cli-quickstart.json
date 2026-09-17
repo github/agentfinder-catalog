@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:copilot-cli-quickstart",
+  "displayName": "Copilot CLI Quickstart",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/copilot-cli-quickstart/SKILL.md",
+  "description": "Use this skill when someone wants to learn GitHub Copilot CLI from scratch.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/copilot-cli-quickstart/SKILL.md"
+  }
+}

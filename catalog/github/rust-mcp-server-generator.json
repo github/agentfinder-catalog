@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:rust-mcp-server-generator",
+  "displayName": "Rust MCP Server Generator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/rust-mcp-server-generator/SKILL.md",
+  "description": "Generate a complete Rust Model Context Protocol server project with tools, prompts, resources, and tests using the official rmcp SDK",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/rust-mcp-server-generator/SKILL.md"
+  }
+}

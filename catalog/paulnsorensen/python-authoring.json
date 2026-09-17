@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:python-authoring",
+  "displayName": "Python Authoring",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/.agents/skills/python-authoring/SKILL.md",
+  "description": "Write, edit, refactor, or review Python in easy-cheese with concise stdlib-first code, Python 3.12, self-contained .pyz packaging, and repository test..",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": ".agents/skills/python-authoring/SKILL.md"
+  }
+}

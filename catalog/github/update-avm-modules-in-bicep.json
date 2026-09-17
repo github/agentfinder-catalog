@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:update-avm-modules-in-bicep",
+  "displayName": "Update Avm Modules in Bicep",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/update-avm-modules-in-bicep/SKILL.md",
+  "description": "Update Azure Verified Modules (AVM) to latest versions in Bicep files.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/update-avm-modules-in-bicep/SKILL.md"
+  }
+}

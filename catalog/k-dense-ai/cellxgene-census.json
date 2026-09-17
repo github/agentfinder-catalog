@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:cellxgene-census",
+  "displayName": "Cellxgene Census",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/cellxgene-census/SKILL.md",
+  "description": "Query the CZ CELLxGENE Census programmatically for versioned public single-cell and spatial transcriptomics data.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/cellxgene-census/SKILL.md"
+  }
+}

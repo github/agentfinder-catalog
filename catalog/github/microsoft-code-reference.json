@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:microsoft-code-reference",
+  "displayName": "Microsoft Code Reference",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/microsoft-code-reference/SKILL.md",
+  "description": "Look up Microsoft API references, find working code samples, and verify SDK code is correct.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/microsoft-code-reference/SKILL.md"
+  }
+}

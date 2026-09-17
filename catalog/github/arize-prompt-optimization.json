@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:arize-prompt-optimization",
+  "displayName": "Arize Prompt Optimization",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/arize-prompt-optimization/SKILL.md",
+  "description": "Optimizes, improves, and debugs LLM prompts using production trace data, evaluations, and annotations.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/arize-prompt-optimization/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-keyvault-py",
+  "displayName": "Azure Keyvault Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-keyvault-py/SKILL.md",
+  "description": "Azure Key Vault SDK for Python. Use for secrets, keys, and certificates management with secure storage.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-keyvault-py/SKILL.md"
+  }
+}

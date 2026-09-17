@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:protocolsio-integration",
+  "displayName": "Protocolsio Integration",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/protocolsio-integration/SKILL.md",
+  "description": "Read, validate, and safely export protocols.io data with current official REST/MCP contracts, or create non-executing mutation plans.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/protocolsio-integration/SKILL.md"
+  }
+}

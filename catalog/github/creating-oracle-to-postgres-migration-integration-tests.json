@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:creating-oracle-to-postgres-migration-integration-tests",
+  "displayName": "Creating Oracle to Postgres Migration Integration Tests",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/creating-oracle-to-postgres-migration-integration-tests/SKILL.md",
+  "description": "Creates integration test cases for .NET data access artifacts during Oracle-to-PostgreSQL database migrations.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/creating-oracle-to-postgres-migration-integration-tests/SKILL.md"
+  }
+}

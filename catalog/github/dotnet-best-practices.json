@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:dotnet-best-practices",
+  "displayName": ".NET Best Practices",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/dotnet-best-practices/SKILL.md",
+  "description": "Ensure .NET/C# code meets best practices for the solution/project.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/dotnet-best-practices/SKILL.md"
+  }
+}

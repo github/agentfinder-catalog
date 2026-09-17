@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:flight-map-canvas",
+  "displayName": "Flight Map Canvas",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/flight-map-canvas/plugin.json",
+  "description": "Explore Google Maps using 3D flight-simulator controls while agents report their work in a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/flight-map-canvas/plugin.json"
+  }
+}

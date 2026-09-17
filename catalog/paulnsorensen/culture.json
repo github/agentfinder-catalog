@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:culture",
+  "displayName": "Culture",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/culture/SKILL.md",
+  "description": "Primarily the agent's internal-thinking skill — invoke it silently to model a problem, identify trade-offs, and decide what to do, BEFORE asking the...",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/culture/SKILL.md"
+  }
+}

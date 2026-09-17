@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:ruby-mcp-server-generator",
+  "displayName": "Ruby MCP Server Generator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/ruby-mcp-server-generator/SKILL.md",
+  "description": "Generate a complete Model Context Protocol server project in Ruby using the official MCP Ruby SDK gem.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/ruby-mcp-server-generator/SKILL.md"
+  }
+}

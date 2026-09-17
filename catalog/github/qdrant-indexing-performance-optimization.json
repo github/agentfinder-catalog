@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:qdrant-indexing-performance-optimization",
+  "displayName": "Qdrant Indexing Performance Optimization",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/qdrant-performance-optimization/indexing-performance-optimization/SKILL.md",
+  "description": "Diagnoses and fixes slow Qdrant indexing and data ingestion.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/qdrant-performance-optimization/indexing-performance-optimization/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:power-apps-code-app-scaffold",
+  "displayName": "Power Apps Code App Scaffold",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/power-apps-code-app-scaffold/SKILL.md",
+  "description": "Scaffold a complete Power Apps Code App project with PAC CLI setup, SDK integration, and connector configuration",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/power-apps-code-app-scaffold/SKILL.md"
+  }
+}

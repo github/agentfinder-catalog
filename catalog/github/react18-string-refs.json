@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:react18-string-refs",
+  "displayName": "React18 String Refs",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/react18-string-refs/SKILL.md",
+  "description": "Provides exact migration patterns for React string refs (ref=\"name\" + this.refs.name) to React.createRef() in class components.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/react18-string-refs/SKILL.md"
+  }
+}

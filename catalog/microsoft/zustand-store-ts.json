@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:zustand-store-ts",
+  "displayName": "Zustand Store TS",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-typescript/skills/zustand-store-ts/SKILL.md",
+  "description": "Create Zustand stores with TypeScript, subscribeWithSelector middleware, and proper state/action separation.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-typescript/skills/zustand-store-ts/SKILL.md"
+  }
+}

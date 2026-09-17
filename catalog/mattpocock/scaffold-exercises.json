@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:scaffold-exercises",
+  "displayName": "Scaffold Exercises",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/misc/scaffold-exercises/SKILL.md",
+  "description": "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/misc/scaffold-exercises/SKILL.md"
+  }
+}

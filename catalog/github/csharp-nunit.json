@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:csharp-nunit",
+  "displayName": "C# Nunit",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/csharp-nunit/SKILL.md",
+  "description": "Get best practices for NUnit unit testing, including data-driven tests",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/csharp-nunit/SKILL.md"
+  }
+}

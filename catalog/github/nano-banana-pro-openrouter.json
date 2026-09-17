@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:nano-banana-pro-openrouter",
+  "displayName": "Nano Banana Pro Openrouter",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/nano-banana-pro-openrouter/SKILL.md",
+  "description": "Generate or edit images via OpenRouter with the Gemini 3 Pro Image model.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/nano-banana-pro-openrouter/SKILL.md"
+  }
+}

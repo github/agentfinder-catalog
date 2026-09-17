@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:copilot-spaces",
+  "displayName": "Copilot Spaces",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/copilot-spaces/SKILL.md",
+  "description": "Use Copilot Spaces to provide project-specific context to conversations.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/copilot-spaces/SKILL.md"
+  }
+}

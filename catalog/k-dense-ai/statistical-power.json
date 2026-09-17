@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:statistical-power",
+  "displayName": "Statistical Power",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/statistical-power/SKILL.md",
+  "description": "Sample-size and statistical power calculations for planning studies.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/statistical-power/SKILL.md"
+  }
+}

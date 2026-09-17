@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:claude-handoff",
+  "displayName": "Claude Handoff",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/in-progress/claude-handoff/SKILL.md",
+  "description": "Hand the current conversation off to a fresh background agent that picks up the work immediately.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/in-progress/claude-handoff/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:skill-authoring",
+  "displayName": "Skill Authoring",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/.agents/skills/skill-authoring/SKILL.md",
+  "description": "Codify the Iron Law, Red Flags, and Rationalization-table template that easy-cheese skills follow, plus the CSO description rule and size-budget...",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": ".agents/skills/skill-authoring/SKILL.md"
+  }
+}

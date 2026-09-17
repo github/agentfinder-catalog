@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:acreadiness-generate-instructions",
+  "displayName": "Acreadiness Generate Instructions",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/acreadiness-generate-instructions/SKILL.md",
+  "description": "Generate tailored AI agent instruction files via AgentRC instructions command.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/acreadiness-generate-instructions/SKILL.md"
+  }
+}

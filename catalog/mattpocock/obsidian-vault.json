@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:obsidian-vault",
+  "displayName": "Obsidian Vault",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/personal/obsidian-vault/SKILL.md",
+  "description": "Search, create, and manage notes in the Obsidian vault with wikilinks and index notes.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/personal/obsidian-vault/SKILL.md"
+  }
+}

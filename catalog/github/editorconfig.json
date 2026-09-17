@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:editorconfig",
+  "displayName": "Editorconfig",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/editorconfig/SKILL.md",
+  "description": "Generates a comprehensive and best-practice-oriented .editorconfig file based on project analysis and user preferences.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/editorconfig/SKILL.md"
+  }
+}

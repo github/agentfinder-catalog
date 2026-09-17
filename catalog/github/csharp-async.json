@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:csharp-async",
+  "displayName": "C# Async",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/csharp-async/SKILL.md",
+  "description": "Get best practices for C# async programming",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/csharp-async/SKILL.md"
+  }
+}

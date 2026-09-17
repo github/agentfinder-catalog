@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:fabric-lakehouse",
+  "displayName": "Fabric Lakehouse",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/fabric-lakehouse/SKILL.md",
+  "description": "Use this skill to get context about Fabric Lakehouse and its features for software systems and AI-powered functions.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/fabric-lakehouse/SKILL.md"
+  }
+}

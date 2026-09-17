@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:gtm-operating-cadence",
+  "displayName": "GTM Operating Cadence",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/gtm-operating-cadence/SKILL.md",
+  "description": "Design meeting rhythms, metric reporting, quarterly planning, and decision-making velocity for scaling companies.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/gtm-operating-cadence/SKILL.md"
+  }
+}

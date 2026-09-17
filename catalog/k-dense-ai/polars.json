@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:polars",
+  "displayName": "Polars",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/polars/SKILL.md",
+  "description": "High-performance DataFrame library for Python ETL, analytics, and pandas migration.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/polars/SKILL.md"
+  }
+}

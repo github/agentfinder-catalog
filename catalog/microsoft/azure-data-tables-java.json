@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-data-tables-java",
+  "displayName": "Azure Data Tables Java",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-java/skills/azure-data-tables-java/SKILL.md",
+  "description": "Build table storage applications with Azure Tables SDK for Java.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-java/skills/azure-data-tables-java/SKILL.md"
+  }
+}

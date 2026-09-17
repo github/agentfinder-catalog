@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:csharp-xunit",
+  "displayName": "C# Xunit",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/csharp-xunit/SKILL.md",
+  "description": "Get best practices for XUnit unit testing, including data-driven tests",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/csharp-xunit/SKILL.md"
+  }
+}

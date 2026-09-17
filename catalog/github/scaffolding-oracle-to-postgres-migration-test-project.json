@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:scaffolding-oracle-to-postgres-migration-test-project",
+  "displayName": "Scaffolding Oracle to Postgres Migration Test Project",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/scaffolding-oracle-to-postgres-migration-test-project/SKILL.md",
+  "description": "Scaffolds an xUnit integration test project for validating Oracle-to-PostgreSQL database migration behavior in .NET solutions.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/scaffolding-oracle-to-postgres-migration-test-project/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:treatment-plans",
+  "displayName": "Treatment Plans",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/treatment-plans/SKILL.md",
+  "description": "Format and structurally validate local treatment-plan documentation after clinical decisions have already been supplied and verified by authorized...",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/treatment-plans/SKILL.md"
+  }
+}

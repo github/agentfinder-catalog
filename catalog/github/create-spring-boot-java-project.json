@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:create-spring-boot-java-project",
+  "displayName": "Create Spring Boot Java Project",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/create-spring-boot-java-project/SKILL.md",
+  "description": "Create Spring Boot Java Project Skeleton",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/create-spring-boot-java-project/SKILL.md"
+  }
+}

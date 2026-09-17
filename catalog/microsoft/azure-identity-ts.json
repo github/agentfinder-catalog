@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-identity-ts",
+  "displayName": "Azure Identity TS",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-typescript/skills/azure-identity-ts/SKILL.md",
+  "description": "Authenticate to Azure services using Azure Identity library for JavaScript (@azure/identity).",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-typescript/skills/azure-identity-ts/SKILL.md"
+  }
+}

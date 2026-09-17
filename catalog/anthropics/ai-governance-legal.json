@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:claude-for-legal:ai-governance-legal",
   "displayName": "Ai Governance Legal",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-for-legal/blob/main/ai-governance-legal",
   "description": "Triages proposed AI use cases against your registry, runs impact assessments across the regimes in scope, reviews vendor AI terms for...",
   "metadata": {

@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:repo-actions-hub",
+  "displayName": "Repo Actions Hub",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/repo-actions-hub/plugin.json",
+  "description": "Browse GitHub Actions workflows, inspect recent runs, and trigger manual workflow runs from a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/repo-actions-hub/plugin.json"
+  }
+}

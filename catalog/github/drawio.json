@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:drawio",
+  "displayName": "Drawio",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/drawio/SKILL.md",
+  "description": "Generate draw.io diagrams as .drawio files and export to PNG/SVG/PDF with embedded XML",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/drawio/SKILL.md"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:pr-artifact-explorer",
+  "displayName": "PR Artifact Explorer",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/pr-artifact-explorer/plugin.json",
+  "description": "Navigate pull requests and securely explore GitHub Actions artifacts in a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/pr-artifact-explorer/plugin.json"
+  }
+}

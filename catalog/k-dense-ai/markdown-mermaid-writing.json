@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:markdown-mermaid-writing",
+  "displayName": "Markdown Mermaid Writing",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/markdown-mermaid-writing/SKILL.md",
+  "description": "Comprehensive markdown and Mermaid diagram writing skill. Use when creating any scientific document, report, analysis, or visualization.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/markdown-mermaid-writing/SKILL.md"
+  }
+}

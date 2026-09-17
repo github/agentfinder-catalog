@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:creating-oracle-to-postgres-migration-bug-report",
+  "displayName": "Creating Oracle to Postgres Migration Bug Report",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/creating-oracle-to-postgres-migration-bug-report/SKILL.md",
+  "description": "Creates structured bug reports for defects found during Oracle-to-PostgreSQL migration.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/creating-oracle-to-postgres-migration-bug-report/SKILL.md"
+  }
+}

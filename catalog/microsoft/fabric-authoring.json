@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills-for-fabric:fabric-authoring",
+  "displayName": "Fabric Authoring",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/skills-for-fabric/blob/main/plugins/fabric-authoring",
+  "description": "Developer skills for authoring Microsoft Fabric solutions, including SDKs, APIs, automation scripts, and CI/CD.",
+  "metadata": {
+    "sourceSet": "microsoft/skills-for-fabric",
+    "repoPath": "plugins/fabric-authoring/.github/plugin/plugin.json"
+  }
+}

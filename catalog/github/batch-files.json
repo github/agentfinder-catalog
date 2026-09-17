@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:batch-files",
+  "displayName": "Batch Files",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/batch-files/SKILL.md",
+  "description": "Expert-level Windows batch file (.bat/.cmd) skill for writing, debugging, and maintaining CMD scripts.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/batch-files/SKILL.md"
+  }
+}

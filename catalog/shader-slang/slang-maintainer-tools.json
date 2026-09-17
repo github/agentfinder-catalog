@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-maintainer-tools",
+  "displayName": "Slang Maintainer Tools",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-maintainer-tools/SKILL.md",
+  "description": "Bridge from /slang-maintain workflow steps to concrete slang-mcp tool calls.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-maintainer-tools/SKILL.md"
+  }
+}

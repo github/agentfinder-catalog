@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:work-hub",
+  "displayName": "Work Hub",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/work-hub/plugin.json",
+  "description": "Manage cross-repository onboarding, focus planning, repository health, work signals, and session cleanup from a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/work-hub/plugin.json"
+  }
+}

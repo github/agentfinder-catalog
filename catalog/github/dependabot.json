@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:dependabot",
+  "displayName": "Dependabot",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/dependabot/SKILL.md",
+  "description": "Comprehensive guide for configuring and managing GitHub Dependabot.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/dependabot/SKILL.md"
+  }
+}

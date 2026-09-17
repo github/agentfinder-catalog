@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:arch-linux-triage",
+  "displayName": "Arch Linux Triage",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/arch-linux-triage/SKILL.md",
+  "description": "Triage and resolve Arch Linux issues with pacman, systemd, and rolling-release best practices.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/arch-linux-triage/SKILL.md"
+  }
+}

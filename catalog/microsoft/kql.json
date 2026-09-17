@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:kql",
+  "displayName": "Kql",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/skills/kql/SKILL.md",
+  "description": "KQL language expertise for writing correct, efficient Kusto Query Language queries.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/skills/kql/SKILL.md"
+  }
+}

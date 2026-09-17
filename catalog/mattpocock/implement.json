@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:implement",
+  "displayName": "Implement",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/engineering/implement/SKILL.md",
+  "description": "Implement a piece of work based on a spec or set of tickets.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/engineering/implement/SKILL.md"
+  }
+}

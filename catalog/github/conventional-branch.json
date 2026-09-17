@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:conventional-branch",
+  "displayName": "Conventional Branch",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/conventional-branch/SKILL.md",
+  "description": "Create Git branches following the Conventional Branch specification (feature/, bugfix/, hotfix/, release/, chore/).",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/conventional-branch/SKILL.md"
+  }
+}

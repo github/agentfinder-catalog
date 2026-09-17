@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:breakdown-epic-arch",
+  "displayName": "Breakdown Epic Arch",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/breakdown-epic-arch/SKILL.md",
+  "description": "Prompt for creating the high-level technical architecture for an Epic, based on a Product Requirements Document.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/breakdown-epic-arch/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:labarchive-integration",
+  "displayName": "Labarchive Integration",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/labarchive-integration/SKILL.md",
+  "description": "Securely integrate with the official LabArchives ELN REST-like API and Inventory API v1.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/labarchive-integration/SKILL.md"
+  }
+}

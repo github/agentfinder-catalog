@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:structured-autonomy-generate",
+  "displayName": "Structured Autonomy Generate",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/structured-autonomy-generate/SKILL.md",
+  "description": "Structured Autonomy Implementation Generator Prompt",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/structured-autonomy-generate/SKILL.md"
+  }
+}

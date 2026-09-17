@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:breakdown-feature-prd",
+  "displayName": "Breakdown Feature PRD",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/breakdown-feature-prd/SKILL.md",
+  "description": "Prompt for creating Product Requirements Documents (PRDs) for new features, based on an Epic.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/breakdown-feature-prd/SKILL.md"
+  }
+}

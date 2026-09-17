@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:cli:cli:gh-skill",
+  "displayName": "GH Skill",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/cli/cli/blob/trunk/skills/gh-skill/SKILL.md",
+  "description": "Manage agent skills with gh skill. Use this skill to discover, preview, install, update, and publish Agent Skills so an agent can self-manage the skills",
+  "metadata": {
+    "sourceSet": "cli/cli",
+    "repoPath": "skills/gh-skill/SKILL.md"
+  }
+}

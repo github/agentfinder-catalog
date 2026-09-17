@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:python-pypi-package-builder",
+  "displayName": "Python Pypi Package Builder",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/python-pypi-package-builder/SKILL.md",
+  "description": "End-to-end skill for building, testing, linting, versioning, and publishing a production-grade Python library to PyPI.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/python-pypi-package-builder/SKILL.md"
+  }
+}

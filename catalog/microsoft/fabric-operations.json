@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills-for-fabric:fabric-operations",
+  "displayName": "Fabric Operations",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/skills-for-fabric/blob/main/plugins/fabric-operations",
+  "description": "Operations skills for diagnosing Microsoft Fabric performance and health through system views and multi-step investigation workflows.",
+  "metadata": {
+    "sourceSet": "microsoft/skills-for-fabric",
+    "repoPath": "plugins/fabric-operations/.github/plugin/plugin.json"
+  }
+}

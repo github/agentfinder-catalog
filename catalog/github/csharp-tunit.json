@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:csharp-tunit",
+  "displayName": "C# Tunit",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/csharp-tunit/SKILL.md",
+  "description": "Get best practices for TUnit unit testing, including data-driven tests",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/csharp-tunit/SKILL.md"
+  }
+}

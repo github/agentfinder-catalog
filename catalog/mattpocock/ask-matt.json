@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:ask-matt",
+  "displayName": "Ask Matt",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/engineering/ask-matt/SKILL.md",
+  "description": "Ask which skill or flow fits your situation. A router over the skills in this repo.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/engineering/ask-matt/SKILL.md"
+  }
+}

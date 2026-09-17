@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:anthropics:knowledge-work-plugins:slack-by-salesforce",
   "displayName": "Slack By Salesforce",
-  "mediaType": "application/vnd.github.copilot-plugin",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack",
   "description": "Official Slack MCP server for interactive and collaborative workflows. Surface insights, draft messages, and engage teams directly within Slack from...",
   "metadata": {

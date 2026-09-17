@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:smartcrabai:agent-skills:review-pr",
+  "displayName": "Review PR",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/smartcrabai/agent-skills/blob/main/skills/review-pr/SKILL.md",
+  "description": "Use this whenever the user asks to review a pull request by number (e.g. 'review PR #123', 'PR 45を見て', 'review this PR'), to evaluate a PR's diff...",
+  "metadata": {
+    "sourceSet": "smartcrabai/agent-skills",
+    "repoPath": "skills/review-pr/SKILL.md"
+  }
+}

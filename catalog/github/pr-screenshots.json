@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:pr-screenshots",
+  "displayName": "PR Screenshots",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/pr-screenshots/SKILL.md",
+  "description": "Embed before/after screenshots and annotated images in pull request descriptions.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/pr-screenshots/SKILL.md"
+  }
+}

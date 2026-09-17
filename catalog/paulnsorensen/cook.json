@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:cook",
+  "displayName": "Cook",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/cook/SKILL.md",
+  "description": "Implement an approved spec or focused unambiguous task through stale-safe source edits.",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/cook/SKILL.md"
+  }
+}

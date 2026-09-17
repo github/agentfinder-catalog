@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slangpy-docs",
+  "displayName": "Slangpy Docs",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slangpy-docs/SKILL.md",
+  "description": "Read and write SlangPy documentation.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slangpy-docs/SKILL.md"
+  }
+}

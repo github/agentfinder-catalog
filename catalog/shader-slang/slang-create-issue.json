@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-create-issue",
+  "displayName": "Slang Create Issue",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-create-issue/SKILL.md",
+  "description": "Create clear, well-structured GitHub issues and pull requests for the Slang compiler repository.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-create-issue/SKILL.md"
+  }
+}

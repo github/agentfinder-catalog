@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:mcp-deploy-manage-agents",
+  "displayName": "MCP Deploy Manage Agents",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/mcp-deploy-manage-agents/SKILL.md",
+  "description": "Skill converted from mcp-deploy-manage-agents.prompt.md",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/mcp-deploy-manage-agents/SKILL.md"
+  }
+}

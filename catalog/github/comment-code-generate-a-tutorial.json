@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:comment-code-generate-a-tutorial",
+  "displayName": "Comment Code Generate a Tutorial",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/comment-code-generate-a-tutorial/SKILL.md",
+  "description": "Transform this Python script into a polished, beginner-friendly project by refactoring the code, adding clear instructional comments, and generating a..",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/comment-code-generate-a-tutorial/SKILL.md"
+  }
+}

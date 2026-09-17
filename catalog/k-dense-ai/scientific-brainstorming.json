@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:scientific-brainstorming",
+  "displayName": "Scientific Brainstorming",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/scientific-brainstorming/SKILL.md",
+  "description": "Facilitates evidence-aware scientific ideation with independent generation, structured discussion, explicit assumptions, transparent evaluation...",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/scientific-brainstorming/SKILL.md"
+  }
+}

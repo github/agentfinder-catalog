@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:gtm-ai-gtm",
+  "displayName": "GTM AI GTM",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/gtm-ai-gtm/SKILL.md",
+  "description": "Go-to-market strategy for AI products. Use when positioning AI products, handling \"who is responsible when it breaks\" objections, pricing variable-cost.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/gtm-ai-gtm/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-ai-contentsafety-py",
+  "displayName": "Azure AI Contentsafety Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-ai-contentsafety-py/SKILL.md",
+  "description": "Azure AI Content Safety SDK for Python. Use for detecting harmful content in text and images with multi-severity classification.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-ai-contentsafety-py/SKILL.md"
+  }
+}

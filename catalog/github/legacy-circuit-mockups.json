@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:legacy-circuit-mockups",
+  "displayName": "Legacy Circuit Mockups",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/legacy-circuit-mockups/SKILL.md",
+  "description": "Generate breadboard circuit mockups and visual diagrams using HTML5 Canvas drawing techniques.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/legacy-circuit-mockups/SKILL.md"
+  }
+}

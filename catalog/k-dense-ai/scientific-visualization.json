@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:scientific-visualization",
+  "displayName": "Scientific Visualization",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/scientific-visualization/SKILL.md",
+  "description": "Create and audit truthful, accessible, publication-ready scientific figures with Matplotlib, Seaborn, or Plotly.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/scientific-visualization/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-resource-manager-playwright-dotnet",
+  "displayName": "Azure Resource Manager Playwright .NET",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-playwright-dotnet/SKILL.md",
+  "description": "Azure Resource Manager SDK for Microsoft Playwright Testing in .NET.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-dotnet/skills/azure-resource-manager-playwright-dotnet/SKILL.md"
+  }
+}

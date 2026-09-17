@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:doc-and-modernize",
+  "displayName": "Doc and Modernize",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/doc-and-modernize/SKILL.md",
+  "description": "Two related workflows for a locally-cloned codebase, in one skill.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/doc-and-modernize/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:review-and-refactor",
+  "displayName": "Review and Refactor",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/review-and-refactor/SKILL.md",
+  "description": "Review and refactor code in your project according to defined instructions",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/review-and-refactor/SKILL.md"
+  }
+}

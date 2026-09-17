@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:wheypoint",
+  "displayName": "Wheypoint",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/wheypoint/SKILL.md",
+  "description": "Mark a checkpoint in the current conversation — compact it into a durable handoff document so a fresh agent can resume the work without context loss.",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/wheypoint/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:debian-linux-triage",
+  "displayName": "Debian Linux Triage",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/debian-linux-triage/SKILL.md",
+  "description": "Triage and resolve Debian Linux issues with apt, systemd, and AppArmor-aware guidance.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/debian-linux-triage/SKILL.md"
+  }
+}

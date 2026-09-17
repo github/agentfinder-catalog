@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-monitor-opentelemetry-exporter-py",
+  "displayName": "Azure Monitor Opentelemetry Exporter Python",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-python/skills/azure-monitor-opentelemetry-exporter-py/SKILL.md",
+  "description": "Azure Monitor OpenTelemetry Exporter for Python. Use for low-level OpenTelemetry export to Application Insights.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-python/skills/azure-monitor-opentelemetry-exporter-py/SKILL.md"
+  }
+}

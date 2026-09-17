@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:git-commit",
+  "displayName": "Git Commit",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/git-commit/SKILL.md",
+  "description": "Execute git commit with conventional commit message analysis, intelligent staging, and message generation.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/git-commit/SKILL.md"
+  }
+}

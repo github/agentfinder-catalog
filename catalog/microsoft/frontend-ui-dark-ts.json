@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:frontend-ui-dark-ts",
+  "displayName": "Frontend UI Dark TS",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-typescript/skills/frontend-ui-dark-ts/SKILL.md",
+  "description": "Build dark-themed React applications using Tailwind CSS with custom theming, glassmorphism effects, and Framer Motion animations.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-typescript/skills/frontend-ui-dark-ts/SKILL.md"
+  }
+}

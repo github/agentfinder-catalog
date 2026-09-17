@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:chromium-control-canvas",
+  "displayName": "Chromium Control Canvas",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/chromium-control-canvas/plugin.json",
+  "description": "Navigate and interact with a real Chromium window through a GitHub Copilot canvas control panel and agent actions.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/chromium-control-canvas/plugin.json"
+  }
+}

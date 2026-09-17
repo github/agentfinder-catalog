@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:wiki-llms-txt",
+  "displayName": "Wiki Llms Txt",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/deep-wiki/skills/wiki-llms-txt/SKILL.md",
+  "description": "Generates llms.txt and llms-full.txt files for LLM-friendly project documentation following the llms.txt specification.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/deep-wiki/skills/wiki-llms-txt/SKILL.md"
+  }
+}

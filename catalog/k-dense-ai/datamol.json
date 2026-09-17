@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:datamol",
+  "displayName": "Datamol",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/datamol/SKILL.md",
+  "description": "Pythonic wrapper around RDKit with simplified interface and sensible defaults.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/datamol/SKILL.md"
+  }
+}

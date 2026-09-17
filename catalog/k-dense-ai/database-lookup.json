@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:k-dense-ai:scientific-agent-skills:database-lookup",
+  "displayName": "Database Lookup",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/k-dense-ai/scientific-agent-skills/blob/main/skills/database-lookup/SKILL.md",
+  "description": "Query documented public database APIs with explicit endpoints, filters, pagination, and provenance.",
+  "metadata": {
+    "sourceSet": "k-dense-ai/scientific-agent-skills",
+    "repoPath": "skills/database-lookup/SKILL.md"
+  }
+}

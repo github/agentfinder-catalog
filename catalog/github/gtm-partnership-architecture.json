@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:gtm-partnership-architecture",
+  "displayName": "GTM Partnership Architecture",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/gtm-partnership-architecture/SKILL.md",
+  "description": "Build and scale partner ecosystems that drive revenue and platform adoption.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/gtm-partnership-architecture/SKILL.md"
+  }
+}

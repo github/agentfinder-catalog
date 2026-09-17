@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:qdrant-model-migration",
+  "displayName": "Qdrant Model Migration",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/qdrant-model-migration/SKILL.md",
+  "description": "Guides embedding model migration in Qdrant without downtime.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/qdrant-model-migration/SKILL.md"
+  }
+}

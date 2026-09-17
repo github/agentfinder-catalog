@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:power-platform-skills:code-apps-preview",
+  "displayName": "Code Apps Preview",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/power-platform-skills/blob/main/plugins/code-apps",
+  "description": "Build and deploy Power Apps code apps using React, Vite, and Power Platform connectors.",
+  "metadata": {
+    "sourceSet": "microsoft/power-platform-skills",
+    "repoPath": "plugins/code-apps/.plugin/plugin.json"
+  }
+}

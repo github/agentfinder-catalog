@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:draw-io-diagram-generator",
+  "displayName": "Draw IO Diagram Generator",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/draw-io-diagram-generator/SKILL.md",
+  "description": "Use when creating, editing, or generating draw.io diagram files (.drawio, .drawio.svg, .drawio.png).",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/draw-io-diagram-generator/SKILL.md"
+  }
+}

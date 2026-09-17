@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-storage-queue-rust",
+  "displayName": "Azure Storage Queue Rust",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-rust/skills/azure-storage-queue-rust/SKILL.md",
+  "description": "Azure Queue Storage library for Rust. Send, receive, and manage queue messages.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-rust/skills/azure-storage-queue-rust/SKILL.md"
+  }
+}

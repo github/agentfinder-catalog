@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:zellij-agent-manager",
+  "displayName": "Zellij Agent Manager",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/zellij-agent-manager/SKILL.md",
+  "description": "Manage multiple Claude Code agent sessions running in Zellij.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/zellij-agent-manager/SKILL.md"
+  }
+}

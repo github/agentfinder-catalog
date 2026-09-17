@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:shader-slang:slang-skills:slang-code-writer",
+  "displayName": "Slang Code Writer",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/shader-slang/slang-skills/blob/main/skills/slang-code-writer/SKILL.md",
+  "description": "Implement changes in the Slang compiler. Edit code, write tests, format, commit.",
+  "metadata": {
+    "sourceSet": "shader-slang/slang-skills",
+    "repoPath": "skills/slang-code-writer/SKILL.md"
+  }
+}

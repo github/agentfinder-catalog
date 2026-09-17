@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:resolving-merge-conflicts",
+  "displayName": "Resolving Merge Conflicts",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/engineering/resolving-merge-conflicts/SKILL.md",
+  "description": "Use when you need to resolve an in-progress git merge/rebase conflict.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/engineering/resolving-merge-conflicts/SKILL.md"
+  }
+}

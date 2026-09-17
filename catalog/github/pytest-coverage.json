@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:pytest-coverage",
+  "displayName": "Pytest Coverage",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/pytest-coverage/SKILL.md",
+  "description": "Run pytest tests with coverage, discover lines missing coverage, and increase coverage to 100%.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/pytest-coverage/SKILL.md"
+  }
+}

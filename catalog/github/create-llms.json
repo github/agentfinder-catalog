@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:create-llms",
+  "displayName": "Create Llms",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/create-llms/SKILL.md",
+  "description": "Create an llms.txt file from scratch based on repository structure following the llms.txt specification at https://llmstxt.org/",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/create-llms/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:arize-trace",
+  "displayName": "Arize Trace",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/arize-trace/SKILL.md",
+  "description": "Downloads, exports, and inspects existing Arize traces and spans to understand what an LLM app is doing or debug runtime issues.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/arize-trace/SKILL.md"
+  }
+}

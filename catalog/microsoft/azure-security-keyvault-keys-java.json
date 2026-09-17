@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:skills:azure-security-keyvault-keys-java",
+  "displayName": "Azure Security Keyvault Keys Java",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/microsoft/skills/blob/main/.github/plugins/azure-sdk-java/skills/azure-security-keyvault-keys-java/SKILL.md",
+  "description": "Azure Key Vault Keys Java SDK for cryptographic key management.",
+  "metadata": {
+    "sourceSet": "microsoft/skills",
+    "repoPath": ".github/plugins/azure-sdk-java/skills/azure-security-keyvault-keys-java/SKILL.md"
+  }
+}

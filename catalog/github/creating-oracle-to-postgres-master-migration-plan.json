@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:creating-oracle-to-postgres-master-migration-plan",
+  "displayName": "Creating Oracle to Postgres Master Migration Plan",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/creating-oracle-to-postgres-master-migration-plan/SKILL.md",
+  "description": "Discovers all projects in a .NET solution, classifies each for Oracle-to-PostgreSQL migration eligibility, and produces a persistent master migration...",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/creating-oracle-to-postgres-master-migration-plan/SKILL.md"
+  }
+}

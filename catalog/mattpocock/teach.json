@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:teach",
+  "displayName": "Teach",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/mattpocock/skills/blob/main/skills/productivity/teach/SKILL.md",
+  "description": "Teach the user a new skill or concept, within this workspace.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": "skills/productivity/teach/SKILL.md"
+  }
+}

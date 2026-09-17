@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:playwright-generate-test",
+  "displayName": "Playwright Generate Test",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/playwright-generate-test/SKILL.md",
+  "description": "Generate a Playwright test based on a scenario using Playwright MCP",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/playwright-generate-test/SKILL.md"
+  }
+}

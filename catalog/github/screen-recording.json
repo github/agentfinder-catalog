@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:screen-recording",
+  "displayName": "Screen Recording",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/screen-recording/SKILL.md",
+  "description": "Create annotated animated GIF demos and screen recordings for pull requests and documentation.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/screen-recording/SKILL.md"
+  }
+}

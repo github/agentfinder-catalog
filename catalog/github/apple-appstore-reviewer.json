@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:apple-appstore-reviewer",
+  "displayName": "Apple Appstore Reviewer",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/github/awesome-copilot/blob/main/skills/apple-appstore-reviewer/SKILL.md",
+  "description": "Serves as a reviewer of the codebase with instructions on looking for Apple App Store optimizations or rejection reasons.",
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "skills/apple-appstore-reviewer/SKILL.md"
+  }
+}

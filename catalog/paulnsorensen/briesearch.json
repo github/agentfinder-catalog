@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:paulnsorensen:easy-cheese:briesearch",
+  "displayName": "Briesearch",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/paulnsorensen/easy-cheese/blob/main/skills/briesearch/SKILL.md",
+  "description": "Research questions external to the codebase across library docs (Context7), the web (Tavily), local code through semantic source search, GitHub examples",
+  "metadata": {
+    "sourceSet": "paulnsorensen/easy-cheese",
+    "repoPath": "skills/briesearch/SKILL.md"
+  }
+}
