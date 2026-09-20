@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:stoyan-stoyanov:agentzia-plugins:agentzia-optimize",
+  "displayName": "Agentzia Optimize",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/stoyan-stoyanov/agentzia-plugins/blob/main/skills/agentzia-optimize/SKILL.md",
+  "description": "Use Agentzia research to understand why AI assistants recommend competitors and improve public landing pages with evidence, credit budgets, and careful retests.",
+  "tags": [
+    "skill",
+    "marketing",
+    "research",
+    "mcp"
+  ],
+  "metadata": {
+    "sourceSet": "stoyan-stoyanov/agentzia-plugins",
+    "repoPath": "skills/agentzia-optimize/SKILL.md"
+  }
+}
