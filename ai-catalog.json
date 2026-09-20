@@ -21216,6 +21216,24 @@
       "type": "application/ai-skill"
     },
     {
+      "identifier": "urn:air:github.com:stoyan-stoyanov:agentzia-plugins:agentzia-optimize",
+      "displayName": "Agentzia Optimize",
+      "mediaType": "application/ai-skill",
+      "url": "https://github.com/stoyan-stoyanov/agentzia-plugins/blob/main/skills/agentzia-optimize/SKILL.md",
+      "description": "Use Agentzia research to understand why AI assistants recommend competitors and improve public landing pages with evidence, credit budgets, and careful retests.",
+      "tags": [
+        "skill",
+        "marketing",
+        "research",
+        "mcp"
+      ],
+      "metadata": {
+        "sourceSet": "stoyan-stoyanov/agentzia-plugins",
+        "repoPath": "skills/agentzia-optimize/SKILL.md"
+      },
+      "type": "application/ai-skill"
+    },
+    {
       "identifier": "urn:air:github.com:stripe:ai:connect-recommend",
       "displayName": "Connect Recommend",
       "mediaType": "application/ai-skill",
@@ -22398,11 +22416,12 @@
         "model-context-protocol"
       ],
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:15:01Z",
+      "updatedAt": "2026-09-20T17:21:16Z",
       "metadata": {
         "readmeUrl": "https://github.com/bittlebitsai/bittlebits-plugin#readme",
         "repository": "https://github.com/bittlebitsai/bittlebits-plugin",
         "repositorySource": "github",
+        "stargazerCount": 1,
         "websiteUrl": "https://bittlebits.ai/docs/mcp"
       }
     },
@@ -22410,15 +22429,16 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:ai.bowmark:bowmark",
       "displayName": "Bowmark",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/ai.bowmark%2Fbowmark/versions/8.112.0",
+      "url": "https://api.mcp.github.com/v0.1/servers/ai.bowmark%2Fbowmark/versions/8.144.20",
       "description": "Do things on live websites: prices, availability, quotes, bookings, anything behind a form or login.",
-      "version": "8.112.0",
-      "updatedAt": "2026-09-11T14:15:13Z",
+      "version": "8.144.20",
+      "updatedAt": "2026-09-20T17:21:17Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/bowmark-ai/skill#readme",
         "repository": "https://github.com/bowmark-ai/skill",
         "repositorySource": "github",
+        "stargazerCount": 1,
         "websiteUrl": "https://bowmark.ai"
       }
     },
@@ -22429,7 +22449,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/ai.certscore%2Fmcp-light/versions/0.2.20",
       "description": "Free website privacy scanner for pre-consent cookies, trackers, consent, policy, and HTTPS/TLS.",
       "version": "0.2.20",
-      "updatedAt": "2026-09-11T14:15:28Z",
+      "updatedAt": "2026-09-20T17:21:32Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/ergoveritas1-alt/certscore.ai/tree/HEAD/packages/certscore-mcp",
@@ -22446,7 +22466,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/ai.connectmachine%2Fconnectmachine/versions/1.0.8",
       "description": "Manage your ConnectMachine contacts, networks, events, and digital business cards.",
       "version": "1.0.8",
-      "updatedAt": "2026-09-11T14:15:30Z",
+      "updatedAt": "2026-09-20T17:21:33Z",
       "metadata": {
         "readmeUrl": "https://github.com/connectmachine/mcp-server#readme",
         "repository": "https://github.com/connectmachine/mcp-server",
@@ -22471,7 +22491,7 @@
         "medianeria"
       ],
       "version": "1.0.4",
-      "updatedAt": "2026-09-11T14:15:37Z",
+      "updatedAt": "2026-09-20T17:21:34Z",
       "metadata": {
         "readmeUrl": "https://github.com/CMS87/epinu-mcp#readme",
         "repository": "https://github.com/CMS87/epinu-mcp",
@@ -22486,7 +22506,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/ai.example4%2Fxmp4/versions/1.2.6",
       "description": "OSS libs in your stack, really used: source, tests, callers. C#, Java, TS, Python, Rust, PHP+.",
       "version": "1.2.6",
-      "updatedAt": "2026-09-11T14:15:39Z",
+      "updatedAt": "2026-09-20T17:21:35Z",
       "metadata": {
         "primaryLanguage": "HTML",
         "readmeUrl": "https://github.com/0ics-srls/lsai-xmp4.public#readme",
@@ -22510,13 +22530,13 @@
         "web-search"
       ],
       "version": "0.1.2",
-      "updatedAt": "2026-09-11T14:15:40Z",
+      "updatedAt": "2026-09-20T17:21:36Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/keenableai/keenable-mcp#readme",
         "repository": "https://github.com/keenableai/keenable-mcp",
         "repositorySource": "github",
-        "stargazerCount": 5
+        "stargazerCount": 6
       }
     },
     {
@@ -22537,7 +22557,7 @@
         "claude-code"
       ],
       "version": "1.19.0",
-      "updatedAt": "2026-09-11T14:15:47Z",
+      "updatedAt": "2026-09-20T17:21:37Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/Nauro-AI/nauro#readme",
@@ -22551,7 +22571,7 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:ai.plori:plori",
       "displayName": "Plori",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/ai.plori%2Fplori/versions/0.13.1",
+      "url": "https://api.mcp.github.com/v0.1/servers/ai.plori%2Fplori/versions/0.16.1",
       "description": "Create and drive plori cloud agents and workflows over MCP; each agent has its own environment.",
       "tags": [
         "ai-agents",
@@ -22560,8 +22580,8 @@
         "mcp-server",
         "model-context-protocol"
       ],
-      "version": "0.13.1",
-      "updatedAt": "2026-09-11T14:15:53Z",
+      "version": "0.16.1",
+      "updatedAt": "2026-09-20T17:21:38Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/plori-ai/plori#readme",
@@ -22589,7 +22609,7 @@
         "accounting"
       ],
       "version": "1.10.2",
-      "updatedAt": "2026-09-11T14:15:55Z",
+      "updatedAt": "2026-09-20T17:21:40Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/RoboFinSystems/robosystems#readme",
@@ -22603,22 +22623,22 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:ai.vaaya:mcp",
       "displayName": "Vaaya",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/ai.vaaya%2Fmcp/versions/0.3.3",
-      "description": "Pay-per-call agent superpowers: media/video gen, product demos, research, GTM, scraping, compute.",
+      "url": "https://api.mcp.github.com/v0.1/servers/ai.vaaya%2Fmcp/versions/0.6.8",
+      "description": "Paid APIs and tokenized shares for agents. Prepaid funding, including authorized Instinct checkout.",
       "tags": [
         "agent-payments",
         "ai-agents",
         "code-sandbox",
         "deep-research",
         "mcp",
-        "mcp-server",
         "model-context-protocol",
         "web-scraping",
         "web-search",
-        "x402"
+        "x402",
+        "agent-skills"
       ],
-      "version": "0.3.3",
-      "updatedAt": "2026-09-11T14:15:56Z",
+      "version": "0.6.8",
+      "updatedAt": "2026-09-20T17:21:41Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/vaaya-ai/vaaya-mcp#readme",
@@ -22640,7 +22660,7 @@
         "readmeUrl": "https://github.com/amplitude/mcp-server-guide#readme",
         "repository": "https://github.com/amplitude/mcp-server-guide",
         "repositorySource": "github",
-        "stargazerCount": 45
+        "stargazerCount": 47
       }
     },
     {
@@ -22661,7 +22681,7 @@
         "readmeUrl": "https://github.com/antfu/nuxt-mcp#readme",
         "repository": "https://github.com/antfu/nuxt-mcp",
         "repositorySource": "github",
-        "stargazerCount": 911
+        "stargazerCount": 910
       }
     },
     {
@@ -22671,7 +22691,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/app.clicon%2Flotus/versions/1.27.0",
       "description": "Measure how AI assistants cite your brand. Returns measured data and ready-to-apply fixes.",
       "version": "1.27.0",
-      "updatedAt": "2026-09-11T14:16:07Z",
+      "updatedAt": "2026-09-20T17:21:42Z",
       "metadata": {
         "readmeUrl": "https://github.com/martinendara/lotus-mcp#readme",
         "repository": "https://github.com/martinendara/lotus-mcp",
@@ -22697,12 +22717,12 @@
         "gemini-cli-extension"
       ],
       "version": "1.0.3",
-      "updatedAt": "2026-09-11T14:16:08Z",
+      "updatedAt": "2026-09-20T17:21:43Z",
       "metadata": {
         "readmeUrl": "https://github.com/desktop-commander/remote-desktop-commander#readme",
         "repository": "https://github.com/desktop-commander/remote-desktop-commander",
         "repositorySource": "github",
-        "stargazerCount": 25,
+        "stargazerCount": 54,
         "websiteUrl": "https://mcp.desktopcommander.app"
       }
     },
@@ -22721,12 +22741,12 @@
         "workflows"
       ],
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:16:09Z",
+      "updatedAt": "2026-09-20T17:21:44Z",
       "metadata": {
         "readmeUrl": "https://github.com/glifxyz/glif-mcp-server#readme",
         "repository": "https://github.com/glifxyz/glif-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 209,
+        "stargazerCount": 210,
         "websiteUrl": "https://glif.app/mcp"
       }
     },
@@ -22737,7 +22757,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/app.lucid.mcp%2Flucid/versions/1.0.0",
       "description": "Lucid’s connector creates diagrams, searches, edits, shares, and retrieves docs to summarize.",
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:16:10Z",
+      "updatedAt": "2026-09-20T17:21:45Z",
       "metadata": {
         "readmeUrl": "https://github.com/lucidsoftware/lucid-mcp-server#readme",
         "repository": "https://github.com/lucidsoftware/lucid-mcp-server",
@@ -22764,13 +22784,13 @@
         "websocket"
       ],
       "version": "0.6.0",
-      "updatedAt": "2026-09-11T14:16:12Z",
+      "updatedAt": "2026-09-20T17:21:46Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/pensados/sentinelx-cloud-core#readme",
         "repository": "https://github.com/pensados/sentinelx-cloud-core",
         "repositorySource": "github",
-        "stargazerCount": 8
+        "stargazerCount": 9
       }
     },
     {
@@ -22807,7 +22827,7 @@
         "readmeUrl": "https://github.com/Azure/aks-mcp#readme",
         "repository": "https://github.com/Azure/aks-mcp",
         "repositorySource": "github",
-        "stargazerCount": 140
+        "stargazerCount": 141
       }
     },
     {
@@ -22838,15 +22858,15 @@
         "readmeUrl": "https://github.com/chroma-core/chroma-mcp#readme",
         "repository": "https://github.com/chroma-core/chroma-mcp",
         "repositorySource": "github",
-        "stargazerCount": 592
+        "stargazerCount": 597
       }
     },
     {
       "identifier": "urn:air:registry.modelcontextprotocol.io:cloud.dchub:mcp-server",
       "displayName": "DC Hub — Data Center Site Selection & Colocation: Electricity, Power Grid, Gas, Fiber",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/cloud.dchub%2Fmcp-server/versions/2.12.11",
-      "description": "Live power, energy, grid, gas, fiber & data-center site-selection infrastructure — query and cite.",
+      "url": "https://api.mcp.github.com/v0.1/servers/cloud.dchub%2Fmcp-server/versions/2.12.18",
+      "description": "Live power, energy, grid, gas, fiber + off-market data-center capacity in kW/MW — query and cite.",
       "tags": [
         "ai-tools",
         "anthropic",
@@ -22859,8 +22879,8 @@
         "market-intelligence",
         "mcp"
       ],
-      "version": "2.12.11",
-      "updatedAt": "2026-09-11T14:16:20Z",
+      "version": "2.12.18",
+      "updatedAt": "2026-09-20T17:21:48Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/azmartone67/dchub-mcp-server#readme",
@@ -22877,7 +22897,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/co.axiom%2Fmcp/versions/1.0.0",
       "description": "List datasets, schemas, run APL queries, and use prompts for exploration, anomalies, and monitoring.",
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:16:22Z",
+      "updatedAt": "2026-09-20T17:21:49Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/axiomhq/mcp/tree/HEAD/apps/mcp",
@@ -22905,7 +22925,7 @@
         "w2-staffing"
       ],
       "version": "1.7.2",
-      "updatedAt": "2026-09-11T14:16:24Z",
+      "updatedAt": "2026-09-20T17:21:50Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/tempguru-co/tempguru-mcp#readme",
@@ -22928,7 +22948,7 @@
         "readmeUrl": "https://github.com/codacy/codacy-mcp-server#readme",
         "repository": "https://github.com/codacy/codacy-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 62
+        "stargazerCount": 63
       }
     },
     {
@@ -22952,14 +22972,14 @@
         "readmeUrl": "https://github.com/CognitionAI/deepwiki#readme",
         "repository": "https://github.com/CognitionAI/deepwiki",
         "repositorySource": "github",
-        "stargazerCount": 93
+        "stargazerCount": 95
       }
     },
     {
       "identifier": "urn:air:registry.modelcontextprotocol.io:com.apify:apify-mcp-server",
       "displayName": "Apify",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/com.apify%2Fapify-mcp-server/versions/0.15.7",
+      "url": "https://api.mcp.github.com/v0.1/servers/com.apify%2Fapify-mcp-server/versions/0.16.0",
       "description": "Extract data from any website with thousands of scrapers, crawlers, and automations on Apify Store ⚡",
       "tags": [
         "agents",
@@ -22967,14 +22987,14 @@
         "mcp",
         "mcp-server"
       ],
-      "version": "0.15.7",
-      "updatedAt": "2026-09-11T14:16:28Z",
+      "version": "0.16.0",
+      "updatedAt": "2026-09-20T17:21:51Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/apify/apify-mcp-server#readme",
         "repository": "https://github.com/apify/apify-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 6756
+        "stargazerCount": 7832
       }
     },
     {
@@ -22996,13 +23016,13 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "updatedAt": "2026-09-11T14:16:30Z",
+      "updatedAt": "2026-09-20T17:21:53Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/atlassian/atlassian-mcp-server#readme",
         "repository": "https://github.com/atlassian/atlassian-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 1033,
+        "stargazerCount": 1048,
         "websiteUrl": "https://support.atlassian.com/atlassian-rovo-mcp-server/docs/getting-started-with-the-atlassian-remote-mcp-server/"
       }
     },
@@ -23013,7 +23033,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.atom%2Fpremium-domains/versions/2.0.7",
       "description": "Search, appraise, trademark-check, and buy premium brandable domain names from Atom.com.",
       "version": "2.0.7",
-      "updatedAt": "2026-09-11T14:16:32Z",
+      "updatedAt": "2026-09-20T17:21:54Z",
       "metadata": {
         "readmeUrl": "https://github.com/atomdomains/atom-mcp-server#readme",
         "repository": "https://github.com/atomdomains/atom-mcp-server",
@@ -23028,7 +23048,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.avalara%2Fatc/versions/1.0.1",
       "description": "Provides access to Avalara Tax Content: TTE configs, jobs, communications, lodging, autorental",
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:16:33Z",
+      "updatedAt": "2026-09-20T17:21:55Z",
       "metadata": {
         "readmeUrl": "https://github.com/avadev/mcp#readme",
         "repository": "https://github.com/avadev/mcp",
@@ -23044,7 +23064,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.avalara%2Favatax/versions/1.0.1",
       "description": "Access Avalara AvaTax API for tax calculation, transactions, nexus management, and compliance",
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:16:34Z",
+      "updatedAt": "2026-09-20T17:21:56Z",
       "metadata": {
         "readmeUrl": "https://github.com/avadev/mcp#readme",
         "repository": "https://github.com/avadev/mcp",
@@ -23060,7 +23080,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.avalara%2Fbl/versions/1.0.0",
       "description": "Provides access to Avalara Tax Registration and Business Licenses APIs for filings and registrations",
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:16:35Z",
+      "updatedAt": "2026-09-20T17:21:57Z",
       "metadata": {
         "readmeUrl": "https://github.com/avadev/mcp#readme",
         "repository": "https://github.com/avadev/mcp",
@@ -23076,7 +23096,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.avalara%2Fclassification/versions/1.0.0",
       "description": "Classify, validate & verify HS codes and access tariff compliance data for cross-border trade",
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:16:37Z",
+      "updatedAt": "2026-09-20T17:21:58Z",
       "metadata": {
         "readmeUrl": "https://github.com/avadev/mcp#readme",
         "repository": "https://github.com/avadev/mcp",
@@ -23092,7 +23112,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.avalara%2Fcross-border/versions/1.0.0",
       "description": "Cross-border duty-rate and Trade & Tariff content lookups with product compliance and restrictions",
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:16:38Z",
+      "updatedAt": "2026-09-20T17:21:59Z",
       "metadata": {
         "readmeUrl": "https://github.com/avadev/mcp#readme",
         "repository": "https://github.com/avadev/mcp",
@@ -23108,7 +23128,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.avalara%2Fdocs/versions/1.0.1",
       "description": "Provides access to Avalara developer documentation, integration guides, and code examples",
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:16:39Z",
+      "updatedAt": "2026-09-20T17:22:00Z",
       "metadata": {
         "readmeUrl": "https://github.com/avadev/mcp#readme",
         "repository": "https://github.com/avadev/mcp",
@@ -23124,7 +23144,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.avalara%2Felr/versions/1.0.0",
       "description": "Provides access to Avalara E-Invoicing and Live Reporting APIs for document statuses and compliance",
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:16:40Z",
+      "updatedAt": "2026-09-20T17:22:01Z",
       "metadata": {
         "readmeUrl": "https://github.com/avadev/mcp#readme",
         "repository": "https://github.com/avadev/mcp",
@@ -23140,7 +23160,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.avalara%2Freturns/versions/1.0.1",
       "description": "Provides access to Avalara Global Returns API for tax returns, filing calendars, and compliance data",
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:16:41Z",
+      "updatedAt": "2026-09-20T17:22:02Z",
       "metadata": {
         "readmeUrl": "https://github.com/avadev/mcp#readme",
         "repository": "https://github.com/avadev/mcp",
@@ -23156,7 +23176,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.blackduck%2Fmcp-server/versions/1.1.8",
       "description": "AI-powered security scanning using Black Duck Signal for vulnerability detection.",
       "version": "1.1.8",
-      "updatedAt": "2026-09-11T14:16:43Z",
+      "updatedAt": "2026-09-20T17:22:04Z",
       "metadata": {
         "readmeUrl": "https://github.com/blackducksoftware/mcp-server#readme",
         "repository": "https://github.com/blackducksoftware/mcp-server",
@@ -23170,7 +23190,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.breckenwander%2Ftravel-connector/versions/0.2.1",
       "description": "Search flights, hotels & experiences at all-in prices, then build a trip on breckenwander.com.",
       "version": "0.2.1",
-      "updatedAt": "2026-09-11T14:16:44Z",
+      "updatedAt": "2026-09-20T17:22:05Z",
       "metadata": {
         "primaryLanguage": "Dockerfile",
         "readmeUrl": "https://github.com/durwardjohnson/breckenwander-travel-connector#readme",
@@ -23194,13 +23214,13 @@
         "mcp"
       ],
       "version": "0.6.1",
-      "updatedAt": "2026-09-11T14:16:45Z",
+      "updatedAt": "2026-09-20T17:22:06Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/celigo/ai#readme",
         "repository": "https://github.com/celigo/ai",
         "repositorySource": "github",
-        "stargazerCount": 3,
+        "stargazerCount": 4,
         "websiteUrl": "https://github.com/celigo/ai/blob/main/docs/connect-mcp.md"
       }
     },
@@ -23221,7 +23241,7 @@
         "web3"
       ],
       "version": "1.10.10",
-      "updatedAt": "2026-09-11T14:16:46Z",
+      "updatedAt": "2026-09-20T17:22:07Z",
       "metadata": {
         "readmeUrl": "https://github.com/chainstacklabs/mcp-server#readme",
         "repository": "https://github.com/chainstacklabs/mcp-server",
@@ -23249,7 +23269,7 @@
         "voice-ai"
       ],
       "version": "0.1.0",
-      "updatedAt": "2026-09-11T14:16:48Z",
+      "updatedAt": "2026-09-20T17:22:08Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/SkillfulAgents/dialmcp-connector#readme",
@@ -23266,7 +23286,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.easyship%2Fmcp/versions/0.6.5",
       "description": "Connect Easyship to compare rates, create shipments, buy labels, and track packages globally.",
       "version": "0.6.5",
-      "updatedAt": "2026-09-11T14:16:49Z",
+      "updatedAt": "2026-09-20T17:22:09Z",
       "metadata": {
         "readmeUrl": "https://github.com/easyship/easyship-mcp-plugin#readme",
         "repository": "https://github.com/easyship/easyship-mcp-plugin",
@@ -23280,13 +23300,13 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.figma.mcp%2Fmcp/versions/1.0.3",
       "description": "The Figma MCP server brings Figma design context directly into your AI workflow.",
       "version": "1.0.3",
-      "updatedAt": "2026-09-11T14:16:50Z",
+      "updatedAt": "2026-09-20T17:22:10Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/figma/mcp-server-guide#readme",
         "repository": "https://github.com/figma/mcp-server-guide",
         "repositorySource": "github",
-        "stargazerCount": 1977
+        "stargazerCount": 2005
       }
     },
     {
@@ -23307,7 +23327,7 @@
         "model-context-protocol"
       ],
       "version": "1.2.0",
-      "updatedAt": "2026-09-11T14:16:52Z",
+      "updatedAt": "2026-09-20T17:22:11Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/getappniche/mcp#readme",
@@ -23323,7 +23343,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.getfirmament%2Ffirmament/versions/0.1.1",
       "description": "Your team's shared, verified knowledge for AI agents: ask what's true, record what you learn.",
       "version": "0.1.1",
-      "updatedAt": "2026-09-11T14:16:54Z",
+      "updatedAt": "2026-09-20T17:22:12Z",
       "metadata": {
         "readmeUrl": "https://github.com/spkenny455/firmament-mcp#readme",
         "repository": "https://github.com/spkenny455/firmament-mcp",
@@ -23338,7 +23358,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.getguru%2Fmcp-server/versions/1.0.2",
       "description": "Guru MCP Server - Connect AI tools to your Guru knowledge base",
       "version": "1.0.2",
-      "updatedAt": "2026-09-11T14:16:55Z",
+      "updatedAt": "2026-09-20T17:22:13Z",
       "metadata": {
         "readmeUrl": "https://github.com/guruhq/remote-mcp-server#readme",
         "repository": "https://github.com/guruhq/remote-mcp-server",
@@ -23363,7 +23383,7 @@
         "wp-agent"
       ],
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:16:56Z",
+      "updatedAt": "2026-09-20T17:22:14Z",
       "metadata": {
         "readmeUrl": "https://github.com/yaniv-fink/wp-agent-mcp#readme",
         "repository": "https://github.com/yaniv-fink/wp-agent-mcp",
@@ -23389,7 +23409,7 @@
         "modelcontextprotocol"
       ],
       "version": "1.2.1",
-      "updatedAt": "2026-09-11T14:16:58Z",
+      "updatedAt": "2026-09-20T17:22:15Z",
       "metadata": {
         "readmeUrl": "https://github.com/gleanwork/remote-mcp-server#readme",
         "repository": "https://github.com/gleanwork/remote-mcp-server",
@@ -23405,7 +23425,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.hitsteps%2Fanalytics-operations/versions/1.1.4",
       "description": "AI access to Hitsteps analytics, live visitors, uptime, goals, alerts, and chats.",
       "version": "1.1.4",
-      "updatedAt": "2026-09-11T14:16:59Z",
+      "updatedAt": "2026-09-20T17:22:16Z",
       "metadata": {
         "readmeUrl": "https://github.com/Hitsteps/MCP#readme",
         "repository": "https://github.com/Hitsteps/MCP",
@@ -23432,7 +23452,7 @@
         "technical-drawing"
       ],
       "version": "0.1.1",
-      "updatedAt": "2026-09-11T14:17:00Z",
+      "updatedAt": "2026-09-20T17:22:18Z",
       "metadata": {
         "primaryLanguage": "Dockerfile",
         "readmeUrl": "https://github.com/imnoo-team/drawing-converter-mcp#readme",
@@ -23448,7 +23468,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.industry-lens%2Fmcp-public/versions/0.2.0",
       "description": "B2B SaaS competitor pricing changes, strategic moves, market landscapes, reports and comparisons.",
       "version": "0.2.0",
-      "updatedAt": "2026-09-11T14:17:01Z",
+      "updatedAt": "2026-09-20T17:22:19Z",
       "metadata": {
         "readmeUrl": "https://github.com/IndustryLensOp/industrylens-mcp-docs#readme",
         "repository": "https://github.com/IndustryLensOp/industrylens-mcp-docs",
@@ -23471,13 +23491,13 @@
         "trading"
       ],
       "version": "0.9.0",
-      "updatedAt": "2026-09-11T14:17:04Z",
+      "updatedAt": "2026-09-20T17:22:20Z",
       "metadata": {
         "primaryLanguage": "Rust",
         "readmeUrl": "https://github.com/longbridge/longbridge-mcp#readme",
         "repository": "https://github.com/longbridge/longbridge-mcp",
         "repositorySource": "github",
-        "stargazerCount": 13,
+        "stargazerCount": 14,
         "websiteUrl": "https://longbridge.com"
       }
     },
@@ -23491,7 +23511,7 @@
         "gemini-cli-extension"
       ],
       "version": "1.0.3",
-      "updatedAt": "2026-09-11T14:17:06Z",
+      "updatedAt": "2026-09-20T17:22:21Z",
       "metadata": {
         "readmeUrl": "https://github.com/mablhq/mabl-mcp-server#readme",
         "repository": "https://github.com/mablhq/mabl-mcp-server",
@@ -23518,7 +23538,7 @@
         "model-context-protocol"
       ],
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:17:07Z",
+      "updatedAt": "2026-09-20T17:22:22Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/macfax/macfax-mcp#readme",
@@ -23544,7 +23564,7 @@
         "gemini-cli-extension"
       ],
       "version": "1.1.1",
-      "updatedAt": "2026-09-11T14:17:08Z",
+      "updatedAt": "2026-09-20T17:22:23Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/anrawool/mailrith-agent-platform/tree/HEAD/packages/mcp-server",
@@ -23569,7 +23589,7 @@
         "persistent-memory"
       ],
       "version": "1.3.2",
-      "updatedAt": "2026-09-11T14:17:10Z",
+      "updatedAt": "2026-09-20T17:22:24Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/gpitrella/memxus-remote-mcp#readme",
@@ -23582,17 +23602,17 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:com.microsoft:azure",
       "displayName": "Azure MCP Server",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/com.microsoft%2Fazure/versions/3.0.0-beta.42",
+      "url": "https://api.mcp.github.com/v0.1/servers/com.microsoft%2Fazure/versions/3.0.0-beta.45",
       "description": "All Azure MCP tools to create a seamless connection between AI agents and Azure services.",
-      "version": "3.0.0-beta.42",
-      "updatedAt": "2026-09-11T14:17:11Z",
+      "version": "3.0.0-beta.45",
+      "updatedAt": "2026-09-20T17:22:25Z",
       "metadata": {
         "primaryLanguage": "C#",
         "readmeUrl": "https://github.com/microsoft/mcp/tree/HEAD/servers/Azure.Mcp.Server",
         "repository": "https://github.com/microsoft/mcp",
         "repositorySource": "github",
         "repositorySubfolder": "servers/Azure.Mcp.Server",
-        "stargazerCount": 3665,
+        "stargazerCount": 3689,
         "websiteUrl": "https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server"
       }
     },
@@ -23603,14 +23623,14 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.microsoft%2Fmicrosoft-fabric/versions/1.4.0",
       "description": "MCP tools for interacting with Microsoft Fabric",
       "version": "1.4.0",
-      "updatedAt": "2026-09-11T14:17:13Z",
+      "updatedAt": "2026-09-20T17:22:27Z",
       "metadata": {
         "primaryLanguage": "C#",
         "readmeUrl": "https://github.com/microsoft/mcp/tree/HEAD/servers/Fabric.Mcp.Server",
         "repository": "https://github.com/microsoft/mcp",
         "repositorySource": "github",
         "repositorySubfolder": "servers/Fabric.Mcp.Server",
-        "stargazerCount": 3665,
+        "stargazerCount": 3689,
         "websiteUrl": "https://github.com/microsoft/mcp/tree/main/servers/Fabric.Mcp.Server"
       }
     },
@@ -23621,14 +23641,14 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.microsoft%2Fnuget/versions/1.4.16",
       "description": "A Model Context Protocol (MCP) server for NuGet.",
       "version": "1.4.16",
-      "updatedAt": "2026-09-11T14:17:14Z",
+      "updatedAt": "2026-09-20T17:22:28Z",
       "metadata": {
         "primaryLanguage": "HTML",
         "readmeUrl": "https://github.com/NuGet/Home/tree/HEAD/mcp",
         "repository": "https://github.com/NuGet/Home",
         "repositorySource": "github",
         "repositorySubfolder": "mcp",
-        "stargazerCount": 1553
+        "stargazerCount": 1555
       }
     },
     {
@@ -23638,7 +23658,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.microsoft%2Fsentinel-data-exploration/versions/1.0.1",
       "description": "Find relevant security data from Sentinel data lake for building effective agents. More:aka.ms/s/de",
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:17:16Z",
+      "updatedAt": "2026-09-20T17:22:30Z",
       "metadata": {
         "readmeUrl": "https://github.com/microsoft/sentinel-data-exploration-mcp#readme",
         "repository": "https://github.com/microsoft/sentinel-data-exploration-mcp",
@@ -23657,12 +23677,12 @@
         "mcp-server"
       ],
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:17:17Z",
+      "updatedAt": "2026-09-20T17:22:31Z",
       "metadata": {
         "readmeUrl": "https://github.com/mobbin/mobbin-mcp-server#readme",
         "repository": "https://github.com/mobbin/mobbin-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 38
+        "stargazerCount": 43
       }
     },
     {
@@ -23679,13 +23699,13 @@
         "monday"
       ],
       "version": "0.0.1",
-      "updatedAt": "2026-09-11T14:17:18Z",
+      "updatedAt": "2026-09-20T17:22:32Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/mondaycom/mcp#readme",
         "repository": "https://github.com/mondaycom/mcp",
         "repositorySource": "github",
-        "stargazerCount": 424
+        "stargazerCount": 425
       }
     },
     {
@@ -23702,7 +23722,7 @@
         "sports-betting"
       ],
       "version": "1.4.5",
-      "updatedAt": "2026-09-11T14:17:19Z",
+      "updatedAt": "2026-09-20T17:22:33Z",
       "metadata": {
         "readmeUrl": "https://github.com/jessejohnsohn/negativeev-mcp#readme",
         "repository": "https://github.com/jessejohnsohn/negativeev-mcp",
@@ -23717,7 +23737,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.nitrosend%2Fnitrosend/versions/0.8.2",
       "description": "AI-native email marketing. Campaigns, automations, transactional, contacts, and analytics.",
       "version": "0.8.2",
-      "updatedAt": "2026-09-11T14:17:21Z",
+      "updatedAt": "2026-09-20T17:22:34Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/nitrosend/mcp#readme",
@@ -23734,7 +23754,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.opslevel%2Fmcp/versions/0.1.1",
       "description": "Query your OpsLevel internal developer portal: catalog, maturity data, and tech docs.",
       "version": "0.1.1",
-      "updatedAt": "2026-09-11T14:17:22Z",
+      "updatedAt": "2026-09-20T17:22:35Z",
       "metadata": {
         "readmeUrl": "https://github.com/OpsLevel/opslevel-mcp-remote#readme",
         "repository": "https://github.com/OpsLevel/opslevel-mcp-remote",
@@ -23761,13 +23781,13 @@
         "copilot"
       ],
       "version": "2.12.3",
-      "updatedAt": "2026-09-11T14:17:24Z",
+      "updatedAt": "2026-09-20T17:22:36Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/postmanlabs/postman-mcp-server#readme",
         "repository": "https://github.com/postmanlabs/postman-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 312,
+        "stargazerCount": 316,
         "websiteUrl": "https://www.postman.com/product/mcp-server/"
       }
     },
@@ -23778,7 +23798,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.publora%2Fmcp-server/versions/1.1.1",
       "description": "Schedule and publish to 10 social platforms: LinkedIn, X, Instagram, TikTok, YouTube, and more.",
       "version": "1.1.1",
-      "updatedAt": "2026-09-11T14:17:25Z",
+      "updatedAt": "2026-09-20T17:22:37Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/publora/mcp-server#readme",
@@ -23807,7 +23827,7 @@
         "mcp"
       ],
       "version": "1.0.2",
-      "updatedAt": "2026-09-11T14:17:27Z",
+      "updatedAt": "2026-09-20T17:22:38Z",
       "metadata": {
         "readmeUrl": "https://github.com/qualityclouds/qualityclouds#readme",
         "repository": "https://github.com/qualityclouds/qualityclouds",
@@ -23832,7 +23852,7 @@
         "review-management"
       ],
       "version": "1.0.2",
-      "updatedAt": "2026-09-11T14:17:29Z",
+      "updatedAt": "2026-09-20T17:22:40Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/reputemap/mcp#readme",
@@ -23858,7 +23878,7 @@
         "website-screenshot"
       ],
       "version": "0.1.1",
-      "updatedAt": "2026-09-11T14:17:30Z",
+      "updatedAt": "2026-09-20T17:22:41Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/screenshotscout/screenshotscout-mcp#readme",
@@ -23874,7 +23894,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.sherweb%2Fplatform/versions/1.52.10",
       "description": "Sherweb Platform MCP server to manage subscriptions and orders. Use OpenID Connect to authenticate.",
       "version": "1.52.10",
-      "updatedAt": "2026-09-11T14:17:31Z",
+      "updatedAt": "2026-09-20T17:22:42Z",
       "metadata": {
         "readmeUrl": "https://github.com/sherweb/platform-mcp#readme",
         "repository": "https://github.com/sherweb/platform-mcp",
@@ -23886,7 +23906,7 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:com.shipstatic:mcp",
       "displayName": "ShipStatic",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/com.shipstatic%2Fmcp/versions/1.10.2",
+      "url": "https://api.mcp.github.com/v0.1/servers/com.shipstatic%2Fmcp/versions/1.12.4",
       "description": "Deploy static websites from AI agents. Free at mcp.shipstatic.com — no install, no signup.",
       "tags": [
         "ai",
@@ -23900,8 +23920,8 @@
         "static-hosting",
         "static-site"
       ],
-      "version": "1.10.2",
-      "updatedAt": "2026-09-11T14:17:33Z",
+      "version": "1.12.4",
+      "updatedAt": "2026-09-20T17:22:43Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/shipstatic/mcp#readme",
@@ -23915,7 +23935,7 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:com.smartbear:smartbear-mcp",
       "displayName": "SmartBear MCP",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/com.smartbear%2Fsmartbear-mcp/versions/0.40.0",
+      "url": "https://api.mcp.github.com/v0.1/servers/com.smartbear%2Fsmartbear-mcp/versions/0.41.0",
       "description": "MCP server for AI access to SmartBear tools, including BugSnag, Reflect, Swagger, PactFlow, QTM4J.",
       "tags": [
         "bugsnag",
@@ -23929,8 +23949,8 @@
         "portal",
         "swagger"
       ],
-      "version": "0.40.0",
-      "updatedAt": "2026-09-11T14:17:35Z",
+      "version": "0.41.0",
+      "updatedAt": "2026-09-20T17:22:45Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/SmartBear/smartbear-mcp#readme",
@@ -23958,7 +23978,7 @@
         "swagger"
       ],
       "version": "0.33.0",
-      "updatedAt": "2026-09-11T14:17:37Z",
+      "updatedAt": "2026-09-20T17:22:46Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/SmartBear/smartbear-mcp#readme",
@@ -23974,12 +23994,12 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.sonatype%2Fdependency-management-mcp-server/versions/1.0.2",
       "description": "Sonatype component intelligence: versions, security analysis, and Trust Score recommendations",
       "version": "1.0.2",
-      "updatedAt": "2026-09-11T14:17:38Z",
+      "updatedAt": "2026-09-20T17:22:47Z",
       "metadata": {
         "readmeUrl": "https://github.com/sonatype/dependency-management-mcp-server#readme",
         "repository": "https://github.com/sonatype/dependency-management-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 73
+        "stargazerCount": 74
       }
     },
     {
@@ -23992,7 +24012,7 @@
         "soracom"
       ],
       "version": "1.1.4",
-      "updatedAt": "2026-09-11T14:17:39Z",
+      "updatedAt": "2026-09-20T17:22:48Z",
       "metadata": {
         "readmeUrl": "https://github.com/soracom/mcp/tree/HEAD/servers/knowledge",
         "repository": "https://github.com/soracom/mcp",
@@ -24009,7 +24029,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.stackhawk%2Fstackhawk/versions/1.1.1",
       "description": "An MCP server that provides interaction with StackHawk's security scanning platform.",
       "version": "1.1.1",
-      "updatedAt": "2026-09-11T14:17:40Z",
+      "updatedAt": "2026-09-20T17:22:49Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/stackhawk/stackhawk-mcp#readme",
@@ -24025,7 +24045,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.stackoverflow.mcp%2Fmcp/versions/1.1.3",
       "description": "Access Stack Overflow's trusted and verified technical questions and answers.",
       "version": "1.1.3",
-      "updatedAt": "2026-09-11T14:17:41Z",
+      "updatedAt": "2026-09-20T17:22:50Z",
       "metadata": {
         "readmeUrl": "https://github.com/StackExchange/Stack-MCP#readme",
         "repository": "https://github.com/StackExchange/Stack-MCP",
@@ -24050,30 +24070,30 @@
         "gemini-cli-extension"
       ],
       "version": "0.2.4",
-      "updatedAt": "2026-09-11T14:17:43Z",
+      "updatedAt": "2026-09-20T17:22:52Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/stripe/agent-toolkit#readme",
         "repository": "https://github.com/stripe/agent-toolkit",
         "repositorySource": "github",
-        "stargazerCount": 1798
+        "stargazerCount": 1830
       }
     },
     {
       "identifier": "urn:air:registry.modelcontextprotocol.io:com.supabase:mcp",
       "displayName": "Supabase",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/com.supabase%2Fmcp/versions/0.12.0",
+      "url": "https://api.mcp.github.com/v0.1/servers/com.supabase%2Fmcp/versions/0.13.0",
       "description": "MCP server for interacting with the Supabase platform",
-      "version": "0.12.0",
-      "updatedAt": "2026-09-11T14:17:45Z",
+      "version": "0.13.0",
+      "updatedAt": "2026-09-20T17:22:53Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/supabase/mcp/tree/HEAD/packages/mcp-server-supabase",
         "repository": "https://github.com/supabase/mcp",
         "repositorySource": "github",
         "repositorySubfolder": "packages/mcp-server-supabase",
-        "stargazerCount": 2902,
+        "stargazerCount": 2915,
         "websiteUrl": "https://supabase.com/mcp"
       }
     },
@@ -24084,7 +24104,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.tallyfy%2Fmcp-server/versions/1.2.0",
       "description": "Automate tasks, processes, and approvals with AI.",
       "version": "1.2.0",
-      "updatedAt": "2026-09-11T14:17:46Z",
+      "updatedAt": "2026-09-20T17:22:54Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/tallyfy/mcp-public#readme",
@@ -24101,7 +24121,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.vercel%2Fvercel-mcp/versions/0.0.3",
       "description": "An MCP server for Vercel",
       "version": "0.0.3",
-      "updatedAt": "2026-09-11T14:17:47Z",
+      "updatedAt": "2026-09-20T17:22:55Z",
       "metadata": {
         "readmeUrl": "https://github.com/vercel/vercel-mcp-overview#readme",
         "repository": "https://github.com/vercel/vercel-mcp-overview",
@@ -24123,13 +24143,13 @@
         "business-critical-yes"
       ],
       "version": "2.0.0",
-      "updatedAt": "2026-09-11T14:17:49Z",
+      "updatedAt": "2026-09-20T17:22:57Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/webflow/mcp-server#readme",
         "repository": "https://github.com/webflow/mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 139
+        "stargazerCount": 140
       }
     },
     {
@@ -24139,7 +24159,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/com.wix%2Fmcp/versions/1.0.2",
       "description": "A Model Context Protocol server for Wix AI tools",
       "version": "1.0.2",
-      "updatedAt": "2026-09-11T14:17:50Z",
+      "updatedAt": "2026-09-20T17:22:58Z",
       "metadata": {
         "readmeUrl": "https://github.com/wix/wix-mcp#readme",
         "repository": "https://github.com/wix/wix-mcp",
@@ -24158,7 +24178,7 @@
         "dax"
       ],
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:17:51Z",
+      "updatedAt": "2026-09-20T17:22:59Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/workos/skills/tree/HEAD/mcp",
@@ -24188,7 +24208,7 @@
         "wordpress-mcp"
       ],
       "version": "2.0.0",
-      "updatedAt": "2026-09-11T14:17:52Z",
+      "updatedAt": "2026-09-20T17:23:00Z",
       "metadata": {
         "readmeUrl": "https://github.com/yaniv-fink/wpwriter-mcp#readme",
         "repository": "https://github.com/yaniv-fink/wpwriter-mcp",
@@ -24214,7 +24234,7 @@
         "privacy"
       ],
       "version": "1.0.3",
-      "updatedAt": "2026-09-11T14:17:54Z",
+      "updatedAt": "2026-09-20T17:23:01Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/Wuniq/wuniq-mcp#readme",
@@ -24242,13 +24262,13 @@
         "follower-export"
       ],
       "version": "2.6.0",
-      "updatedAt": "2026-09-11T14:17:56Z",
+      "updatedAt": "2026-09-20T17:23:02Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/Xquik-dev/x-twitter-scraper#readme",
         "repository": "https://github.com/Xquik-dev/x-twitter-scraper",
         "repositorySource": "github",
-        "stargazerCount": 195,
+        "stargazerCount": 205,
         "websiteUrl": "https://docs.xquik.com/mcp/overview"
       }
     },
@@ -24277,7 +24297,7 @@
         "readmeUrl": "https://github.com/CoplayDev/unity-mcp#readme",
         "repository": "https://github.com/CoplayDev/unity-mcp",
         "repositorySource": "github",
-        "stargazerCount": 14133
+        "stargazerCount": 14360
       }
     },
     {
@@ -24297,12 +24317,12 @@
         "vibe-coding"
       ],
       "version": "0.1.3",
-      "updatedAt": "2026-09-11T14:17:58Z",
+      "updatedAt": "2026-09-20T17:23:03Z",
       "metadata": {
         "readmeUrl": "https://github.com/lovablelabs/mcp#readme",
         "repository": "https://github.com/lovablelabs/mcp",
         "repositorySource": "github",
-        "stargazerCount": 4,
+        "stargazerCount": 5,
         "websiteUrl": "https://lovable.dev"
       }
     },
@@ -24323,7 +24343,7 @@
         "model-context-protocol"
       ],
       "version": "0.13.0",
-      "updatedAt": "2026-09-11T14:18:00Z",
+      "updatedAt": "2026-09-20T17:23:04Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/mailkite/mailkite-mcp#readme",
@@ -24350,7 +24370,7 @@
         "presentations"
       ],
       "version": "5.9.0",
-      "updatedAt": "2026-09-11T14:18:01Z",
+      "updatedAt": "2026-09-20T17:23:06Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/smartdatabrokers/slideforge-mcp#readme",
@@ -24366,14 +24386,14 @@
       "url": "https://api.mcp.github.com/v0.1/servers/dev.svelte%2Fmcp/versions/0.1.26",
       "description": "The official Svelte MCP server providing docs and autofixing tools for Svelte development",
       "version": "0.1.26",
-      "updatedAt": "2026-09-11T14:18:03Z",
+      "updatedAt": "2026-09-20T17:23:07Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/sveltejs/ai-tools/tree/HEAD/packages/mcp-stdio",
         "repository": "https://github.com/sveltejs/ai-tools",
         "repositorySource": "github",
         "repositorySubfolder": "packages/mcp-stdio",
-        "stargazerCount": 322,
+        "stargazerCount": 328,
         "websiteUrl": "https://svelte.dev/docs/mcp/overview"
       }
     },
@@ -24384,7 +24404,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/dev.vibeseo%2Fvibeseo/versions/0.1.3",
       "description": "SEO research, audits, backlinks, GSC, and content workflow tools for AI agents.",
       "version": "0.1.3",
-      "updatedAt": "2026-09-11T14:18:04Z",
+      "updatedAt": "2026-09-20T17:23:08Z",
       "metadata": {
         "readmeUrl": "https://github.com/sultanlive/vibeseo-mcp#readme",
         "repository": "https://github.com/sultanlive/vibeseo-mcp",
@@ -24406,7 +24426,7 @@
         "readmeUrl": "https://github.com/Doist/todoist-ai#readme",
         "repository": "https://github.com/Doist/todoist-ai",
         "repositorySource": "github",
-        "stargazerCount": 545
+        "stargazerCount": 551
       }
     },
     {
@@ -24428,7 +24448,7 @@
         "readmeUrl": "https://github.com/elastic/mcp-server-elasticsearch#readme",
         "repository": "https://github.com/elastic/mcp-server-elasticsearch",
         "repositorySource": "github",
-        "stargazerCount": 713
+        "stargazerCount": 719
       }
     },
     {
@@ -24449,7 +24469,7 @@
         "spf"
       ],
       "version": "1.0.6",
-      "updatedAt": "2026-09-11T14:18:07Z",
+      "updatedAt": "2026-09-20T17:23:09Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/palisadeemail/palisade-mcp#readme",
@@ -24465,7 +24485,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/eu.ansvar%2Fgateway/versions/1.0.b661c6dc",
       "description": "Cited EU & global law, regulations & security frameworks via Ansvar Gateway. OAuth, free + paid.",
       "version": "1.0.b661c6dc",
-      "updatedAt": "2026-09-11T14:18:09Z",
+      "updatedAt": "2026-09-20T17:23:10Z",
       "metadata": {
         "readmeUrl": "https://github.com/Ansvar-Systems/ansvar-gateway#readme",
         "repository": "https://github.com/Ansvar-Systems/ansvar-gateway",
@@ -24499,7 +24519,7 @@
         "readmeUrl": "https://github.com/firecrawl/firecrawl-mcp-server#readme",
         "repository": "https://github.com/firecrawl/firecrawl-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 7435
+        "stargazerCount": 7491
       }
     },
     {
@@ -24515,7 +24535,7 @@
         "voice-agents"
       ],
       "version": "1.2.0",
-      "updatedAt": "2026-09-11T14:18:13Z",
+      "updatedAt": "2026-09-20T17:23:11Z",
       "metadata": {
         "primaryLanguage": "HTML",
         "readmeUrl": "https://github.com/saaslabsco/justcall-mcp-server#readme",
@@ -24538,7 +24558,7 @@
         "readmeUrl": "https://github.com/huggingface/hf-mcp-server#readme",
         "repository": "https://github.com/huggingface/hf-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 293
+        "stargazerCount": 295
       }
     },
     {
@@ -24575,13 +24595,12 @@
         "structured-data-extraction"
       ],
       "version": "1.8.0",
-      "updatedAt": "2026-09-11T14:18:18Z",
+      "updatedAt": "2026-09-20T17:23:12Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/RapierCraft/alterlab-mcp-server#readme",
         "repository": "https://github.com/RapierCraft/alterlab-mcp-server",
-        "repositorySource": "github",
-        "stargazerCount": 1
+        "repositorySource": "github"
       }
     },
     {
@@ -24603,7 +24622,7 @@
         "news-api"
       ],
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:18:19Z",
+      "updatedAt": "2026-09-20T17:23:13Z",
       "metadata": {
         "readmeUrl": "https://github.com/apitube/news-api-mcp#readme",
         "repository": "https://github.com/apitube/news-api-mcp",
@@ -24630,12 +24649,12 @@
         "design-system"
       ],
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:18:21Z",
+      "updatedAt": "2026-09-20T17:23:15Z",
       "metadata": {
         "readmeUrl": "https://github.com/Appllama/appllama-skills#readme",
         "repository": "https://github.com/Appllama/appllama-skills",
         "repositorySource": "github",
-        "stargazerCount": 1498,
+        "stargazerCount": 1914,
         "websiteUrl": "https://appllama.io/mcp"
       }
     },
@@ -24658,7 +24677,7 @@
         "context"
       ],
       "version": "0.5.35",
-      "updatedAt": "2026-09-11T14:18:22Z",
+      "updatedAt": "2026-09-20T17:23:16Z",
       "metadata": {
         "primaryLanguage": "Rust",
         "readmeUrl": "https://github.com/contextstream/mcp-server#readme",
@@ -24687,7 +24706,7 @@
         "kubernetes"
       ],
       "version": "1.0.2",
-      "updatedAt": "2026-09-11T14:18:23Z",
+      "updatedAt": "2026-09-20T17:23:17Z",
       "metadata": {
         "primaryLanguage": "Shell",
         "readmeUrl": "https://github.com/controlplane-com/ai-plugin#readme",
@@ -24716,7 +24735,7 @@
         "x402"
       ],
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:18:25Z",
+      "updatedAt": "2026-09-20T17:23:18Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/webmilmind1/deskcrew-mcp#readme",
@@ -24745,7 +24764,7 @@
         "ai-native"
       ],
       "version": "1.17.0",
-      "updatedAt": "2026-09-11T14:18:26Z",
+      "updatedAt": "2026-09-20T17:23:19Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/Frihet-io/frihet-mcp#readme",
@@ -24773,7 +24792,7 @@
         "model-context-protocol"
       ],
       "version": "1.10.2",
-      "updatedAt": "2026-09-11T14:18:27Z",
+      "updatedAt": "2026-09-20T17:23:20Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/AlvisoOculus/optionsahoy-mcp#readme",
@@ -24790,7 +24809,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.AnimaApp%2Fanima/versions/1.0.0",
       "description": "Connect AI coding agents to Anima Playground, Figma, and your design system.",
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:18:29Z",
+      "updatedAt": "2026-09-20T17:23:21Z",
       "metadata": {
         "primaryLanguage": "Shell",
         "readmeUrl": "https://github.com/AnimaApp/mcp-server-guide#readme",
@@ -24818,7 +24837,7 @@
         "uta-v3"
       ],
       "version": "3.0.2",
-      "updatedAt": "2026-09-11T14:18:30Z",
+      "updatedAt": "2026-09-20T17:23:22Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/Bitget-AI/agent-mcp#readme",
@@ -24834,7 +24853,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.CAST-Extend%2Fimaging-mcp-server/versions/3.0.4",
       "description": "MCP server exposing CAST Imaging software architecture insights to AI agents",
       "version": "3.0.4",
-      "updatedAt": "2026-09-11T14:18:31Z",
+      "updatedAt": "2026-09-20T17:23:23Z",
       "metadata": {
         "readmeUrl": "https://github.com/CAST-Extend/CAST-Imaging-Mcp#readme",
         "repository": "https://github.com/CAST-Extend/CAST-Imaging-Mcp",
@@ -24859,13 +24878,13 @@
         "mcp"
       ],
       "version": "1.9.0",
-      "updatedAt": "2026-09-11T14:18:33Z",
+      "updatedAt": "2026-09-20T17:23:25Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/ChromeDevTools/chrome-devtools-mcp#readme",
         "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
         "repositorySource": "github",
-        "stargazerCount": 51641
+        "stargazerCount": 52362
       }
     },
     {
@@ -24875,13 +24894,13 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.ClickHouse%2Fmcp-clickhouse/versions/0.6.0",
       "description": "Official ClickHouse MCP server for querying and exploring ClickHouse clusters and chDB.",
       "version": "0.6.0",
-      "updatedAt": "2026-09-11T14:18:35Z",
+      "updatedAt": "2026-09-20T17:23:26Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/ClickHouse/mcp-clickhouse#readme",
         "repository": "https://github.com/ClickHouse/mcp-clickhouse",
         "repositorySource": "github",
-        "stargazerCount": 870,
+        "stargazerCount": 877,
         "websiteUrl": "https://clickhouse.com"
       }
     },
@@ -24892,7 +24911,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.ComposioHQ%2Fcomposio/versions/1.0.5",
       "description": "Connect AI agents to 1000+ apps with managed authentication and tool-calling.",
       "version": "1.0.5",
-      "updatedAt": "2026-09-11T14:18:37Z",
+      "updatedAt": "2026-09-20T17:23:28Z",
       "metadata": {
         "readmeUrl": "https://github.com/ComposioHQ/GHMCP#readme",
         "repository": "https://github.com/ComposioHQ/GHMCP",
@@ -24915,20 +24934,20 @@
         "mcp-server"
       ],
       "version": "0.19.0",
-      "updatedAt": "2026-09-11T14:18:38Z",
+      "updatedAt": "2026-09-20T17:23:29Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/CrowdStrike/falcon-mcp#readme",
         "repository": "https://github.com/CrowdStrike/falcon-mcp",
         "repositorySource": "github",
-        "stargazerCount": 250
+        "stargazerCount": 257
       }
     },
     {
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.Decodo:mcp-server",
       "displayName": "Decodo",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.Decodo%2Fmcp-server/versions/1.2.3",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.Decodo%2Fmcp-server/versions/1.2.4",
       "description": "Enable your AI agents to scrape and parse web content dynamically, including geo-restricted sites",
       "tags": [
         "decodo",
@@ -24942,14 +24961,14 @@
         "scraping-infrastructure",
         "smithery"
       ],
-      "version": "1.2.3",
-      "updatedAt": "2026-09-11T14:18:39Z",
+      "version": "1.2.4",
+      "updatedAt": "2026-09-20T17:23:30Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/Decodo/mcp-server#readme",
         "repository": "https://github.com/Decodo/mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 36
+        "stargazerCount": 37
       }
     },
     {
@@ -24969,13 +24988,13 @@
         "observability"
       ],
       "version": "7.0.0",
-      "updatedAt": "2026-09-11T14:18:41Z",
+      "updatedAt": "2026-09-20T17:23:31Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/Dynatrace/dynatrace-for-ai#readme",
         "repository": "https://github.com/Dynatrace/dynatrace-for-ai",
         "repositorySource": "github",
-        "stargazerCount": 137,
+        "stargazerCount": 156,
         "websiteUrl": "https://docs.dynatrace.com/docs/shortlink/dynatrace-mcp-server"
       }
     },
@@ -24998,13 +25017,13 @@
         "openssf"
       ],
       "version": "1.2.3",
-      "updatedAt": "2026-09-11T14:18:44Z",
+      "updatedAt": "2026-09-20T17:23:33Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/Guruprasath-Annadurai/Whitepact#readme",
         "repository": "https://github.com/Guruprasath-Annadurai/Whitepact",
         "repositorySource": "github",
-        "stargazerCount": 1,
+        "stargazerCount": 2,
         "websiteUrl": "https://github.com/Guruprasath-Annadurai/Whitepact"
       }
     },
@@ -25027,7 +25046,7 @@
         "ga4"
       ],
       "version": "1.2.5",
-      "updatedAt": "2026-09-11T14:18:45Z",
+      "updatedAt": "2026-09-20T17:23:34Z",
       "metadata": {
         "readmeUrl": "https://github.com/HYPD-AI/ads-mcp-plugin#readme",
         "repository": "https://github.com/HYPD-AI/ads-mcp-plugin",
@@ -25043,7 +25062,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.IgniteUI%2Figniteui-theming/versions/29.0.0",
       "description": "Generate Sass palettes, typography, elevations, and themes for Ignite UI components.",
       "version": "29.0.0",
-      "updatedAt": "2026-09-11T14:18:46Z",
+      "updatedAt": "2026-09-20T17:23:35Z",
       "metadata": {
         "primaryLanguage": "SCSS",
         "readmeUrl": "https://github.com/IgniteUI/igniteui-theming#readme",
@@ -25070,7 +25089,7 @@
         "scaffolding"
       ],
       "version": "15.6.1",
-      "updatedAt": "2026-09-11T14:18:47Z",
+      "updatedAt": "2026-09-20T17:23:37Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/IgniteUI/igniteui-cli#readme",
@@ -25098,7 +25117,7 @@
         "model-context-protocol"
       ],
       "version": "0.1.10",
-      "updatedAt": "2026-09-11T14:18:49Z",
+      "updatedAt": "2026-09-20T17:23:39Z",
       "metadata": {
         "primaryLanguage": "C#",
         "readmeUrl": "https://github.com/Karzone/TestAtlas#readme",
@@ -25111,16 +25130,16 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.Krv-Labs:topos",
       "displayName": "Topos",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.Krv-Labs%2Ftopos/versions/0.5.1",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.Krv-Labs%2Ftopos/versions/0.6.0",
       "description": "Structural code-quality tools for AI coding agents.",
-      "version": "0.5.1",
-      "updatedAt": "2026-09-11T14:18:50Z",
+      "version": "0.6.0",
+      "updatedAt": "2026-09-20T17:23:40Z",
       "metadata": {
         "primaryLanguage": "Rust",
         "readmeUrl": "https://github.com/Krv-Labs/topos#readme",
         "repository": "https://github.com/Krv-Labs/topos",
         "repositorySource": "github",
-        "stargazerCount": 25,
+        "stargazerCount": 26,
         "websiteUrl": "https://github.com/Krv-Labs/topos"
       }
     },
@@ -25143,13 +25162,13 @@
         "model-context-protocol"
       ],
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:18:52Z",
+      "updatedAt": "2026-09-20T17:23:41Z",
       "metadata": {
         "primaryLanguage": "Go",
         "readmeUrl": "https://github.com/MachuraHarry/pipe#readme",
         "repository": "https://github.com/MachuraHarry/pipe",
         "repositorySource": "github",
-        "stargazerCount": 2
+        "stargazerCount": 3
       }
     },
     {
@@ -25171,7 +25190,7 @@
         "accessibility-testing"
       ],
       "version": "1.2.7",
-      "updatedAt": "2026-09-11T14:18:54Z",
+      "updatedAt": "2026-09-20T17:23:42Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/MasterPlayspots/motionspec#readme",
@@ -25190,7 +25209,7 @@
         "gemini-cli-extension"
       ],
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:18:56Z",
+      "updatedAt": "2026-09-20T17:23:43Z",
       "metadata": {
         "readmeUrl": "https://github.com/OctoPerf/octoperf-claude-plugins#readme",
         "repository": "https://github.com/OctoPerf/octoperf-claude-plugins",
@@ -25209,7 +25228,7 @@
         "voice-assistant"
       ],
       "version": "0.8.0",
-      "updatedAt": "2026-09-11T14:18:57Z",
+      "updatedAt": "2026-09-20T17:23:44Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/Omnidim/omnidim-mcp-server#readme",
@@ -25226,7 +25245,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.Openly-Useful%2Fcitewire/versions/0.2.0",
       "description": "Attribution-first MCP server for free news sources and free article APIs.",
       "version": "0.2.0",
-      "updatedAt": "2026-09-11T14:18:59Z",
+      "updatedAt": "2026-09-20T17:23:45Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/Openly-Useful/citewire#readme",
@@ -25243,13 +25262,13 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.PagerDuty%2Fpagerduty-mcp/versions/0.2.1",
       "description": "PagerDuty's official MCP server which provides tools to interact with your PagerDuty account.",
       "version": "0.2.1",
-      "updatedAt": "2026-09-11T14:19:01Z",
+      "updatedAt": "2026-09-20T17:23:46Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/PagerDuty/pagerduty-mcp-server#readme",
         "repository": "https://github.com/PagerDuty/pagerduty-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 77
+        "stargazerCount": 79
       }
     },
     {
@@ -25271,13 +25290,13 @@
         "google-analytics-alternative"
       ],
       "version": "2.13.11",
-      "updatedAt": "2026-09-11T14:19:02Z",
+      "updatedAt": "2026-09-20T17:23:48Z",
       "metadata": {
         "primaryLanguage": "Go",
         "readmeUrl": "https://github.com/pascalebeier/hitkeep#readme",
         "repository": "https://github.com/pascalebeier/hitkeep",
         "repositorySource": "github",
-        "stargazerCount": 88,
+        "stargazerCount": 89,
         "websiteUrl": "https://hitkeep.com/use-cases/read-only-mcp-server-web-analytics/"
       }
     },
@@ -25288,7 +25307,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.QWarranto%2Fleafengines/versions/2.0.8",
       "description": "🌱 Agricultural AI: Soil analysis, crop recommendations, weather forecasts. FREE TurboQuant.",
       "version": "2.0.8",
-      "updatedAt": "2026-09-11T14:19:04Z",
+      "updatedAt": "2026-09-20T17:23:49Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/QWarranto/leafengines-claude-mcp#readme",
@@ -25301,7 +25320,7 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.SAP:fiori-mcp-server",
       "displayName": "SAP Fiori",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.SAP%2Ffiori-mcp-server/versions/1.12.4",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.SAP%2Ffiori-mcp-server/versions/1.12.6",
       "description": "SAP Fiori - Model Context Protocol (MCP) server",
       "tags": [
         "fiori",
@@ -25309,15 +25328,15 @@
         "fiori-tools",
         "ui5"
       ],
-      "version": "1.12.4",
-      "updatedAt": "2026-09-11T14:19:06Z",
+      "version": "1.12.6",
+      "updatedAt": "2026-09-20T17:23:50Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/SAP/open-ux-tools/tree/HEAD/packages/fiori-mcp-server",
         "repository": "https://github.com/SAP/open-ux-tools",
         "repositorySource": "github",
         "repositorySubfolder": "packages/fiori-mcp-server",
-        "stargazerCount": 158
+        "stargazerCount": 156
       }
     },
     {
@@ -25332,7 +25351,7 @@
         "webcrawler"
       ],
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:19:08Z",
+      "updatedAt": "2026-09-20T17:23:52Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/ScrapeGraphAI/scrapegraph-mcp#readme",
@@ -25345,7 +25364,7 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.Sendmux:sendmux-mcp",
       "displayName": "Email Inbox API + Sending by Sendmux",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.Sendmux%2Fsendmux-mcp/versions/1.8.0",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.Sendmux%2Fsendmux-mcp/versions/2.1.2",
       "description": "AI email inbox and sending tools with attachments, search, live events, and webhooks.",
       "tags": [
         "cli",
@@ -25359,15 +25378,15 @@
         "mcp-server",
         "mcp-tools"
       ],
-      "version": "1.8.0",
-      "updatedAt": "2026-09-11T14:19:09Z",
+      "version": "2.1.2",
+      "updatedAt": "2026-09-20T17:23:53Z",
       "metadata": {
         "primaryLanguage": "PHP",
         "readmeUrl": "https://github.com/Sendmux/sendmux-sdk/tree/HEAD/packages/python/mcp",
         "repository": "https://github.com/Sendmux/sendmux-sdk",
         "repositorySource": "github",
         "repositorySubfolder": "packages/python/mcp",
-        "stargazerCount": 73,
+        "stargazerCount": 65,
         "websiteUrl": "https://sendmux.ai/docs/guides/mcp"
       }
     },
@@ -25388,13 +25407,13 @@
         "static-analysis"
       ],
       "version": "1.21.0",
-      "updatedAt": "2026-09-11T14:19:11Z",
+      "updatedAt": "2026-09-20T17:23:55Z",
       "metadata": {
         "primaryLanguage": "Java",
         "readmeUrl": "https://github.com/SonarSource/sonarqube-mcp-server#readme",
         "repository": "https://github.com/SonarSource/sonarqube-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 645
+        "stargazerCount": 655
       }
     },
     {
@@ -25411,13 +25430,13 @@
         "mcp-server"
       ],
       "version": "0.2.20",
-      "updatedAt": "2026-09-11T14:19:12Z",
+      "updatedAt": "2026-09-20T17:23:56Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/UI5/mcp-server#readme",
         "repository": "https://github.com/UI5/mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 99
+        "stargazerCount": 100
       }
     },
     {
@@ -25435,7 +25454,7 @@
         "webcomponent"
       ],
       "version": "0.1.2",
-      "updatedAt": "2026-09-11T14:19:14Z",
+      "updatedAt": "2026-09-20T17:23:57Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/UI5/webcomponents-mcp-server#readme",
@@ -25452,24 +25471,24 @@
       "description": "Shared memory for AI agents. One address per fact, one signature you check. No key to read.",
       "tags": [
         "long-term-memory",
-        "shared-memory",
-        "a2a-protocol",
-        "mcp",
         "agent-interoperability",
         "agent-memory",
         "ai-agents",
         "content-addressed",
-        "earth-orientation",
-        "ed25519"
+        "ed25519",
+        "llm-tools",
+        "provenance",
+        "rust",
+        "transparency-log"
       ],
       "version": "2.4.0",
-      "updatedAt": "2026-09-11T14:19:15Z",
+      "updatedAt": "2026-09-20T17:23:58Z",
       "metadata": {
         "primaryLanguage": "Rust",
         "readmeUrl": "https://github.com/Vortx-AI/emem#readme",
         "repository": "https://github.com/Vortx-AI/emem",
         "repositorySource": "github",
-        "stargazerCount": 56,
+        "stargazerCount": 58,
         "websiteUrl": "https://emem.dev"
       }
     },
@@ -25480,7 +25499,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.Wopee-io%2Fwopee-mcp/versions/1.30.1",
       "description": "AI testing agents for web apps — dispatch test runs, crawls, fetch artifacts and status.",
       "version": "1.30.1",
-      "updatedAt": "2026-09-11T14:19:16Z",
+      "updatedAt": "2026-09-20T17:24:00Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/Wopee-io/wopee-mcp#readme",
@@ -25503,7 +25522,7 @@
         "trust"
       ],
       "version": "0.3.0",
-      "updatedAt": "2026-09-11T14:19:19Z",
+      "updatedAt": "2026-09-20T17:24:01Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/YugantM/hvtracker-mcp#readme",
@@ -25531,7 +25550,7 @@
         "ai-agent"
       ],
       "version": "1.0.5",
-      "updatedAt": "2026-09-11T14:19:20Z",
+      "updatedAt": "2026-09-20T17:24:02Z",
       "metadata": {
         "readmeUrl": "https://github.com/adkit/ads-mcp#readme",
         "repository": "https://github.com/adkit/ads-mcp",
@@ -25559,13 +25578,13 @@
         "ai-agents"
       ],
       "version": "0.21.5",
-      "updatedAt": "2026-09-11T14:19:21Z",
+      "updatedAt": "2026-09-20T17:24:03Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/agentic-hil/agentic-hil#readme",
         "repository": "https://github.com/agentic-hil/agentic-hil",
         "repositorySource": "github",
-        "stargazerCount": 12,
+        "stargazerCount": 13,
         "websiteUrl": "https://github.com/agentic-hil/stm32-starter"
       }
     },
@@ -25588,7 +25607,7 @@
         "cursor"
       ],
       "version": "1.5.1",
-      "updatedAt": "2026-09-11T14:19:23Z",
+      "updatedAt": "2026-09-20T17:24:05Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/alimbenhelal-pro/ALM-XPP-MCP#readme",
@@ -25602,7 +25621,7 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.anilloutombam:mcp-failure-lab",
       "displayName": "Anilloutombam MCP Failure Lab",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.anilloutombam%2Fmcp-failure-lab/versions/0.8.0",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.anilloutombam%2Fmcp-failure-lab/versions/0.10.0",
       "description": "A chaos-engineering and resilience-testing toolkit for Model Context Protocol servers.",
       "tags": [
         "chaos-engineering",
@@ -25614,8 +25633,8 @@
         "cli",
         "mcp-server"
       ],
-      "version": "0.8.0",
-      "updatedAt": "2026-09-11T14:19:24Z",
+      "version": "0.10.0",
+      "updatedAt": "2026-09-20T17:24:06Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/anilloutombam/mcp-failure-lab#readme",
@@ -25638,7 +25657,7 @@
         "yandex"
       ],
       "version": "1.8.0",
-      "updatedAt": "2026-09-11T14:19:26Z",
+      "updatedAt": "2026-09-20T17:24:07Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/antohins/seo-tools-mcp#readme",
@@ -25663,7 +25682,7 @@
         "yandex"
       ],
       "version": "1.8.0",
-      "updatedAt": "2026-09-11T14:19:27Z",
+      "updatedAt": "2026-09-20T17:24:08Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/antohins/seo-tools-mcp#readme",
@@ -25688,7 +25707,7 @@
         "yandex"
       ],
       "version": "1.8.0",
-      "updatedAt": "2026-09-11T14:19:28Z",
+      "updatedAt": "2026-09-20T17:24:09Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/antohins/seo-tools-mcp#readme",
@@ -25713,7 +25732,7 @@
         "yandex"
       ],
       "version": "1.8.0",
-      "updatedAt": "2026-09-11T14:19:29Z",
+      "updatedAt": "2026-09-20T17:24:10Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/antohins/seo-tools-mcp#readme",
@@ -25738,7 +25757,7 @@
         "yandex"
       ],
       "version": "1.8.0",
-      "updatedAt": "2026-09-11T14:19:31Z",
+      "updatedAt": "2026-09-20T17:24:11Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/antohins/seo-tools-mcp#readme",
@@ -25763,7 +25782,7 @@
         "yandex"
       ],
       "version": "1.8.0",
-      "updatedAt": "2026-09-11T14:19:33Z",
+      "updatedAt": "2026-09-20T17:24:13Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/antohins/seo-tools-mcp#readme",
@@ -25788,7 +25807,7 @@
         "yandex"
       ],
       "version": "1.8.0",
-      "updatedAt": "2026-09-11T14:19:34Z",
+      "updatedAt": "2026-09-20T17:24:14Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/antohins/seo-tools-mcp#readme",
@@ -25813,7 +25832,7 @@
         "yandex"
       ],
       "version": "1.8.0",
-      "updatedAt": "2026-09-11T14:19:35Z",
+      "updatedAt": "2026-09-20T17:24:15Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/antohins/seo-tools-mcp#readme",
@@ -25827,7 +25846,7 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.aoreshkov:kotlin-lib-mcp",
       "displayName": "Kotlin & Java Library Sources",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.aoreshkov%2Fkotlin-lib-mcp/versions/0.5.0",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.aoreshkov%2Fkotlin-lib-mcp/versions/0.6.0",
       "description": "Kotlin/Java library sources, public API and KDoc from the real Maven sources jar, for AI agents",
       "tags": [
         "analysis-api",
@@ -25841,14 +25860,14 @@
         "mcp-server",
         "ai-tools"
       ],
-      "version": "0.5.0",
-      "updatedAt": "2026-09-11T14:19:37Z",
+      "version": "0.6.0",
+      "updatedAt": "2026-09-20T17:24:16Z",
       "metadata": {
         "primaryLanguage": "Kotlin",
         "readmeUrl": "https://github.com/aoreshkov/kotlin-lib-mcp#readme",
         "repository": "https://github.com/aoreshkov/kotlin-lib-mcp",
         "repositorySource": "github",
-        "stargazerCount": 8,
+        "stargazerCount": 10,
         "websiteUrl": "https://github.com/aoreshkov/kotlin-lib-mcp"
       }
     },
@@ -25859,13 +25878,13 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.arm%2Farm-mcp/versions/2.4.0",
       "description": "Official Arm MCP server for code migration, optimization, and Arm architecture guidance",
       "version": "2.4.0",
-      "updatedAt": "2026-09-11T14:19:38Z",
+      "updatedAt": "2026-09-20T17:24:17Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/arm/mcp#readme",
         "repository": "https://github.com/arm/mcp",
         "repositorySource": "github",
-        "stargazerCount": 91,
+        "stargazerCount": 92,
         "websiteUrl": "https://github.com/arm/mcp"
       }
     },
@@ -25888,13 +25907,13 @@
         "knowlege-graph"
       ],
       "version": "0.23.2",
-      "updatedAt": "2026-09-11T14:19:39Z",
+      "updatedAt": "2026-09-20T17:24:18Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/basicmachines-co/basic-memory.git#readme",
         "repository": "https://github.com/basicmachines-co/basic-memory.git",
         "repositorySource": "github",
-        "stargazerCount": 3930
+        "stargazerCount": 4009
       }
     },
     {
@@ -25916,21 +25935,21 @@
         "data-extraction"
       ],
       "version": "2.11.2",
-      "updatedAt": "2026-09-11T14:19:41Z",
+      "updatedAt": "2026-09-20T17:24:20Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/brightdata/brightdata-mcp#readme",
         "repository": "https://github.com/brightdata/brightdata-mcp",
         "repositorySource": "github",
-        "stargazerCount": 2635
+        "stargazerCount": 2655
       }
     },
     {
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.bytebase:dbhub",
       "displayName": "DBHub",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.bytebase%2Fdbhub/versions/1.2.3",
-      "description": "Minimal, token-efficient Database MCP Server for PostgreSQL, MySQL, SQL Server, SQLite, MariaDB",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.bytebase%2Fdbhub/versions/1.3.0",
+      "description": "Token-efficient database MCP server for PostgreSQL, MySQL, MariaDB, SQL Server, Oracle, SQLite",
       "tags": [
         "ai",
         "anthropic",
@@ -25943,14 +25962,14 @@
         "postgres",
         "sqlserver"
       ],
-      "version": "1.2.3",
-      "updatedAt": "2026-09-11T14:19:43Z",
+      "version": "1.3.0",
+      "updatedAt": "2026-09-20T17:24:21Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/bytebase/dbhub#readme",
         "repository": "https://github.com/bytebase/dbhub",
         "repositorySource": "github",
-        "stargazerCount": 3497
+        "stargazerCount": 3542
       }
     },
     {
@@ -25972,7 +25991,7 @@
         "agentic-coding"
       ],
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:19:44Z",
+      "updatedAt": "2026-09-20T17:24:22Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/cap-js/mcp-server#readme",
@@ -25988,7 +26007,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.carterchencc%2Fnomas/versions/1.3.2",
       "description": "Parsed SEC events by CIK/CUSIP: 8-K items, Form 144, Form D, FTD. Not EDGAR HTML.",
       "version": "1.3.2",
-      "updatedAt": "2026-09-11T14:19:45Z",
+      "updatedAt": "2026-09-20T17:24:23Z",
       "metadata": {
         "readmeUrl": "https://github.com/carterchencc/nomas_mcp#readme",
         "repository": "https://github.com/carterchencc/nomas_mcp",
@@ -26015,7 +26034,7 @@
         "bug-detection"
       ],
       "version": "0.6.0",
-      "updatedAt": "2026-09-11T14:19:46Z",
+      "updatedAt": "2026-09-20T17:24:25Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/chriswu727/argus#readme",
@@ -26044,13 +26063,13 @@
         "documentation"
       ],
       "version": "0.1.5",
-      "updatedAt": "2026-09-11T14:19:48Z",
+      "updatedAt": "2026-09-20T17:24:26Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/cometchat/docs-mcp#readme",
         "repository": "https://github.com/cometchat/docs-mcp",
         "repositorySource": "github",
-        "stargazerCount": 78,
+        "stargazerCount": 84,
         "websiteUrl": "https://www.cometchat.com/docs/mcp-server"
       }
     },
@@ -26073,7 +26092,7 @@
         "context"
       ],
       "version": "0.4.81",
-      "updatedAt": "2026-09-11T14:19:49Z",
+      "updatedAt": "2026-09-20T17:24:27Z",
       "metadata": {
         "primaryLanguage": "Rust",
         "readmeUrl": "https://github.com/contextstream/mcp-server#readme",
@@ -26090,7 +26109,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.devchad-cmd%2Fskilldb/versions/0.8.3",
       "description": "A registry of 5,900+ peer-authored skills any MCP agent can search and load on demand.",
       "version": "0.8.3",
-      "updatedAt": "2026-09-11T14:19:52Z",
+      "updatedAt": "2026-09-20T17:24:28Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/devchad-cmd/skilldb-sdk#readme",
@@ -26118,12 +26137,12 @@
         "model-context-protocol"
       ],
       "version": "1.8.4",
-      "updatedAt": "2026-09-11T14:19:53Z",
+      "updatedAt": "2026-09-20T17:24:29Z",
       "metadata": {
         "readmeUrl": "https://github.com/dsers/dsers-mcp-server#readme",
         "repository": "https://github.com/dsers/dsers-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 9,
+        "stargazerCount": 11,
         "websiteUrl": "https://www.dsers.com"
       }
     },
@@ -26142,13 +26161,13 @@
         "observability"
       ],
       "version": "1.1.1",
-      "updatedAt": "2026-09-11T14:19:55Z",
+      "updatedAt": "2026-09-20T17:24:30Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/dynatrace-oss/dynatrace-managed-mcp#readme",
         "repository": "https://github.com/dynatrace-oss/dynatrace-managed-mcp",
         "repositorySource": "github",
-        "stargazerCount": 28
+        "stargazerCount": 29
       }
     },
     {
@@ -26158,13 +26177,13 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.f%2Fprompts.chat-mcp/versions/1.0.9",
       "description": "Search and retrieve AI prompts from prompts.chat, the social platform for AI prompts.",
       "version": "1.0.9",
-      "updatedAt": "2026-09-11T14:19:56Z",
+      "updatedAt": "2026-09-20T17:24:31Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/f/prompts.chat-mcp#readme",
         "repository": "https://github.com/f/prompts.chat-mcp",
         "repositorySource": "github",
-        "stargazerCount": 34
+        "stargazerCount": 35
       }
     },
     {
@@ -26174,7 +26193,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.flinker-app%2Fifc-mcp/versions/0.1.17",
       "description": "Local IFC/BIM MCP server with IfcOpenShell Python in Pyodide and an IFC viewer.",
       "version": "0.1.17",
-      "updatedAt": "2026-09-11T14:19:57Z",
+      "updatedAt": "2026-09-20T17:24:32Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/flinker-app/ifc-mcp#readme",
@@ -26194,35 +26213,35 @@
         "tag-production"
       ],
       "version": "0.25.0",
-      "updatedAt": "2026-09-11T14:19:59Z",
+      "updatedAt": "2026-09-20T17:24:34Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/getsentry/sentry-mcp/tree/HEAD/packages/mcp-server",
         "repository": "https://github.com/getsentry/sentry-mcp",
         "repositorySource": "github",
         "repositorySubfolder": "packages/mcp-server",
-        "stargazerCount": 846
+        "stargazerCount": 858
       }
     },
     {
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.github:github-mcp-server",
       "displayName": "GitHub",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.github%2Fgithub-mcp-server/versions/1.12.1",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.github%2Fgithub-mcp-server/versions/1.12.2",
       "description": "Connect AI assistants to GitHub - manage repos, issues, PRs, and workflows through natural language.",
       "tags": [
         "github",
         "mcp",
         "mcp-server"
       ],
-      "version": "1.12.1",
-      "updatedAt": "2026-09-11T14:20:00Z",
+      "version": "1.12.2",
+      "updatedAt": "2026-09-20T17:24:35Z",
       "metadata": {
         "primaryLanguage": "Go",
         "readmeUrl": "https://github.com/github/github-mcp-server#readme",
         "repository": "https://github.com/github/github-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 32869
+        "stargazerCount": 33084
       }
     },
     {
@@ -26237,7 +26256,7 @@
         "mcp-server"
       ],
       "version": "0.6.0",
-      "updatedAt": "2026-09-11T14:20:02Z",
+      "updatedAt": "2026-09-20T17:24:37Z",
       "metadata": {
         "primaryLanguage": "Go",
         "readmeUrl": "https://github.com/goreleaser/mcp#readme",
@@ -26253,13 +26272,13 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.hashicorp%2Fterraform-mcp-server/versions/1.0.0",
       "description": "Generate more accurate Terraform and automate workflows for HCP Terraform and Terraform Enterprise",
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:20:04Z",
+      "updatedAt": "2026-09-20T17:24:38Z",
       "metadata": {
         "primaryLanguage": "Go",
         "readmeUrl": "https://github.com/hashicorp/terraform-mcp-server#readme",
         "repository": "https://github.com/hashicorp/terraform-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 1527
+        "stargazerCount": 1531
       }
     },
     {
@@ -26281,7 +26300,7 @@
         "services"
       ],
       "version": "0.1.0",
-      "updatedAt": "2026-09-11T14:20:05Z",
+      "updatedAt": "2026-09-20T17:24:39Z",
       "metadata": {
         "primaryLanguage": "C#",
         "readmeUrl": "https://github.com/holomodular/ServiceBricks#readme",
@@ -26294,7 +26313,7 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.hostinger:hostinger-api-mcp",
       "displayName": "Hostinger API",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.hostinger%2Fhostinger-api-mcp/versions/1.59.0",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.hostinger%2Fhostinger-api-mcp/versions/1.61.0",
       "description": "MCP server for Hostinger API",
       "tags": [
         "ai",
@@ -26305,21 +26324,21 @@
         "mcp",
         "gemini-cli-extension"
       ],
-      "version": "1.59.0",
-      "updatedAt": "2026-09-11T14:20:07Z",
+      "version": "1.61.0",
+      "updatedAt": "2026-09-20T17:24:40Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/hostinger/api-mcp-server#readme",
         "repository": "https://github.com/hostinger/api-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 151
+        "stargazerCount": 155
       }
     },
     {
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.ihor-sokoliuk:mcp-searxng",
       "displayName": "SearXNG Search",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.ihor-sokoliuk%2Fmcp-searxng/versions/2.2.0",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.ihor-sokoliuk%2Fmcp-searxng/versions/2.3.0",
       "description": "MCP server for SearXNG — privacy-respecting web search with pagination, URL reading",
       "tags": [
         "ai",
@@ -26333,14 +26352,14 @@
         "cursor",
         "privacy"
       ],
-      "version": "2.2.0",
-      "updatedAt": "2026-09-11T14:20:10Z",
+      "version": "2.3.0",
+      "updatedAt": "2026-09-20T17:24:43Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/ihor-sokoliuk/mcp-searxng#readme",
         "repository": "https://github.com/ihor-sokoliuk/mcp-searxng",
         "repositorySource": "github",
-        "stargazerCount": 1221
+        "stargazerCount": 1249
       }
     },
     {
@@ -26362,13 +26381,13 @@
         "rag"
       ],
       "version": "4.16.0",
-      "updatedAt": "2026-09-11T14:20:13Z",
+      "updatedAt": "2026-09-20T17:24:45Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/jagoff/memo#readme",
         "repository": "https://github.com/jagoff/memo",
         "repositorySource": "github",
-        "stargazerCount": 18
+        "stargazerCount": 19
       }
     },
     {
@@ -26389,7 +26408,7 @@
         "jfrog-mcp"
       ],
       "version": "0.1.1",
-      "updatedAt": "2026-09-11T14:20:15Z",
+      "updatedAt": "2026-09-20T17:24:47Z",
       "metadata": {
         "readmeUrl": "https://github.com/jfrog/jfrog-mcp-server#readme",
         "repository": "https://github.com/jfrog/jfrog-mcp-server",
@@ -26404,7 +26423,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.likhithreddy%2Ffittok/versions/0.11.1",
       "description": "Retrieve only the relevant code for a codebase question, within a token budget.",
       "version": "0.11.1",
-      "updatedAt": "2026-09-11T14:20:17Z",
+      "updatedAt": "2026-09-20T17:24:48Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/likhithreddy/fittok#readme",
@@ -26420,7 +26439,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.mapbox%2Fmcp-devkit-server/versions/0.8.2",
       "description": "Provides AI assistants with direct access to Mapbox developer APIs and documentation.",
       "version": "0.8.2",
-      "updatedAt": "2026-09-11T14:20:18Z",
+      "updatedAt": "2026-09-20T17:24:50Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/mapbox/mcp-devkit-server#readme",
@@ -26436,13 +26455,13 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.mapbox%2Fmcp-server/versions/99.0.0-dev",
       "description": "Geospatial intelligence with Mapbox APIs like geocoding, POI search, directions, isochrones, etc.",
       "version": "99.0.0-dev",
-      "updatedAt": "2026-09-11T14:20:20Z",
+      "updatedAt": "2026-09-20T17:24:51Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/mapbox/mcp-server#readme",
         "repository": "https://github.com/mapbox/mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 354
+        "stargazerCount": 356
       }
     },
     {
@@ -26452,19 +26471,19 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.microsoft%2FEnterpriseMCP/versions/1.0.0",
       "description": "Official Microsoft MCP Server to query Microsoft Entra data using natural language",
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:20:21Z",
+      "updatedAt": "2026-09-20T17:24:52Z",
       "metadata": {
         "readmeUrl": "https://github.com/microsoft/EnterpriseMCP#readme",
         "repository": "https://github.com/microsoft/EnterpriseMCP",
         "repositorySource": "github",
-        "stargazerCount": 53
+        "stargazerCount": 55
       }
     },
     {
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.microsoft:awesome-copilot",
       "displayName": "Awesome Copilot MCP Server",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.microsoft%2Fawesome-copilot/versions/1.0.2026090704",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.microsoft%2Fawesome-copilot/versions/1.0.2026091802",
       "description": "An MCP server that stores Copilot customizations from the Awesome Copilot repository",
       "tags": [
         "dotnet",
@@ -26472,8 +26491,8 @@
         "mcp-client",
         "mcp-server"
       ],
-      "version": "1.0.2026090704",
-      "updatedAt": "2026-09-11T14:20:24Z",
+      "version": "1.0.2026091802",
+      "updatedAt": "2026-09-20T17:24:54Z",
       "metadata": {
         "primaryLanguage": "C#",
         "readmeUrl": "https://github.com/microsoft/mcp-dotnet-samples#readme",
@@ -26490,13 +26509,13 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.miroapp%2Fmcp-server/versions/1.0.2",
       "description": "Official Miro MCP server - Supports context to code and creating diagrams, docs, and data tables.",
       "version": "1.0.2",
-      "updatedAt": "2026-09-11T14:20:28Z",
+      "updatedAt": "2026-09-20T17:24:57Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/miroapp/miro-ai#readme",
         "repository": "https://github.com/miroapp/miro-ai",
         "repositorySource": "github",
-        "stargazerCount": 151
+        "stargazerCount": 154
       }
     },
     {
@@ -26518,7 +26537,7 @@
         "mcp-server-card"
       ],
       "version": "0.7.7",
-      "updatedAt": "2026-09-11T14:20:29Z",
+      "updatedAt": "2026-09-20T17:24:58Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/mlava/agent-ready-mcp#readme",
@@ -26547,7 +26566,7 @@
         "mcp"
       ],
       "version": "0.8.11",
-      "updatedAt": "2026-09-11T14:20:31Z",
+      "updatedAt": "2026-09-20T17:25:00Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/mlava/scholar-sidekick-mcp#readme",
@@ -26571,20 +26590,20 @@
         "mongodb-database"
       ],
       "version": "2.1.0",
-      "updatedAt": "2026-09-11T14:20:34Z",
+      "updatedAt": "2026-09-20T17:25:01Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/mongodb-js/mongodb-mcp-server#readme",
         "repository": "https://github.com/mongodb-js/mongodb-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 1126
+        "stargazerCount": 1133
       }
     },
     {
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.netdata:mcp-server",
       "displayName": "Netdata",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.netdata%2Fmcp-server/versions/2.11.0",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.netdata%2Fmcp-server/versions/2.11.1",
       "description": "Real-time infrastructure monitoring with metrics, logs, alerts, and ML-based anomaly detection.",
       "tags": [
         "monitoring",
@@ -26598,15 +26617,15 @@
         "alerting",
         "influxdb"
       ],
-      "version": "2.11.0",
-      "updatedAt": "2026-09-11T14:20:35Z",
+      "version": "2.11.1",
+      "updatedAt": "2026-09-20T17:25:02Z",
       "metadata": {
         "primaryLanguage": "Go",
         "readmeUrl": "https://github.com/netdata/netdata/tree/HEAD/docs/netdata-ai/mcp",
         "repository": "https://github.com/netdata/netdata",
         "repositorySource": "github",
         "repositorySubfolder": "docs/netdata-ai/mcp",
-        "stargazerCount": 80484,
+        "stargazerCount": 80605,
         "websiteUrl": "https://www.netdata.cloud"
       }
     },
@@ -26617,7 +26636,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.oakallow%2Foakallow/versions/1.0.0",
       "description": "Runtime permission, approval, and audit layer for AI agent tool execution.",
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:20:37Z",
+      "updatedAt": "2026-09-20T17:25:04Z",
       "metadata": {
         "readmeUrl": "https://github.com/oakallow/oakallow-mcp#readme",
         "repository": "https://github.com/oakallow/oakallow-mcp",
@@ -26645,13 +26664,13 @@
         "local-first"
       ],
       "version": "1.1.0",
-      "updatedAt": "2026-09-11T14:20:38Z",
+      "updatedAt": "2026-09-20T17:25:05Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/oleksiijko/pmb#readme",
         "repository": "https://github.com/oleksiijko/pmb",
         "repositorySource": "github",
-        "stargazerCount": 278
+        "stargazerCount": 277
       }
     },
     {
@@ -26673,13 +26692,13 @@
         "mcp"
       ],
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:20:39Z",
+      "updatedAt": "2026-09-20T17:25:06Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/openaccountants/openaccountants#readme",
         "repository": "https://github.com/openaccountants/openaccountants",
         "repositorySource": "github",
-        "stargazerCount": 371
+        "stargazerCount": 394
       }
     },
     {
@@ -26701,7 +26720,7 @@
         "section-301"
       ],
       "version": "1.1.0",
-      "updatedAt": "2026-09-11T14:20:41Z",
+      "updatedAt": "2026-09-20T17:25:07Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/opsloft/tariff-resolver#readme",
@@ -26730,13 +26749,13 @@
         "video-editing"
       ],
       "version": "0.3.0",
-      "updatedAt": "2026-09-11T14:20:42Z",
+      "updatedAt": "2026-09-20T17:25:08Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/opus-pro/opusclip-mcp#readme",
         "repository": "https://github.com/opus-pro/opusclip-mcp",
         "repositorySource": "github",
-        "stargazerCount": 3,
+        "stargazerCount": 4,
         "websiteUrl": "https://help.opus.pro/api-reference/agent-setup"
       }
     },
@@ -26747,7 +26766,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.parseablehq%2Fparseable-mcp-server/versions/0.2.16",
       "description": "Model Context Protocol server for Parseable. Lets LLMs discover and query Parseable.",
       "version": "0.2.16",
-      "updatedAt": "2026-09-11T14:20:44Z",
+      "updatedAt": "2026-09-20T17:25:09Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/parseablehq/parseable-mcp-server#readme",
@@ -26763,13 +26782,13 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.patrickchugh%2Fterravision/versions/0.47.0",
       "description": "Cloud architecture diagrams generated from terraform plan, with official AWS, Azure, GCP icons",
       "version": "0.47.0",
-      "updatedAt": "2026-09-11T14:20:45Z",
+      "updatedAt": "2026-09-20T17:25:10Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/patrickchugh/terravision#readme",
         "repository": "https://github.com/patrickchugh/terravision",
         "repositorySource": "github",
-        "stargazerCount": 1629,
+        "stargazerCount": 1634,
         "websiteUrl": "https://patrickchugh.github.io/terravision/"
       }
     },
@@ -26777,7 +26796,7 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.pete-builds:unifi",
       "displayName": "UniFi Gateway",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.pete-builds%2Funifi/versions/0.21.2",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.pete-builds%2Funifi/versions/0.23.0",
       "description": "Safe-by-default UniFi MCP: Network + Protect + Access, multi-site, dry-run, audit log.",
       "tags": [
         "docker",
@@ -26791,14 +26810,14 @@
         "unifi",
         "ucg-fiber"
       ],
-      "version": "0.21.2",
-      "updatedAt": "2026-09-11T14:20:46Z",
+      "version": "0.23.0",
+      "updatedAt": "2026-09-20T17:25:11Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/pete-builds/mcp-unifi#readme",
         "repository": "https://github.com/pete-builds/mcp-unifi",
         "repositorySource": "github",
-        "stargazerCount": 22,
+        "stargazerCount": 24,
         "websiteUrl": "https://pete-builds.github.io/mcp-unifi/"
       }
     },
@@ -26817,13 +26836,13 @@
         "server"
       ],
       "version": "1.0.0",
-      "updatedAt": "2026-09-11T14:20:48Z",
+      "updatedAt": "2026-09-20T17:25:13Z",
       "metadata": {
         "primaryLanguage": "Go",
         "readmeUrl": "https://github.com/pgEdge/pgedge-postgres-mcp#readme",
         "repository": "https://github.com/pgEdge/pgedge-postgres-mcp",
         "repositorySource": "github",
-        "stargazerCount": 223
+        "stargazerCount": 228
       }
     },
     {
@@ -26845,7 +26864,7 @@
         "model-context-protocol"
       ],
       "version": "0.1.3",
-      "updatedAt": "2026-09-11T14:20:49Z",
+      "updatedAt": "2026-09-20T17:25:14Z",
       "metadata": {
         "primaryLanguage": "Go",
         "readmeUrl": "https://github.com/prest/prest-mcp-adapter#readme",
@@ -26869,7 +26888,7 @@
         "windsurf"
       ],
       "version": "2.3.2",
-      "updatedAt": "2026-09-11T14:20:50Z",
+      "updatedAt": "2026-09-20T17:25:15Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/pubnub/pubnub-mcp-server#readme",
@@ -26886,7 +26905,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.quicknode%2Fmcp/versions/1.0.1",
       "description": "Manage your blockchain infrastructure across 80+ chains with your agents.",
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:20:52Z",
+      "updatedAt": "2026-09-20T17:25:16Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/quicknode/agent-plugins#readme",
@@ -26899,7 +26918,7 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.rigour-labs:rigour",
       "displayName": "Rigour",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.rigour-labs%2Frigour/versions/6.0.0",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.rigour-labs%2Frigour/versions/6.2.2",
       "description": "Quality gates for AI agents. Lint, test, build checks with memory persistence.",
       "tags": [
         "agentic-workflow",
@@ -26913,8 +26932,8 @@
         "llm",
         "mcp"
       ],
-      "version": "6.0.0",
-      "updatedAt": "2026-09-11T14:20:53Z",
+      "version": "6.2.2",
+      "updatedAt": "2026-09-20T17:25:17Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/rigour-labs/rigour#readme",
@@ -26930,7 +26949,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.salahawad%2Foutlook-personal-mcp/versions/0.1.1",
       "description": "Full-control MCP server for a personal Outlook.com mailbox and calendar (Microsoft Graph).",
       "version": "0.1.1",
-      "updatedAt": "2026-09-11T14:20:56Z",
+      "updatedAt": "2026-09-20T17:25:20Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/salahawad/outlook-personal-mcp#readme",
@@ -26943,20 +26962,20 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.sassoftware:sas-mcp-server",
       "displayName": "SAS Viya",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.sassoftware%2Fsas-mcp-server/versions/1.14.2",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.sassoftware%2Fsas-mcp-server/versions/1.15.0",
       "description": "Execute SAS code and query Compute, CAS, and model APIs on SAS Viya via OAuth 2.0.",
       "tags": [
         "sas-aiml",
         "sas-osp"
       ],
-      "version": "1.14.2",
-      "updatedAt": "2026-09-11T14:20:57Z",
+      "version": "1.15.0",
+      "updatedAt": "2026-09-20T17:25:21Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/sassoftware/sas-mcp-server#readme",
         "repository": "https://github.com/sassoftware/sas-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 54
+        "stargazerCount": 58
       }
     },
     {
@@ -26978,7 +26997,7 @@
         "tiktok"
       ],
       "version": "0.14.1",
-      "updatedAt": "2026-09-11T14:20:59Z",
+      "updatedAt": "2026-09-20T17:25:22Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/scavio-ai/scavio-mcp#readme",
@@ -26993,14 +27012,19 @@
       "type": "application/mcp-server+json",
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.serpapi%2Fserpapi-mcp/versions/1.0.3",
       "description": "Official SerpApi MCP server for Google, Bing, and other search engines.",
+      "tags": [
+        "mcp",
+        "mcp-server",
+        "mcp-servers"
+      ],
       "version": "1.0.3",
-      "updatedAt": "2026-09-11T14:21:01Z",
+      "updatedAt": "2026-09-20T17:25:23Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/serpapi/serpapi-mcp#readme",
         "repository": "https://github.com/serpapi/serpapi-mcp",
         "repositorySource": "github",
-        "stargazerCount": 169,
+        "stargazerCount": 171,
         "websiteUrl": "https://serpapi.com/"
       }
     },
@@ -27019,7 +27043,7 @@
         "typescript"
       ],
       "version": "1.1.1",
-      "updatedAt": "2026-09-11T14:21:02Z",
+      "updatedAt": "2026-09-20T17:25:24Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/shariqriazz/google-ai-search-mcp#readme",
@@ -27047,7 +27071,7 @@
         "semantic-scholar"
       ],
       "version": "1.7.4",
-      "updatedAt": "2026-09-11T14:21:06Z",
+      "updatedAt": "2026-09-20T17:25:26Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/smaniches/semantic-scholar-mcp#readme",
@@ -27075,7 +27099,7 @@
         "drug-repurposing"
       ],
       "version": "1.3.6",
-      "updatedAt": "2026-09-11T14:21:07Z",
+      "updatedAt": "2026-09-20T17:25:27Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/smaniches/uniprot-mcp#readme",
@@ -27091,7 +27115,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.smythmyke%2Fgovtoolspro-mcp-server/versions/0.1.3",
       "description": "Workflow tools for federal contractors: go/no-go scoring, incumbent intel, recompete, NECO.",
       "version": "0.1.3",
-      "updatedAt": "2026-09-11T14:21:08Z",
+      "updatedAt": "2026-09-20T17:25:28Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/smythmyke/govtoolspro-mcp-server#readme",
@@ -27108,7 +27132,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.snyk%2Fsaw-mcp/versions/1.1.2",
       "description": "MCP server for Snyk API & Web — DAST scanning, findings management, and vulnerability triage",
       "version": "1.1.2",
-      "updatedAt": "2026-09-11T14:21:10Z",
+      "updatedAt": "2026-09-20T17:25:29Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/snyk/saw-mcp#readme",
@@ -27124,7 +27148,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.sourcegraph%2Fmcp/versions/0.1.0",
       "description": "Sourcegraph code search, semantic search, go-to-definition, find-references, and diff search.",
       "version": "0.1.0",
-      "updatedAt": "2026-09-11T14:21:11Z",
+      "updatedAt": "2026-09-20T17:25:30Z",
       "metadata": {
         "readmeUrl": "https://github.com/sourcegraph-community/mcpregistry#readme",
         "repository": "https://github.com/sourcegraph-community/mcpregistry",
@@ -27151,13 +27175,13 @@
         "stackql"
       ],
       "version": "0.11.669",
-      "updatedAt": "2026-09-11T14:21:12Z",
+      "updatedAt": "2026-09-20T17:25:31Z",
       "metadata": {
         "primaryLanguage": "Go",
         "readmeUrl": "https://github.com/stackql/stackql#readme",
         "repository": "https://github.com/stackql/stackql",
         "repositorySource": "github",
-        "stargazerCount": 958,
+        "stargazerCount": 991,
         "websiteUrl": "https://stackql.io"
       }
     },
@@ -27176,7 +27200,7 @@
         "skillsmp"
       ],
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:21:13Z",
+      "updatedAt": "2026-09-20T17:25:32Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/tambo-labs/charming-mcp#readme",
@@ -27193,13 +27217,13 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.tavily-ai%2Ftavily-mcp/versions/0.2.15",
       "description": "MCP server for advanced web search using Tavily",
       "version": "0.2.15",
-      "updatedAt": "2026-09-11T14:21:14Z",
+      "updatedAt": "2026-09-20T17:25:33Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/tavily-ai/tavily-mcp#readme",
         "repository": "https://github.com/tavily-ai/tavily-mcp",
         "repositorySource": "github",
-        "stargazerCount": 2378
+        "stargazerCount": 2396
       }
     },
     {
@@ -27221,13 +27245,13 @@
         "ai-agents"
       ],
       "version": "3.0.2",
-      "updatedAt": "2026-09-11T14:21:16Z",
+      "updatedAt": "2026-09-20T17:25:34Z",
       "metadata": {
         "primaryLanguage": "JavaScript",
         "readmeUrl": "https://github.com/uizze/uizze#readme",
         "repository": "https://github.com/uizze/uizze",
         "repositorySource": "github",
-        "stargazerCount": 19,
+        "stargazerCount": 21,
         "websiteUrl": "https://uizze.com"
       }
     },
@@ -27235,7 +27259,7 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.upstash:context7",
       "displayName": "Context7",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.upstash%2Fcontext7/versions/4.1.0",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.upstash%2Fcontext7/versions/4.1.1",
       "description": "Up-to-date code docs for any prompt",
       "tags": [
         "llm",
@@ -27243,14 +27267,14 @@
         "mcp-server",
         "vibe-coding"
       ],
-      "version": "4.1.0",
-      "updatedAt": "2026-09-11T14:21:17Z",
+      "version": "4.1.1",
+      "updatedAt": "2026-09-20T17:25:36Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/upstash/context7#readme",
         "repository": "https://github.com/upstash/context7",
         "repositorySource": "github",
-        "stargazerCount": 61882,
+        "stargazerCount": 62246,
         "websiteUrl": "https://context7.com"
       }
     },
@@ -27261,13 +27285,13 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.venomseven%2Fnslookup/versions/1.6.0",
       "description": "DNS lookups, health reports, SSL certs, security scans, GEO scoring, uptime checks",
       "version": "1.6.0",
-      "updatedAt": "2026-09-11T14:21:20Z",
+      "updatedAt": "2026-09-20T17:25:37Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/NsLookup-io/nslookup-mcp#readme",
         "repository": "https://github.com/NsLookup-io/nslookup-mcp",
         "repositorySource": "github",
-        "stargazerCount": 22
+        "stargazerCount": 23
       }
     },
     {
@@ -27284,13 +27308,13 @@
         "mcp"
       ],
       "version": "0.3.6",
-      "updatedAt": "2026-09-11T14:21:27Z",
+      "updatedAt": "2026-09-20T17:25:38Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/vercel/next-devtools-mcp#readme",
         "repository": "https://github.com/vercel/next-devtools-mcp",
         "repositorySource": "github",
-        "stargazerCount": 819
+        "stargazerCount": 823
       }
     },
     {
@@ -27312,12 +27336,12 @@
         "spl-token"
       ],
       "version": "1.0.9",
-      "updatedAt": "2026-09-11T14:21:29Z",
+      "updatedAt": "2026-09-20T17:25:39Z",
       "metadata": {
         "readmeUrl": "https://github.com/vybenetwork/solana-mcp-vybe#readme",
         "repository": "https://github.com/vybenetwork/solana-mcp-vybe",
         "repositorySource": "github",
-        "stargazerCount": 1222,
+        "stargazerCount": 1325,
         "websiteUrl": "https://docs.vybenetwork.com/docs/mcp"
       }
     },
@@ -27325,7 +27349,7 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.wonderwhy-er:desktop-commander",
       "displayName": "Desktop Commander",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.wonderwhy-er%2Fdesktop-commander/versions/0.2.50",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.wonderwhy-er%2Fdesktop-commander/versions/0.2.51",
       "description": "MCP server for terminal commands, file operations, and process management",
       "tags": [
         "agent",
@@ -27338,14 +27362,14 @@
         "vibe-coding",
         "gemini-cli-extension"
       ],
-      "version": "0.2.50",
-      "updatedAt": "2026-09-11T14:21:48Z",
+      "version": "0.2.51",
+      "updatedAt": "2026-09-20T17:25:40Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/wonderwhy-er/DesktopCommanderMCP#readme",
         "repository": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
         "repositorySource": "github",
-        "stargazerCount": 9540
+        "stargazerCount": 9666
       }
     },
     {
@@ -27358,7 +27382,7 @@
         "ai-agents"
       ],
       "version": "0.9.2",
-      "updatedAt": "2026-09-11T14:21:50Z",
+      "updatedAt": "2026-09-20T17:25:42Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/zation/agent-radar#readme",
@@ -27371,16 +27395,16 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.zereight:gitlab-mcp",
       "displayName": "Zereight Gitlab",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/io.github.zereight%2Fgitlab-mcp/versions/2.1.61",
+      "url": "https://api.mcp.github.com/v0.1/servers/io.github.zereight%2Fgitlab-mcp/versions/2.1.64",
       "description": "GitLab MCP server for projects, merge requests, issues, pipelines, wiki, releases, and more.",
-      "version": "2.1.61",
-      "updatedAt": "2026-09-11T14:22:03Z",
+      "version": "2.1.64",
+      "updatedAt": "2026-09-20T17:25:43Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/zereight/gitlab-mcp#readme",
         "repository": "https://github.com/zereight/gitlab-mcp",
         "repositorySource": "github",
-        "stargazerCount": 1968
+        "stargazerCount": 1988
       }
     },
     {
@@ -27402,13 +27426,13 @@
         "zpa"
       ],
       "version": "0.15.4",
-      "updatedAt": "2026-09-11T14:22:10Z",
+      "updatedAt": "2026-09-20T17:25:45Z",
       "metadata": {
         "primaryLanguage": "Python",
         "readmeUrl": "https://github.com/zscaler/zscaler-mcp-server#readme",
         "repository": "https://github.com/zscaler/zscaler-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 50,
+        "stargazerCount": 51,
         "websiteUrl": "https://github.com/zscaler/zscaler-mcp-server"
       }
     },
@@ -27429,7 +27453,7 @@
         "typescript"
       ],
       "version": "0.1.1",
-      "updatedAt": "2026-09-11T14:22:13Z",
+      "updatedAt": "2026-09-20T17:25:47Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/screen-arts/mediawork-mcp#readme",
@@ -27457,7 +27481,7 @@
         "url-shortener"
       ],
       "version": "3.1.0",
-      "updatedAt": "2026-09-11T14:22:14Z",
+      "updatedAt": "2026-09-20T17:25:48Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/PicSeeInc/picsee-mcp#readme",
@@ -27473,7 +27497,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.port%2FPort/versions/1.0.2",
       "description": "Port.io mcp server",
       "version": "1.0.2",
-      "updatedAt": "2026-09-11T14:22:15Z",
+      "updatedAt": "2026-09-20T17:25:49Z",
       "metadata": {
         "readmeUrl": "https://github.com/port-labs/remote-mcp-server#readme",
         "repository": "https://github.com/port-labs/remote-mcp-server",
@@ -27488,7 +27512,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.shipbook%2Fmcp/versions/1.1.0",
       "description": "Debug production issues using Shipbook logs and Loglytics error insights.",
       "version": "1.1.0",
-      "updatedAt": "2026-09-11T14:22:18Z",
+      "updatedAt": "2026-09-20T17:25:50Z",
       "metadata": {
         "readmeUrl": "https://github.com/ShipBook/shipbook-mcp#readme",
         "repository": "https://github.com/ShipBook/shipbook-mcp",
@@ -27509,7 +27533,7 @@
         "sast"
       ],
       "version": "1.1304.2",
-      "updatedAt": "2026-09-11T14:22:19Z",
+      "updatedAt": "2026-09-20T17:25:51Z",
       "metadata": {
         "primaryLanguage": "Go",
         "readmeUrl": "https://github.com/snyk/studio-mcp#readme",
@@ -27525,7 +27549,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/io.unstructured%2Ftransform/versions/0.7.2",
       "description": "Turn documents into structured, AI-ready data by parsing, enriching, chunking, and embedding.",
       "version": "0.7.2",
-      "updatedAt": "2026-09-11T14:22:20Z",
+      "updatedAt": "2026-09-20T17:25:52Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/Unstructured-IO/unstructured-mcp-integrations#readme",
@@ -27554,7 +27578,7 @@
         "readmeUrl": "https://github.com/launchdarkly/mcp-server#readme",
         "repository": "https://github.com/launchdarkly/mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 27
+        "stargazerCount": 28
       }
     },
     {
@@ -27570,15 +27594,15 @@
         "readmeUrl": "https://github.com/makenotion/notion-mcp-server#readme",
         "repository": "https://github.com/makenotion/notion-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 4625
+        "stargazerCount": 4641
       }
     },
     {
       "identifier": "urn:air:registry.modelcontextprotocol.io:me.speedof:speed-test",
       "displayName": "SpeedOf.Me",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/me.speedof%2Fspeed-test/versions/1.1.3",
-      "description": "Official SpeedOf.Me server - Accurate speed tests via over 130 global edge servers with analytics.",
+      "url": "https://api.mcp.github.com/v0.1/servers/me.speedof%2Fspeed-test/versions/1.1.4",
+      "description": "Official SpeedOf.Me server - Accurate speed tests via over 200 global edge servers with analytics.",
       "tags": [
         "ai-agents",
         "internet-speed-test",
@@ -27587,8 +27611,8 @@
         "model-context-protocol",
         "speedtest"
       ],
-      "version": "1.1.3",
-      "updatedAt": "2026-09-11T14:22:25Z",
+      "version": "1.1.4",
+      "updatedAt": "2026-09-20T17:25:53Z",
       "metadata": {
         "readmeUrl": "https://github.com/SpeedOfMe/speedofme-mcp#readme",
         "repository": "https://github.com/SpeedOfMe/speedofme-mcp",
@@ -27610,7 +27634,7 @@
         "readmeUrl": "https://github.com/microsoft/azure-devops-mcp#readme",
         "repository": "https://github.com/microsoft/azure-devops-mcp",
         "repositorySource": "github",
-        "stargazerCount": 2010
+        "stargazerCount": 2020
       }
     },
     {
@@ -27630,7 +27654,7 @@
         "readmeUrl": "https://github.com/microsoft/clarity-mcp-server#readme",
         "repository": "https://github.com/microsoft/clarity-mcp-server",
         "repositorySource": "github",
-        "stargazerCount": 115
+        "stargazerCount": 116
       }
     },
     {
@@ -27686,7 +27710,7 @@
         "readmeUrl": "https://github.com/microsoft/markitdown#readme",
         "repository": "https://github.com/microsoft/markitdown",
         "repositorySource": "github",
-        "stargazerCount": 182601
+        "stargazerCount": 185898
       }
     },
     {
@@ -27706,7 +27730,7 @@
         "readmeUrl": "https://github.com/microsoft/playwright-mcp#readme",
         "repository": "https://github.com/microsoft/playwright-mcp",
         "repositorySource": "github",
-        "stargazerCount": 37010
+        "stargazerCount": 37392
       }
     },
     {
@@ -27734,7 +27758,7 @@
         "readmeUrl": "https://github.com/microsoftdocs/mcp#readme",
         "repository": "https://github.com/microsoftdocs/mcp",
         "repositorySource": "github",
-        "stargazerCount": 1884
+        "stargazerCount": 1896
       }
     },
     {
@@ -27750,7 +27774,7 @@
         "readmeUrl": "https://github.com/neondatabase/mcp-server-neon#readme",
         "repository": "https://github.com/neondatabase/mcp-server-neon",
         "repositorySource": "github",
-        "stargazerCount": 637
+        "stargazerCount": 648
       }
     },
     {
@@ -27778,7 +27802,7 @@
       "identifier": "urn:air:registry.modelcontextprotocol.io:one.faf:claude-faf-mcp",
       "displayName": "Claude FAF",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/one.faf%2Fclaude-faf-mcp/versions/5.22.1",
+      "url": "https://api.mcp.github.com/v0.1/servers/one.faf%2Fclaude-faf-mcp/versions/6.0.0",
       "description": "Persistent project context for Claude. IANA-registered .faf format.",
       "tags": [
         "ai",
@@ -27792,8 +27816,8 @@
         "mcp-server",
         "model-context-protocol"
       ],
-      "version": "5.22.1",
-      "updatedAt": "2026-09-11T14:22:39Z",
+      "version": "6.0.0",
+      "updatedAt": "2026-09-20T17:25:54Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/Wolfe-Jam/claude-faf-mcp#readme",
@@ -27822,7 +27846,7 @@
         "typescript"
       ],
       "version": "3.0.2",
-      "updatedAt": "2026-09-11T14:22:40Z",
+      "updatedAt": "2026-09-20T17:25:56Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/Wolfe-Jam/faf-mcp#readme",
@@ -27857,14 +27881,14 @@
         "readmeUrl": "https://github.com/oraios/serena#readme",
         "repository": "https://github.com/oraios/serena",
         "repositorySource": "github",
-        "stargazerCount": 29180
+        "stargazerCount": 29642
       }
     },
     {
       "identifier": "urn:air:registry.modelcontextprotocol.io:org.sylin:ghostlight",
       "displayName": "Sylin Ghostlight",
       "type": "application/mcp-server+json",
-      "url": "https://api.mcp.github.com/v0.1/servers/org.sylin%2Fghostlight/versions/1.3.5",
+      "url": "https://api.mcp.github.com/v0.1/servers/org.sylin%2Fghostlight/versions/1.3.8",
       "description": "Visible local browser automation in signed-in Chromium, with optional policy and audit.",
       "tags": [
         "access-control",
@@ -27878,8 +27902,8 @@
         "model-context-protocol",
         "rust"
       ],
-      "version": "1.3.5",
-      "updatedAt": "2026-09-11T14:22:43Z",
+      "version": "1.3.8",
+      "updatedAt": "2026-09-20T17:25:57Z",
       "metadata": {
         "primaryLanguage": "Rust",
         "readmeUrl": "https://github.com/sylin-org/ghostlight#readme",
@@ -27908,13 +27932,13 @@
         "typescript"
       ],
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:22:45Z",
+      "updatedAt": "2026-09-20T17:25:58Z",
       "metadata": {
         "primaryLanguage": "TypeScript",
         "readmeUrl": "https://github.com/gamedevpl/www.gamedev.pl#readme",
         "repository": "https://github.com/gamedevpl/www.gamedev.pl",
         "repositorySource": "github",
-        "stargazerCount": 14,
+        "stargazerCount": 15,
         "websiteUrl": "https://www.gamedev.pl"
       }
     },
@@ -27931,7 +27955,7 @@
         "readmeUrl": "https://github.com/pydantic/logfire-mcp#readme",
         "repository": "https://github.com/pydantic/logfire-mcp",
         "repositorySource": "github",
-        "stargazerCount": 162
+        "stargazerCount": 161
       }
     },
     {
@@ -27957,7 +27981,7 @@
         "readmeUrl": "https://github.com/sunriseapps/imagesorcery-mcp#readme",
         "repository": "https://github.com/sunriseapps/imagesorcery-mcp",
         "repositorySource": "github",
-        "stargazerCount": 330
+        "stargazerCount": 331
       }
     },
     {
@@ -27967,7 +27991,7 @@
       "url": "https://api.mcp.github.com/v0.1/servers/uk.sadiqoon%2Fsakh/versions/1.0.1",
       "description": "Ayatollah Khamenei corpus: fatwas, lectures, knowledge graph. Arabic/Persian. Research access.",
       "version": "1.0.1",
-      "updatedAt": "2026-09-11T14:22:49Z",
+      "updatedAt": "2026-09-20T17:25:59Z",
       "metadata": {
         "readmeUrl": "https://github.com/SADIQOON-LTD/sakh-mcp#readme",
         "repository": "https://github.com/SADIQOON-LTD/sakh-mcp",
@@ -28000,7 +28024,7 @@
         "readmeUrl": "https://github.com/zapier/zapier-mcp#readme",
         "repository": "https://github.com/zapier/zapier-mcp",
         "repositorySource": "github",
-        "stargazerCount": 405
+        "stargazerCount": 413
       }
     }
   ]
