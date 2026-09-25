@@ -1,0 +1,60 @@
+{
+  "identifier": "urn:ai:github.com:github:copilot-connectors:zapiermcp",
+  "displayName": "Zapier MCP",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "description": "Connect Copilot to Zapier MCP to run actions across your connected apps. Requires a Zapier account.",
+  "tags": [
+    "connector",
+    "mcp-server",
+    "zapier",
+    "automation",
+    "workflows",
+    "zap"
+  ],
+  "data": {
+    "name": "zapiermcp",
+    "version": "",
+    "description": "Connect Copilot to Zapier MCP to run actions across your connected apps. Requires a Zapier account.",
+    "author": {
+      "name": "GitHub",
+      "email": "",
+      "url": "https://github.com"
+    },
+    "homepage": "https://mcp.zapier.com",
+    "repository": "",
+    "license": "",
+    "logo": "https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/releases/v1.0.1793/1.0.1793.4607/zapiermcp/icon.png",
+    "keywords": [
+      "zapier",
+      "automation",
+      "workflows",
+      "zap",
+      "workflow automation",
+      "zapier.com"
+    ],
+    "commands": [],
+    "agents": [],
+    "skills": [],
+    "metadata": {
+      "displayName": "Zapier MCP",
+      "tier": "",
+      "releaseTag": "Preview",
+      "capabilities": [
+        "actions"
+      ],
+      "isExportSupported": true,
+      "matchHints": {
+        "aliases": [
+          "zapier",
+          "zap",
+          "automation",
+          "workflow automation"
+        ],
+        "fileExtensions": [],
+        "urlDomains": [
+          "zapier.com"
+        ]
+      }
+    }
+  }
+}
