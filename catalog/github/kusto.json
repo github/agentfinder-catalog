@@ -8,9 +8,22 @@
     "mcp-server",
     "azure-data-explorer",
     "data-analytics",
-    "kusto",
-    "azure data explorer"
+    "kusto"
   ],
+  "matchHints": {
+    "aliases": [
+      "kusto",
+      "azure data explorer",
+      "adx",
+      "kql"
+    ],
+    "fileExtensions": [
+      "kql"
+    ],
+    "urlDomains": [
+      "dataexplorer.azure.com"
+    ]
+  },
   "data": {
     "name": "kusto",
     "version": "",
@@ -27,15 +40,19 @@
     "keywords": [
       "azure-data-explorer",
       "data-analytics",
-      "kusto",
-      "azure data explorer",
-      "adx",
-      "kql",
-      "dataexplorer.azure.com"
+      "kusto"
     ],
     "commands": [],
     "agents": [],
     "skills": [],
+    "mcpServers": {
+      "mcpServers": {
+        "kusto": {
+          "type": "http",
+          "url": "https://api.github.com/copilot-connectors/api/v1/connectors/kusto/mcp"
+        }
+      }
+    },
     "metadata": {
       "displayName": "Azure Data Explorer",
       "tier": "Premium",
@@ -43,21 +60,7 @@
       "capabilities": [
         "actions"
       ],
-      "isExportSupported": true,
-      "matchHints": {
-        "aliases": [
-          "kusto",
-          "azure data explorer",
-          "adx",
-          "kql"
-        ],
-        "fileExtensions": [
-          "kql"
-        ],
-        "urlDomains": [
-          "dataexplorer.azure.com"
-        ]
-      }
+      "isExportSupported": true
     }
   }
 }
