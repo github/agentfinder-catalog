@@ -45,14 +45,6 @@
     "commands": [],
     "agents": [],
     "skills": [],
-    "mcpServers": {
-      "mcpServers": {
-        "kusto": {
-          "type": "http",
-          "url": "https://api.github.com/copilot-connectors/api/v1/connectors/kusto/mcp"
-        }
-      }
-    },
     "metadata": {
       "displayName": "Azure Data Explorer",
       "tier": "Premium",
