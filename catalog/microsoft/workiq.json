@@ -4,6 +4,40 @@
   "mediaType": "application/vnd.github.copilot-plugin",
   "url": "https://github.com/microsoft/work-iq/blob/main/plugins/workiq",
   "description": "Query Microsoft 365 data with natural language - emails, meetings, documents, Teams messages, and more.",
+  "tags": [
+    "connector-available"
+  ],
+  "connector": {
+    "available": true,
+    "name": "workiqmcp"
+  },
+  "matchHints": {
+    "aliases": [
+      "work iq",
+      "workiq",
+      "microsoft 365",
+      "m365",
+      "office 365",
+      "outlook",
+      "teams",
+      "sharepoint",
+      "onedrive",
+      "excel",
+      "word",
+      "powerpoint"
+    ],
+    "fileExtensions": [
+      "xlsx",
+      "docx",
+      "pptx"
+    ],
+    "urlDomains": [
+      "office.com",
+      "outlook.office.com",
+      "teams.microsoft.com",
+      "sharepoint.com"
+    ]
+  },
   "metadata": {
     "sourceSet": "microsoft/work-iq",
     "repoPath": "plugins/workiq/.github/plugin/plugin.json"
