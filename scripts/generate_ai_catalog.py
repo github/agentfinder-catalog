@@ -12,6 +12,7 @@ SCRIPT = Path(__file__).resolve()
 ROOT = SCRIPT.parents[1]
 SOURCE_DIR = ROOT / "catalog"
 OUTPUT = ROOT / "ai-catalog.json"
+ANNOTATIONS_FILE = ROOT / "connector-annotations.json"
 MAX_ENTRIES = 10_000
 MAX_BYTES = 10 * 1024 * 1024
 MCP_CATALOG = "https://api.mcp.github.com/.well-known/ai-catalog.json"
@@ -249,6 +250,12 @@ def display_name(entry, registry_record=None):
 
 
 def generate():
+    annotations = (
+        json.loads(ANNOTATIONS_FILE.read_text(encoding="utf-8"))
+        if ANNOTATIONS_FILE.exists()
+        else {}
+    )
+    applied_annotations = set()
     entries = []
     identities = set()
     local_identifiers = set()
@@ -294,11 +301,31 @@ def generate():
         validate(entry, source)
         if entry["identifier"] not in local_identifiers:
             generated = dict(entry)
+            overlay = annotations.get(entry["identifier"])
+            if overlay:
+                tags = list(generated.get("tags") or [])
+                if "connector-available" not in tags:
+                    tags.append("connector-available")
+                generated["tags"] = tags
+                generated["connector"] = {
+                    "available": True,
+                    "name": overlay["connectorName"],
+                }
+                if "matchHints" in overlay:
+                    generated["matchHints"] = overlay["matchHints"]
+                applied_annotations.add(entry["identifier"])
             record = registry_records.get(registry_record_key(entry))
             name = display_name(entry, record)
             if name:
                 generated["displayName"] = name
             add(generated, source)
+
+    missing = set(annotations) - applied_annotations - local_identifiers
+    if missing:
+        fail(
+            "connector-annotations.json: identifiers not found in remote catalog: "
+            f"{sorted(missing)}"
+        )
 
     if len(entries) > MAX_ENTRIES:
         fail(f"catalog has {len(entries)} entries; limit is {MAX_ENTRIES}")

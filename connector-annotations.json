@@ -1,0 +1,32 @@
+{
+  "urn:ai:registry.modelcontextprotocol.io:zapier:zapier-mcp": {
+    "connectorName": "zapiermcp",
+    "matchHints": {
+      "aliases": [
+        "zapier",
+        "zap",
+        "automation",
+        "workflow automation"
+      ],
+      "fileExtensions": [],
+      "urlDomains": [
+        "zapier.com"
+      ]
+    }
+  },
+  "urn:ai:registry.modelcontextprotocol.io:microsoftdocs:mcp": {
+    "connectorName": "microsoftlearndocsmcpserver",
+    "matchHints": {
+      "aliases": [
+        "microsoft learn",
+        "ms learn",
+        "microsoft docs",
+        "learn docs"
+      ],
+      "fileExtensions": [],
+      "urlDomains": [
+        "learn.microsoft.com"
+      ]
+    }
+  }
+}
