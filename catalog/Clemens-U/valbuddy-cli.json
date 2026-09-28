@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:Clemens-U:jsonbuddy:valbuddy-cli",
+  "displayName": "ValBuddy CLI",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/Clemens-U/jsonbuddy/blob/valbuddy-cli-v1.0.1/plugins/valbuddy-cli/skills/valbuddy-cli/SKILL.md",
+  "description": "Run deterministic local JSON, JSON Schema, and XML validation on Windows using the permanently free validation modes of valbuddy.exe.",
+  "metadata": {
+    "sourceSet": "Clemens-U/jsonbuddy",
+    "repoPath": "plugins/valbuddy-cli/skills/valbuddy-cli/SKILL.md"
+  }
+}
