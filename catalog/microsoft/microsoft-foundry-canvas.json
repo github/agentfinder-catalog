@@ -1,0 +1,15 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:foundry-dev-tools:microsoft-foundry",
+  "displayName": "Microsoft Foundry Canvas",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/foundry-dev-tools/blob/main/microsoft-foundry/plugin.json",
+  "description": "Design, configure, test, and deploy agents to Microsoft Foundry through skills and an interactive GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "microsoft/foundry-dev-tools",
+    "repoPath": "microsoft-foundry/plugin.json"
+  }
+}
