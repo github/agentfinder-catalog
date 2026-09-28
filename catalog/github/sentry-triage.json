@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:sentry-triage",
+  "displayName": "Sentry Triage",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/sentry-triage/plugin.json",
+  "description": "Scan live Sentry issues in a GitHub Copilot canvas, group them by urgency, and hand issues off for tracking or a fix PR.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/sentry-triage/plugin.json"
+  }
+}
