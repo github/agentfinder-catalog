@@ -1,0 +1,18 @@
+{
+  "identifier": "urn:ai:github.com:hermes-labs-ai:lintlang:lintlang",
+  "displayName": "LintLang",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/hermes-labs-ai/lintlang/blob/62724a41368481d4ecb8a15c6f90313a97076949/skills/lintlang/SKILL.md",
+  "description": "Scan AI agent instructions, tool definitions and prompts with LintLang's deterministic local static analysis, with no model call.",
+  "tags": [
+    "agent-skill",
+    "static-analysis",
+    "agent-instructions",
+    "tool-descriptions",
+    "prompt-linting"
+  ],
+  "metadata": {
+    "sourceSet": "hermes-labs-ai/lintlang",
+    "repoPath": "skills/lintlang/SKILL.md"
+  }
+}
