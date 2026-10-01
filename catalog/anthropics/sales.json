@@ -6,6 +6,10 @@
   "description": "Prospect, craft outreach, and build deal strategy faster. Prep for calls, manage your pipeline, and write personalized messaging that moves deals...",
   "metadata": {
     "sourceSet": "anthropics/knowledge-work-plugins",
-    "repoPath": "sales/.claude-plugin/plugin.json"
+    "repoPath": "sales/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/knowledge-work-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

@@ -6,6 +6,10 @@
   "description": "Generate and publish a project status artifact - an opinionated, tabbed status page (overview & success criteria, the workstream sequence, next...",
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "plugins/project-artifact/.claude-plugin/plugin.json"
+    "repoPath": "plugins/project-artifact/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-plugins-public",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

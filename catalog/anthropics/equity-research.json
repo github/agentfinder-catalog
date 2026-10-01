@@ -6,6 +6,10 @@
   "description": "Equity research tools: earnings analysis, initiating coverage reports, and research workflows",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "plugins/vertical-plugins/equity-research/.claude-plugin/plugin.json"
+    "repoPath": "plugins/vertical-plugins/equity-research/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

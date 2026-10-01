@@ -6,6 +6,10 @@
   "description": "Official Slack MCP server for interactive and collaborative workflows. Surface insights, draft messages, and engage teams directly within Slack from...",
   "metadata": {
     "sourceSet": "anthropics/knowledge-work-plugins",
-    "repoPath": "partner-built/slack/.claude-plugin/plugin.json"
+    "repoPath": "partner-built/slack/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/knowledge-work-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

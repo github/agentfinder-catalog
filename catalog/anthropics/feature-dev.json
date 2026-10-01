@@ -6,6 +6,10 @@
   "description": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review",
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "plugins/feature-dev/.claude-plugin/plugin.json"
+    "repoPath": "plugins/feature-dev/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-plugins-public",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

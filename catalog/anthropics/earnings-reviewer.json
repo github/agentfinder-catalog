@@ -6,6 +6,10 @@
   "description": "Earnings call and filings to model update to note draft",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "plugins/agent-plugins/earnings-reviewer/.claude-plugin/plugin.json"
+    "repoPath": "plugins/agent-plugins/earnings-reviewer/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

@@ -6,6 +6,10 @@
   "description": "Render documentation  architecture notes, API references, runbooks, and codebase walkthroughs  as a navigable Cursor Canvas with sections, table of...",
   "metadata": {
     "sourceSet": "cursor/plugins",
-    "repoPath": "docs-canvas/.cursor-plugin/plugin.json"
+    "repoPath": "docs-canvas/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "cursor/plugins",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

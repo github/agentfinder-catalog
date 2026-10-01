@@ -6,6 +6,10 @@
   "description": "Frontend design skill for UI/UX implementation",
   "metadata": {
     "sourceSet": "anthropics/claude-code",
-    "repoPath": "plugins/frontend-design/.claude-plugin/plugin.json"
+    "repoPath": "plugins/frontend-design/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-code",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

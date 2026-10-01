@@ -6,6 +6,10 @@
   "description": "Reviews hires and terminations for jurisdiction-specific risk flags, classifies workers against the controlling state test, tracks leave deadlines...",
   "metadata": {
     "sourceSet": "anthropics/claude-for-legal",
-    "repoPath": "employment-legal/.claude-plugin/plugin.json"
+    "repoPath": "employment-legal/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-for-legal",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

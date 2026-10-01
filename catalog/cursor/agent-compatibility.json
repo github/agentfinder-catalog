@@ -6,6 +6,10 @@
   "description": "CLI-backed repo compatibility scans plus Cursor agents that audit startup, validation, and docs against reality.",
   "metadata": {
     "sourceSet": "cursor/plugins",
-    "repoPath": "agent-compatibility/.cursor-plugin/plugin.json"
+    "repoPath": "agent-compatibility/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "cursor/plugins",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

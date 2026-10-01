@@ -6,6 +6,10 @@
   "description": "Search across all of your company's tools in one place. Find anything across email, chat, documents, and wikis without switching between apps.",
   "metadata": {
     "sourceSet": "anthropics/knowledge-work-plugins",
-    "repoPath": "enterprise-search/.claude-plugin/plugin.json"
+    "repoPath": "enterprise-search/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/knowledge-work-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

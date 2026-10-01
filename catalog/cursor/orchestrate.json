@@ -6,6 +6,10 @@
   "description": "Fan a large task out across parallel Cursor cloud agents via the Cursor SDK: planners publish tasks, workers hand off back up, and a script...",
   "metadata": {
     "sourceSet": "cursor/plugins",
-    "repoPath": "orchestrate/.cursor-plugin/plugin.json"
+    "repoPath": "orchestrate/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "cursor/plugins",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

@@ -6,6 +6,10 @@
   "description": "Upstash Context7 MCP server for up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source...",
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "external_plugins/context7/.claude-plugin/plugin.json"
+    "repoPath": "external_plugins/context7/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-plugins-public",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

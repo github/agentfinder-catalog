@@ -6,6 +6,10 @@
   "description": "Skill mapping, practice plans, and learning retrospectives. Builds personalized roadmaps with milestones and practice checkpoints, and runs periodic...",
   "metadata": {
     "sourceSet": "cursor/plugins",
-    "repoPath": "teaching/.cursor-plugin/plugin.json"
+    "repoPath": "teaching/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "cursor/plugins",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

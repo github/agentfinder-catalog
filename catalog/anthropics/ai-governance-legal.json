@@ -6,6 +6,10 @@
   "description": "Triages proposed AI use cases against your registry, runs impact assessments across the regimes in scope, reviews vendor AI terms for...",
   "metadata": {
     "sourceSet": "anthropics/claude-for-legal",
-    "repoPath": "ai-governance-legal/.claude-plugin/plugin.json"
+    "repoPath": "ai-governance-legal/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-for-legal",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

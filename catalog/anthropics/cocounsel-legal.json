@@ -6,6 +6,10 @@
   "description": "CoCounsel Legal delivers comprehensive Westlaw Deep Research reports with inline, linked citations to Westlaw and Practical Law sources.",
   "metadata": {
     "sourceSet": "anthropics/claude-for-legal",
-    "repoPath": "external_plugins/cocounsel-legal/.claude-plugin/plugin.json"
+    "repoPath": "external_plugins/cocounsel-legal/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-for-legal",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }
