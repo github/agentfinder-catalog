@@ -4,8 +4,14 @@
   "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/claude-plugins-public/blob/main/external_plugins/linear",
   "description": "Linear issue tracking integration. Create issues, manage projects, update statuses, search across workspaces, and streamline your software...",
+  "tags": [
+    "copilot-connector"
+  ],
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "external_plugins/linear/.claude-plugin/plugin.json"
+    "repoPath": "external_plugins/linear/.claude-plugin/plugin.json",
+    "copilotConnector": {
+      "name": "githubcopilotlinearmcp"
+    }
   }
 }

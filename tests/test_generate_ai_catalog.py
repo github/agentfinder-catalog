@@ -9,130 +9,6 @@ from scripts import generate_ai_catalog
 
 
 class ValidateEntryTest(unittest.TestCase):
-    def setUp(self):
-        directory = tempfile.TemporaryDirectory()
-        self.addCleanup(directory.cleanup)
-        self.annotations_file = Path(directory.name) / "connector-annotations.json"
-        self.enterContext(
-            patch.object(generate_ai_catalog, "ANNOTATIONS_FILE", self.annotations_file)
-        )
-
-    def test_connector_annotations_preserve_remote_entries(self):
-        identifier = "urn:ai:example.com:remote:connector"
-        hints = {
-            "aliases": ["example"],
-            "fileExtensions": [],
-            "urlDomains": ["example.com"],
-        }
-        self.annotations_file.write_text(
-            json.dumps({identifier: {"connectorName": "example", "matchHints": hints}}),
-            encoding="utf-8",
-        )
-        for tags in (None, [], ["mcp-server"], ["connector-available"]):
-            with self.subTest(tags=tags):
-                remote = [
-                    {
-                        "identifier": identifier,
-                        "displayName": "Example",
-                        "type": "application/mcp-server+json",
-                        "url": f"https://example.com/{version}",
-                        "version": version,
-                        **({"tags": tags} if tags is not None else {}),
-                    }
-                    for version in ("1.0.0", "2.0.0")
-                ]
-                original = json.loads(json.dumps(remote))
-                with (
-                    patch.object(
-                        generate_ai_catalog,
-                        "SOURCE_DIR",
-                        self.annotations_file.parent / "catalog",
-                    ),
-                    patch.object(generate_ai_catalog, "load_mcp_entries", return_value=remote),
-                    patch.object(generate_ai_catalog, "load_mcp_registry_records", return_value=[]),
-                ):
-                    rendered, count = generate_ai_catalog.generate()
-                self.assertEqual(count, 2)
-                self.assertEqual(remote, original)
-                expected = [
-                    entry
-                    | {
-                        "identifier": identifier.replace("urn:ai:", "urn:air:", 1),
-                        "tags": list(dict.fromkeys([*(tags or []), "connector-available"])),
-                        "connector": {"available": True, "name": "example"},
-                        "matchHints": hints,
-                    }
-                    for entry in remote
-                ]
-                self.assertEqual(json.loads(rendered)["entries"], expected)
-
-    def test_connector_annotation_without_hints(self):
-        identifier = "urn:ai:example.com:remote:connector"
-        self.annotations_file.write_text(
-            json.dumps({identifier: {"connectorName": "example"}}), encoding="utf-8"
-        )
-        remote = {
-            "identifier": identifier,
-            "displayName": "Example",
-            "type": "application/mcp-server+json",
-            "url": "https://example.com",
-        }
-        with (
-            patch.object(generate_ai_catalog, "SOURCE_DIR", self.annotations_file.parent / "catalog"),
-            patch.object(generate_ai_catalog, "load_mcp_entries", return_value=[remote]),
-            patch.object(generate_ai_catalog, "load_mcp_registry_records", return_value=[]),
-        ):
-            rendered, _ = generate_ai_catalog.generate()
-        entry = json.loads(rendered)["entries"][0]
-        self.assertEqual(entry["connector"], {"available": True, "name": "example"})
-        self.assertNotIn("matchHints", entry)
-
-    def test_missing_connector_annotation_identifier_fails(self):
-        identifier = "urn:ai:example.com:missing:connector"
-        self.annotations_file.write_text(
-            json.dumps({identifier: {"connectorName": "example"}}), encoding="utf-8"
-        )
-        with (
-            patch.object(generate_ai_catalog, "SOURCE_DIR", self.annotations_file.parent / "catalog"),
-            patch.object(generate_ai_catalog, "load_mcp_entries", return_value=[]),
-            self.assertRaises(SystemExit) as error,
-        ):
-            generate_ai_catalog.generate()
-        self.assertEqual(
-            str(error.exception),
-            f"connector-annotations.json: identifiers not found in remote catalog: {[identifier]}",
-        )
-
-    def test_local_entry_overrides_connector_annotation(self):
-        root = self.annotations_file.parent
-        source = root / "catalog" / "example"
-        source.mkdir(parents=True)
-        local = {
-            "identifier": "urn:ai:example.com:test:local",
-            "displayName": "Local",
-            "type": "application/mcp-server+json",
-            "url": "https://example.com/local",
-        }
-        (source / "local.json").write_text(json.dumps(local), encoding="utf-8")
-        self.annotations_file.write_text(
-            json.dumps({local["identifier"]: {"connectorName": "example"}}),
-            encoding="utf-8",
-        )
-        for remote in ([], [local | {"url": "https://example.com/remote"}]):
-            with (
-                self.subTest(remote=remote),
-                patch.object(generate_ai_catalog, "ROOT", root),
-                patch.object(generate_ai_catalog, "SOURCE_DIR", root / "catalog"),
-                patch.object(generate_ai_catalog, "load_mcp_entries", return_value=remote),
-                patch.object(generate_ai_catalog, "load_mcp_registry_records", return_value=[]),
-            ):
-                rendered, count = generate_ai_catalog.generate()
-            self.assertEqual(count, 1)
-            self.assertEqual(
-                json.loads(rendered)["entries"],
-                [local | {"identifier": local["identifier"].replace("urn:ai:", "urn:air:", 1)}],
-            )
-
     @staticmethod
     def canvas_entry():
         return {
@@ -149,6 +25,87 @@ class ValidateEntryTest(unittest.TestCase):
                 "repoPath": "plugins/canvas/plugin.json",
             },
         }
+
+    @staticmethod
+    def connector_entry():
+        return {
+            "identifier": "urn:ai:example.com:test:connector",
+            "displayName": "Test Connector",
+            "mediaType": generate_ai_catalog.CANVAS_PLUGIN_MEDIA_TYPE,
+            "url": "https://github.com/owner/repository/blob/main",
+            "tags": ["mcp-server", generate_ai_catalog.COPILOT_CONNECTOR_TAG],
+            "metadata": {
+                "sourceSet": "owner/repository",
+                "repoPath": "plugin.json",
+                "copilotConnector": {"name": "exampleconnector2"},
+            },
+        }
+
+    def connector_entry_with(self, connector):
+        entry = self.connector_entry()
+        return entry | {"metadata": entry["metadata"] | {"copilotConnector": connector}}
+
+    def test_valid_copilot_connector_entries(self):
+        generate_ai_catalog.validate(self.connector_entry(), "test")
+        generate_ai_catalog.validate(
+            {
+                "identifier": "urn:ai:example.com:test:data-connector",
+                "displayName": "Data Connector",
+                "mediaType": generate_ai_catalog.CANVAS_PLUGIN_MEDIA_TYPE,
+                "data": {"name": "dataconnector"},
+                "tags": [generate_ai_catalog.COPILOT_CONNECTOR_TAG],
+                "metadata": {"copilotConnector": {"name": "dataconnector"}},
+            },
+            "test",
+        )
+
+    def test_copilot_connector_requires_name(self):
+        for connector in ({}, {"name": None}, {"name": ""}, {"name": 1}):
+            with self.subTest(connector=connector), self.assertRaisesRegex(
+                SystemExit, r"metadata\.copilotConnector\.name must be a non-empty"
+            ):
+                generate_ai_catalog.validate(self.connector_entry_with(connector), "test")
+
+    def test_copilot_connector_name_must_be_lowercase_alphanumeric(self):
+        for name in ("Figma", "figma-mcp", "figma_mcp", "figma mcp", " figma", "figma\n"):
+            with self.subTest(name=name), self.assertRaisesRegex(
+                SystemExit, r"metadata\.copilotConnector\.name must be a non-empty"
+            ):
+                generate_ai_catalog.validate(
+                    self.connector_entry_with({"name": name}), "test"
+                )
+
+    def test_copilot_connector_rejects_non_object_and_extra_keys(self):
+        with self.assertRaisesRegex(SystemExit, r"copilotConnector must be an object"):
+            generate_ai_catalog.validate(self.connector_entry_with("figma"), "test")
+        with self.assertRaisesRegex(
+            SystemExit, r"copilotConnector has unsupported keys available"
+        ):
+            generate_ai_catalog.validate(
+                self.connector_entry_with({"name": "figma", "available": True}),
+                "test",
+            )
+
+    def test_copilot_connector_tag_requires_metadata(self):
+        entry = self.connector_entry()
+        repository_metadata = {
+            key: value
+            for key, value in entry["metadata"].items()
+            if key != "copilotConnector"
+        }
+        for metadata in (None, repository_metadata):
+            with self.subTest(metadata=metadata), self.assertRaisesRegex(
+                SystemExit, r"copilot-connector tag requires metadata\.copilotConnector"
+            ):
+                generate_ai_catalog.validate(entry | {"metadata": metadata}, "test")
+
+    def test_copilot_connector_metadata_requires_tag(self):
+        entry = self.connector_entry()
+        for tags in (None, [], ["mcp-server"]):
+            with self.subTest(tags=tags), self.assertRaisesRegex(
+                SystemExit, r"metadata\.copilotConnector requires the copilot-connector tag"
+            ):
+                generate_ai_catalog.validate(entry | {"tags": tags}, "test")
 
     def test_display_name_precedence(self):
         entry = {"displayName": "owner/repo", "title": "Catalog title", "name": "server-name"}

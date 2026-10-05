@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:figma:mcp-server-guide:figma",
+  "displayName": "Figma",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/figma/mcp-server-guide/blob/main",
+  "description": "Plugin that includes the Figma MCP server and Skills for common workflows.",
+  "tags": [
+    "copilot-connector"
+  ],
+  "metadata": {
+    "sourceSet": "figma/mcp-server-guide",
+    "repoPath": ".github/plugin/plugin.json",
+    "copilotConnector": {
+      "name": "githubcopilotfigmamcp"
+    }
+  }
+}

@@ -12,7 +12,6 @@ SCRIPT = Path(__file__).resolve()
 ROOT = SCRIPT.parents[1]
 SOURCE_DIR = ROOT / "catalog"
 OUTPUT = ROOT / "ai-catalog.json"
-ANNOTATIONS_FILE = ROOT / "connector-annotations.json"
 MAX_ENTRIES = 10_000
 MAX_BYTES = 10 * 1024 * 1024
 MCP_CATALOG = "https://api.mcp.github.com/.well-known/ai-catalog.json"
@@ -22,6 +21,8 @@ CANVAS_PLUGIN_MEDIA_TYPE = "application/vnd.github.copilot-plugin"
 CANVAS_ONLY_REQUIRED_TAGS = frozenset(("canvas", "canvas-only", "github-copilot"))
 NON_CANVAS_PLUGIN_TAGS = frozenset(("agent", "hook", "mcp-server", "skill"))
 SOURCE_SET_PATTERN = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
+COPILOT_CONNECTOR_TAG = "copilot-connector"
+COPILOT_CONNECTOR_NAME_PATTERN = re.compile(r"^[a-z0-9]+$")
 
 
 def fail(message):
@@ -68,6 +69,34 @@ def validate_repository_metadata(metadata, source):
         or any(part in ("", ".", "..") for part in repo_path.split("/"))
     ):
         fail(f"{source}: metadata.repoPath must be a safe relative POSIX path")
+
+
+def validate_copilot_connector(entry, tags, source):
+    metadata = entry.get("metadata")
+    has_connector = isinstance(metadata, dict) and "copilotConnector" in metadata
+    has_tag = isinstance(tags, list) and COPILOT_CONNECTOR_TAG in tags
+    if has_tag and not has_connector:
+        fail(f"{source}: {COPILOT_CONNECTOR_TAG} tag requires metadata.copilotConnector")
+    if has_connector and not has_tag:
+        fail(f"{source}: metadata.copilotConnector requires the {COPILOT_CONNECTOR_TAG} tag")
+    if not has_connector:
+        return
+
+    connector = metadata["copilotConnector"]
+    if not isinstance(connector, dict):
+        fail(f"{source}: metadata.copilotConnector must be an object")
+    unsupported_keys = set(connector) - {"name"}
+    if unsupported_keys:
+        fail(
+            f"{source}: metadata.copilotConnector has unsupported keys "
+            f"{', '.join(sorted(unsupported_keys))}"
+        )
+    name = connector.get("name")
+    if not isinstance(name, str) or not COPILOT_CONNECTOR_NAME_PATTERN.fullmatch(name):
+        fail(
+            f"{source}: metadata.copilotConnector.name must be a non-empty "
+            f"lowercase alphanumeric connector name"
+        )
 
 
 def validate_canvas_only_source(entry, url, source):
@@ -175,6 +204,7 @@ def validate(entry, source):
             )
 
     validate_repository_metadata(entry.get("metadata"), source)
+    validate_copilot_connector(entry, tags, source)
     if isinstance(tags, list) and "canvas-only" in tags:
         validate_canvas_only_source(entry, url, source)
 
@@ -250,12 +280,6 @@ def display_name(entry, registry_record=None):
 
 
 def generate():
-    annotations = (
-        json.loads(ANNOTATIONS_FILE.read_text(encoding="utf-8"))
-        if ANNOTATIONS_FILE.exists()
-        else {}
-    )
-    applied_annotations = set()
     entries = []
     identities = set()
     local_identifiers = set()
@@ -301,31 +325,11 @@ def generate():
         validate(entry, source)
         if entry["identifier"] not in local_identifiers:
             generated = dict(entry)
-            overlay = annotations.get(entry["identifier"])
-            if overlay:
-                tags = list(generated.get("tags") or [])
-                if "connector-available" not in tags:
-                    tags.append("connector-available")
-                generated["tags"] = tags
-                generated["connector"] = {
-                    "available": True,
-                    "name": overlay["connectorName"],
-                }
-                if "matchHints" in overlay:
-                    generated["matchHints"] = overlay["matchHints"]
-                applied_annotations.add(entry["identifier"])
             record = registry_records.get(registry_record_key(entry))
             name = display_name(entry, record)
             if name:
                 generated["displayName"] = name
             add(generated, source)
-
-    missing = set(annotations) - applied_annotations - local_identifiers
-    if missing:
-        fail(
-            "connector-annotations.json: identifiers not found in remote catalog: "
-            f"{sorted(missing)}"
-        )
 
     if len(entries) > MAX_ENTRIES:
         fail(f"catalog has {len(entries)} entries; limit is {MAX_ENTRIES}")

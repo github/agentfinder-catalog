@@ -4,8 +4,14 @@
   "mediaType": "application/vnd.anthropic.claude-plugin+json",
   "url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack",
   "description": "Official Slack MCP server for interactive and collaborative workflows. Surface insights, draft messages, and engage teams directly within Slack from...",
+  "tags": [
+    "copilot-connector"
+  ],
   "metadata": {
     "sourceSet": "anthropics/knowledge-work-plugins",
-    "repoPath": "partner-built/slack/.claude-plugin/plugin.json"
+    "repoPath": "partner-built/slack/.claude-plugin/plugin.json",
+    "copilotConnector": {
+      "name": "githubcopilotslackmcp"
+    }
   }
 }

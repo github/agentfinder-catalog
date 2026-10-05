@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:MicrosoftDocs:mcp:microsoft-docs",
+  "displayName": "Microsoft Learn Docs",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/MicrosoftDocs/mcp/blob/main",
+  "description": "Access official Microsoft documentation, API references, and code samples for Azure, .NET, Windows, and more.",
+  "tags": [
+    "copilot-connector"
+  ],
+  "metadata": {
+    "sourceSet": "MicrosoftDocs/mcp",
+    "repoPath": ".github/plugin/plugin.json",
+    "copilotConnector": {
+      "name": "microsoftlearndocsmcpserver"
+    }
+  }
+}

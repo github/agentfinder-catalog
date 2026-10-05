@@ -2,32 +2,18 @@
   "identifier": "urn:ai:github.com:github:copilot-connectors:kusto",
   "displayName": "Azure Data Explorer",
   "mediaType": "application/vnd.github.copilot-plugin",
-  "description": "Azure Data Explorer a.k.a Kusto is a log analytics cloud platform optimized for ad-hoc big data queries. Read more about it here: http://aka.ms/kdocs",
+  "description": "Run Kusto queries and explore data in Azure Data Explorer.",
   "tags": [
-    "connector",
+    "copilot-connector",
     "mcp-server",
     "azure-data-explorer",
     "data-analytics",
     "kusto"
   ],
-  "matchHints": {
-    "aliases": [
-      "kusto",
-      "azure data explorer",
-      "adx",
-      "kql"
-    ],
-    "fileExtensions": [
-      "kql"
-    ],
-    "urlDomains": [
-      "dataexplorer.azure.com"
-    ]
-  },
   "data": {
     "name": "kusto",
     "version": "",
-    "description": "Azure Data Explorer a.k.a Kusto is a log analytics cloud platform optimized for ad-hoc big data queries. Read more about it here: http://aka.ms/kdocs",
+    "description": "Run Kusto queries and explore data in Azure Data Explorer.",
     "author": {
       "name": "GitHub",
       "email": "",
@@ -53,6 +39,11 @@
         "actions"
       ],
       "isExportSupported": true
+    }
+  },
+  "metadata": {
+    "copilotConnector": {
+      "name": "kusto"
     }
   }
 }

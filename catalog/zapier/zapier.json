@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:zapier:zapier-mcp:zapier",
+  "displayName": "Zapier",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/zapier/zapier-mcp/blob/main/plugins/zapier",
+  "description": "Connect 9,000+ apps to your AI workflow. Discover, enable, and execute Zapier actions directly from your client.",
+  "tags": [
+    "copilot-connector"
+  ],
+  "metadata": {
+    "sourceSet": "zapier/zapier-mcp",
+    "repoPath": "plugins/zapier/.github/plugin/plugin.json",
+    "copilotConnector": {
+      "name": "zapiermcp"
+    }
+  }
+}

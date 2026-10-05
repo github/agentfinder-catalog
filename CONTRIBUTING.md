@@ -62,6 +62,7 @@ Create a file at `catalog/<your-publisher>/<augment-name>.json` with the followi
 | `tags` | ❌ | Tags used to categorize and filter the augment |
 | `metadata.sourceSet` | ✅ | The source repository name |
 | `metadata.repoPath` | ✅ | Path to the definition file within the repository |
+| `metadata.copilotConnector.name` | ❌ | Canonical name of a matching GitHub Copilot connector. Requires the `copilot-connector` tag (see below) |
 
 #### Canvas-only plugins
 
@@ -80,6 +81,36 @@ of these tags:
 Do not use `canvas-only` for a plugin that still provides useful agents, skills, hooks,
 or MCP servers when its canvas is unavailable. Canvas-only entries must not include
 the corresponding `agent`, `skill`, `hook`, or `mcp-server` capability tags.
+
+#### Copilot connector pointers
+
+Some services are also available as managed GitHub Copilot connectors. When an entry
+provides the same hosted service that a connector proxies (for example, a publisher
+plugin that bundles the same hosted MCP server), point to the connector by its
+canonical name and add the `copilot-connector` tag:
+
+```json
+"tags": [
+  "copilot-connector"
+],
+"metadata": {
+  "sourceSet": "<publisher>/<repo>",
+  "repoPath": "path/to/plugin.json",
+  "copilotConnector": {
+    "name": "<connector-name>"
+  }
+}
+```
+
+- `metadata.copilotConnector` must be an object with exactly one key, `name`, whose
+  value matches `^[a-z0-9]+$`.
+- An entry has the `copilot-connector` tag if and only if it has
+  `metadata.copilotConnector`.
+- This is a static discovery pointer only. It does not mean the connector is
+  available to a given user: availability depends on the user, organization, and
+  feature flags. Clients confirm eligibility and connect through the Copilot connector
+  service at runtime. Do not add availability flags or other connector state to
+  catalog entries.
 
 ### 4. Validate your JSON
 

@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:getsentry:agent-plugin:sentry",
+  "displayName": "Sentry",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/getsentry/agent-plugin/blob/main",
+  "description": "Set up Sentry, debug production issues, and configure application monitoring.",
+  "tags": [
+    "copilot-connector"
+  ],
+  "metadata": {
+    "sourceSet": "getsentry/agent-plugin",
+    "repoPath": "plugin.json",
+    "copilotConnector": {
+      "name": "githubcopilotsentrymcp"
+    }
+  }
+}

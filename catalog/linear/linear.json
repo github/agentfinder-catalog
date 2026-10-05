@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:linear:cursor-plugin:linear",
+  "displayName": "Linear",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/linear/cursor-plugin/blob/main",
+  "description": "The product development system for teams and agents. Manage issues, projects, documents, and everything else across your Linear workspace.",
+  "tags": [
+    "copilot-connector"
+  ],
+  "metadata": {
+    "sourceSet": "linear/cursor-plugin",
+    "repoPath": "plugin.json",
+    "copilotConnector": {
+      "name": "githubcopilotlinearmcp"
+    }
+  }
+}

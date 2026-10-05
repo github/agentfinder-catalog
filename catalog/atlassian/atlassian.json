@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:atlassian:atlassian-mcp-server:atlassian",
+  "displayName": "Atlassian",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/atlassian/atlassian-mcp-server/blob/main",
+  "description": "Connect AI agents to Atlassian products including Jira and Confluence, with reusable skills for common workflows.",
+  "tags": [
+    "copilot-connector"
+  ],
+  "metadata": {
+    "sourceSet": "atlassian/atlassian-mcp-server",
+    "repoPath": "plugin.json",
+    "copilotConnector": {
+      "name": "githubcopilotatlassianrovomcp"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:cloudflare:skills:cloudflare-plugin",
+  "displayName": "Cloudflare",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/cloudflare/skills/blob/main",
+  "description": "Build, test, and deploy applications on Cloudflare with platform guidance Skills and the Cloudflare MCP server.",
+  "tags": [
+    "copilot-connector"
+  ],
+  "metadata": {
+    "sourceSet": "cloudflare/skills",
+    "repoPath": "plugin.json",
+    "copilotConnector": {
+      "name": "githubcopilotcloudflaremcp"
+    }
+  }
+}

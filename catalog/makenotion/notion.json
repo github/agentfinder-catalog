@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:makenotion:claude-code-notion-plugin:notion",
+  "displayName": "Notion",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/makenotion/claude-code-notion-plugin/blob/main",
+  "description": "Notion Skills + Notion MCP server packaged as a Claude Code plugin.",
+  "tags": [
+    "copilot-connector"
+  ],
+  "metadata": {
+    "sourceSet": "makenotion/claude-code-notion-plugin",
+    "repoPath": ".claude-plugin/plugin.json",
+    "copilotConnector": {
+      "name": "githubcopilotnotionmcp"
+    }
+  }
+}

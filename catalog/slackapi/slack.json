@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:slackapi:slack-skills-plugin:slack",
+  "displayName": "Slack",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/slackapi/slack-skills-plugin/blob/main",
+  "description": "Slack AI tools for users and developers: interact with your workspace via the Slack MCP server and use skills to develop Slack apps.",
+  "tags": [
+    "copilot-connector"
+  ],
+  "metadata": {
+    "sourceSet": "slackapi/slack-skills-plugin",
+    "repoPath": ".claude-plugin/plugin.json",
+    "copilotConnector": {
+      "name": "githubcopilotslackmcp"
+    }
+  }
+}
