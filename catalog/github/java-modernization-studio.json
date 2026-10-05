@@ -2,7 +2,7 @@
   "identifier": "urn:ai:github.com:github:awesome-copilot:java-modernization-studio",
   "displayName": "Java Modernization Studio",
   "mediaType": "application/vnd.github.copilot-plugin",
-  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/java-modernization-studio/plugin.json",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/java-modernization-studio/plugin.json",
   "description": "Drive Java modernization assessment, planning, progress, validation, and predefined tasks from a GitHub Copilot canvas.",
   "tags": [
     "canvas",

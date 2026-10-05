@@ -2,7 +2,7 @@
   "identifier": "urn:ai:github.com:github:awesome-copilot:release-notes-showcase",
   "displayName": "Release Notes Showcase",
   "mediaType": "application/vnd.github.copilot-plugin",
-  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/release-notes-showcase/plugin.json",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/release-notes-showcase/plugin.json",
   "description": "Compose and refine launch-ready release notes with contributor callouts and export-friendly output in a GitHub Copilot canvas.",
   "tags": [
     "canvas",

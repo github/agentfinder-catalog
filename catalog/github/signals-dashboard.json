@@ -2,7 +2,7 @@
   "identifier": "urn:ai:github.com:github:awesome-copilot:signals-dashboard",
   "displayName": "Signals Dashboard",
   "mediaType": "application/vnd.github.copilot-plugin",
-  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/signals-dashboard/plugin.json",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/signals-dashboard/plugin.json",
   "description": "Monitor Workshop agent signals, honesty calibration, cost-aware desk profiles, and fail-closed local delegation in a GitHub Copilot canvas.",
   "tags": [
     "canvas",

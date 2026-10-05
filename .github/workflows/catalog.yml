@@ -6,7 +6,7 @@ on:
       - "catalog/*/*.json"
       - "ai-catalog.json"
       - "scripts/generate_ai_catalog.py"
-      - "tests/test_generate_ai_catalog.py"
+      - "tests/*.py"
       - ".github/workflows/catalog.yml"
   push:
     branches:
