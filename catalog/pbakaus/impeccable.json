@@ -1,0 +1,15 @@
+{
+  "identifier": "urn:ai:github.com:pbakaus:impeccable:impeccable",
+  "displayName": "Impeccable",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/pbakaus/impeccable/blob/main/plugin/skills/impeccable/SKILL.md",
+  "description": "Design, critique, audit, and polish frontend interfaces with curated anti-pattern detection.",
+  "tags": [
+    "design",
+    "frontend"
+  ],
+  "metadata": {
+    "sourceSet": "pbakaus/impeccable",
+    "repoPath": "plugin/skills/impeccable/SKILL.md"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:security-best-practices",
+  "displayName": "Security Best Practices",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/security-best-practices/plugin.json",
+  "description": "Security frameworks, accessibility guidelines, performance optimization, and code quality best practices for building secure, maintainable, and high-performance applications.",
+  "tags": [
+    "github-copilot",
+    "skill"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/security-best-practices/plugin.json"
+  }
+}

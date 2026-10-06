@@ -26,6 +26,7 @@ PUBLISHED_CANVAS_PLUGINS = frozenset(
         "pr-artifact-explorer",
         "release-notes-showcase",
         "repo-actions-hub",
+        "sentry-triage",
         "signals-dashboard",
         "site-studio",
         "tiny-tool-town-submitter",
