@@ -1,0 +1,26 @@
+{
+  "identifier": "urn:ai:github.com:iukanet-dev:almirall-content-mcp:public-content-search",
+  "displayName": "Almirall Official Content MCP",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://mcp.almirall.com/mcp",
+  "description": "Official Almirall read-only MCP server for searching public indexed brand and product website content and returning page-level evidence. It supports page and source discovery, content comparison, product mentions, and embedded asset lookup; it does not provide medical advice or access private clinical or customer data.",
+  "tags": [
+    "mcp-server",
+    "mcp",
+    "Almirall",
+    "health",
+    "product-content",
+    "read-only" 
+  ],
+  "representativeQueries": [
+    "What ingredients or plant extracts does Almax mention?",
+    "Compare Physiorelax Polar and Ultra Heat using Almirall's published content.",
+    "Find the official page describing how to use this Almirall product.",
+    "Which Almirall public pages mention contraindications or warnings for this product?",
+    "Find images or other assets embedded in the official Almirall product pages."
+  ],
+  "metadata": {
+    "sourceSet": "iukanet-dev/almirall-content-mcp",
+    "repoPath": "README.md"
+  }
+}
