@@ -1,7 +1,7 @@
 {
   "identifier": "urn:ai:github.com:iukanet-dev:almirall-content-mcp:public-content-search",
   "displayName": "Almirall Official Content MCP",
-  "mediaType": "application/mcp-server+json",
+  "mediaType": "application/mcp-server-card+json",
   "url": "https://mcp.almirall.com/mcp",
   "description": "Official Almirall read-only MCP server for searching public indexed brand and product website content and returning page-level evidence. It supports page and source discovery, content comparison, product mentions, and embedded asset lookup; it does not provide medical advice or access private clinical or customer data.",
   "tags": [
@@ -10,7 +10,7 @@
     "Almirall",
     "health",
     "product-content",
-    "read-only" 
+    "read-only"
   ],
   "representativeQueries": [
     "What ingredients or plant extracts does Almax mention?",
