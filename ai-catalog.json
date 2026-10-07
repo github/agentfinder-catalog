@@ -2117,6 +2117,23 @@
       "type": "application/ai-skill"
     },
     {
+      "identifier": "urn:air:github.com:atlassian-labs:copilot-marketplace:jira-sprint-dashboard-canvas",
+      "displayName": "Jira Sprint Dashboard Canvas",
+      "mediaType": "application/vnd.github.copilot-plugin",
+      "url": "https://github.com/atlassian-labs/copilot-marketplace/blob/main/.claude-plugin/plugin.json",
+      "description": "View a live, read-only dashboard of Jira issues in currently open sprints from a GitHub Copilot canvas.",
+      "tags": [
+        "canvas",
+        "canvas-only",
+        "github-copilot"
+      ],
+      "metadata": {
+        "sourceSet": "atlassian-labs/copilot-marketplace",
+        "repoPath": ".claude-plugin/plugin.json"
+      },
+      "type": "application/vnd.github.copilot-plugin"
+    },
+    {
       "identifier": "urn:air:github.com:axiomhq:cli:axiom-apl",
       "displayName": "Axiom Apl",
       "mediaType": "application/ai-skill",
@@ -16591,6 +16608,23 @@
         "repoPath": ".github/plugins/azure-skills/skills/azure-deploy/SKILL.md"
       },
       "type": "application/ai-skill"
+    },
+    {
+      "identifier": "urn:air:github.com:microsoft:azure-devops-copilot-plugin:azure-devops-copilot-plugin",
+      "displayName": "Azure DevOps Canvas",
+      "mediaType": "application/vnd.github.copilot-plugin",
+      "url": "https://github.com/microsoft/azure-devops-copilot-plugin/blob/main/.claude-plugin/plugin.json",
+      "description": "View My Work, browse and update work items, and review and manage pull requests across Azure DevOps repositories from a GitHub Copilot canvas. Preview release.",
+      "tags": [
+        "canvas",
+        "canvas-only",
+        "github-copilot"
+      ],
+      "metadata": {
+        "sourceSet": "microsoft/azure-devops-copilot-plugin",
+        "repoPath": ".claude-plugin/plugin.json"
+      },
+      "type": "application/vnd.github.copilot-plugin"
     },
     {
       "identifier": "urn:air:github.com:microsoft:azure-skills:azure-diagnostics",
