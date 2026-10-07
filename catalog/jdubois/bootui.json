@@ -3,7 +3,7 @@
   "displayName": "BootUI",
   "mediaType": "application/ai-skill",
   "url": "https://github.com/jdubois/boot-ui/blob/main/skills/bootui/SKILL.md",
-  "description": "Install and use BootUI to diagnose running Spring Boot 4 and Quarkus applications using local runtime evidence.",
+  "description": "Install and use BootUI to diagnose running Java applications based on Spring Boot and Quarkus, with local runtime evidence.",
   "tags": [
     "java",
     "spring-boot",
