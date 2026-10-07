@@ -1,0 +1,18 @@
+{
+  "identifier": "urn:ai:github.com:jdubois:boot-ui:bootui",
+  "displayName": "BootUI",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/jdubois/boot-ui/blob/main/skills/bootui/SKILL.md",
+  "description": "Install and use BootUI to diagnose running Java applications based on Spring Boot and Quarkus, with local runtime evidence.",
+  "tags": [
+    "java",
+    "spring-boot",
+    "quarkus",
+    "mcp",
+    "runtime-diagnostics"
+  ],
+  "metadata": {
+    "sourceSet": "jdubois/boot-ui",
+    "repoPath": "skills/bootui/SKILL.md"
+  }
+}
