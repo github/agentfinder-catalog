@@ -93,7 +93,7 @@ python3 scripts/generate_ai_catalog.py --check
 
 Files under `catalog/<publisher>/` remain the source of truth for contributor-managed entries. The root `ai-catalog.json` is generated for ARD ingestion, supplemented with missing entries from GitHub's public MCP catalog, and should not be edited by hand.
 
-The pull request workflow regenerates `ai-catalog.json` automatically for branches in this repository. Fork workflows validate the catalog but cannot push changes; the main-branch fallback opens a follow-up pull request if regeneration is needed after merge.
+The pull request workflow regenerates `ai-catalog.json` automatically for branches in this repository. Fork workflows validate the catalog but cannot push changes; the main-branch fallback opens a follow-up pull request if regeneration is needed after merge. Hourly scheduled runs and manual runs on `main` also open or update that same refresh pull request for GitHub MCP Registry changes, even when no contributor files have changed. Manual runs on other branches regenerate and validate only, so the refresh branch's validation does not recursively publish another pull request.
 
 ### 5. Open a pull request
 

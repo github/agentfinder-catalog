@@ -11,7 +11,13 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: "17 * * * *"
   workflow_dispatch:
+
+concurrency:
+  group: catalog-${{ github.ref }}
+  cancel-in-progress: false
 
 permissions:
   actions: write
@@ -43,8 +49,8 @@ jobs:
           if gh workflow view catalog.yml >/dev/null 2>&1; then
             gh workflow run catalog.yml --ref "$HEAD_REF"
           fi
-      - name: Open fallback pull request
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      - name: Open catalog refresh pull request
+        if: (github.event_name == 'push' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -61,6 +67,6 @@ jobs:
               --base main \
               --head "$branch" \
               --title "Update generated ARD catalog" \
-              --body "Regenerates \`ai-catalog.json\` from the canonical entries and live MCP catalog."
+              --body "Regenerates \`ai-catalog.json\` from the canonical entries and the live GitHub MCP Registry catalog."
           fi
           gh workflow run catalog.yml --ref "$branch"
