@@ -371,6 +371,63 @@ class ValidateEntryTest(unittest.TestCase):
 
         self.assertEqual(first, second)
 
+    def test_registry_only_addition_and_version_update_refresh_catalog(self):
+        def remote_entry(name, version):
+            return {
+                "identifier": f"urn:ai:registry.modelcontextprotocol.io:example:{name}",
+                "displayName": name,
+                "type": "application/mcp-server+json",
+                "url": (
+                    "https://api.mcp.github.com/v0.1/servers/"
+                    f"example%2F{name}/versions/{version}"
+                ),
+                "version": version,
+            }
+
+        old = remote_entry("existing", "1.0.0")
+        updated = remote_entry("existing", "2.0.0")
+        added = remote_entry("new", "1.0.0")
+        local = {
+            "identifier": "urn:ai:example.com:local:skill",
+            "displayName": "Local skill",
+            "mediaType": "application/ai-skill",
+            "url": "https://example.com/skill",
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source = root / "catalog" / "example"
+            source.mkdir(parents=True)
+            path = source / "skill.json"
+            path.write_text(json.dumps(local), encoding="utf-8")
+            original_source = path.read_bytes()
+            with (
+                patch.object(generate_ai_catalog, "ROOT", root),
+                patch.object(generate_ai_catalog, "SOURCE_DIR", root / "catalog"),
+                patch.object(
+                    generate_ai_catalog,
+                    "load_mcp_entries",
+                    side_effect=[[old], [updated, added], [added, updated]],
+                ),
+                patch.object(
+                    generate_ai_catalog, "load_mcp_registry_records", return_value=[]
+                ),
+            ):
+                before, _ = generate_ai_catalog.generate()
+                after, count = generate_ai_catalog.generate()
+                repeated, _ = generate_ai_catalog.generate()
+            self.assertEqual(path.read_bytes(), original_source)
+
+        self.assertNotEqual(before, after)
+        self.assertEqual(after, repeated)
+        self.assertEqual(count, 3)
+        entries = json.loads(after)["entries"]
+        self.assertEqual(entries[0]["url"], local["url"])
+        remote = {entry["displayName"]: entry for entry in entries[1:]}
+        self.assertEqual(remote["existing"]["version"], "2.0.0")
+        self.assertEqual(remote["existing"]["url"], updated["url"])
+        self.assertEqual(remote["new"]["url"], added["url"])
+        self.assertNotIn(old["url"], [entry["url"] for entry in entries])
+
     def test_generated_canvas_only_filter_shape(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

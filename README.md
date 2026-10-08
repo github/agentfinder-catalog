@@ -28,6 +28,8 @@ Each augment is a single JSON file under the publisher's directory. The publishe
 
 These per-entry files are the source of truth for contributor-managed entries. The root `ai-catalog.json` is a generated Agentic Resource Discovery (ARD) ingestion artifact that also includes missing entries from GitHub's public MCP catalog. Do not edit it by hand; regenerate it with `python3 scripts/generate_ai_catalog.py`.
 
+The Catalog workflow checks the [GitHub MCP Registry](https://api.mcp.github.com/.well-known/ai-catalog.json) hourly, independently of repository changes, and opens or updates the `automation/update-ai-catalog` pull request when the generated catalog changes. This refresh picks up registry additions and current server-version references; it does not query the general public MCP registry. Refresh changes still require the pull request to be merged before they reach the main-branch catalog. GitHub Actions schedules can be delayed, and a manual workflow run on `main` uses the same publication flow.
+
 ## Contributing
 
 Want to list your skill or MCP server in the catalog? See **[CONTRIBUTING.md](CONTRIBUTING.md)** for the full guide, including the JSON schema, validation steps, and PR process.
