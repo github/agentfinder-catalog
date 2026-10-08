@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:azure-devops-copilot-plugin:azure-devops-copilot-plugin",
+  "displayName": "Azure DevOps Canvas",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/azure-devops-copilot-plugin/blob/main/.claude-plugin/plugin.json",
+  "description": "View My Work, browse and update work items, and review and manage pull requests across Azure DevOps repositories from a GitHub Copilot canvas. Preview release.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "microsoft/azure-devops-copilot-plugin",
+    "repoPath": ".claude-plugin/plugin.json"
+  }
+}
