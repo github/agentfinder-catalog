@@ -30195,7 +30195,7 @@
     },
     {
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.rigour-labs:rigour",
-      "displayName": "io.github.rigour-labs/rigour",
+      "displayName": "Rigour",
       "type": "application/mcp-server+json",
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.rigour-labs%2Frigour/versions/6.8.1",
       "description": "Lets coding agents review their change, find an existing helper, and recall the team's lessons.",
@@ -30775,7 +30775,7 @@
     },
     {
       "identifier": "urn:air:registry.modelcontextprotocol.io:io.github.zereight:gitlab-mcp",
-      "displayName": "io.github.zereight/gitlab-mcp",
+      "displayName": "Zereight Gitlab",
       "type": "application/mcp-server+json",
       "url": "https://api.mcp.github.com/v0.1/servers/io.github.zereight%2Fgitlab-mcp/versions/2.2.0",
       "description": "GitLab MCP server for projects, merge requests, issues, pipelines, wiki, releases, and more.",
