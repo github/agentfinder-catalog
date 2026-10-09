@@ -1,0 +1,54 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:powerbi-modeling-mcp:powerbi-modeling-mcp",
+  "displayName": "Power BI Authoring MCP Server",
+  "mediaType": "application/mcp-server+json",
+  "data": {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name": "io.github.microsoft/powerbi-modeling-mcp",
+    "title": "Power BI Authoring MCP Server",
+    "description": "Author Power BI semantic models and run DAX queries in Desktop, Fabric, and local PBIP/TMDL files.",
+    "version": "1.0.0",
+    "repository": {
+      "url": "https://github.com/microsoft/powerbi-modeling-mcp",
+      "source": "github"
+    },
+    "websiteUrl": "https://github.com/microsoft/powerbi-modeling-mcp#readme",
+    "packages": [
+      {
+        "registryType": "npm",
+        "registryBaseUrl": "https://registry.npmjs.org",
+        "identifier": "@microsoft/powerbi-modeling-mcp",
+        "version": "1.0.0",
+        "runtimeHint": "npx",
+        "runtimeArguments": [
+          {
+            "type": "positional",
+            "value": "-y"
+          }
+        ],
+        "transport": {
+          "type": "stdio"
+        },
+        "packageArguments": [
+          {
+            "type": "positional",
+            "value": "--start"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Create and modify Power BI semantic models, manage tables, measures, and relationships, and execute and validate DAX queries. The local MCP server supports Power BI Desktop, Microsoft Fabric workspaces, and PBIP/TMDL files.",
+  "tags": [
+    "mcp-server",
+    "power-bi",
+    "semantic-modeling",
+    "dax",
+    "microsoft-fabric"
+  ],
+  "version": "1.0.0",
+  "metadata": {
+    "sourceSet": "microsoft/powerbi-modeling-mcp",
+    "repoPath": "README.md"
+  }
+}
