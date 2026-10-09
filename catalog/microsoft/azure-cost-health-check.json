@@ -1,0 +1,27 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:azure-dev-tools:azure-cost-health-check",
+  "displayName": "Azure Cost Health Check",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/azure-dev-tools/blob/main/canvases/azure-cost-health-check/.github/plugin/plugin.json",
+  "description": "Review Azure spend, forecasts, budgets, anomalies, Advisor recommendations, and AI billing together in a read-only GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "capabilities": [
+    "compare azure spend with forecasts and budgets",
+    "surface cost anomalies and budget alerts",
+    "review azure advisor recommendations",
+    "analyze ai billing alongside other cost drivers"
+  ],
+  "representativeQueries": [
+    "Open Azure Cost Health Check in real mode for my subscription.",
+    "Open Azure Cost Health Check so I can review budget alerts and forecasted spend for my subscription.",
+    "Show me the cost drivers for my Azure subscription"
+  ],
+  "metadata": {
+    "sourceSet": "microsoft/azure-dev-tools",
+    "repoPath": "canvases/azure-cost-health-check/.github/plugin/plugin.json"
+  }
+}

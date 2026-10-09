@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:ai:github.com:davidkaya:github-copilot-usage-insights:usage-insights",
+  "displayName": "Usage Insights",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/davidkaya/github-copilot-usage-insights/blob/main/plugin.json",
+  "description": "Inspect current and historical GitHub Copilot token and AI-credit usage with per-agent rollups and in-canvas session drill-down.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "capabilities": [
+    "show ai credit usage",
+    "break down token usage by type",
+    "roll up usage by agent and sub-agent",
+    "drill into high-cost sessions",
+    "show a daily token usage heatmap"
+  ],
+  "representativeQueries": [
+    "How many AI credits have I used in the last 7 days?",
+    "Which of my Copilot sessions used the most tokens?",
+    "Show my daily Copilot token usage for the past year"
+  ],
+  "metadata": {
+    "sourceSet": "davidkaya/github-copilot-usage-insights",
+    "repoPath": "plugin.json"
+  }
+}

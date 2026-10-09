@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:ai:github.com:arafattehsin:cache-stats-extension:cache-stats",
+  "displayName": "Cache Stats",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/arafattehsin/cache-stats-extension/blob/main/plugin.json",
+  "description": "Show live prompt-cache reuse, expiry, token composition, and AIU cost for the current GitHub Copilot session in a local canvas, without making model calls.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "capabilities": [
+    "show prompt cache reuse and expiry",
+    "estimate prompt rebuild cost",
+    "break down token composition",
+    "show per-turn cache history",
+    "track aiu cost for the current session"
+  ],
+  "representativeQueries": [
+    "Open the cache stats canvas",
+    "How much of my prompt cache is being reused in this session?",
+    "Show the AIU cost of this Copilot session turn by turn"
+  ],
+  "metadata": {
+    "sourceSet": "arafattehsin/cache-stats-extension",
+    "repoPath": "plugin.json"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:jupyter-notebooks",
+  "displayName": "Jupyter Notebooks",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/jupyter-notebooks/plugin.json",
+  "description": "Create, edit, run, save, and checkpoint Jupyter notebooks in an interactive GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "capabilities": [
+    "create jupyter notebooks",
+    "edit jupyter notebooks",
+    "run jupyter notebooks",
+    "save and checkpoint notebooks"
+  ],
+  "representativeQueries": [
+    "Create a Jupyter notebook to explore this dataset in Python",
+    "Open my notebook and run it",
+    "Save a checkpoint of this notebook"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/jupyter-notebooks/plugin.json"
+  }
+}

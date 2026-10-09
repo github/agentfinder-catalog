@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:ai:github.com:runceel:MarkdStage:markdstage",
+  "displayName": "MarkdStage",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/runceel/MarkdStage/blob/main/.github/plugin/markdstage/plugin.json",
+  "description": "Create, edit, present, and export Markdown slide decks in a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "capabilities": [
+    "create and edit markdown slides",
+    "render mermaid and architecture diagrams",
+    "present slides in a synchronized presenter window",
+    "export slides to pdf or editable powerpoint",
+    "import and watch workspace markdown"
+  ],
+  "representativeQueries": [
+    "Create a slide deck from this Markdown file",
+    "Present my slides with a presenter window",
+    "Export my deck to PowerPoint"
+  ],
+  "metadata": {
+    "sourceSet": "runceel/MarkdStage",
+    "repoPath": ".github/plugin/markdstage/plugin.json"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:upgrade-agent-plugins:upgrade-agent",
+  "displayName": "Upgrade Agent",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/upgrade-agent-plugins/blob/main/plugins/upgrade-agent/plugin.json",
+  "description": "AI-powered upgrade assistant agent that assesses, plans, and executes application upgrades and migrations, including .NET framework upgrades, with an upgrade dashboard canvas.",
+  "tags": [
+    "agent",
+    "canvas",
+    "github-copilot",
+    "hook"
+  ],
+  "capabilities": [
+    "assess projects for upgrades",
+    "create step-by-step upgrade plans",
+    "execute upgrade tasks",
+    "upgrade .net applications to current frameworks",
+    "track upgrade progress in a dashboard"
+  ],
+  "representativeQueries": [
+    "Upgrade my project to .NET 10",
+    "Assess what needs to change to upgrade this application",
+    "Open the upgrade dashboard"
+  ],
+  "metadata": {
+    "sourceSet": "microsoft/upgrade-agent-plugins",
+    "repoPath": "plugins/upgrade-agent/plugin.json"
+  }
+}

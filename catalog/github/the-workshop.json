@@ -1,0 +1,32 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:the-workshop",
+  "displayName": "The Workshop",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/the-workshop/plugin.json",
+  "description": "Direct a team of long-running AI agent desks with persistent journals, a shared bench, and structured signals, coordinated by a Workshop TA agent and monitored in a signals dashboard canvas.",
+  "tags": [
+    "agent",
+    "canvas",
+    "github-copilot",
+    "skill"
+  ],
+  "capabilities": [
+    "create a workshop locally or in a private github repository",
+    "open agent desks with persistent journals",
+    "read and write desk journals across sessions",
+    "emit hands-up, blocked, done, and checkpoint signals",
+    "share artifacts between desks on the bench",
+    "route work and track state across desks",
+    "monitor desk signals in a canvas dashboard"
+  ],
+  "representativeQueries": [
+    "Create a new workshop backed by a private GitHub repo",
+    "Open a new desk for the API redesign",
+    "Show me which desks are blocked",
+    "Write today's progress to my desk journal"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/the-workshop/plugin.json"
+  }
+}

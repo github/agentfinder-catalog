@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:azure-dev-tools:azure-functions-hosted-skills",
+  "displayName": "Azure Functions Hosted Skills",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/azure-dev-tools/blob/main/canvases/azure-functions-hosted-skills/.github/plugin/plugin.json",
+  "description": "Build and run Azure Functions Hosted Skills locally with Timer, HTTP, Queue, or Microsoft 365 Inbox triggers, or invoke supported functions in an existing Function App, from a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "capabilities": [
+    "create timer, http, or queue hosted skills",
+    "run hosted skills locally",
+    "invoke triggers and inspect agent digests and activity",
+    "invoke supported functions in an existing function app",
+    "check prerequisites with doctor"
+  ],
+  "representativeQueries": [
+    "Open Azure Functions Hosted Skills canvas and run Doctor before I build a local skill.",
+    "Set up a daily GitHub repository digest with a Timer trigger",
+    "Open Azure Functions Hosted Skills canvas so I can choose an existing Function App and confirm an invocation."
+  ],
+  "metadata": {
+    "sourceSet": "microsoft/azure-dev-tools",
+    "repoPath": "canvases/azure-functions-hosted-skills/.github/plugin/plugin.json"
+  }
+}

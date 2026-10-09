@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:ai:github.com:Redth:mobile-canvas-ghcp:mobile-canvas",
+  "displayName": "Mobile Canvas",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/Redth/mobile-canvas-ghcp/blob/main/.claude-plugin/plugin.json",
+  "description": "View, create, boot, and interact with local iOS Simulators and Android emulators from a GitHub Copilot canvas, with the same device controls available to agents through an MCP server.",
+  "tags": [
+    "canvas",
+    "github-copilot",
+    "mcp-server"
+  ],
+  "capabilities": [
+    "stream and control ios simulators and android emulators",
+    "create, boot, and manage simulators and emulators",
+    "capture device screenshots and recordings",
+    "inspect and tap ui elements",
+    "control devices through mcp tools"
+  ],
+  "representativeQueries": [
+    "Boot an iPhone simulator, install my app, and walk through sign in.",
+    "Find the Settings button on the Android emulator and tap it.",
+    "Take a screenshot of the current screen and describe any layout issues."
+  ],
+  "metadata": {
+    "sourceSet": "Redth/mobile-canvas-ghcp",
+    "repoPath": ".claude-plugin/plugin.json"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:git-worktree-explorer",
+  "displayName": "Git Worktree Explorer",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/git-worktree-explorer/plugin.json",
+  "description": "Visualize the active Git repository's worktrees, branches, and commits, with optional GitHub pull request context, in a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "capabilities": [
+    "visualize git worktrees",
+    "visualize branches and commit history",
+    "show repository topology",
+    "show github pull request context"
+  ],
+  "representativeQueries": [
+    "Show me all the worktrees and branches in this repository",
+    "Visualize the commit history of this repo",
+    "Show my branches along with their pull requests"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/git-worktree-explorer/plugin.json"
+  }
+}
