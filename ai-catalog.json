@@ -18243,6 +18243,12 @@
             "identifier": "@microsoft/powerbi-modeling-mcp",
             "version": "1.0.0",
             "runtimeHint": "npx",
+            "runtimeArguments": [
+              {
+                "type": "positional",
+                "value": "-y"
+              }
+            ],
             "transport": {
               "type": "stdio"
             },
