@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:ai:github.com:jdneo:copilot-chat-map:chat-fork-map",
+  "displayName": "Conversation Fork Map",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/jdneo/copilot-chat-map/blob/main/plugin.json",
+  "description": "Map branching local Copilot conversations as session lanes in a GitHub Copilot canvas and fork any completed turn into a CLI session.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "capabilities": [
+    "visualize conversation lineage as session lanes",
+    "navigate large conversation maps",
+    "inspect prompts, responses, and execution details",
+    "fork completed turns into cli sessions",
+    "track session names, summaries, and live updates"
+  ],
+  "representativeQueries": [
+    "Open the Conversation Fork Map",
+    "Show how this conversation has branched",
+    "Fork this conversation from an earlier turn so I can explore another approach"
+  ],
+  "metadata": {
+    "sourceSet": "jdneo/copilot-chat-map",
+    "repoPath": "plugin.json"
+  }
+}

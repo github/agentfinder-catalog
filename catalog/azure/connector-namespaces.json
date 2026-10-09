@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:ai:github.com:Azure:Connectors:connector-namespaces",
+  "displayName": "MCP Connectors",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/Azure/Connectors/blob/main/connector-namespaces/.github/plugin/plugin.json",
+  "description": "Discover, connect, and manage hosted MCP servers from an Azure Connector Namespace in a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "capabilities": [
+    "browse microsoft and partner mcp servers",
+    "sign in to azure and select a connector namespace",
+    "connect hosted mcp servers",
+    "manage connected mcp servers",
+    "open connected servers in the namespace playground"
+  ],
+  "representativeQueries": [
+    "Open the MCP Connectors canvas",
+    "Connect an MCP server from my Azure Connector Namespace",
+    "Which MCP servers have I connected in my Connector Namespace?"
+  ],
+  "metadata": {
+    "sourceSet": "Azure/Connectors",
+    "repoPath": "connector-namespaces/.github/plugin/plugin.json"
+  }
+}

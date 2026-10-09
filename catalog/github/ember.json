@@ -1,0 +1,31 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:ember",
+  "displayName": "Ember",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/ember/plugin.json",
+  "description": "Ember is an AI partner agent that helps people shift from prompting to partnering, bundled with collaboration-pattern skills and a Daily Focus Board skill and GitHub Copilot canvas.",
+  "tags": [
+    "agent",
+    "canvas",
+    "github-copilot",
+    "skill"
+  ],
+  "capabilities": [
+    "partner on code, data, docs, and strategy",
+    "run a daily focus board with check-in, priorities, and recap",
+    "track tasks and progress in a daily focus board canvas",
+    "challenge assumptions and evidence",
+    "frame explanations for an audience",
+    "share stories from people who found ai partnership"
+  ],
+  "representativeQueries": [
+    "I've never used AI before. Where do I start?",
+    "Help me plan my day with a focus board",
+    "Challenge the assumptions in my strategy",
+    "Recap what I got done today"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/ember/plugin.json"
+  }
+}

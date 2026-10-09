@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:ai:github.com:aaronpowell:github-copilot-dependabot-canvas:dependabot-triage",
+  "displayName": "Dependabot Triage Canvas",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/aaronpowell/github-copilot-dependabot-canvas/blob/main/plugin.json",
+  "description": "Triage Dependabot alerts and recommend safe, evidence-based dependency updates from a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "capabilities": [
+    "list open dependabot alerts grouped by dependency",
+    "filter and sort alerts by severity and status",
+    "combine alerts for a dependency into one pull request",
+    "update or ignore dependencies",
+    "start a copilot session from an alert"
+  ],
+  "representativeQueries": [
+    "Show the open Dependabot alerts for this repository",
+    "Which dependencies have critical Dependabot alerts?",
+    "Combine the Dependabot alerts for this package into a single pull request"
+  ],
+  "metadata": {
+    "sourceSet": "aaronpowell/github-copilot-dependabot-canvas",
+    "repoPath": "plugin.json"
+  }
+}

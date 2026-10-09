@@ -60,6 +60,8 @@ Create a file at `catalog/<your-publisher>/<augment-name>.json` with the followi
 | `url` | ✅ | URL to the augment's definition file (e.g., SKILL.md) |
 | `description` | ✅ | A brief description of the augment's purpose |
 | `tags` | ❌ | Tags used to categorize and filter the augment |
+| `capabilities` | ❌ | Short, action-oriented phrases describing what the augment does (e.g., `export drawings as png or svg`) |
+| `representativeQueries` | ❌ | Two to five natural-language requests a user could ask the augment to handle |
 | `metadata.sourceSet` | ✅ | The source repository name |
 | `metadata.repoPath` | ✅ | Path to the definition file within the repository |
 

@@ -1,0 +1,27 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:draw",
+  "displayName": "Draw",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/draw/plugin.json",
+  "description": "Draw simple diagrams with shapes, attached arrows, text, and a freehand pen in a GitHub Copilot canvas that Copilot can read, edit, tidy, and export.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "capabilities": [
+    "draw shapes, attached arrows, text, and freehand strokes",
+    "read, create, and edit drawings with copilot",
+    "tidy diagram layout",
+    "export drawings as png or svg"
+  ],
+  "representativeQueries": [
+    "Draw a flowchart of our signup process",
+    "Sketch an architecture diagram for this service in a canvas",
+    "Tidy up the layout of my drawing and export it as an SVG"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/draw/plugin.json"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:azure-dev-tools:azure-resources-query",
+  "displayName": "Azure Resources Query",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/azure-dev-tools/blob/main/canvases/azure-resources-query/.github/plugin/plugin.json",
+  "description": "Browse Azure resources with read-only Azure Resource Graph queries, explicit subscription scope, and saved views in a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "capabilities": [
+    "query azure resources with resource graph",
+    "confirm subscription scope before querying",
+    "inspect resource details",
+    "add selected resources to chat",
+    "save and refine resource views"
+  ],
+  "representativeQueries": [
+    "Show my Function Apps in Development.",
+    "Show my storage accounts in Development, then filter to West Europe.",
+    "Find the virtual machines in my Azure subscription"
+  ],
+  "metadata": {
+    "sourceSet": "microsoft/azure-dev-tools",
+    "repoPath": "canvases/azure-resources-query/.github/plugin/plugin.json"
+  }
+}

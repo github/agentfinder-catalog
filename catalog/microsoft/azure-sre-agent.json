@@ -1,0 +1,30 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:azure-dev-tools:azure-sre-agent",
+  "displayName": "Azure SRE Agent",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/azure-dev-tools/blob/main/canvases/azure-sre-agent/.github/plugin/plugin.json",
+  "description": "Investigate failing Azure apps with your existing Azure SRE Agent from a GitHub Copilot canvas, reviewing investigation threads and incident evidence and continuing investigations with explicit approval.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "capabilities": [
+    "diagnose failing azure apps with azure sre agent",
+    "browse investigation threads and evidence",
+    "continue investigations from copilot chat",
+    "refine kql and run approved reads against your own sources",
+    "read your inbox and preview teams updates",
+    "correlate icm and s360 tickets"
+  ],
+  "representativeQueries": [
+    "My app is failing. Open SRE Agent Canvas.",
+    "Investigate checkout-api app with my SRE Agent.",
+    "Open this SRE Agent external share link and help me connect.",
+    "Draft an incident handoff from the connected investigation."
+  ],
+  "metadata": {
+    "sourceSet": "microsoft/azure-dev-tools",
+    "repoPath": "canvases/azure-sre-agent/.github/plugin/plugin.json"
+  }
+}

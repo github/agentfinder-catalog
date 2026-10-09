@@ -1,0 +1,26 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:modernization-workflow",
+  "displayName": "Modernization Workflow",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/modernization-workflow/plugin.json",
+  "description": "Visualize and guide the GitHub Copilot Modernize CLI Assess, Plan, and Execute workflow for .NET, Java, and C++ application repositories in a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "capabilities": [
+    "visualize the modernize cli assess, plan, and execute workflow",
+    "guide .net, java, and c++ application modernization",
+    "show modernization assessment results"
+  ],
+  "representativeQueries": [
+    "Show the modernization workflow for this .NET repository",
+    "Guide me through assessing and planning the modernization of this Java app",
+    "Show the assessment results from the Modernize CLI"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/modernization-workflow/plugin.json"
+  }
+}

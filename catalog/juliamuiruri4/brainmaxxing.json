@@ -1,0 +1,28 @@
+{
+  "identifier": "urn:ai:github.com:juliamuiruri4:brainmaxxing:brainmaxxing",
+  "displayName": "BrainMaxxing",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/juliamuiruri4/brainmaxxing/blob/main/.github/plugin/plugin.json",
+  "description": "Quiz developers on software engineering concepts grounded in their own codebase, with rubric scoring, a competency report, and an interactive BrainMax canvas.",
+  "tags": [
+    "canvas",
+    "github-copilot",
+    "skill"
+  ],
+  "capabilities": [
+    "detect knowledge domains in a codebase",
+    "quiz software engineering concepts using your code",
+    "score answers on a rubric",
+    "compile a competency report with study recommendations",
+    "run quizzes in an interactive canvas"
+  ],
+  "representativeQueries": [
+    "Quiz me on the API design concepts in my project",
+    "Check whether I really understand the database design in this codebase",
+    "Compile my quiz results into a competency report"
+  ],
+  "metadata": {
+    "sourceSet": "juliamuiruri4/brainmaxxing",
+    "repoPath": ".github/plugin/plugin.json"
+  }
+}
