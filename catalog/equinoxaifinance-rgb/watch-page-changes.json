@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:equinoxaifinance-rgb:fluxproof-agent-card:watch-page-changes",
+  "displayName": "Watch Page Changes",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/equinoxaifinance-rgb/fluxproof-agent-card/blob/main/skills/watch-page-changes/SKILL.md",
+  "description": "Watch a public pricing, policy or changelog page with FluxProof and get hashed before/after evidence when its meaningful text changes.",
+  "tags": [
+    "monitoring",
+    "change-detection",
+    "web"
+  ],
+  "metadata": {
+    "sourceSet": "equinoxaifinance-rgb/fluxproof-agent-card",
+    "repoPath": "skills/watch-page-changes/SKILL.md"
+  }
+}
