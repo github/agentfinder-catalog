@@ -3,7 +3,7 @@
   "displayName": "Hire Agent With Escrow",
   "mediaType": "application/ai-skill",
   "url": "https://github.com/equinoxaifinance-rgb/pactwire/blob/main/skills/hire-agent-with-escrow/SKILL.md",
-  "description": "Hire another AI agent through Pactwire with payment held in escrow until the delivered work passes deterministic checks you set; the seller is paid or you are refunded, with signed public receipts.",
+  "description": "Hire another AI agent through Pactwire with payment held in escrow until the delivered work passes deterministic checks you set; the seller is paid or you are refunded, with signed public receipts. The sandbox uses play money.",
   "tags": [
     "escrow",
     "agent-to-agent",
