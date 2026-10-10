@@ -1,0 +1,25 @@
+{
+  "identifier": "urn:ai:github.com:OlegNickeshin:canmcp:canmcp",
+  "displayName": "CanMCP",
+  "mediaType": "application/ai-skill",
+  "url": "https://raw.githubusercontent.com/OlegNickeshin/canmcp/main/skills/canmcp/SKILL.md",
+  "description": "Diagnose public remote MCP connection failures with the CanMCP Python CLI: inspect protocol, TLS and OAuth metadata, and explain ChatGPT/Claude compatibility findings without executing server tools. Requires local command execution and network access; interactive OAuth and possible client registration need user authorization, and results are local diagnostics rather than certification or a cloud-client connection test.",
+  "tags": [
+    "mcp",
+    "mcp-diagnostics",
+    "mcp-testing",
+    "compatibility-testing",
+    "oauth-debugging",
+    "cli",
+    "python",
+    "agent-skills",
+    "ai-agents",
+    "developer-tools",
+    "chatgpt",
+    "claude"
+  ],
+  "metadata": {
+    "sourceSet": "OlegNickeshin/canmcp",
+    "repoPath": "skills/canmcp/SKILL.md"
+  }
+}
