@@ -6,6 +6,10 @@
   "description": "Payload Development plugin - covers collections, fields, hooks, access control, plugins, and database adapters.",
   "metadata": {
     "sourceSet": "payloadcms/payload",
-    "repoPath": "tools/claude-plugin/.claude-plugin/plugin.json"
+    "repoPath": "tools/claude-plugin/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "payloadcms/payload",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

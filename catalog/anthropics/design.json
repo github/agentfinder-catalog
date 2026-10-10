@@ -6,6 +6,10 @@
   "description": "Accelerate design workflows - critique, design system management, UX writing, accessibility audits, research synthesis, and dev handoff. From...",
   "metadata": {
     "sourceSet": "anthropics/knowledge-work-plugins",
-    "repoPath": "design/.claude-plugin/plugin.json"
+    "repoPath": "design/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/knowledge-work-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

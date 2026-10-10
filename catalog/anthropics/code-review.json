@@ -6,6 +6,10 @@
   "description": "Automated code review for pull requests using multiple specialized agents with confidence-based scoring",
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "plugins/code-review/.claude-plugin/plugin.json"
+    "repoPath": "plugins/code-review/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-plugins-public",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

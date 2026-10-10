@@ -6,6 +6,10 @@
   "description": "Private equity deal sourcing and workflow tools: company discovery, CRM integration, and founder outreach",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "plugins/vertical-plugins/private-equity/.claude-plugin/plugin.json"
+    "repoPath": "plugins/vertical-plugins/private-equity/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

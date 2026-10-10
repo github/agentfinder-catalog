@@ -6,6 +6,10 @@
   "description": "Easily create hooks to prevent unwanted behaviors by analyzing conversation patterns",
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "plugins/hookify/.claude-plugin/plugin.json"
+    "repoPath": "plugins/hookify/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-plugins-public",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

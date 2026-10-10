@@ -6,6 +6,10 @@
   "description": "Claude for Healthcare - skills for payer, provider, pharma, and general healthcare work (prior auth, ICD-10-CM coding, clinical-note extraction...",
   "metadata": {
     "sourceSet": "anthropics/healthcare",
-    "repoPath": "plugins/healthcare/.claude-plugin/plugin.json"
+    "repoPath": "plugins/healthcare/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/healthcare",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

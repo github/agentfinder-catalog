@@ -6,6 +6,10 @@
   "description": "Provision direct cloud access (Vertex AI, Bedrock, or LLM gateway) for the Claude Office add-in. Generates the customized add-in manifest, walks...",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "claude-for-msft-365-install/.claude-plugin/plugin.json"
+    "repoPath": "claude-for-msft-365-install/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

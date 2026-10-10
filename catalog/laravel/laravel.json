@@ -6,6 +6,10 @@
   "description": "Agents and skills for PHP / Laravel development",
   "metadata": {
     "sourceSet": "laravel/agent-skills",
-    "repoPath": "laravel/.cursor-plugin/plugin.json"
+    "repoPath": "laravel/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "laravel/agent-skills",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

@@ -6,6 +6,10 @@
   "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with...",
   "metadata": {
     "sourceSet": "cursor/plugins",
-    "repoPath": "pstack/.cursor-plugin/plugin.json"
+    "repoPath": "pstack/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "cursor/plugins",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

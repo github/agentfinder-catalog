@@ -6,6 +6,10 @@
   "description": "Finds, evaluates, and installs community legal skills - with a security review gate before anything lands in your environment.",
   "metadata": {
     "sourceSet": "anthropics/claude-for-legal",
-    "repoPath": "legal-builder-hub/.claude-plugin/plugin.json"
+    "repoPath": "legal-builder-hub/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-for-legal",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

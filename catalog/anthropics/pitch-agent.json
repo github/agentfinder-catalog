@@ -6,6 +6,10 @@
   "description": "Comps, precedents, LBO to a branded pitch deck, end to end",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "plugins/agent-plugins/pitch-agent/.claude-plugin/plugin.json"
+    "repoPath": "plugins/agent-plugins/pitch-agent/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }
