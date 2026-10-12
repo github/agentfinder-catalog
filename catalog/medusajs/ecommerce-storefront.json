@@ -6,6 +6,10 @@
   "description": "Comprehensive skills for building ecommerce storefronts with best practices for UI/UX, SEO, and mobile responsiveness",
   "metadata": {
     "sourceSet": "medusajs/medusa-agent-skills",
-    "repoPath": "plugins/ecommerce-storefront/.claude-plugin/plugin.json"
+    "repoPath": "plugins/ecommerce-storefront/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "medusajs/medusa-agent-skills",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

@@ -6,6 +6,10 @@
   "description": "Brand Voice transforms scattered brand materials into enforceable AI guardrails - automatically. It searches across Notion, Google Drive, Confluence...",
   "metadata": {
     "sourceSet": "anthropics/knowledge-work-plugins",
-    "repoPath": "partner-built/brand-voice/.claude-plugin/plugin.json"
+    "repoPath": "partner-built/brand-voice/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/knowledge-work-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

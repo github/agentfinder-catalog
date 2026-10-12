@@ -6,6 +6,10 @@
   "description": "Agent skills for dbt: data modeling, analytics engineering, semantic layer metrics, unit testing, job troubleshooting, and dbt MCP server setup....",
   "metadata": {
     "sourceSet": "dbt-labs/dbt-agent-skills",
-    "repoPath": "skills/dbt/.cursor-plugin/plugin.json"
+    "repoPath": "skills/dbt/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "dbt-labs/dbt-agent-skills",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

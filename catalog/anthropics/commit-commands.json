@@ -6,6 +6,10 @@
   "description": "Streamline your git workflow with simple commands for committing, pushing, and creating pull requests",
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "plugins/commit-commands/.claude-plugin/plugin.json"
+    "repoPath": "plugins/commit-commands/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-plugins-public",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

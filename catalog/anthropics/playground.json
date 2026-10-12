@@ -6,6 +6,10 @@
   "description": "Creates interactive HTML playgrounds - self-contained single-file explorers with visual controls, live preview, and prompt output with copy button",
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "plugins/playground/.claude-plugin/plugin.json"
+    "repoPath": "plugins/playground/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-plugins-public",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

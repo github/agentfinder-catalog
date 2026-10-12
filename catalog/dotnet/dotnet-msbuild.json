@@ -6,6 +6,10 @@
   "description": "Comprehensive MSBuild and .NET build skills: failure diagnosis, performance optimization, code quality, and modernization.",
   "metadata": {
     "sourceSet": "dotnet/skills",
-    "repoPath": "plugins/dotnet-msbuild/.claude-plugin/plugin.json"
+    "repoPath": "plugins/dotnet-msbuild/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "dotnet/skills",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

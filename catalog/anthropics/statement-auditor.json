@@ -6,6 +6,10 @@
   "description": "Audits pre-generated LP statements before distribution",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "plugins/agent-plugins/statement-auditor/.claude-plugin/plugin.json"
+    "repoPath": "plugins/agent-plugins/statement-auditor/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

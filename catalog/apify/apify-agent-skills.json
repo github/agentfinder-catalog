@@ -6,6 +6,10 @@
   "description": "Official Apify agent skills for web scraping, data extraction, and automation",
   "metadata": {
     "sourceSet": "apify/agent-skills",
-    "repoPath": ".claude-plugin/plugin.json"
+    "repoPath": ".claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "apify/agent-skills",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

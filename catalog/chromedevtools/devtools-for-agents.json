@@ -6,6 +6,10 @@
   "description": "Help your agent build, debug, and verify your code correctly. With Chrome DevTools for agents, your AI agent can interact with the Chrome browser to...",
   "metadata": {
     "sourceSet": "ChromeDevTools/chrome-devtools-mcp",
-    "repoPath": ".cursor-plugin/plugin.json"
+    "repoPath": ".cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "ChromeDevTools/chrome-devtools-mcp",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

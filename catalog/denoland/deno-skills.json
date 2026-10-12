@@ -6,6 +6,10 @@
   "description": "Modern Deno development knowledge including JSR packages, Fresh framework, Deno Deploy, and best practices",
   "metadata": {
     "sourceSet": "denoland/skills",
-    "repoPath": ".claude-plugin/plugin.json"
+    "repoPath": ".claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "denoland/skills",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

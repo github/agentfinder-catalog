@@ -6,6 +6,10 @@
   "description": "Agent skills for Qdrant vector search: scaling, performance optimization, search quality, monitoring, deployment, edge, model migration, version...",
   "metadata": {
     "sourceSet": "qdrant/skills",
-    "repoPath": ".claude-plugin/plugin.json"
+    "repoPath": ".claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "qdrant/skills",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

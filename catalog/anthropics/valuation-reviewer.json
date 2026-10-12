@@ -6,6 +6,10 @@
   "description": "Ingests GP packages, runs valuation template, stages LP reporting",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "plugins/agent-plugins/valuation-reviewer/.claude-plugin/plugin.json"
+    "repoPath": "plugins/agent-plugins/valuation-reviewer/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

@@ -6,6 +6,10 @@
   "description": "Localhost iMessage-style web chat for Claude Code - test surface with file upload and edits. No tokens, no access control.",
   "metadata": {
     "sourceSet": "anthropics/claude-plugins-public",
-    "repoPath": "external_plugins/fakechat/.claude-plugin/plugin.json"
+    "repoPath": "external_plugins/fakechat/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-plugins-public",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

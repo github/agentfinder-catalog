@@ -6,6 +6,10 @@
   "description": "Internal workflows used by Cursor developers for CI, code review, shipping, control-cli, control-ui, verify-this, test reliability, code cleanup, and...",
   "metadata": {
     "sourceSet": "cursor/plugins",
-    "repoPath": "cursor-team-kit/.cursor-plugin/plugin.json"
+    "repoPath": "cursor-team-kit/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "cursor/plugins",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

@@ -6,6 +6,10 @@
   "description": "Axiom CLI and APL query assistance for Claude Code",
   "metadata": {
     "sourceSet": "axiomhq/cli",
-    "repoPath": ".claude-plugin/plugin.json"
+    "repoPath": ".claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "axiomhq/cli",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

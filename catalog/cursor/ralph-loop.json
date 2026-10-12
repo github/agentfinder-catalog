@@ -6,6 +6,10 @@
   "description": "Continuous self-referential AI loops for iterative development, implementing the Ralph Wiggum technique. Run the agent in a while-true loop with the...",
   "metadata": {
     "sourceSet": "cursor/plugins",
-    "repoPath": "ralph-loop/.cursor-plugin/plugin.json"
+    "repoPath": "ralph-loop/.cursor-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "cursor/plugins",
+      "repoPath": ".cursor-plugin/marketplace.json"
+    }
   }
 }

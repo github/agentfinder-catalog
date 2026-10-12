@@ -6,6 +6,10 @@
   "description": "Streamline people operations - recruiting, onboarding, performance reviews, compensation analysis, and policy guidance. Maintain compliance and keep...",
   "metadata": {
     "sourceSet": "anthropics/knowledge-work-plugins",
-    "repoPath": "human-resources/.claude-plugin/plugin.json"
+    "repoPath": "human-resources/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/knowledge-work-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

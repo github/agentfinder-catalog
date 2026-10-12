@@ -6,6 +6,10 @@
   "description": "Drills Socratically, briefs cases, builds outlines, runs bar prep sessions tuned to your jurisdiction, grades IRAC practice, and plans the study...",
   "metadata": {
     "sourceSet": "anthropics/claude-for-legal",
-    "repoPath": "law-student/.claude-plugin/plugin.json"
+    "repoPath": "law-student/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-for-legal",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

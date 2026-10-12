@@ -6,6 +6,10 @@
   "description": "S&P Global - Financial data and analytics skills including company tearsheets, earnings previews, and transaction summaries",
   "metadata": {
     "sourceSet": "anthropics/financial-services-plugins",
-    "repoPath": "plugins/partner-built/spglobal/.claude-plugin/plugin.json"
+    "repoPath": "plugins/partner-built/spglobal/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/financial-services-plugins",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

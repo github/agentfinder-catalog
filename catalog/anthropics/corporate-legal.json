@@ -6,6 +6,10 @@
   "description": "Runs M&A diligence at scale with cited tabular review, builds disclosure schedules and closing checklists, drafts board consents and minutes in house...",
   "metadata": {
     "sourceSet": "anthropics/claude-for-legal",
-    "repoPath": "corporate-legal/.claude-plugin/plugin.json"
+    "repoPath": "corporate-legal/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-for-legal",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

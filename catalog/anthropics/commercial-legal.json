@@ -6,6 +6,10 @@
   "description": "Reviews vendor agreements, NDAs, and SaaS subscriptions against your sales-side or purchasing-side playbook, tracks renewals and cancel-by deadlines...",
   "metadata": {
     "sourceSet": "anthropics/claude-for-legal",
-    "repoPath": "commercial-legal/.claude-plugin/plugin.json"
+    "repoPath": "commercial-legal/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-for-legal",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }

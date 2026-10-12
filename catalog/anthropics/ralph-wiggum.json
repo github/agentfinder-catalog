@@ -6,6 +6,10 @@
   "description": "Implementation of the Ralph Wiggum technique - continuous self-referential AI loops for interactive iterative development. Run Claude in a while-true...",
   "metadata": {
     "sourceSet": "anthropics/claude-code",
-    "repoPath": "plugins/ralph-wiggum/.claude-plugin/plugin.json"
+    "repoPath": "plugins/ralph-wiggum/.claude-plugin/plugin.json",
+    "marketplace": {
+      "sourceSet": "anthropics/claude-code",
+      "repoPath": ".claude-plugin/marketplace.json"
+    }
   }
 }
