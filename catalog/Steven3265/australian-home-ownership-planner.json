@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:Steven3265:homechecker-guides-mcp:australian-home-ownership-planner",
+  "displayName": "Australian Home Ownership Planner",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/Steven3265/homechecker-guides-mcp/blob/main/skills/australian-home-ownership-planner/SKILL.md",
+  "description": "Organise maintenance, records, renovation preparation and ownership planning using Homechecker guidance.",
+  "metadata": {
+    "sourceSet": "homechecker-guides-mcp",
+    "repoPath": "skills/australian-home-ownership-planner/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:Steven3265:homechecker-guides-mcp:australian-property-documents",
+  "displayName": "Australian Property Documents",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/Steven3265/homechecker-guides-mcp/blob/main/skills/australian-property-documents/SKILL.md",
+  "description": "Explain Australian residential sale and strata documents with jurisdiction-aware Homechecker guidance.",
+  "metadata": {
+    "sourceSet": "homechecker-guides-mcp",
+    "repoPath": "skills/australian-property-documents/SKILL.md"
+  }
+}
