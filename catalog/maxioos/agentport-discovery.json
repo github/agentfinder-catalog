@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:maxioos:AgentPort:agentport-discovery",
+  "displayName": "AgentPort Discovery",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://discover.agentport.maxioos.com/mcp/server-card.json",
+  "description": "Resolve goals to machine-capable businesses and execution paths with discovery tools.",
+  "metadata": {
+    "sourceSet": "maxioos/AgentPort",
+    "repoPath": "server.json"
+  }
+}
