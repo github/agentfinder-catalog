@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:Sparkient:sparkient-mcp-server:decision-api",
+  "displayName": "Sparkient Decision Intelligence",
+  "mediaType": "application/mcp-server-card+json",
+  "url": "https://mcp.sparkient.ai/mcp",
+  "description": "Sub-100ms decision intelligence MCP server. Compiles LLM intelligence into fast ML models for content moderation, routing, classification, and gating at 33-42ms p95 latency. 13 tools for decisions, training, and edge export.",
+  "metadata": {
+    "sourceSet": "sparkient-mcp-server",
+    "repoPath": "README.md"
+  }
+}
