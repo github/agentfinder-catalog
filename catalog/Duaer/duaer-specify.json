@@ -1,0 +1,18 @@
+{
+  "identifier": "urn:ai:github.com:Duaer:duaer-spec:duaer-specify",
+  "displayName": "Duaer Specify",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/Duaer/duaer-spec/blob/main/.cursor/skills/duaer-specify/SKILL.md",
+  "description": "Creates or updates a feature specification from a natural-language ask, with checkable acceptance.",
+  "tags": [
+    "spec",
+    "acceptance",
+    "digital-employee",
+    "cursor",
+    "claude-code"
+  ],
+  "metadata": {
+    "sourceSet": "Duaer/duaer-spec",
+    "repoPath": ".cursor/skills/duaer-specify/SKILL.md"
+  }
+}
