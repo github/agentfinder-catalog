@@ -1,0 +1,19 @@
+{
+  "identifier": "urn:ai:github.com:ho11-bit:donvi108-agent-skills:donvi108-research",
+  "displayName": "DONVI108 Free Research Beta",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/ho11-bit/donvi108-agent-skills/blob/main/skills/donvi108-research/SKILL.md",
+  "description": "Find candidate scholarly papers and DOI references through a free Crossref metadata REST/MCP beta. Self-service agent registration; no invitation or payment.",
+  "tags": [
+    "research",
+    "scholarly-metadata",
+    "doi",
+    "crossref",
+    "mcp",
+    "agent-skills"
+  ],
+  "metadata": {
+    "sourceSet": "ho11-bit/donvi108-agent-skills",
+    "repoPath": "skills/donvi108-research/SKILL.md"
+  }
+}
