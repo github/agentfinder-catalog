@@ -1,0 +1,12 @@
+{
+  "identifier": "urn:ai:github.com:PietjePuh:aegis-wall-agent-skill:aegis-wall-tools",
+  "displayName": "AEGIS Wall Tools",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/PietjePuh/aegis-wall-agent-skill/blob/main/SKILL.md",
+  "description": "Public HTTP tools for CVE/KEV lookup, ATT&CK techniques, IOC defanging, breach and privacy checks.",
+  "tags": ["security", "cve", "kev", "attack", "ioc", "privacy"],
+  "metadata": {
+    "sourceSet": "PietjePuh/aegis-wall-agent-skill",
+    "repoPath": "SKILL.md"
+  }
+}
