@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:equinoxaifinance-rgb:proof-fetch-docs:cited-web-evidence",
+  "displayName": "Cited Web Evidence",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/equinoxaifinance-rgb/proof-fetch-docs/blob/main/skills/cited-web-evidence/SKILL.md",
+  "description": "Fetch a public web page as citable evidence with paragraph IDs, SHA-256 hashes, redirect chain and prompt-injection warnings through ProofFetch; free preflight, paid text.",
+  "tags": [
+    "web",
+    "citations",
+    "research"
+  ],
+  "metadata": {
+    "sourceSet": "equinoxaifinance-rgb/proof-fetch-docs",
+    "repoPath": "skills/cited-web-evidence/SKILL.md"
+  }
+}
