@@ -3,12 +3,19 @@
   "displayName": "WalletWall",
   "mediaType": "application/vnd.github.copilot-plugin",
   "url": "https://github.com/Wallet-Wall/walletwallrus-copilot/blob/main/plugin/plugin.json",
-  "description": "Stablecoin intelligence and vault readiness for GitHub Copilot.",
+  "description": "Read-only stablecoin evidence analysis for source authority, freshness, finality, conflicts, provenance, deployment identity, and vault technical readiness in GitHub Copilot.",
   "tags": [
     "github-copilot",
     "stablecoin",
     "wallet",
     "vault-readiness",
+    "technical-readiness",
+    "provenance",
+    "source-authority",
+    "freshness",
+    "finality",
+    "conflicts",
+    "stablecoin-identity",
     "canvas"
   ],
   "metadata": {
