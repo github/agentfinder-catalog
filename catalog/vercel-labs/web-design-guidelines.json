@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:vercel-labs:agent-skills:web-design-guidelines",
+  "displayName": "Web Design Guidelines",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md",
+  "description": "Review web interfaces for usability, accessibility, and design guidelines compliance.",
+  "tags": [
+    "skill",
+    "design",
+    "accessibility"
+  ],
+  "metadata": {
+    "sourceSet": "vercel-labs/agent-skills",
+    "repoPath": "skills/web-design-guidelines/SKILL.md"
+  }
+}

@@ -2,7 +2,7 @@
   "identifier": "urn:ai:github.com:github:awesome-copilot:site-studio",
   "displayName": "Site Studio",
   "mediaType": "application/vnd.github.copilot-plugin",
-  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/site-studio/plugin.json",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/site-studio/plugin.json",
   "description": "Plan, draft, and track a personal website with an agent in a shared GitHub Copilot canvas.",
   "tags": [
     "canvas",

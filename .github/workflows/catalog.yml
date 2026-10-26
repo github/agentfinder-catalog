@@ -4,14 +4,25 @@ on:
   pull_request:
     paths:
       - "catalog/*/*.json"
+      - "catalog-icons.json"
+      - "icons/**"
       - "ai-catalog.json"
       - "scripts/generate_ai_catalog.py"
-      - "tests/test_generate_ai_catalog.py"
+      - "requirements.txt"
+      - "tests/*.py"
       - ".github/workflows/catalog.yml"
+      - "CONTRIBUTING.md"
+      - "README.md"
   push:
     branches:
       - main
+  schedule:
+    - cron: "17 * * * *"
   workflow_dispatch:
+
+concurrency:
+  group: catalog-${{ github.ref }}
+  cancel-in-progress: false
 
 permissions:
   actions: write
@@ -26,6 +37,7 @@ jobs:
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
           ref: ${{ github.event.pull_request.head.ref || github.ref }}
+      - run: python3 -m pip install -r requirements.txt
       - run: python3 -m unittest discover -s tests
       - run: python3 scripts/generate_ai_catalog.py
       - name: Update pull request
@@ -43,8 +55,8 @@ jobs:
           if gh workflow view catalog.yml >/dev/null 2>&1; then
             gh workflow run catalog.yml --ref "$HEAD_REF"
           fi
-      - name: Open fallback pull request
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      - name: Open catalog refresh pull request
+        if: (github.event_name == 'push' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -61,6 +73,6 @@ jobs:
               --base main \
               --head "$branch" \
               --title "Update generated ARD catalog" \
-              --body "Regenerates \`ai-catalog.json\` from the canonical entries and live MCP catalog."
+              --body "Regenerates \`ai-catalog.json\` from the canonical entries and the live GitHub MCP Registry catalog."
           fi
           gh workflow run catalog.yml --ref "$branch"

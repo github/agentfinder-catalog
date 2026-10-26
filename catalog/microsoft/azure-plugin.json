@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:azure-skills:azure",
+  "displayName": "Azure",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/azure-skills/blob/main/.github/plugins/azure-skills/.plugin/plugin.json",
+  "description": "Microsoft Azure MCP Server and skills for cloud resource management, deployments, and Azure services.",
+  "tags": [
+    "github-copilot",
+    "hook",
+    "mcp-server",
+    "skill"
+  ],
+  "metadata": {
+    "sourceSet": "microsoft/azure-skills",
+    "repoPath": ".github/plugins/azure-skills/.plugin/plugin.json"
+  }
+}

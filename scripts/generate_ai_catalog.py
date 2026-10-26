@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 
 import argparse
+import hashlib
+import io
 import json
 import re
 from pathlib import Path, PurePosixPath
 from urllib.error import URLError
 from urllib.parse import unquote, urlencode, urlparse
 from urllib.request import Request, urlopen
+
+from PIL import Image, UnidentifiedImageError
 
 SCRIPT = Path(__file__).resolve()
 ROOT = SCRIPT.parents[1]
@@ -18,9 +22,191 @@ MCP_CATALOG = "https://api.mcp.github.com/.well-known/ai-catalog.json"
 MCP_REGISTRY = "https://api.mcp.github.com/v0.1/servers"
 MCP_REGISTRY_PAGE_SIZE = 100
 CANVAS_PLUGIN_MEDIA_TYPE = "application/vnd.github.copilot-plugin"
+CLAUDE_PLUGIN_MEDIA_TYPE = "application/vnd.anthropic.claude-plugin+json"
+CLAUDE_PLUGIN_MANIFEST_PATH = ".claude-plugin/plugin.json"
 CANVAS_ONLY_REQUIRED_TAGS = frozenset(("canvas", "canvas-only", "github-copilot"))
 NON_CANVAS_PLUGIN_TAGS = frozenset(("agent", "hook", "mcp-server", "skill"))
 SOURCE_SET_PATTERN = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
+ICON_METADATA_KEY = "com.github.agentfinder.icon.url"
+ICON_OVERLAY = "catalog-icons.json"
+MAX_ICON_BYTES = 256 * 1024
+MAX_ICON_DIMENSION = 512
+ICON_PATH_PATTERN = re.compile(
+    r"/github/agentfinder-catalog/[0-9a-f]{40}/"
+    r"(icons/[A-Za-z0-9_-][A-Za-z0-9_.-]*/[A-Za-z0-9_-][A-Za-z0-9_.-]*\.png)"
+)
+
+
+def validate_png(content, source):
+    if len(content) > MAX_ICON_BYTES:
+        fail(f"{source}: asset exceeds {MAX_ICON_BYTES} bytes")
+    try:
+        with Image.open(io.BytesIO(content), formats=["PNG"]) as image:
+            if not all(1 <= dimension <= MAX_ICON_DIMENSION for dimension in image.size):
+                fail(f"{source}: PNG dimensions must be between 1 and {MAX_ICON_DIMENSION}")
+            image.verify()
+        # Verification checks file integrity; reopening also exercises actual decoding.
+        with Image.open(io.BytesIO(content), formats=["PNG"]) as image:
+            if getattr(image, "is_animated", False):
+                fail(f"{source}: animated PNGs are not supported")
+            image.load()
+    except (UnidentifiedImageError, OSError, SyntaxError, ValueError, IndexError,
+            Image.DecompressionBombError) as error:
+        fail(f"{source}: invalid PNG: {error}")
+
+
+def validate_icon_url(value, source):
+    if not isinstance(value, str):
+        fail(f"{source}: url must be a string")
+    try:
+        url = urlparse(value)
+        url.port
+    except ValueError:
+        fail(f"{source}: url must be a valid commit-pinned raw GitHub URL")
+    match = ICON_PATH_PATTERN.fullmatch(url.path)
+    if (
+        url.scheme != "https" or url.netloc != "raw.githubusercontent.com"
+        or url.query or url.fragment or "?" in value or "#" in value
+        or not match or value != url.geturl()
+    ):
+        fail(
+            f"{source}: url must be an HTTPS raw.githubusercontent.com URL for "
+            "github/agentfinder-catalog/<40-hex-commit>/icons/<publisher>/<asset>.png"
+        )
+    return Path(match[1])
+
+
+def validate_provenance_url(value, source):
+    if not isinstance(value, str) or any(character.isspace() for character in value):
+        fail(f"{source}: must be a public absolute HTTPS URL")
+    try:
+        url = urlparse(value)
+        hostname = url.hostname
+        port = url.port
+    except ValueError:
+        fail(f"{source}: must be a valid public absolute HTTPS URL")
+    if (
+        url.scheme != "https" or not hostname or "\\" in value
+        or url.username is not None or url.password is not None or port is not None
+    ):
+        fail(f"{source}: must be a public absolute HTTPS URL without credentials or ports")
+
+
+def validate_icon_asset(declaration, source):
+    relative = validate_icon_url(declaration.get("url"), source)
+    provenance = declaration.get("provenance")
+    licensed_fields = {"sourceUrl", "license", "permissionUrl", "sha256"}
+    approval_fields = {"sourceUrl", "approval", "sha256"}
+    if (
+        not isinstance(provenance, dict)
+        or set(provenance) not in (licensed_fields, approval_fields)
+    ):
+        fail(
+            f"{source}: provenance must contain sourceUrl and sha256, plus either "
+            "license and permissionUrl, or an explicit approval attestation"
+        )
+    validate_provenance_url(provenance["sourceUrl"], f"{source}: provenance.sourceUrl")
+    if "approval" in provenance:
+        if not isinstance(provenance["approval"], str) or not provenance["approval"].strip():
+            fail(f"{source}: provenance.approval must be a non-empty redistribution attestation")
+    else:
+        validate_provenance_url(provenance["permissionUrl"], f"{source}: provenance.permissionUrl")
+        license_name = provenance["license"]
+        if not isinstance(license_name, str) or not license_name.strip():
+            fail(f"{source}: provenance.license must be a non-empty license or permission label")
+    digest = provenance["sha256"]
+    if not isinstance(digest, str) or not re.fullmatch(r"[0-9a-f]{64}", digest):
+        fail(f"{source}: provenance.sha256 must be a lowercase SHA-256 hex digest")
+    path = ROOT / relative
+    try:
+        if any(
+            (ROOT / Path(*relative.parts[:index])).is_symlink()
+            for index in range(1, len(relative.parts) + 1)
+        ):
+            fail(f"{source}: asset path must not contain symlinks")
+        if not path.resolve().is_relative_to((ROOT / "icons").resolve()):
+            fail(f"{source}: asset must stay within icons/")
+        with path.open("rb") as asset:
+            content = asset.read(MAX_ICON_BYTES + 1)
+    except OSError as error:
+        fail(f"{source}: cannot read asset {relative}: {error}")
+    if len(content) > MAX_ICON_BYTES:
+        fail(f"{source}: asset exceeds {MAX_ICON_BYTES} bytes")
+    if hashlib.sha256(content).hexdigest() != digest:
+        fail(f"{source}: asset SHA-256 does not match provenance.sha256")
+    validate_png(content, source)
+
+
+def load_icon_declarations():
+    path = ROOT / ICON_OVERLAY
+    if path.is_symlink():
+        fail(f"{ICON_OVERLAY}: overlay must not be a symlink")
+    if not path.exists():
+        return []
+
+    def unique_object(pairs):
+        result = {}
+        for key, value in pairs:
+            if key in result:
+                fail(f"{ICON_OVERLAY}: duplicate JSON key {key}")
+            result[key] = value
+        return result
+
+    try:
+        document = json.loads(path.read_text(encoding="utf-8"), object_pairs_hook=unique_object)
+    except (OSError, UnicodeError, json.JSONDecodeError) as error:
+        fail(f"{ICON_OVERLAY}: cannot load JSON: {error}")
+    if (
+        not isinstance(document, dict) or set(document) != {"icons"}
+        or not isinstance(document["icons"], list)
+    ):
+        fail(f"{ICON_OVERLAY}: expected an object containing only an icons array")
+    seen = {}
+    for index, declaration in enumerate(document["icons"]):
+        source = f"{ICON_OVERLAY} icons[{index}]"
+        if (
+            not isinstance(declaration, dict)
+            or not {"identifier", "url", "provenance"}.issubset(declaration)
+            or set(declaration) - {"identifier", "version", "url", "provenance"}
+        ):
+            fail(f"{source}: expected identifier, optional version, url, and provenance")
+        identifier = declaration["identifier"]
+        if not isinstance(identifier, str) or not re.fullmatch(
+            r"urn:air:[A-Za-z0-9.-]+(?::[A-Za-z0-9._-]+)+", identifier
+        ):
+            fail(f"{source}: identifier must be an exact generated urn:air: identity")
+        version = declaration.get("version")
+        if "version" in declaration and (
+            not isinstance(version, str) or not version.strip()
+        ):
+            fail(f"{source}: version must be a non-empty string when supplied")
+        versions = seen.setdefault(identifier, set())
+        if version in versions or (versions and (version is None or None in versions)):
+            fail(f"{source}: overlapping icon declarations for {identifier}")
+        versions.add(version)
+        validate_icon_asset(declaration, source)
+    return document["icons"]
+
+
+def apply_icon_declarations(entries, declarations):
+    by_identifier = {}
+    for entry in entries:
+        by_identifier.setdefault(entry["identifier"], []).append(entry)
+    for index, declaration in enumerate(declarations):
+        matches = [
+            entry for entry in by_identifier.get(declaration["identifier"], ())
+            if "version" not in declaration or entry.get("version") == declaration["version"]
+        ]
+        if not matches:
+            fail(
+                f"{ICON_OVERLAY} icons[{index}]: unmatched icon declaration for "
+                f"{declaration['identifier']} {declaration.get('version', '(all versions)')}"
+            )
+        for entry in matches:
+            entry["metadata"] = {
+                **(entry.get("metadata") or {}),
+                ICON_METADATA_KEY: declaration["url"],
+            }
 
 
 def fail(message):
@@ -42,11 +228,24 @@ def validate_canvas_only_tags(tags, source):
         )
 
 
+def canvas_only_media_type(entry):
+    metadata = entry.get("metadata")
+    repo_path = metadata.get("repoPath") if isinstance(metadata, dict) else None
+    if isinstance(repo_path, str) and (
+        repo_path == CLAUDE_PLUGIN_MANIFEST_PATH
+        or repo_path.endswith(f"/{CLAUDE_PLUGIN_MANIFEST_PATH}")
+    ):
+        return CLAUDE_PLUGIN_MEDIA_TYPE
+    return CANVAS_PLUGIN_MEDIA_TYPE
+
+
 def validate_repository_metadata(metadata, source):
     if metadata is None:
         return
     if not isinstance(metadata, dict):
         fail(f"{source}: metadata must be an object")
+    if ICON_METADATA_KEY in metadata:
+        fail(f"{source}: {ICON_METADATA_KEY} must be declared through {ICON_OVERLAY}")
 
     source_set = metadata.get("sourceSet")
     repo_path = metadata.get("repoPath")
@@ -161,17 +360,12 @@ def validate(entry, source):
         validate_canvas_only_tags(tags, source)
         if not has_url:
             fail(f"{source}: canvas-only entries must use a GitHub descriptor url")
-        if entry.get("mediaType") != CANVAS_PLUGIN_MEDIA_TYPE:
-            fail(
-                f"{source}: canvas-only entries must use mediaType "
-                f"{CANVAS_PLUGIN_MEDIA_TYPE}"
-            )
+        media_type = canvas_only_media_type(entry)
+        if entry.get("mediaType") != media_type:
+            fail(f"{source}: canvas-only entries must use mediaType {media_type}")
         entry_type = entry.get("type")
-        if entry_type is not None and entry_type != CANVAS_PLUGIN_MEDIA_TYPE:
-            fail(
-                f"{source}: canvas-only entry type must match mediaType "
-                f"{CANVAS_PLUGIN_MEDIA_TYPE}"
-            )
+        if entry_type is not None and entry_type != media_type:
+            fail(f"{source}: canvas-only entry type must match mediaType {media_type}")
 
     validate_repository_metadata(entry.get("metadata"), source)
     if isinstance(tags, list) and "canvas-only" in tags:
@@ -249,6 +443,7 @@ def display_name(entry, registry_record=None):
 
 
 def generate():
+    icon_declarations = load_icon_declarations()
     entries = []
     identities = set()
     local_identifiers = set()
@@ -299,6 +494,8 @@ def generate():
             if name:
                 generated["displayName"] = name
             add(generated, source)
+
+    apply_icon_declarations(entries, icon_declarations)
 
     if len(entries) > MAX_ENTRIES:
         fail(f"catalog has {len(entries)} entries; limit is {MAX_ENTRIES}")

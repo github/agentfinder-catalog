@@ -2,7 +2,7 @@
   "identifier": "urn:ai:github.com:github:awesome-copilot:arcade-canvas",
   "displayName": "Arcade Canvas",
   "mediaType": "application/vnd.github.copilot-plugin",
-  "url": "https://github.com/github/awesome-copilot/blob/main/plugins/arcade-canvas/plugin.json",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/arcade-canvas/plugin.json",
   "description": "Play five retro Phaser mini-games in a GitHub Copilot canvas while agents work.",
   "tags": [
     "canvas",
