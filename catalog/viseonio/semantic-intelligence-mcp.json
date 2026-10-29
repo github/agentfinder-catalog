@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:viseonio:viseonio:semantic-intelligence-mcp",
+  "displayName": "VISEON Semantic Intelligence MCP",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://github.com/VISEONIO/VISEONIO/blob/main/README.md",
+  "description": "MCP server for semantic intelligence and knowledge graph discovery across schema.org entities, enabling AI agents to discover, validate, and transact with VISEON resources.",
+  "metadata": {
+    "sourceSet": "VISEONIO/VISEONIO",
+    "repoPath": "README.md"
+  }
+}
