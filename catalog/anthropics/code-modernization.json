@@ -1,11 +1,11 @@
 {
-  "identifier": "urn:ai:github.com:anthropics:claude-plugins-public:code-modernization",
+  "identifier": "urn:ai:github.com:anthropics:claude-plugins-official:code-modernization",
   "displayName": "Code Modernization",
   "mediaType": "application/vnd.anthropic.claude-plugin+json",
-  "url": "https://github.com/anthropics/claude-plugins-public/blob/main/plugins/code-modernization",
+  "url": "https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-modernization",
   "description": "Modernize legacy codebases (COBOL, legacy Java/C++/.NET, monolith web apps) with a structured preflight / assess / map / extract-rules / brief /...",
   "metadata": {
-    "sourceSet": "anthropics/claude-plugins-public",
+    "sourceSet": "anthropics/claude-plugins-official",
     "repoPath": "plugins/code-modernization/.claude-plugin/plugin.json"
   }
 }

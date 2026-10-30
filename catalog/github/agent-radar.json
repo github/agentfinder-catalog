@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:agent-radar",
+  "displayName": "Agent Radar",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/agent-radar/plugin.json",
+  "description": "Map the Copilot agents on your computer, their sub-agents, their commands, and where their data goes in a live GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/agent-radar/plugin.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:edit-tutorial",
+  "displayName": "Edit Tutorial",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/edit-tutorial/plugin.json",
+  "description": "Turn the code edits Copilot made in your session into an interactive lesson with before/after walkthroughs, quizzes, and a hands-on exercise in a GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/edit-tutorial/plugin.json"
+  }
+}

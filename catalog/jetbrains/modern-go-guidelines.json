@@ -2,10 +2,10 @@
   "identifier": "urn:ai:github.com:JetBrains:go-modern-guidelines:modern-go-guidelines",
   "displayName": "Modern Go Guidelines",
   "mediaType": "application/vnd.anthropic.claude-plugin+json",
-  "url": "https://github.com/JetBrains/go-modern-guidelines/blob/main/claude/modern-go-guidelines",
+  "url": "https://github.com/JetBrains/go-modern-guidelines/blob/main/plugin",
   "description": "Enhances Claude Code with modern Go guidelines up to go 1.26 version.",
   "metadata": {
     "sourceSet": "JetBrains/go-modern-guidelines",
-    "repoPath": "claude/modern-go-guidelines/.claude-plugin/plugin.json"
+    "repoPath": "plugin/.claude-plugin/plugin.json"
   }
 }

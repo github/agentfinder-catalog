@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:EveryInc:compound-engineering-plugin:compound-engineering",
+  "displayName": "Compound Engineering",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/EveryInc/compound-engineering-plugin/blob/main/.claude-plugin/plugin.json",
+  "description": "Brainstorm, plan, build, review, and capture learnings with AI agent skills so each unit of engineering work makes the next one easier.",
+  "metadata": {
+    "sourceSet": "EveryInc/compound-engineering-plugin",
+    "repoPath": ".claude-plugin/plugin.json"
+  }
+}

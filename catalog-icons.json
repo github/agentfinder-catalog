@@ -28,21 +28,12 @@
       }
     },
     {
-      "identifier": "urn:air:github.com:mattpocock:skills:grill-me",
-      "url": "https://raw.githubusercontent.com/github/agentfinder-catalog/08dc319501a58ca849999e2b7cc1d34225e13d3a/icons/mattpocock/grill-me.png",
+      "identifier": "urn:air:github.com:mattpocock:skills:mattpocock-skills",
+      "url": "https://raw.githubusercontent.com/github/agentfinder-catalog/70e8c6e2f8eba283b453846a1c0ad65266d46511/icons/mattpocock/skills.png",
       "provenance": {
-        "sourceUrl": "https://raw.githubusercontent.com/github/agentfinder-catalog/08dc319501a58ca849999e2b7cc1d34225e13d3a/icons/mattpocock/grill-me.png",
-        "approval": "sourceUrl identifies the publicly published approved PNG export; the original featured app artwork is in a private repository. Public redistribution of the selected featured app artwork was explicitly approved by the contributing maintainer. SVG rasterization and resizing without cropping were approved; no third-party license is asserted.",
-        "sha256": "bbfebc13e0410f694d3419cd3a67e8763a40e4a1f68ae0c4af0ed3be14bc310b"
-      }
-    },
-    {
-      "identifier": "urn:air:github.com:mattpocock:skills:grilling",
-      "url": "https://raw.githubusercontent.com/github/agentfinder-catalog/08dc319501a58ca849999e2b7cc1d34225e13d3a/icons/mattpocock/grill-me.png",
-      "provenance": {
-        "sourceUrl": "https://raw.githubusercontent.com/github/agentfinder-catalog/08dc319501a58ca849999e2b7cc1d34225e13d3a/icons/mattpocock/grill-me.png",
-        "approval": "sourceUrl identifies the publicly published approved PNG export; the original featured app artwork is in a private repository. Public redistribution of the selected featured app artwork was explicitly approved by the contributing maintainer. SVG rasterization and resizing without cropping were approved; no third-party license is asserted.",
-        "sha256": "bbfebc13e0410f694d3419cd3a67e8763a40e4a1f68ae0c4af0ed3be14bc310b"
+        "sourceUrl": "https://www.aihero.dev/favicon.svg",
+        "approval": "sourceUrl identifies the project's published SVG logo mark. Public redistribution of this logo as the project's catalog icon was explicitly approved by the contributing maintainer. Rasterizing the mark in white, centered without cropping on a solid dark background, was approved; no third-party license is asserted.",
+        "sha256": "917a0d8ca7be693df146172a881d0a99f36cea6a1da0acb76cf82e7651e17f6a"
       }
     },
     {

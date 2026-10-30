@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mongodb:agent-skills:mongodb-atlas",
+  "displayName": "MongoDB Atlas",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/mongodb/agent-skills/blob/main/plugins/mongodb-atlas",
+  "description": "Connect to MongoDB Atlas clusters only through the Atlas Managed MCP Server. Sign in with your Atlas account to explore data, manage collections, optimize queries, generate reliable code with MongoDB best practices, and manage Atlas resources such as clusters, projects, database users, and network access.",
+  "metadata": {
+    "sourceSet": "mongodb/agent-skills",
+    "repoPath": "plugins/mongodb-atlas/.github/plugin/plugin.json"
+  }
+}

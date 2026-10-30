@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:upgrade-agent-plugins:upgrade-agent",
+  "displayName": "Upgrade Agent",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/upgrade-agent-plugins/blob/main/plugins/upgrade-agent/plugin.json",
+  "description": "AI-powered upgrade assistant for upgrading and migrating applications. Helps modernize legacy code and upgrade .NET applications to current frameworks.",
+  "metadata": {
+    "sourceSet": "microsoft/upgrade-agent-plugins",
+    "repoPath": "plugins/upgrade-agent/plugin.json"
+  }
+}

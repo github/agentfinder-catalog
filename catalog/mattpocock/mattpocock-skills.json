@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:mattpocock:skills:mattpocock-skills",
+  "displayName": "Matt Pocock Skills",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/mattpocock/skills/blob/main/.claude-plugin/plugin.json",
+  "description": "Engineering and productivity skills for planning, test-driven development, implementation, code review, and structured questioning.",
+  "metadata": {
+    "sourceSet": "mattpocock/skills",
+    "repoPath": ".claude-plugin/plugin.json"
+  }
+}

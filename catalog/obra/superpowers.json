@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:obra:superpowers:superpowers",
+  "displayName": "Superpowers",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/obra/superpowers/blob/main/.claude-plugin/plugin.json",
+  "description": "Software development methodology for coding agents, built on composable skills for brainstorming, planning, test-driven development, systematic debugging, code review, and subagent-driven development.",
+  "metadata": {
+    "sourceSet": "obra/superpowers",
+    "repoPath": ".claude-plugin/plugin.json"
+  }
+}

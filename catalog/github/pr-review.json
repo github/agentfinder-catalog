@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:pr-review",
+  "displayName": "PR Review",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/pr-review/plugin.json",
+  "description": "Review GitHub pull requests in a read-only GitHub Copilot canvas with AI-grouped changes, expandable diffs, and questions scoped to groups, files, or hunks.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/pr-review/plugin.json"
+  }
+}

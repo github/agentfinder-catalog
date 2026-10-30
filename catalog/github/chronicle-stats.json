@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:github:awesome-copilot:chronicle-stats",
+  "displayName": "Chronicle Stats",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/github/awesome-copilot/blob/marketplace/plugins/chronicle-stats/plugin.json",
+  "description": "See local Copilot token usage by day, model, and session, with tips to use it more efficiently, in the My AI Usage GitHub Copilot canvas.",
+  "tags": [
+    "canvas",
+    "canvas-only",
+    "github-copilot"
+  ],
+  "metadata": {
+    "sourceSet": "github/awesome-copilot",
+    "repoPath": "plugins/chronicle-stats/plugin.json"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:coderabbitai:skills:coderabbit",
+  "displayName": "CodeRabbit",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/coderabbitai/skills/blob/main",
+  "description": "AI-powered code review and review-comment autofix, powered by CodeRabbit.",
+  "metadata": {
+    "sourceSet": "coderabbitai/skills",
+    "repoPath": "plugin.json"
+  }
+}

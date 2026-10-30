@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:cathrynlavery:diagram-design:diagram-design",
+  "displayName": "Diagram Design",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/cathrynlavery/diagram-design/blob/main/.claude-plugin/plugin.json",
+  "description": "Draw architecture diagrams, flowcharts, sequence diagrams, charts, and dozens of other diagram types as self-contained HTML and SVG files styled to match your brand.",
+  "metadata": {
+    "sourceSet": "cathrynlavery/diagram-design",
+    "repoPath": ".claude-plugin/plugin.json"
+  }
+}

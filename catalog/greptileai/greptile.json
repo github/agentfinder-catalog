@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:greptileai:claude-plugin:greptile",
+  "displayName": "Greptile",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/greptileai/claude-plugin/blob/main/plugins/greptile",
+  "description": "AI code review agent for GitHub and GitLab. View and resolve Greptile's PR review comments directly from Claude Code.",
+  "metadata": {
+    "sourceSet": "greptileai/claude-plugin",
+    "repoPath": "plugins/greptile/.claude-plugin/plugin.json"
+  }
+}

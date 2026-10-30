@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:addyosmani:agent-skills:agent-skills",
+  "displayName": "Addy Osmani Agent Skills",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/addyosmani/agent-skills/blob/main/.claude-plugin/plugin.json",
+  "description": "Production-grade engineering skills for AI coding agents across the development lifecycle, from spec and planning through implementation, testing, code review, security, performance, and shipping.",
+  "metadata": {
+    "sourceSet": "addyosmani/agent-skills",
+    "repoPath": ".claude-plugin/plugin.json"
+  }
+}

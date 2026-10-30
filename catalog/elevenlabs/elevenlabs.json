@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:elevenlabs:plugin:elevenlabs",
+  "displayName": "ElevenLabs",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/elevenlabs/plugin/blob/main",
+  "description": "ElevenLabs voice AI — text-to-speech, voice agents, and speech engine skills, agent management via the ElevenLabs hosted MCP server, plus Architect skills for building and iterating on ElevenLabs agents.",
+  "metadata": {
+    "sourceSet": "elevenlabs/plugin",
+    "repoPath": ".claude-plugin/plugin.json"
+  }
+}

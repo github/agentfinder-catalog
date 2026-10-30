@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:flutter:agent-plugins:dart-flutter",
+  "displayName": "Dart and Flutter",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/flutter/agent-plugins/blob/main",
+  "description": "Official Claude plugin for Dart and Flutter that installs Flutter/Dart Skills and Dart MCP server for building natively compiled, visually stunning applications for mobile, web, desktop, and embedded devices from a single codebase",
+  "metadata": {
+    "sourceSet": "flutter/agent-plugins",
+    "repoPath": ".claude-plugin/plugin.json"
+  }
+}

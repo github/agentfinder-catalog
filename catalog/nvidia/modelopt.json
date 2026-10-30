@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:nvidia:model-optimizer:modelopt",
+  "displayName": "ModelOpt",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/NVIDIA/Model-Optimizer/blob/main/plugins/modelopt",
+  "description": "Skills for Model Optimizer development, quantization, deployment, and evaluation.",
+  "metadata": {
+    "sourceSet": "NVIDIA/Model-Optimizer",
+    "repoPath": "plugins/modelopt/.claude-plugin/plugin.json"
+  }
+}
