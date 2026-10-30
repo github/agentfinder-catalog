@@ -16,6 +16,8 @@
     "finality",
     "conflicts",
     "stablecoin-identity",
+    "mcp-server",
+    "skill",
     "canvas"
   ],
   "metadata": {
