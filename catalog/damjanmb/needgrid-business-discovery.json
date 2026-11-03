@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:damjanmb:needgrid-agent-discovery:needgrid-business-discovery",
+  "displayName": "NeedGrid Business Discovery",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/damjanmb/needgrid-agent-discovery/blob/main/skills/needgrid-business-discovery/SKILL.md",
+  "description": "Helps users choose between exploring connections for an existing app, finding software for a business need, or checking existing products before custom development. It prepares a concise brief and links to the matching NeedGrid path without claiming live results.",
+  "tags": [
+    "business-software",
+    "software-discovery",
+    "product-fit",
+    "custom-development"
+  ],
+  "metadata": {
+    "sourceSet": "needgrid-agent-discovery",
+    "repoPath": "skills/needgrid-business-discovery/SKILL.md"
+  }
+}
