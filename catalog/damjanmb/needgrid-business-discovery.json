@@ -11,7 +11,7 @@
     "custom-development"
   ],
   "metadata": {
-    "sourceSet": "needgrid-agent-discovery",
+    "sourceSet": "damjanmb/needgrid-agent-discovery",
     "repoPath": "skills/needgrid-business-discovery/SKILL.md"
   }
 }
