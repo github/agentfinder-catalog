@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:alexadams6ix:imagera-skills:imagera",
+  "displayName": "Imagera",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/alexadams6ix/imagera-skills/blob/main/.claude-plugin/plugin.json",
+  "description": "Image, video, voice and music generation for coding agents through the hosted Imagera MCP server, with skills for product photos, ads, reels and Character IDs that keep a face or product consistent. Each run is quoted in credits first; needs a paid Imagera account.",
+  "tags": [
+    "image-generation",
+    "video-generation",
+    "mcp"
+  ],
+  "metadata": {
+    "sourceSet": "alexadams6ix/imagera-skills",
+    "repoPath": ".claude-plugin/plugin.json"
+  }
+}
