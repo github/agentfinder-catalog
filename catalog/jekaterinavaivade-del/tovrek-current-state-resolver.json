@@ -1,0 +1,18 @@
+{
+  "identifier": "urn:ai:github.com:jekaterinavaivade-del:tovrek:current-state-resolver",
+  "displayName": "TOVREK Current-State Resolver",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://tovrek.com/mcp/server.json",
+  "description": "Pre-action evidence gate for technical-standard DOI metadata. Checks publication status, revision and supersession while preserving provenance, conflicts and UNKNOWN.",
+  "tags": [
+    "mcp-server",
+    "technical-standards",
+    "doi",
+    "evidence",
+    "compliance"
+  ],
+  "metadata": {
+    "sourceSet": "jekaterinavaivade-del/tovrek",
+    "repoPath": "server.json"
+  }
+}
