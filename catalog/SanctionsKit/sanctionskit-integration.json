@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:SanctionsKit:sanctions-kit-mcp-plugin:sanctionskit-integration",
+  "displayName": "SanctionsKit Integration",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/SanctionsKit/sanctions-kit-mcp-plugin/blob/main/plugins/sanctionskit/skills/sanctionskit-integration/SKILL.md",
+  "description": "Build and debug SanctionsKit REST API integrations using current documentation, request schemas, and synthetic sandbox examples, preserving coverage, error handling, and evidence boundaries.",
+  "tags": [
+    "api",
+    "sanctions-screening",
+    "integration",
+    "sandbox"
+  ],
+  "metadata": {
+    "sourceSet": "SanctionsKit/sanctions-kit-mcp-plugin",
+    "repoPath": "plugins/sanctionskit/skills/sanctionskit-integration/SKILL.md"
+  }
+}
