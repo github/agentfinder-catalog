@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:hermes-labs-ai:hermes-jailbench:hermes-jailbench",
+  "displayName": "Hermes Jailbench",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/hermes-labs-ai/hermes-jailbench/blob/8d48e34275feb4b862498581a9f867bed5e92d0a/skills/hermes-jailbench/SKILL.md",
+  "description": "Run a fixed known-pattern jailbreak regression check against a model endpoint you are authorized to test.",
+  "tags": [
+    "agent-skill",
+    "jailbreak",
+    "regression-testing",
+    "safety-gate"
+  ],
+  "metadata": {
+    "sourceSet": "hermes-labs-ai/hermes-jailbench",
+    "repoPath": "skills/hermes-jailbench/SKILL.md"
+  }
+}
