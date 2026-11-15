@@ -1,0 +1,25 @@
+{
+  "identifier": "urn:ai:github.com:OlegNickeshin:telegram-business-mcp:telegram-business-mcp",
+  "displayName": "Telegram Business MCP",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://raw.githubusercontent.com/OlegNickeshin/telegram-business-mcp/main/server.json",
+  "description": "Give AI agents access to an authorized Telegram archive through the official Telegram Business API: search conversations, read supported files and available voice transcripts, and optionally send approved replies. Requires the user's own HTTPS deployment and private endpoint secret; writes are off by default, live history starts at connection, and older messages require a Telegram Desktop export.",
+  "tags": [
+    "telegram",
+    "telegram-business",
+    "messaging",
+    "conversation-search",
+    "send-message",
+    "personal-context",
+    "remote-mcp",
+    "mcp-server",
+    "ai-agents",
+    "chatgpt",
+    "claude",
+    "self-hosted"
+  ],
+  "metadata": {
+    "sourceSet": "OlegNickeshin/telegram-business-mcp",
+    "repoPath": "server.json"
+  }
+}
