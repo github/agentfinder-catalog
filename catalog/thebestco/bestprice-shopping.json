@@ -1,0 +1,20 @@
+{
+  "identifier": "urn:ai:github.com:TheBestCo:bestprice-mcp:bestprice-shopping",
+  "displayName": "BestPrice Shopping",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/TheBestCo/bestprice-mcp/blob/main/skills/bestprice-shopping/SKILL.md",
+  "description": "Use BestPrice for physical-product shopping in Greece: recommendations, product search, Greek merchant offers and delivered totals, and price history.",
+  "tags": [
+    "shopping",
+    "product-recommendations",
+    "price-comparison",
+    "delivered-price",
+    "greece",
+    "mcp",
+    "skill"
+  ],
+  "metadata": {
+    "sourceSet": "TheBestCo/bestprice-mcp",
+    "repoPath": "skills/bestprice-shopping/SKILL.md"
+  }
+}
