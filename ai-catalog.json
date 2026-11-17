@@ -5,6 +5,34 @@
   },
   "entries": [
     {
+      "identifier": "urn:air:github.com:Wallet-Wall:walletwallrus-copilot:walletwall",
+      "displayName": "WalletWall",
+      "mediaType": "application/vnd.github.copilot-plugin",
+      "url": "https://github.com/Wallet-Wall/walletwallrus-copilot/blob/main/plugin/plugin.json",
+      "description": "Read-only stablecoin evidence analysis for source authority, freshness, finality, conflicts, provenance, deployment identity, and vault technical readiness in GitHub Copilot.",
+      "tags": [
+        "github-copilot",
+        "stablecoin",
+        "wallet",
+        "vault-readiness",
+        "technical-readiness",
+        "provenance",
+        "source-authority",
+        "freshness",
+        "finality",
+        "conflicts",
+        "stablecoin-identity",
+        "mcp-server",
+        "skill",
+        "canvas"
+      ],
+      "metadata": {
+        "sourceSet": "Wallet-Wall/walletwallrus-copilot",
+        "repoPath": "plugin/plugin.json"
+      },
+      "type": "application/vnd.github.copilot-plugin"
+    },
+    {
       "identifier": "urn:air:github.com:addyosmani:agent-skills:agent-skills",
       "displayName": "Addy Osmani Agent Skills",
       "mediaType": "application/vnd.anthropic.claude-plugin+json",
