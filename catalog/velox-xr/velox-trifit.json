@@ -1,0 +1,19 @@
+{
+  "identifier": "urn:ai:github.com:Velox-XR:trifit-partner-api-example:velox-trifit",
+  "displayName": "Velox TriFit",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/Velox-XR/trifit-partner-api-example/blob/main/plugins/velox-trifit/plugin.json",
+  "description": "Virtual try-on MCP server for Velox TriFit virtual try-on API (VTO API) documentation, JavaScript SDK examples and outfit previews. Read public guidance without sign-in, or connect a TriFit account or limited guest session through OAuth for try-on tools.",
+  "tags": [
+    "github-copilot",
+    "mcp-server",
+    "skill",
+    "virtual-try-on",
+    "vto-api",
+    "fashion"
+  ],
+  "metadata": {
+    "sourceSet": "Velox-XR/trifit-partner-api-example",
+    "repoPath": "plugins/velox-trifit/plugin.json"
+  }
+}
