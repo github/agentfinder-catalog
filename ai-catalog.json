@@ -12563,7 +12563,8 @@
       ],
       "metadata": {
         "sourceSet": "Tracetoon/tracetoon",
-        "repoPath": "plugin/skills/tracetoon/SKILL.md"
+        "repoPath": "plugin/skills/tracetoon/SKILL.md",
+        "com.github.agentfinder.icon.url": "https://raw.githubusercontent.com/github/agentfinder-catalog/c620dfc9dc391f5f48ce0681829f1038a0701c47/icons/tracetoon/tracetoon.png"
       },
       "type": "application/ai-skill"
     },
