@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:egor-fedorov:telegram-mcp:telegram-mcp",
+  "displayName": "Unofficial Telegram Context MCP Skill",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/egor-fedorov/telegram-mcp/blob/main/skills/telegram-mcp/SKILL.md",
+  "description": "Use a locally configured Telegram Context MCP server to read permitted sources, prepare source-linked digests, process watch batches and work with selected attachments.",
+  "tags": [
+    "telegram",
+    "mcp",
+    "monitoring"
+  ],
+  "metadata": {
+    "sourceSet": "egor-fedorov/telegram-mcp",
+    "repoPath": "skills/telegram-mcp/SKILL.md"
+  }
+}
