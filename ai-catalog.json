@@ -9338,6 +9338,18 @@
       "type": "application/ai-skill"
     },
     {
+      "identifier": "urn:air:github.com:mattpocock:skills:grill-me",
+      "displayName": "Grill Me",
+      "mediaType": "application/ai-skill",
+      "url": "https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md",
+      "description": "A relentless interview to sharpen a plan or design.",
+      "metadata": {
+        "sourceSet": "mattpocock/skills",
+        "repoPath": "skills/productivity/grill-me/SKILL.md"
+      },
+      "type": "application/ai-skill"
+    },
+    {
       "identifier": "urn:air:github.com:mattpocock:skills:loop-me",
       "displayName": "Loop Me",
       "mediaType": "application/ai-skill",

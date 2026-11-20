@@ -6,7 +6,9 @@ ROOT = Path(__file__).resolve().parent.parent
 IDENTIFIER_PREFIX = "urn:ai:github.com:mattpocock:skills:"
 PLUGIN_IDENTIFIER = IDENTIFIER_PREFIX + "mattpocock-skills"
 PLUGIN_MEDIA_TYPE = "application/vnd.anthropic.claude-plugin+json"
-RETIRED_SKILL_NAMES = ("grill-me", "grilling", "to-questionnaire", "wizard")
+RETIRED_SKILL_NAMES = ("grilling", "to-questionnaire", "wizard")
+# Bundled in the plugin too, but listed on its own because the GitHub Copilot app features it.
+GRILL_ME_IDENTIFIER = IDENTIFIER_PREFIX + "grill-me"
 
 
 class MattPocockPluginRefsTest(unittest.TestCase):
@@ -35,10 +37,26 @@ class MattPocockPluginRefsTest(unittest.TestCase):
             },
         )
 
-    def test_bundled_skills_are_not_separate_entries(self):
+    def test_retired_skills_are_not_separate_entries(self):
         for name in RETIRED_SKILL_NAMES:
             with self.subTest(name=name):
                 self.assertNotIn(IDENTIFIER_PREFIX + name, self.entries)
+
+    def test_grill_me_stays_listed_alongside_plugin(self):
+        repo_path = "skills/productivity/grill-me/SKILL.md"
+        source = self.entries[GRILL_ME_IDENTIFIER]
+        self.assertEqual(source["mediaType"], "application/ai-skill")
+        self.assertEqual(
+            source["url"], f"https://github.com/mattpocock/skills/blob/main/{repo_path}"
+        )
+        self.assertEqual(
+            source["metadata"], {"sourceSet": "mattpocock/skills", "repoPath": repo_path}
+        )
+        catalog = json.loads((ROOT / "ai-catalog.json").read_text(encoding="utf-8"))
+        entries = {entry["identifier"]: entry for entry in catalog["entries"]}
+        entry = entries["urn:air:github.com:mattpocock:skills:grill-me"]
+        self.assertEqual(entry["type"], "application/ai-skill")
+        self.assertEqual(entry["url"], source["url"])
 
     def test_nonbundled_skills_remain_cataloged(self):
         for name, repo_path in (
@@ -63,7 +81,7 @@ class MattPocockPluginRefsTest(unittest.TestCase):
         )
         self.assertTrue(icons[0]["url"].endswith("/icons/mattpocock/skills.png"))
 
-    def test_generated_catalog_publishes_plugin_instead_of_bundled_skills(self):
+    def test_generated_catalog_publishes_plugin_instead_of_retired_skills(self):
         catalog = json.loads((ROOT / "ai-catalog.json").read_text(encoding="utf-8"))
         entries = {entry["identifier"]: entry for entry in catalog["entries"]}
         identifier = PLUGIN_IDENTIFIER.replace("urn:ai:", "urn:air:", 1)
