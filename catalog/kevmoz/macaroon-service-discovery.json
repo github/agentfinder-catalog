@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:kevmoz:macaroonnetwork-mcp:macaroon-service-discovery",
+  "displayName": "Macaroon Service Discovery",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/kevmoz/macaroonnetwork-mcp/blob/main/skills/macaroon-service-discovery/SKILL.md",
+  "description": "Compare public Macaroon service contracts, inspect unsigned Base x402 quotes, and evaluate returned evidence.",
+  "tags": [
+    "x402",
+    "base",
+    "public-data"
+  ],
+  "metadata": {
+    "sourceSet": "kevmoz/macaroonnetwork-mcp",
+    "repoPath": "skills/macaroon-service-discovery/SKILL.md"
+  }
+}
