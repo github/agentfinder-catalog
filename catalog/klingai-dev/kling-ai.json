@@ -1,0 +1,19 @@
+{
+  "identifier": "urn:ai:github.com:klingai-dev:chatgpt-plugin:kling-ai",
+  "displayName": "Kling AI",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/klingai-dev/chatgpt-plugin/blob/main/plugins/Kling%20AI/skills/kling-ai/SKILL.md",
+  "description": "Official Kling AI skill for planning image and video prompts and using Kling's generation capabilities in ChatGPT and Codex.",
+  "tags": [
+    "kling",
+    "image-generation",
+    "video-generation",
+    "mcp",
+    "chatgpt",
+    "codex"
+  ],
+  "metadata": {
+    "sourceSet": "klingai-dev/chatgpt-plugin",
+    "repoPath": "plugins/Kling AI/skills/kling-ai/SKILL.md"
+  }
+}
