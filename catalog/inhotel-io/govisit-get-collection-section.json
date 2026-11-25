@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:inhotel-io:govisit-toolkit:govisit-get-collection-section",
+  "displayName": "GoVisit Get Collection Section",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/inhotel-io/govisit-toolkit/blob/main/skills/govisit-get-collection-section/SKILL.md",
+  "description": "Read one published section for the selected destination collection page. Use when an agent needs this published GoVisit evidence through HTTP for an integration or travel decision.",
+  "metadata": {
+    "sourceSet": "inhotel-io/govisit-toolkit",
+    "repoPath": "skills/govisit-get-collection-section/SKILL.md"
+  }
+}

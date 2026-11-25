@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:inhotel-io:govisit-toolkit:govisit-search-places",
+  "displayName": "GoVisit Search Places",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/inhotel-io/govisit-toolkit/blob/main/skills/govisit-search-places/SKILL.md",
+  "description": "Search GoVisit places by name or traveler intent, optionally constrained by country, destination, or proximity. Use when a traveler needs candidate places and canonical profile URLs.",
+  "metadata": {
+    "sourceSet": "inhotel-io/govisit-toolkit",
+    "repoPath": "skills/govisit-search-places/SKILL.md"
+  }
+}

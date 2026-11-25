@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:inhotel-io:govisit-toolkit:govisit-get-place-section",
+  "displayName": "GoVisit Get Place Section",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/inhotel-io/govisit-toolkit/blob/main/skills/govisit-get-place-section/SKILL.md",
+  "description": "Read one published section of the selected place, including spatial details when requested. Use when an agent needs this published GoVisit evidence through HTTP for an integration or travel decision.",
+  "metadata": {
+    "sourceSet": "inhotel-io/govisit-toolkit",
+    "repoPath": "skills/govisit-get-place-section/SKILL.md"
+  }
+}

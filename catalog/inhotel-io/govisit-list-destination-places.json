@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:inhotel-io:govisit-toolkit:govisit-list-destination-places",
+  "displayName": "GoVisit List Destination Places",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/inhotel-io/govisit-toolkit/blob/main/skills/govisit-list-destination-places/SKILL.md",
+  "description": "Filter the published place cards already present on the destination page. Use when an agent needs this published GoVisit evidence through HTTP for an integration or travel decision.",
+  "metadata": {
+    "sourceSet": "inhotel-io/govisit-toolkit",
+    "repoPath": "skills/govisit-list-destination-places/SKILL.md"
+  }
+}

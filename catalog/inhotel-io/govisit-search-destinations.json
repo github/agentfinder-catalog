@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:inhotel-io:govisit-toolkit:govisit-search-destinations",
+  "displayName": "GoVisit Search Destinations",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/inhotel-io/govisit-toolkit/blob/main/skills/govisit-search-destinations/SKILL.md",
+  "description": "Search GoVisit destinations by name or traveler intent and return canonical destination codes and URLs. Use when a traveler needs to identify or explore a country, region, district, city, or highlight.",
+  "metadata": {
+    "sourceSet": "inhotel-io/govisit-toolkit",
+    "repoPath": "skills/govisit-search-destinations/SKILL.md"
+  }
+}

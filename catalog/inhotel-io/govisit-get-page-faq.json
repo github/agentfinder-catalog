@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:inhotel-io:govisit-toolkit:govisit-get-page-faq",
+  "displayName": "GoVisit Get Page Faq",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/inhotel-io/govisit-toolkit/blob/main/skills/govisit-get-page-faq/SKILL.md",
+  "description": "Read the published questions and answers on the selected blog or documentation article. Use when an agent needs this published GoVisit evidence through HTTP for an integration or travel decision.",
+  "metadata": {
+    "sourceSet": "inhotel-io/govisit-toolkit",
+    "repoPath": "skills/govisit-get-page-faq/SKILL.md"
+  }
+}

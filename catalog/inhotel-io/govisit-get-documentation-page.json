@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:inhotel-io:govisit-toolkit:govisit-get-documentation-page",
+  "displayName": "GoVisit Get Documentation Page",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/inhotel-io/govisit-toolkit/blob/main/skills/govisit-get-documentation-page/SKILL.md",
+  "description": "Read bounded structured content from the selected published article. Use when an agent needs this published GoVisit evidence through HTTP for an integration or travel decision.",
+  "metadata": {
+    "sourceSet": "inhotel-io/govisit-toolkit",
+    "repoPath": "skills/govisit-get-documentation-page/SKILL.md"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:inhotel-io:govisit-toolkit:govisit-list-destination-highlights",
+  "displayName": "GoVisit List Destination Highlights",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/inhotel-io/govisit-toolkit/blob/main/skills/govisit-list-destination-highlights/SKILL.md",
+  "description": "Read the bounded published highlights shown on the destination page. Use when an agent needs this published GoVisit evidence through HTTP for an integration or travel decision.",
+  "metadata": {
+    "sourceSet": "inhotel-io/govisit-toolkit",
+    "repoPath": "skills/govisit-list-destination-highlights/SKILL.md"
+  }
+}

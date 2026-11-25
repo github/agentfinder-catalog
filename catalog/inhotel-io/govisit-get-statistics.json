@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:inhotel-io:govisit-toolkit:govisit-get-statistics",
+  "displayName": "GoVisit Get Statistics",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/inhotel-io/govisit-toolkit/blob/main/skills/govisit-get-statistics/SKILL.md",
+  "description": "Use when an agent needs exact GoVisit catalog coverage counts for the physical World or a selected Destination, with observation dates and provenance.",
+  "metadata": {
+    "sourceSet": "inhotel-io/govisit-toolkit",
+    "repoPath": "skills/govisit-get-statistics/SKILL.md"
+  }
+}
