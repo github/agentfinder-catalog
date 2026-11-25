@@ -1,0 +1,12 @@
+{
+  "identifier": "urn:ai:github.com:ktemiaa:ktemia-skills:ktemia",
+  "displayName": "Ktemia Travel Search",
+  "mediaType": "application/vnd.anthropic.claude-plugin+json",
+  "url": "https://github.com/Ktemiaa/ktemia-skills/blob/main/.claude-plugin/plugin.json",
+  "description": "Search and compare flights, hotels and rental cars with the Ktemia API, with each seller's price and a booking link. Includes flight-search, hotel-search and car-search skills.",
+  "tags": ["travel", "flights", "hotels", "car-rental", "search"],
+  "metadata": {
+    "sourceSet": "Ktemiaa/ktemia-skills",
+    "repoPath": ".claude-plugin/plugin.json"
+  }
+}
