@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:inhotel-io:govisit-toolkit:govisit-get-blog-post",
+  "displayName": "GoVisit Get Blog Post",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/inhotel-io/govisit-toolkit/blob/main/skills/govisit-get-blog-post/SKILL.md",
+  "description": "Read bounded public metadata and rich structured content from the current GoVisit blog article.",
+  "metadata": {
+    "sourceSet": "inhotel-io/govisit-toolkit",
+    "repoPath": "skills/govisit-get-blog-post/SKILL.md"
+  }
+}

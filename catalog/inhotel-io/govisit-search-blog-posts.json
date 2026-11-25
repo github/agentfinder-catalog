@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:inhotel-io:govisit-toolkit:govisit-search-blog-posts",
+  "displayName": "GoVisit Search Blog Posts",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/inhotel-io/govisit-toolkit/blob/main/skills/govisit-search-blog-posts/SKILL.md",
+  "description": "Search published blog posts rendered on the current GoVisit blog index page.",
+  "metadata": {
+    "sourceSet": "inhotel-io/govisit-toolkit",
+    "repoPath": "skills/govisit-search-blog-posts/SKILL.md"
+  }
+}
