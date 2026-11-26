@@ -1,0 +1,18 @@
+{
+  "identifier": "urn:ai:github.com:yylo-dev:yylo-skills:ledger-tasks-yylo",
+  "displayName": "YYLO Ledger Tasks",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/yylo-dev/yylo-skills/blob/main/skills/ledger-tasks-yylo/SKILL.md",
+  "description": "Comprehensive guide for using YYLO Ledger task management. Covers all commands (create, list, search, get, mark, update, archive, deps, ready, order, merge), dependency management, best practices, and workflow patterns. Use when you need to interact with the YYLO Ledger board.",
+  "tags": [
+    "skill",
+    "task-management",
+    "kanban",
+    "cli",
+    "agents"
+  ],
+  "metadata": {
+    "sourceSet": "yylo-dev/yylo-skills",
+    "repoPath": "skills/ledger-tasks-yylo/SKILL.md"
+  }
+}
