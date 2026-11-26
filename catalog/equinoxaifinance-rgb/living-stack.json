@@ -1,0 +1,19 @@
+{
+  "identifier": "urn:ai:github.com:equinoxaifinance-rgb:living-stack-mcp:living-stack",
+  "displayName": "Living Stack",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/equinoxaifinance-rgb/living-stack-mcp/blob/v0.3.4-beta.1/skills/living-stack/SKILL.md",
+  "description": "Guides agents to use the free Living Stack Community MCP server for scoped authorization, evidence-bound claims, budget gates, recovery, and signed traces.",
+  "version": "0.3.4-beta.1",
+  "tags": [
+    "agent-governance",
+    "authorization",
+    "evidence",
+    "mcp",
+    "recovery"
+  ],
+  "metadata": {
+    "sourceSet": "equinoxaifinance-rgb/living-stack-mcp",
+    "repoPath": "skills/living-stack/SKILL.md"
+  }
+}
