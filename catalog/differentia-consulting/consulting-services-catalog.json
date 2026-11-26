@@ -1,0 +1,11 @@
+{
+  "identifier": "urn:ai:github.com:differentia-consulting:differentia-consulting:consulting-services-catalog",
+  "displayName": "Differentia Consulting Services & Expertise Catalog",
+  "mediaType": "application/mcp-server+json",
+  "url": "https://github.com/differentia-consulting/differentia-consulting/blob/main/README.md",
+  "description": "ARD-native catalog of Differentia Consulting expertise: Qlik, JD Edwards, Alteryx, data governance and generative engine optimisation services. Enables AI agents to discover consulting capabilities, implementation guides, training resources and certified experts.",
+  "metadata": {
+    "sourceSet": "differentia-consulting/differentia-consulting",
+    "repoPath": "README.md"
+  }
+}
