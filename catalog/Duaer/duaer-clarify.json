@@ -1,0 +1,18 @@
+{
+  "identifier": "urn:ai:github.com:Duaer:duaer-spec:duaer-clarify",
+  "displayName": "Duaer Clarify",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/Duaer/duaer-spec/blob/main/.cursor/skills/duaer-clarify/SKILL.md",
+  "description": "Asks targeted clarification questions and writes answers back into the feature spec before coding.",
+  "tags": [
+    "spec",
+    "clarification",
+    "digital-employee",
+    "cursor",
+    "claude-code"
+  ],
+  "metadata": {
+    "sourceSet": "Duaer/duaer-spec",
+    "repoPath": ".cursor/skills/duaer-clarify/SKILL.md"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "identifier": "urn:ai:github.com:Duaer:duaer-spec:duaer-plan",
+  "displayName": "Duaer Plan",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/Duaer/duaer-spec/blob/main/.cursor/skills/duaer-plan/SKILL.md",
+  "description": "Produces an implementation plan from an accepted feature spec inside duaer-spec projects.",
+  "tags": [
+    "planning",
+    "spec",
+    "digital-employee",
+    "cursor",
+    "claude-code"
+  ],
+  "metadata": {
+    "sourceSet": "Duaer/duaer-spec",
+    "repoPath": ".cursor/skills/duaer-plan/SKILL.md"
+  }
+}
