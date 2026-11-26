@@ -1,0 +1,19 @@
+{
+  "identifier": "urn:ai:github.com:emmanuelorta:crawlcheck-core:crawlcheck",
+  "displayName": "CrawlCheck",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/emmanuelorta/crawlcheck-core/blob/main/skills/crawlcheck/SKILL.md",
+  "description": "Check a website before acting on it: a signed allow/warn/require_confirmation/block decision per action (read, cite, connect, transact), AI crawler access per named crawler, MCP server checks and graded site scans. No key.",
+  "tags": [
+    "website-verification",
+    "ai-crawlers",
+    "robots-txt",
+    "mcp",
+    "preflight",
+    "trust"
+  ],
+  "metadata": {
+    "sourceSet": "emmanuelorta/crawlcheck-core",
+    "repoPath": "skills/crawlcheck/SKILL.md"
+  }
+}
