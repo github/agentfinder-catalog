@@ -1,0 +1,12 @@
+{
+  "identifier": "urn:ai:github.com:powmcp:skills:produce-client-site-handoff-report",
+  "displayName": "PowMCP Client Site Handoff Report",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/powmcp/skills/blob/main/skills/produce-client-site-handoff-report/SKILL.md",
+  "description": "Produce a client site handoff report with observed broken-link and image-target evidence from a deployed public page. Guides the agent through checking, fixing, redeploying, and rechecking up to 100 unique targets on that page; does not claim whole-site or accessibility coverage.",
+  "tags": ["skill", "web-development", "broken-links", "deployment", "quality-assurance"],
+  "metadata": {
+    "sourceSet": "powmcp/skills",
+    "repoPath": "skills/produce-client-site-handoff-report/SKILL.md"
+  }
+}
