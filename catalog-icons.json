@@ -125,6 +125,16 @@
         "approval": "sourceUrl identifies the publicly published approved PNG export; the original featured app artwork is in a private repository. Public redistribution of the selected featured app artwork was explicitly approved by the contributing maintainer. SVG rasterization and resizing without cropping were approved; no third-party license is asserted.",
         "sha256": "be3a594e887465ad75f81cc8dfce12abf15993dbe64c1566ef47369fe03d5e61"
       }
+    },
+    {
+      "identifier": "urn:air:github.com:Tracetoon:tracetoon:tracetoon",
+      "url": "https://raw.githubusercontent.com/github/agentfinder-catalog/c620dfc9dc391f5f48ce0681829f1038a0701c47/icons/tracetoon/tracetoon.png",
+      "provenance": {
+        "sourceUrl": "https://raw.githubusercontent.com/Tracetoon/tracetoon/main/docs/brand/png/tracetoon-icon-tile-dark-512.png",
+        "license": "Apache-2.0",
+        "permissionUrl": "https://github.com/Tracetoon/tracetoon/blob/main/docs/brand/README.md#licence",
+        "sha256": "d06e13f54a1aacf21fd99557d20517375d5db06f0613739b56537c6a573b4180"
+      }
     }
   ]
 }

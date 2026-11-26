@@ -12561,6 +12561,26 @@
       "type": "application/ai-skill"
     },
     {
+      "identifier": "urn:air:github.com:Tracetoon:tracetoon:tracetoon",
+      "displayName": "Tracetoon",
+      "mediaType": "application/ai-skill",
+      "url": "https://github.com/Tracetoon/tracetoon/blob/release/plugin/skills/tracetoon/SKILL.md",
+      "description": "PRs with receipts. And comics. Tracetoon turns the session logs of Claude Code, Codex, Copilot, Cursor and 11 more coding agents into a pull request where every claim is checked against what actually ran, with a comic on top.",
+      "tags": [
+        "pull-requests",
+        "github",
+        "code-review",
+        "agent-trace",
+        "comics"
+      ],
+      "metadata": {
+        "sourceSet": "Tracetoon/tracetoon",
+        "repoPath": "plugin/skills/tracetoon/SKILL.md",
+        "com.github.agentfinder.icon.url": "https://raw.githubusercontent.com/github/agentfinder-catalog/c620dfc9dc391f5f48ce0681829f1038a0701c47/icons/tracetoon/tracetoon.png"
+      },
+      "type": "application/ai-skill"
+    },
+    {
       "identifier": "urn:air:github.com:trailofbits:skills:agentic-actions-auditor",
       "displayName": "Agentic Actions Auditor",
       "mediaType": "application/ai-skill",
