@@ -1,0 +1,19 @@
+{
+  "identifier": "urn:ai:github.com:brennodarlamm-design:finan:fingo-mcp-server",
+  "displayName": "FinGo MCP Server",
+  "mediaType": "application/mcp-server-card+json",
+  "url": "https://fingo.api.br/.well-known/mcp/server-card.json",
+  "description": "FinGo Model Context Protocol (MCP) server providing construction budget, SINAPI lookup, and financial management tools.",
+  "tags": [
+    "mcp-server",
+    "construction",
+    "budgeting",
+    "finance",
+    "sinapi",
+    "civil-engineering"
+  ],
+  "metadata": {
+    "sourceSet": "finan",
+    "repoPath": ".well-known/mcp/server-card.json"
+  }
+}
