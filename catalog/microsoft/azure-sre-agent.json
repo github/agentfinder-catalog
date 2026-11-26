@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:microsoft:azure-dev-tools:azure-sre-agent",
+  "displayName": "Azure SRE Agent",
+  "mediaType": "application/vnd.github.copilot-plugin",
+  "url": "https://github.com/microsoft/azure-dev-tools/blob/main/canvases/azure-sre-agent/.github/plugin/plugin.json",
+  "description": "Investigate failing Azure apps with your existing Azure SRE Agent through an interactive Copilot canvas, and continue investigations with explicit user approval.",
+  "tags": [
+    "canvas",
+    "github-copilot",
+    "skill"
+  ],
+  "metadata": {
+    "sourceSet": "microsoft/azure-dev-tools",
+    "repoPath": "canvases/azure-sre-agent/.github/plugin/plugin.json"
+  }
+}
