@@ -1,0 +1,17 @@
+{
+  "identifier": "urn:ai:github.com:hermes-labs-ai:rule-audit:rule-audit",
+  "displayName": "rule-audit",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/hermes-labs-ai/rule-audit/blob/015a25f678ed6daf10de289732a166085e78b29d/skills/rule-audit/SKILL.md",
+  "description": "Audit a named system-prompt file for contradictions, coverage gaps and priority ambiguities with an offline, deterministic analyzer.",
+  "tags": [
+    "agent-skill",
+    "system-prompt",
+    "static-analysis",
+    "contradiction-detection"
+  ],
+  "metadata": {
+    "sourceSet": "hermes-labs-ai/rule-audit",
+    "repoPath": "skills/rule-audit/SKILL.md"
+  }
+}
