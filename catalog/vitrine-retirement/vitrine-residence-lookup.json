@@ -1,0 +1,16 @@
+{
+  "identifier": "urn:ai:github.com:vitrine-retirement:agent-files:vitrine-residence-lookup",
+  "displayName": "Vitrine Retirement Index: residence lookup",
+  "mediaType": "application/ai-skill",
+  "url": "https://github.com/Vitrine-Retirement/agent-files/blob/main/skills/vitrine-residence-lookup/SKILL.md",
+  "description": "Look up a seniors' residence in Canada on the Vitrine Retirement Index and read its regulator record and score band.",
+  "tags": [
+    "retirement-homes",
+    "canada",
+    "seniors-housing"
+  ],
+  "metadata": {
+    "sourceSet": "Vitrine-Retirement/agent-files",
+    "repoPath": "skills/vitrine-residence-lookup/SKILL.md"
+  }
+}
